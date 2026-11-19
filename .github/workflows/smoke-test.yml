@@ -1,0 +1,54 @@
+name: smoke-test
+# Phase 1 spike: checks secrets, then times two free TTS models on a CPU runner.
+on:
+  workflow_dispatch:
+  push:
+    branches: ["phase1/**"]
+concurrency: { group: smoke-test, cancel-in-progress: true }
+
+jobs:
+  keys:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check secrets
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          echo "| Secret | Result | Detail |" >> $GITHUB_STEP_SUMMARY
+          echo "|---|---|---|" >> $GITHUB_STEP_SUMMARY
+          bash tools/smoke/check_keys.sh
+
+  kokoro:
+    needs: keys
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11", cache: pip }
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq espeak-ng
+      - run: pip install -q "kokoro>=0.9" soundfile numpy --extra-index-url https://download.pytorch.org/whl/cpu
+      - name: Generate samples
+        env: { HF_TOKEN: "${{ secrets.HF_TOKEN }}" }
+        run: python tools/smoke/tts_kokoro.py
+      - uses: actions/upload-artifact@v4
+        with: { name: kokoro-samples, path: renders/smoke/, retention-days: 14 }
+
+  chatterbox:
+    needs: keys
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11", cache: pip }
+      - run: pip install -q chatterbox-tts --extra-index-url https://download.pytorch.org/whl/cpu
+      - name: Generate sample
+        env: { HF_TOKEN: "${{ secrets.HF_TOKEN }}" }
+        run: python tools/smoke/tts_chatterbox.py
+      - uses: actions/upload-artifact@v4
+        with: { name: chatterbox-sample, path: renders/smoke/, retention-days: 14 }
