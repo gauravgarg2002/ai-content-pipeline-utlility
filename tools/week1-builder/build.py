@@ -2,7 +2,7 @@ import json, os, re, sys, shutil
 sys.path.insert(0, os.path.dirname(__file__))
 import content_a, content_b, content_c
 
-OUT = "/mnt/user-data/outputs/content-engine"
+OUT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))  # repo root
 DATE = "2026-11-20"
 WPS = {"en": 2.6, "hi-Latn": 2.6, "hi": 2.2}  # narration words per second
 PAD_MS = 350
@@ -70,7 +70,6 @@ def build(v, channel):
 def fmt(s): return f"{int(s//60)}:{int(s%60):02d}"
 
 if __name__ == "__main__":
-    if os.path.exists(OUT): shutil.rmtree(OUT)
     rows = []
     rows += [build(v, "a-maps-data") for v in content_a.VIDEOS]
     rows += [build(v, "b-ai-hinglish") for v in content_b.VIDEOS]
