@@ -1,0 +1,45 @@
+{
+  "checkedOn": "2026-11-20",
+  "checkedBy": "Claude (manual fact gate, week 1)",
+  "beats": [
+    {
+      "id": "b01",
+      "verdict": "no-claim",
+      "evidence": "Framing, opinion, instruction or story; no factual claim."
+    },
+    {
+      "id": "b02",
+      "verdict": "supported",
+      "evidence": "Free accounts are enrolled in model training by default.",
+      "source": "https://engadget.com/2234173/chatgpt-free-features-2026"
+    },
+    {
+      "id": "b03",
+      "verdict": "supported",
+      "evidence": "Free accounts are enrolled in training by default (consequence stated generally).",
+      "source": "https://engadget.com/2234173/chatgpt-free-features-2026"
+    },
+    {
+      "id": "b04",
+      "verdict": "supported",
+      "evidence": "The opt-out is under Settings > Data Controls.",
+      "source": "https://engadget.com/2234173/chatgpt-free-features-2026"
+    },
+    {
+      "id": "b05",
+      "verdict": "supported",
+      "evidence": "Turning off 'Improve the model for everyone' opts out.",
+      "source": "https://engadget.com/2234173/chatgpt-free-features-2026"
+    },
+    {
+      "id": "b06",
+      "verdict": "no-claim",
+      "evidence": "Framing, opinion, instruction or story; no factual claim."
+    },
+    {
+      "id": "b07",
+      "verdict": "no-claim",
+      "evidence": "Framing, opinion, instruction or story; no factual claim."
+    }
+  ]
+}

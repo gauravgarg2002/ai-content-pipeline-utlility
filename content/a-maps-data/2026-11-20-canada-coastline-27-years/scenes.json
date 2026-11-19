@@ -1,0 +1,103 @@
+{
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "scenes": [
+    {
+      "id": "s01",
+      "type": "line_draw",
+      "beatId": "b01",
+      "startMs": 0,
+      "endMs": 4196,
+      "props": {
+        "path": "canada_coast",
+        "walker": true
+      }
+    },
+    {
+      "id": "s02",
+      "type": "count_up",
+      "beatId": "b02",
+      "startMs": 4196,
+      "endMs": 8007,
+      "props": {
+        "items": [
+          [
+            "Canada coastline, km",
+            202080
+          ]
+        ]
+      }
+    },
+    {
+      "id": "s03",
+      "type": "bar_compare",
+      "beatId": "b03",
+      "startMs": 8007,
+      "endMs": 10280,
+      "props": {
+        "bars": [
+          [
+            "Canada",
+            202080
+          ],
+          [
+            "Indonesia",
+            54716
+          ]
+        ]
+      }
+    },
+    {
+      "id": "s04",
+      "type": "scale_zoom",
+      "beatId": "b04",
+      "startMs": 10280,
+      "endMs": 17168,
+      "props": {
+        "target": "Canadian Arctic Archipelago",
+        "reveal": "islands"
+      }
+    },
+    {
+      "id": "s05",
+      "type": "ruler_fractal",
+      "beatId": "b05",
+      "startMs": 17168,
+      "endMs": 22518,
+      "props": {
+        "steps": [
+          100,
+          10,
+          1
+        ],
+        "label_end": 265523
+      }
+    },
+    {
+      "id": "s06",
+      "type": "ruler_fractal",
+      "beatId": "b06",
+      "startMs": 22518,
+      "endMs": 27868,
+      "props": {
+        "steps": [
+          1,
+          0.1
+        ],
+        "loop": true
+      }
+    },
+    {
+      "id": "s07",
+      "type": "line_draw",
+      "beatId": "b07",
+      "startMs": 27868,
+      "endMs": 33218,
+      "props": {
+        "path": "canada_coast",
+        "return_to_start": true
+      }
+    }
+  ]
+}

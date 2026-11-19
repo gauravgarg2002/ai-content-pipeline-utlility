@@ -1,0 +1,222 @@
+{
+  "hook": "In September 2026, 164 countries voted against the world map you grew up with. Here's what's wrong with it.",
+  "beats": [
+    {
+      "id": "b01",
+      "narration": "In September 2026, 164 countries voted against the world map you grew up with. Here's what's wrong with it.",
+      "onScreen": "164 VOTES",
+      "claim": "On 4 September 2026 the UN General Assembly adopted the 'Correct the Map' resolution by 164 votes to 1.",
+      "sourceUrl": "https://www.un.org/osaa/es/node/899"
+    },
+    {
+      "id": "b02",
+      "narration": "On that map, Greenland is about the size of Africa. In reality, Africa is fourteen times bigger. And Greenland isn't the only thing that's wrong.",
+      "onScreen": "14× BIGGER",
+      "claim": "Africa is about 14 times the size of Greenland.",
+      "sourceUrl": "https://allafrica.com/stories/202508180103.html"
+    },
+    {
+      "id": "b03",
+      "narration": "Africa covers 30.37 million square kilometres. Russia, the largest country on Earth, covers 17.1 million. Africa is nearly twice the size of Russia, yet on most wall maps Russia looks far larger.",
+      "onScreen": "AFRICA 30.37M · RUSSIA 17.1M",
+      "claim": "Africa is 30.37 million km²; Russia is 17.1 million km².",
+      "sourceUrl": "https://allafrica.com/stories/202508180103.html"
+    },
+    {
+      "id": "b04",
+      "narration": "Greenland is even smaller than the Democratic Republic of the Congo. To understand why the map lies, we need to start with an orange.",
+      "onScreen": "GREENLAND < DR CONGO",
+      "claim": "Greenland is smaller than the Democratic Republic of the Congo.",
+      "sourceUrl": "https://www.worldatlas.com/articles/is-greenland-larger-than-africa.html"
+    },
+    {
+      "id": "b05",
+      "narration": "Try peeling an orange and pressing the peel flat on a table. It tears, or it stretches. There's no way to lay a curved surface flat without changing something. Every world map ever drawn has made that trade.",
+      "onScreen": "YOU CAN'T FLATTEN A SPHERE",
+      "claim": "There is no perfectly satisfying way to map the globe onto a flat surface; every projection has advantages and disadvantages.",
+      "sourceUrl": "https://www.johndcook.com/blog/2018/08/10/equal-earth-projection/"
+    },
+    {
+      "id": "b06",
+      "narration": "A map projection is simply a rule for that trade. It decides what to keep true: shapes, areas, distances or directions. You can keep some of them. You can never keep them all.",
+      "onScreen": "SHAPE · AREA · DISTANCE · DIRECTION"
+    },
+    {
+      "id": "b07",
+      "narration": "In 1569, a Flemish mapmaker named Gerardus Mercator chose directions. His map was built for sailors.",
+      "onScreen": "GERARDUS MERCATOR · 1569",
+      "claim": "The Mercator projection was introduced by Gerardus Mercator in 1569.",
+      "sourceUrl": "https://origin-exchange.autodesk.com/greenland-actual-size"
+    },
+    {
+      "id": "b08",
+      "narration": "On a Mercator map, a line of constant compass bearing is a straight line. A navigator could draw a straight line from port to port, read the angle, and hold that heading across the ocean.",
+      "onScreen": "STRAIGHT LINE = CONSTANT BEARING",
+      "claim": "On the Mercator projection, lines of constant bearing correspond to straight lines on the map.",
+      "sourceUrl": "https://www.johndcook.com/blog/2018/08/10/equal-earth-projection/"
+    },
+    {
+      "id": "b09",
+      "narration": "For three centuries of ocean travel, that was worth almost any cost. The cost was area.",
+      "onScreen": null
+    },
+    {
+      "id": "b10",
+      "narration": "To keep angles true, Mercator stretches the map sideways the further you go from the equator, and then stretches it vertically by the same amount. Near the equator, almost nothing changes. Near the poles, everything balloons.",
+      "onScreen": "STRETCH GROWS WITH LATITUDE",
+      "claim": "The Mercator projection keeps shapes for navigation but enlarges areas increasingly toward the poles.",
+      "sourceUrl": "https://origin-exchange.autodesk.com/greenland-actual-size"
+    },
+    {
+      "id": "b11",
+      "narration": "The maths is simple. At a latitude of seventy-two degrees, roughly the middle of Greenland, areas are drawn about ten times too large. That's why Greenland looks like a continent.",
+      "onScreen": "72° N → ≈ 10× AREA",
+      "claim": "Mercator area scale factor is sec²(latitude); at 72° this is about 10.5.",
+      "sourceUrl": "https://origin-exchange.autodesk.com/greenland-actual-size"
+    },
+    {
+      "id": "b12",
+      "narration": "It builds up quickly. At forty-five degrees north, around Milan or Montreal, areas are drawn twice as big as they should be. At sixty degrees, around Oslo or Anchorage, they're four times too big.",
+      "onScreen": "45° → 2× · 60° → 4×",
+      "claim": "Mercator area scale factor sec²(latitude): 2.0 at 45°, 4.0 at 60°.",
+      "sourceUrl": "https://origin-exchange.autodesk.com/greenland-actual-size"
+    },
+    {
+      "id": "b13",
+      "narration": "That's how Greenland, at 2.17 million square kilometres, ends up looking bigger than Australia, which is more than three times its size. Even Saudi Arabia is larger than Greenland.",
+      "onScreen": "AUSTRALIA 7.6M > GREENLAND 2.17M",
+      "claim": "Australia is over 7.6 million km² and Saudi Arabia's land area is larger than Greenland's 2.16 million km².",
+      "sourceUrl": "https://origin-exchange.autodesk.com/greenland-actual-size"
+    },
+    {
+      "id": "b14",
+      "narration": "India is hit the other way. At 3.29 million square kilometres, India is about one and a half times the size of Greenland. But because India sits close to the equator, on a Mercator map it looks smaller.",
+      "onScreen": "INDIA 3.29M > GREENLAND 2.17M",
+      "claim": "India is 3.287 million km² and Greenland 2.166 million km²; ratio 1.52.",
+      "sourceUrl": "https://allafrica.com/stories/202508180103.html"
+    },
+    {
+      "id": "b15",
+      "narration": "At the poles themselves, the stretch becomes infinite. A true Mercator map can never show the North or South Pole at all. It has to cut them off.",
+      "onScreen": "THE POLES: ∞"
+    },
+    {
+      "id": "b16",
+      "narration": "Africa straddles the equator, so its size stays close to true. Europe and North America sit far to the north, so they look much bigger than they are.",
+      "onScreen": null,
+      "claim": "Because Africa straddles the equator its size is nearly true on Mercator, while Europe and North America appear bigger.",
+      "sourceUrl": "https://www.green.earth/blog/true-size-map-africa"
+    },
+    {
+      "id": "b17",
+      "narration": "Here's a way to feel it. Take the United States, China and India, and place them inside Africa. Together they cover about 22.75 million square kilometres. Africa still has more than seven million left over.",
+      "onScreen": "22.75M INSIDE 30.37M",
+      "claim": "US 9.867M + China 9.597M + India 3.287M = 22.75M km²; Africa 30.37M km² leaves 7.6M km².",
+      "sourceUrl": "https://allafrica.com/stories/202508180103.html"
+    },
+    {
+      "id": "b18",
+      "narration": "So people have tried to fix the map. The best-known fix is the Gall-Peters projection. It keeps every area in proportion, so Africa finally looks as big as it is.",
+      "onScreen": "GALL-PETERS"
+    },
+    {
+      "id": "b19",
+      "narration": "But to do that, it stretches shapes. Africa and South America look long and thin, and many cartographers have criticised it for that.",
+      "onScreen": "TRUE AREA · WARPED SHAPE",
+      "claim": "News stories wrongly treated Gall-Peters as the only equal-area projection, despite a consensus that it is inappropriate for small-scale mapping.",
+      "sourceUrl": "https://www.esri.com/about/newsroom/arcuser/equal-earth/"
+    },
+    {
+      "id": "b20",
+      "narration": "In 2018, three cartographers, Bojan Šavrič, Bernhard Jenny and Tom Patterson, designed a newer option called Equal Earth. It keeps areas true, like Gall-Peters, but with gently curved sides that keep shapes looking natural.",
+      "onScreen": "EQUAL EARTH · 2018",
+      "claim": "Equal Earth is an equal-area pseudocylindrical projection developed by Patterson, Jenny and Šavrič in 2018.",
+      "sourceUrl": "https://pro.arcgis.com/en/pro-app/3.4/help/mapping/properties/equal-earth.htm"
+    },
+    {
+      "id": "b21",
+      "narration": "Its lines of latitude stay straight, so you can still compare how far north places are. And instead of stretching the poles out into a full-width line, it shrinks them to just over half the width of the equator.",
+      "onScreen": "POLES ≈ 0.59 × EQUATOR",
+      "claim": "In Equal Earth, parallels are straight and the poles are 0.59247 times the length of the equator.",
+      "sourceUrl": "https://pro.arcgis.com/en/pro-app/3.4/help/mapping/properties/equal-earth.htm"
+    },
+    {
+      "id": "b22",
+      "narration": "It was quickly adopted by NASA's Goddard Institute for Space Studies.",
+      "onScreen": "ADOPTED BY NASA GISS",
+      "claim": "Equal Earth was quickly adopted by the NASA Goddard Institute for Space Studies.",
+      "sourceUrl": "https://pro.arcgis.com/en/pro-app/3.4/help/mapping/properties/equal-earth.htm"
+    },
+    {
+      "id": "b23",
+      "narration": "Equal Earth exists because of a classroom argument. In March 2017, Boston Public Schools switched to the Gall-Peters map. Its warped shapes caused a row among mapmakers, and that row is what pushed Šavrič, Jenny and Patterson to design something better.",
+      "onScreen": "BOSTON, 2017",
+      "claim": "In March 2017 Boston Public Schools adopted the Gall-Peters projection; the controversy over its polar distortion led Šavrič, Jenny and Patterson to create Equal Earth.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Equal_Earth_projection"
+    },
+    {
+      "id": "b24",
+      "narration": "Then the argument went global. African advocacy groups launched a campaign called Correct the Map, asking institutions to drop Mercator for Equal Earth. The African Union backed it.",
+      "onScreen": "#CORRECTTHEMAP",
+      "claim": "Africa No Filter and Speak Up Africa launched Correct the Map; the African Union backed it.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Equal_Earth_projection"
+    },
+    {
+      "id": "b25",
+      "narration": "On the fourth of September 2026, the UN General Assembly passed a resolution with that name. 164 countries voted for it, one voted against, and six abstained.",
+      "onScreen": "164 · 1 · 6",
+      "claim": "The UN General Assembly adopted resolution A/80/L.104 'Correct the Map' on 4 September 2026 by 164 to 1 with 6 abstentions.",
+      "sourceUrl": "https://www.un.org/osaa/es/node/899"
+    },
+    {
+      "id": "b26",
+      "narration": "It doesn't ban Mercator, and it doesn't force anyone to change. It encourages governments, schools and tech companies to use equal-area maps when size matters.",
+      "onScreen": "NO BAN · ENCOURAGES EQUAL-AREA",
+      "claim": "The resolution does not ban Mercator or impose a replacement; it encourages equal-area maps when relative size matters.",
+      "sourceUrl": "https://www.un.org/osaa/es/node/899"
+    },
+    {
+      "id": "b27",
+      "narration": "Supporters say the old map shrinks Africa in people's minds. The one country that voted no, the United States, called the resolution an ideological agenda and a distraction from real problems.",
+      "onScreen": "FOR · AGAINST",
+      "claim": "The US, the only country to vote against, said the resolution promoted an 'ideological agenda' and was a distraction from genuine problems.",
+      "sourceUrl": "https://www.khaleejtimes.com/world/africa-bigger-us-smaller-un-adopts-new-map-continents"
+    },
+    {
+      "id": "b28",
+      "narration": "So which map is right? None of them. And all of them. Each one is an answer to a question.",
+      "onScreen": "WHICH MAP IS RIGHT?"
+    },
+    {
+      "id": "b29",
+      "narration": "Even the UN resolution says so. It accepts that Mercator is still useful for navigation at sea and in the air. The fight was never about the sailor's map. It was about the map on the classroom wall.",
+      "onScreen": "STILL USEFUL AT SEA",
+      "claim": "The resolution acknowledges Mercator's continued utility for maritime and aerial navigation.",
+      "sourceUrl": "https://ground.news/article/9be8f433-1148-46c9-b34d-f9f7344d8f49"
+    },
+    {
+      "id": "b30",
+      "narration": "If you're steering a ship by compass, Mercator is still a brilliant tool. If you're comparing how big countries are, you want an equal-area map. If you want both, you want a globe.",
+      "onScreen": "NAVIGATE · COMPARE · BOTH"
+    },
+    {
+      "id": "b31",
+      "narration": "The problem was never Mercator. The problem was using a sailor's tool to teach the size of the world.",
+      "onScreen": null
+    },
+    {
+      "id": "b32",
+      "narration": "Next time you see a world map, ask two questions. What is this map keeping true? And what did it give up to do that?",
+      "onScreen": "WHAT DID IT GIVE UP?"
+    }
+  ],
+  "title": "Why every world map you know is wrong",
+  "description": "Mercator, Gall-Peters, Equal Earth: why no flat map can be true, and how to pick the right one.",
+  "tags": [
+    "maps",
+    "Mercator",
+    "map projections",
+    "geography",
+    "Equal Earth"
+  ]
+}

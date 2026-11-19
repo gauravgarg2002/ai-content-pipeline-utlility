@@ -1,0 +1,57 @@
+{
+  "hook": "Aapki ChatGPT chats se AI seekh sakta hai. Ye ek setting band karo.",
+  "beats": [
+    {
+      "id": "b01",
+      "narration": "Aapki ChatGPT chats se AI seekh sakta hai. Ye ek setting band karo.",
+      "onScreen": "YOUR CHATS → TRAINING?"
+    },
+    {
+      "id": "b02",
+      "narration": "Free account pe model training by default ON rehti hai.",
+      "onScreen": "DEFAULT: ON",
+      "claim": "Free accounts are enrolled in model training by default.",
+      "sourceUrl": "https://engadget.com/2234173/chatgpt-free-features-2026"
+    },
+    {
+      "id": "b03",
+      "narration": "Matlab aapki baatein agle model ko train karne mein use ho sakti hain.",
+      "onScreen": null,
+      "claim": "Free accounts are enrolled in training by default (consequence stated generally).",
+      "sourceUrl": "https://engadget.com/2234173/chatgpt-free-features-2026"
+    },
+    {
+      "id": "b04",
+      "narration": "Band karna aasaan hai. Settings kholo, phir Data Controls.",
+      "onScreen": "SETTINGS → DATA CONTROLS",
+      "claim": "The opt-out is under Settings > Data Controls.",
+      "sourceUrl": "https://engadget.com/2234173/chatgpt-free-features-2026"
+    },
+    {
+      "id": "b05",
+      "narration": "Wahan 'Improve the model for everyone' ko off kar do.",
+      "onScreen": "IMPROVE THE MODEL → OFF",
+      "claim": "Turning off 'Improve the model for everyone' opts out.",
+      "sourceUrl": "https://engadget.com/2234173/chatgpt-free-features-2026"
+    },
+    {
+      "id": "b06",
+      "narration": "Office ka code, personal documents ya ghar ki baatein share karte ho? To ye pehle karo.",
+      "onScreen": "CODE · DOCS · PERSONAL"
+    },
+    {
+      "id": "b07",
+      "narration": "Das second ka kaam, aur aapki chats sirf aapki.",
+      "onScreen": "10 SEC ✅"
+    }
+  ],
+  "title": "Aapki ChatGPT chats se AI seekh raha hai. Ye setting band karo",
+  "description": "Free ChatGPT accounts are in model training by default. Settings > Data Controls > Improve the model for everyone. Source: Engadget, Aug 2026.",
+  "tags": [
+    "ChatGPT",
+    "privacy",
+    "AI tips",
+    "Hinglish",
+    "settings"
+  ]
+}

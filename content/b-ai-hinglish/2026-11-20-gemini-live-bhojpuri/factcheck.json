@@ -1,0 +1,44 @@
+{
+  "checkedOn": "2026-11-20",
+  "checkedBy": "Claude (manual fact gate, week 1)",
+  "beats": [
+    {
+      "id": "b01",
+      "verdict": "no-claim",
+      "evidence": "Framing, opinion, instruction or story; no factual claim."
+    },
+    {
+      "id": "b02",
+      "verdict": "supported",
+      "evidence": "Gemini Live can converse in over 25 Indian languages and dialects.",
+      "source": "https://blog.google/intl/en-in/company-news/deepening-our-commitment-to-indias-ai-ambition/"
+    },
+    {
+      "id": "b03",
+      "verdict": "supported",
+      "evidence": "Support covers both voice and text.",
+      "source": "https://blog.google/intl/en-in/company-news/deepening-our-commitment-to-indias-ai-ambition/"
+    },
+    {
+      "id": "b04",
+      "verdict": "supported",
+      "evidence": "Supported languages include Sanskrit, Bhojpuri and Maithili.",
+      "source": "https://blog.google/intl/en-in/company-news/deepening-our-commitment-to-indias-ai-ambition/"
+    },
+    {
+      "id": "b05",
+      "verdict": "no-claim",
+      "evidence": "Framing, opinion, instruction or story; no factual claim."
+    },
+    {
+      "id": "b06",
+      "verdict": "no-claim",
+      "evidence": "Framing, opinion, instruction or story; no factual claim."
+    },
+    {
+      "id": "b07",
+      "verdict": "no-claim",
+      "evidence": "Framing, opinion, instruction or story; no factual claim."
+    }
+  ]
+}

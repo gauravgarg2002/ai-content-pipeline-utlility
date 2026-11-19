@@ -1,0 +1,16 @@
+{
+  "id": "2026-11-20-greenland-vs-africa-14x",
+  "channel": "a-maps-data",
+  "topic": "Greenland vs Africa on the Mercator map",
+  "angle": "The famous size illusion, with a drag-to-the-equator payoff",
+  "cluster": "map-projections",
+  "hookPattern": "contradiction",
+  "lengthBucket": "25-55s",
+  "format": "short",
+  "sources": [
+    "https://allafrica.com/stories/202508180103.html",
+    "https://origin-exchange.autodesk.com/greenland-actual-size",
+    "https://www.green.earth/blog/true-size-map-africa",
+    "https://www.johndcook.com/blog/2018/08/10/equal-earth-projection/"
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "scenes": [
+    {
+      "id": "s01",
+      "type": "phone_mock",
+      "beatId": "b01",
+      "startMs": 0,
+      "endMs": 3426,
+      "props": {
+        "sequence": [
+          "voice prompt",
+          "app opens",
+          "booking confirmed"
+        ]
+      }
+    },
+    {
+      "id": "s02",
+      "type": "map_highlight",
+      "beatId": "b02",
+      "startMs": 3426,
+      "endMs": 8776,
+      "props": {
+        "base": "world",
+        "highlight": [
+          "IND",
+          "JPN",
+          "GBR"
+        ]
+      }
+    },
+    {
+      "id": "s03",
+      "type": "grid_reveal",
+      "beatId": "b03",
+      "startMs": 8776,
+      "endMs": 15664,
+      "props": {
+        "cells": [
+          "Grocery",
+          "Ride",
+          "Food",
+          "Table booking"
+        ]
+      }
+    },
+    {
+      "id": "s04",
+      "type": "phone_lineup",
+      "beatId": "b04",
+      "startMs": 15664,
+      "endMs": 22167,
+      "props": {
+        "devices": [
+          "Pixel 10",
+          "Motorola Signature 27",
+          "Samsung Galaxy (select)"
+        ]
+      }
+    },
+    {
+      "id": "s05",
+      "type": "phone_mock",
+      "beatId": "b05",
+      "startMs": 22167,
+      "endMs": 30593,
+      "props": {
+        "sequence": [
+          "voice prompt: clear storage",
+          "settings result"
+        ]
+      }
+    },
+    {
+      "id": "s06",
+      "type": "kinetic_text",
+      "beatId": "b06",
+      "startMs": 30593,
+      "endMs": 35943,
+      "props": {
+        "text": "AGE · LANGUAGE · SUBSCRIPTION"
+      }
+    },
+    {
+      "id": "s07",
+      "type": "phone_mock",
+      "beatId": "b07",
+      "startMs": 35943,
+      "endMs": 42446,
+      "props": {
+        "sequence": [
+          "booking confirmed"
+        ],
+        "end_on_start_frame": true
+      }
+    }
+  ]
+}

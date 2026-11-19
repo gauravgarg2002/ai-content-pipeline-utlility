@@ -1,0 +1,14 @@
+{
+  "id": "2026-11-20-alaska-easternmost-state",
+  "channel": "a-maps-data",
+  "topic": "Alaska is the easternmost US state",
+  "angle": "A wrong-answer quiz: not Maine",
+  "cluster": "borders-and-time",
+  "hookPattern": "contradiction",
+  "lengthBucket": "25-55s",
+  "format": "short",
+  "sources": [
+    "https://www.mentalfloss.com/article/567342/why-alaska-is-americas-easternmost-point",
+    "https://www.worldatlas.com/geography/the-easternmost-point-in-north-america-is-actually-west-of-alaska.html"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "hook": "Gemini se ab Bhojpuri mein baat kar sakte ho.",
+  "beats": [
+    {
+      "id": "b01",
+      "narration": "Gemini se ab Bhojpuri mein baat kar sakte ho.",
+      "onScreen": "BHOJPURI? ✅"
+    },
+    {
+      "id": "b02",
+      "narration": "Google ke mutabik Gemini Live ab pachchees se zyada Indian bhashaon aur boliyon mein baat karta hai.",
+      "onScreen": "25+ LANGUAGES",
+      "claim": "Gemini Live can converse in over 25 Indian languages and dialects.",
+      "sourceUrl": "https://blog.google/intl/en-in/company-news/deepening-our-commitment-to-indias-ai-ambition/"
+    },
+    {
+      "id": "b03",
+      "narration": "Voice mein bhi, aur text mein bhi.",
+      "onScreen": "🎙️ + ⌨️",
+      "claim": "Support covers both voice and text.",
+      "sourceUrl": "https://blog.google/intl/en-in/company-news/deepening-our-commitment-to-indias-ai-ambition/"
+    },
+    {
+      "id": "b04",
+      "narration": "List mein Sanskrit, Bhojpuri aur Maithili bhi hain.",
+      "onScreen": "संस्कृत · भोजपुरी · मैथिली",
+      "claim": "Supported languages include Sanskrit, Bhojpuri and Maithili.",
+      "sourceUrl": "https://blog.google/intl/en-in/company-news/deepening-our-commitment-to-indias-ai-ambition/"
+    },
+    {
+      "id": "b05",
+      "narration": "Matlab ghar ke bade bhi apni bhasha mein AI se sawaal pooch sakte hain.",
+      "onScreen": null
+    },
+    {
+      "id": "b06",
+      "narration": "Gemini app mein Live mode kholo aur apni bhasha mein bolna shuru karo.",
+      "onScreen": "LIVE → BOLO"
+    },
+    {
+      "id": "b07",
+      "narration": "Aap kaunsi bhasha mein try karoge? Comment mein batao.",
+      "onScreen": "AAPKI BHASHA?"
+    }
+  ],
+  "title": "Gemini se ab Bhojpuri mein baat kar sakte ho",
+  "description": "Gemini Live ab 25+ Indian languages aur dialects mein, voice aur text dono. Source: Google India blog, July 2026.",
+  "tags": [
+    "Gemini",
+    "Indian languages",
+    "Bhojpuri",
+    "AI",
+    "Hinglish"
+  ]
+}

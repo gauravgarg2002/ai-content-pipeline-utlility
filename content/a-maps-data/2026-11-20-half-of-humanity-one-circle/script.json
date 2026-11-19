@@ -1,0 +1,59 @@
+{
+  "hook": "More than half of humanity lives inside this one circle.",
+  "beats": [
+    {
+      "id": "b01",
+      "narration": "More than half of humanity lives inside this one circle.",
+      "onScreen": "HALF OF HUMANITY"
+    },
+    {
+      "id": "b02",
+      "narration": "It's about 3,300 kilometres across from the centre, which sits near Myanmar's border with China.",
+      "onScreen": "RADIUS ≈ 3,300 KM",
+      "claim": "Half the world's population lives within about 3,300 km of a point near Mong Khet, Myanmar (Quah's calculation); the paper places the centre in northern Yunnan.",
+      "sourceUrl": "https://www.tropicalhainan.com/the-valeriepieris-circle-a-geographical-phenomenon-that-contains-half-of-the-worlds-population/"
+    },
+    {
+      "id": "b03",
+      "narration": "It's the smallest circle on Earth that holds half of everyone.",
+      "onScreen": "THE SMALLEST ONE",
+      "claim": "The Valeriepieris circle is the circle of smallest radius containing half the Earth's population.",
+      "sourceUrl": "https://arxiv.org/pdf/2307.16728"
+    },
+    {
+      "id": "b04",
+      "narration": "Delhi, Mumbai, Beijing, Manila and Jakarta are all inside.",
+      "onScreen": "INSIDE",
+      "claim": "Great-circle distances from 21.65N 99.63E: Delhi 2,381 km, Mumbai 2,800, Beijing 2,576, Manila 2,386, Jakarta 3,195; all under 3,300.",
+      "sourceUrl": "https://arxiv.org/pdf/2307.16728"
+    },
+    {
+      "id": "b05",
+      "narration": "Tokyo? Just outside.",
+      "onScreen": "OUTSIDE",
+      "claim": "Tokyo is about 4,173 km from the same centre, outside a 3,300 km radius.",
+      "sourceUrl": "https://arxiv.org/pdf/2307.16728"
+    },
+    {
+      "id": "b06",
+      "narration": "The reason: northern India, southern China and Southeast Asia together hold half the world's people.",
+      "onScreen": null,
+      "claim": "The radius is small because northern India, southern China and south-east Asia together hold half the world population.",
+      "sourceUrl": "https://arxiv.org/pdf/2307.16728"
+    },
+    {
+      "id": "b07",
+      "narration": "So everyone in Europe, Africa, the Americas and Australia is the smaller half. Inside or outside?",
+      "onScreen": "INSIDE OR OUTSIDE?"
+    }
+  ],
+  "title": "Half of humanity lives inside this circle",
+  "description": "The smallest circle containing half the world's population has a radius of only about 3,300 km.",
+  "tags": [
+    "population",
+    "maps",
+    "Asia",
+    "geography",
+    "shorts"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "2026-11-20-mahabharata-family-tree",
+  "channel": "c-pilot-epics-en",
+  "topic": "The Mahabharata family tree: who is related to whom",
+  "angle": "The war is a family feud; the author is everyone's grandfather",
+  "cluster": "mahabharata-basics",
+  "hookPattern": "contradiction",
+  "lengthBucket": "360-600s",
+  "format": "long",
+  "sources": [
+    "https://sacred-texts.com/hin/maha/index.htm"
+  ],
+  "versionFollowed": "Vyasa's Mahabharata, Adi Parva, as in the K. M. Ganguli English translation (1883-1896)"
+}

@@ -1,0 +1,96 @@
+{
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "scenes": [
+    {
+      "id": "s01",
+      "type": "kinetic_text",
+      "beatId": "b01",
+      "startMs": 0,
+      "endMs": 3811,
+      "props": {
+        "text": "भोजपुरी ✅"
+      }
+    },
+    {
+      "id": "s02",
+      "type": "count_up",
+      "beatId": "b02",
+      "startMs": 3811,
+      "endMs": 10699,
+      "props": {
+        "items": [
+          [
+            "Indian languages & dialects",
+            25
+          ]
+        ],
+        "suffix": "+"
+      }
+    },
+    {
+      "id": "s03",
+      "type": "grid_reveal",
+      "beatId": "b03",
+      "startMs": 10699,
+      "endMs": 13741,
+      "props": {
+        "cells": [
+          "Voice",
+          "Text"
+        ]
+      }
+    },
+    {
+      "id": "s04",
+      "type": "grid_reveal",
+      "beatId": "b04",
+      "startMs": 13741,
+      "endMs": 17167,
+      "props": {
+        "cells": [
+          "संस्कृत",
+          "भोजपुरी",
+          "मैथिली"
+        ]
+      }
+    },
+    {
+      "id": "s05",
+      "type": "chat_bubbles",
+      "beatId": "b05",
+      "startMs": 17167,
+      "endMs": 22901,
+      "props": {
+        "script": "Devanagari",
+        "lines": 3
+      }
+    },
+    {
+      "id": "s06",
+      "type": "phone_mock",
+      "beatId": "b06",
+      "startMs": 22901,
+      "endMs": 28251,
+      "props": {
+        "sequence": [
+          "open Gemini",
+          "Live mode",
+          "speak"
+        ]
+      }
+    },
+    {
+      "id": "s07",
+      "type": "kinetic_text",
+      "beatId": "b07",
+      "startMs": 28251,
+      "endMs": 32062,
+      "props": {
+        "text": "भोजपुरी ✅",
+        "end_on_start_frame": true
+      }
+    }
+  ]
+}

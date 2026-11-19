@@ -1,0 +1,529 @@
+{
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "scenes": [
+    {
+      "id": "s01",
+      "type": "family_tree",
+      "beatId": "b01",
+      "startMs": 0,
+      "endMs": 14196,
+      "props": {
+        "reveal": "full_tree_blurred",
+        "then": "collapse_to_root"
+      }
+    },
+    {
+      "id": "s02",
+      "type": "kinetic_text",
+      "beatId": "b02",
+      "startMs": 14196,
+      "endMs": 29546,
+      "props": {
+        "text": "VYASA'S MAHABHARATA · ADI PARVA"
+      }
+    },
+    {
+      "id": "s03",
+      "type": "family_tree",
+      "beatId": "b03",
+      "startMs": 29546,
+      "endMs": 40280,
+      "props": {
+        "add": [
+          [
+            "Shantanu",
+            "king of Hastinapura"
+          ],
+          [
+            "Ganga",
+            "river goddess"
+          ]
+        ],
+        "link": [
+          "Shantanu",
+          "Ganga",
+          "marriage"
+        ]
+      }
+    },
+    {
+      "id": "s04",
+      "type": "family_tree",
+      "beatId": "b04",
+      "startMs": 40280,
+      "endMs": 54476,
+      "props": {
+        "add": [
+          [
+            "Devavrata",
+            "eighth son"
+          ]
+        ],
+        "child_of": [
+          "Shantanu",
+          "Ganga"
+        ],
+        "ghost_nodes": 7
+      }
+    },
+    {
+      "id": "s05",
+      "type": "family_tree",
+      "beatId": "b05",
+      "startMs": 54476,
+      "endMs": 64826,
+      "props": {
+        "add": [
+          [
+            "Satyavati",
+            "fisher chief's daughter"
+          ]
+        ],
+        "link": [
+          "Shantanu",
+          "Satyavati",
+          "proposed"
+        ]
+      }
+    },
+    {
+      "id": "s06",
+      "type": "family_tree",
+      "beatId": "b06",
+      "startMs": 64826,
+      "endMs": 87099,
+      "props": {
+        "rename": [
+          "Devavrata",
+          "Bhishma"
+        ],
+        "badge": "vow of celibacy"
+      }
+    },
+    {
+      "id": "s07",
+      "type": "family_tree",
+      "beatId": "b07",
+      "startMs": 87099,
+      "endMs": 100525,
+      "props": {
+        "add": [
+          [
+            "Parashara",
+            "sage"
+          ],
+          [
+            "Vyasa",
+            "sage, author"
+          ]
+        ],
+        "child_of": [
+          "Parashara",
+          "Satyavati"
+        ],
+        "highlight": "Vyasa"
+      }
+    },
+    {
+      "id": "s08",
+      "type": "family_tree",
+      "beatId": "b08",
+      "startMs": 100525,
+      "endMs": 110105,
+      "props": {
+        "add": [
+          [
+            "Chitrangada",
+            "dies young"
+          ],
+          [
+            "Vichitravirya",
+            "king"
+          ]
+        ],
+        "child_of": [
+          "Shantanu",
+          "Satyavati"
+        ]
+      }
+    },
+    {
+      "id": "s09",
+      "type": "family_tree",
+      "beatId": "b09",
+      "startMs": 110105,
+      "endMs": 125070,
+      "props": {
+        "add": [
+          [
+            "Ambika",
+            "queen"
+          ],
+          [
+            "Ambalika",
+            "queen"
+          ]
+        ],
+        "link": [
+          "Vichitravirya",
+          [
+            "Ambika",
+            "Ambalika"
+          ],
+          "marriage"
+        ],
+        "side_note": "Amba → later episode"
+      }
+    },
+    {
+      "id": "s10",
+      "type": "family_tree",
+      "beatId": "b10",
+      "startMs": 125070,
+      "endMs": 138112,
+      "props": {
+        "mark_deceased": "Vichitravirya",
+        "pulse": "Vyasa"
+      }
+    },
+    {
+      "id": "s11",
+      "type": "family_tree",
+      "beatId": "b11",
+      "startMs": 138112,
+      "endMs": 157692,
+      "props": {
+        "add": [
+          [
+            "Dhritarashtra",
+            "born blind"
+          ],
+          [
+            "Pandu",
+            "born pale"
+          ],
+          [
+            "Vidura",
+            "son of a maid"
+          ]
+        ],
+        "child_of_each": [
+          [
+            "Vyasa",
+            "Ambika"
+          ],
+          [
+            "Vyasa",
+            "Ambalika"
+          ],
+          [
+            "Vyasa",
+            "maid"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "s12",
+      "type": "family_tree",
+      "beatId": "b12",
+      "startMs": 157692,
+      "endMs": 167272,
+      "props": {
+        "highlight_path": [
+          "Vyasa",
+          [
+            "Dhritarashtra",
+            "Pandu",
+            "Vidura"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "s13",
+      "type": "family_tree",
+      "beatId": "b13",
+      "startMs": 167272,
+      "endMs": 179545,
+      "props": {
+        "add": [
+          [
+            "Gandhari",
+            "queen"
+          ],
+          [
+            "Duryodhana",
+            "eldest of 100"
+          ],
+          [
+            "Duhshala",
+            "daughter"
+          ]
+        ],
+        "group": [
+          "Kauravas",
+          100
+        ]
+      }
+    },
+    {
+      "id": "s14",
+      "type": "family_tree",
+      "beatId": "b14",
+      "startMs": 179545,
+      "endMs": 200664,
+      "props": {
+        "badge_on": [
+          "Gandhari",
+          "blindfold"
+        ],
+        "add": [
+          [
+            "Yuyutsu",
+            "son of a maid"
+          ]
+        ],
+        "child_of": [
+          "Dhritarashtra",
+          "maid"
+        ]
+      }
+    },
+    {
+      "id": "s15",
+      "type": "family_tree",
+      "beatId": "b15",
+      "startMs": 200664,
+      "endMs": 228706,
+      "props": {
+        "add": [
+          [
+            "Kunti",
+            "queen"
+          ],
+          [
+            "Madri",
+            "queen"
+          ]
+        ],
+        "link": [
+          "Pandu",
+          [
+            "Kunti",
+            "Madri"
+          ],
+          "marriage"
+        ],
+        "badge_on": [
+          "Pandu",
+          "cursed"
+        ]
+      }
+    },
+    {
+      "id": "s16",
+      "type": "family_tree",
+      "beatId": "b16",
+      "startMs": 228706,
+      "endMs": 245209,
+      "props": {
+        "add": [
+          [
+            "Yudhishthira",
+            "Dharma"
+          ],
+          [
+            "Bhima",
+            "Vayu"
+          ],
+          [
+            "Arjuna",
+            "Indra"
+          ],
+          [
+            "Nakula",
+            "Ashvins"
+          ],
+          [
+            "Sahadeva",
+            "Ashvins"
+          ]
+        ],
+        "group": [
+          "Pandavas",
+          5
+        ]
+      }
+    },
+    {
+      "id": "s17",
+      "type": "family_tree",
+      "beatId": "b17",
+      "startMs": 245209,
+      "endMs": 260559,
+      "props": {
+        "mark_deceased": [
+          "Pandu",
+          "Madri"
+        ],
+        "move_group": [
+          "Pandavas",
+          "Hastinapura"
+        ]
+      }
+    },
+    {
+      "id": "s18",
+      "type": "family_tree",
+      "beatId": "b18",
+      "startMs": 260559,
+      "endMs": 280909,
+      "props": {
+        "add": [
+          [
+            "Karna",
+            "son of Surya"
+          ]
+        ],
+        "child_of": [
+          "Surya",
+          "Kunti"
+        ],
+        "style": "dashed_secret",
+        "highlight": "Karna"
+      }
+    },
+    {
+      "id": "s19",
+      "type": "family_tree",
+      "beatId": "b19",
+      "startMs": 280909,
+      "endMs": 296259,
+      "props": {
+        "add": [
+          [
+            "Adhiratha",
+            "charioteer"
+          ],
+          [
+            "Radha",
+            "foster mother"
+          ]
+        ],
+        "link": [
+          "Karna",
+          [
+            "Adhiratha",
+            "Radha"
+          ],
+          "fostered"
+        ]
+      }
+    },
+    {
+      "id": "s20",
+      "type": "family_tree",
+      "beatId": "b20",
+      "startMs": 296259,
+      "endMs": 305455,
+      "props": {
+        "add": [
+          [
+            "Vasudeva",
+            "Kunti's brother"
+          ],
+          [
+            "Krishna",
+            "son of Vasudeva"
+          ]
+        ],
+        "link": [
+          "Kunti",
+          "Vasudeva",
+          "siblings"
+        ]
+      }
+    },
+    {
+      "id": "s21",
+      "type": "family_tree",
+      "beatId": "b21",
+      "startMs": 305455,
+      "endMs": 319266,
+      "props": {
+        "add": [
+          [
+            "Draupadi",
+            "daughter of Drupada"
+          ]
+        ],
+        "link": [
+          "Draupadi",
+          "Pandavas",
+          "marriage"
+        ]
+      }
+    },
+    {
+      "id": "s22",
+      "type": "family_tree",
+      "beatId": "b22",
+      "startMs": 319266,
+      "endMs": 337308,
+      "props": {
+        "zoom": "full",
+        "highlight_links": [
+          [
+            "Pandavas",
+            "Kauravas",
+            "cousins"
+          ],
+          [
+            "Bhishma",
+            "both",
+            "great-uncle"
+          ],
+          [
+            "Karna",
+            "Pandavas",
+            "brothers"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "s23",
+      "type": "family_tree",
+      "beatId": "b23",
+      "startMs": 337308,
+      "endMs": 348811,
+      "props": {
+        "highlight_path": [
+          "Vyasa",
+          [
+            "Pandavas",
+            "Kauravas"
+          ]
+        ],
+        "badge_on": [
+          "Vyasa",
+          "author"
+        ]
+      }
+    },
+    {
+      "id": "s24",
+      "type": "family_tree",
+      "beatId": "b24",
+      "startMs": 348811,
+      "endMs": 360314,
+      "props": {
+        "reveal": "full_tree",
+        "end_on_start_frame": true
+      }
+    }
+  ]
+}

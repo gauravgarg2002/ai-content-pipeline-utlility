@@ -1,0 +1,148 @@
+{
+  "checkedOn": "2026-11-20",
+  "checkedBy": "Claude (manual fact gate, week 1)",
+  "beats": [
+    {
+      "id": "b01",
+      "verdict": "supported",
+      "evidence": "The Pandavas and Kauravas are cousins, Bhishma is their great-uncle and commands the Kaurava army, and Vyasa is grandfather to both lines.",
+      "source": "https://sacred-texts.com/hin/maha/index.htm"
+    },
+    {
+      "id": "b02",
+      "verdict": "supported",
+      "evidence": "The Ganguli English translation was published between 1883 and 1896.",
+      "source": "https://sacred-texts.com/hin/maha/index.htm"
+    },
+    {
+      "id": "b03",
+      "verdict": "supported",
+      "evidence": "Shantanu, Kuru king of Hastinapura, marries Ganga on the condition that he never questions her actions.",
+      "source": "https://sacred-texts.com/hin/maha/index.htm"
+    },
+    {
+      "id": "b04",
+      "verdict": "supported",
+      "evidence": "Ganga gives her first seven sons to the river; Shantanu stops her at the eighth, Devavrata, and she departs.",
+      "source": "https://sacred-texts.com/hin/maha/index.htm"
+    },
+    {
+      "id": "b05",
+      "verdict": "supported",
+      "evidence": "Satyavati's father demands that her son inherit the throne.",
+      "source": "https://sacred-texts.com/hin/maha/index.htm"
+    },
+    {
+      "id": "b06",
+      "verdict": "supported",
+      "evidence": "Devavrata renounces the throne and vows lifelong celibacy, earning the name Bhishma; Shantanu grants him the boon of choosing the time of his death.",
+      "source": "https://sacred-texts.com/hin/maha/index.htm"
+    },
+    {
+      "id": "b07",
+      "verdict": "supported",
+      "evidence": "Before marrying Shantanu, Satyavati bore Vyasa to the sage Parashara.",
+      "source": "https://sacred-texts.com/hin/maha/index.htm"
+    },
+    {
+      "id": "b08",
+      "verdict": "supported",
+      "evidence": "Shantanu and Satyavati's sons are Chitrangada, killed in battle, and Vichitravirya, who becomes king.",
+      "source": "https://sacred-texts.com/hin/maha/index.htm"
+    },
+    {
+      "id": "b09",
+      "verdict": "supported",
+      "evidence": "Bhishma wins the three princesses of Kashi; Amba is released, and Ambika and Ambalika marry Vichitravirya.",
+      "source": "https://sacred-texts.com/hin/maha/index.htm"
+    },
+    {
+      "id": "b10",
+      "verdict": "supported",
+      "evidence": "Vichitravirya dies childless; Bhishma refuses because of his vow; Satyavati calls on Vyasa.",
+      "source": "https://sacred-texts.com/hin/maha/index.htm"
+    },
+    {
+      "id": "b11",
+      "verdict": "supported",
+      "evidence": "By niyoga, Vyasa fathers Dhritarashtra (born blind as Ambika closed her eyes), Pandu (pale as Ambalika turned pale), and Vidura with a maid.",
+      "source": "https://sacred-texts.com/hin/maha/index.htm"
+    },
+    {
+      "id": "b12",
+      "verdict": "no-claim",
+      "evidence": "Framing, opinion, instruction or story; no factual claim."
+    },
+    {
+      "id": "b13",
+      "verdict": "supported",
+      "evidence": "Dhritarashtra and Gandhari have a hundred sons, eldest Duryodhana, and a daughter Duhshala.",
+      "source": "https://sacred-texts.com/hin/maha/index.htm"
+    },
+    {
+      "id": "b14",
+      "verdict": "supported",
+      "evidence": "Gandhari blindfolds herself on learning Dhritarashtra is blind; Dhritarashtra has a son Yuyutsu by a maid, who later sides with the Pandavas.",
+      "source": "https://sacred-texts.com/hin/maha/index.htm"
+    },
+    {
+      "id": "b15",
+      "verdict": "supported",
+      "evidence": "Pandu marries Kunti and Madri; a sage's curse prevents him fathering children; Kunti holds a mantra from Durvasa to summon gods.",
+      "source": "https://sacred-texts.com/hin/maha/index.htm"
+    },
+    {
+      "id": "b16",
+      "verdict": "supported",
+      "evidence": "Kunti bears Yudhishthira (Dharma), Bhima (Vayu) and Arjuna (Indra); Madri bears Nakula and Sahadeva by the Ashvins.",
+      "source": "https://sacred-texts.com/hin/maha/index.htm"
+    },
+    {
+      "id": "b17",
+      "verdict": "supported",
+      "evidence": "Pandu dies with Madri under the curse; Madri ascends his pyre; Kunti returns with the five sons to Hastinapura.",
+      "source": "https://sacred-texts.com/hin/maha/index.htm"
+    },
+    {
+      "id": "b18",
+      "verdict": "supported",
+      "evidence": "Before marriage Kunti invoked Surya and bore Karna, whom she set adrift; he was raised by a charioteer and fights on the Kaurava side.",
+      "source": "https://sacred-texts.com/hin/maha/index.htm"
+    },
+    {
+      "id": "b19",
+      "verdict": "supported",
+      "evidence": "Karna is raised by the charioteer Adhiratha and his wife Radha, hence the name Radheya, and befriended by Duryodhana.",
+      "source": "https://sacred-texts.com/hin/maha/index.htm"
+    },
+    {
+      "id": "b20",
+      "verdict": "supported",
+      "evidence": "Kunti is the sister of Vasudeva, Krishna's father, making Krishna the Pandavas' cousin.",
+      "source": "https://sacred-texts.com/hin/maha/index.htm"
+    },
+    {
+      "id": "b21",
+      "verdict": "supported",
+      "evidence": "Arjuna wins Draupadi, daughter of Drupada of Panchala, at her svayamvara, and she marries all five Pandavas.",
+      "source": "https://sacred-texts.com/hin/maha/index.htm"
+    },
+    {
+      "id": "b22",
+      "verdict": "supported",
+      "evidence": "Pandavas and Kauravas are cousins; Bhishma is great-uncle to both and commands the Kaurava forces; Karna is the Pandavas' half-brother.",
+      "source": "https://sacred-texts.com/hin/maha/index.htm"
+    },
+    {
+      "id": "b23",
+      "verdict": "supported",
+      "evidence": "Tradition credits Vyasa as the composer of the Mahabharata; he is biological grandfather of both Pandavas and Kauravas.",
+      "source": "https://sacred-texts.com/hin/maha/index.htm"
+    },
+    {
+      "id": "b24",
+      "verdict": "no-claim",
+      "evidence": "Framing, opinion, instruction or story; no factual claim."
+    }
+  ]
+}

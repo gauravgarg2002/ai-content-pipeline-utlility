@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-20-canada-coastline-27-years",
+  "channel": "a-maps-data",
+  "topic": "Canada's coastline length and the coastline paradox",
+  "angle": "A walking-time number makes the length real, then the paradox flips it",
+  "cluster": "coasts-and-islands",
+  "hookPattern": "number",
+  "lengthBucket": "25-55s",
+  "format": "short",
+  "sources": [
+    "https://geofactbook.com/fact/coastline/2024",
+    "https://makemechart-80k.pages.dev/length/longest-coastlines/",
+    "https://www.cia.gov/the-world-factbook/about/archives/2022/field/coastline",
+    "https://www.discoverwildlife.com/environment/which-country-has-longest-coastline",
+    "https://www.worldatlas.com/articles/the-coastline-of-canada-the-longest-in-the-world.html"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "hook": "The country with the most time zones isn't Russia.",
+  "beats": [
+    {
+      "id": "b01",
+      "narration": "The country with the most time zones isn't Russia.",
+      "onScreen": "MOST TIME ZONES?"
+    },
+    {
+      "id": "b02",
+      "narration": "Russia has eleven. So does the United States.",
+      "onScreen": "RUSSIA 11 · USA 11",
+      "claim": "Russia and the USA each have 11 time zones.",
+      "sourceUrl": "https://www.timeanddate.com/time/country-with-the-most-time-zones.html"
+    },
+    {
+      "id": "b03",
+      "narration": "France has twelve.",
+      "onScreen": "FRANCE 12",
+      "claim": "France has 12 time zones, the most of any country.",
+      "sourceUrl": "https://www.timeanddate.com/time/zone/france"
+    },
+    {
+      "id": "b04",
+      "narration": "Mainland France uses just one. The other eleven come from its overseas territories.",
+      "onScreen": "1 + 11",
+      "claim": "Metropolitan France spans 1 time zone; the other 11 come from its dependencies.",
+      "sourceUrl": "https://www.timeanddate.com/time/zone/france"
+    },
+    {
+      "id": "b05",
+      "narration": "From French Polynesia in the Pacific to Reunion in the Indian Ocean.",
+      "onScreen": null
+    },
+    {
+      "id": "b06",
+      "narration": "Count France's claim in Antarctica, and it's thirteen.",
+      "onScreen": "+ ANTARCTICA = 13",
+      "claim": "Including its Antarctic claim, France has 13 time zones.",
+      "sourceUrl": "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/Time_zones_by_country"
+    },
+    {
+      "id": "b07",
+      "narration": "So when it's midnight in Paris, it's lunchtime in Tahiti.",
+      "onScreen": "00:00 PARIS · 13:00 TAHITI",
+      "claim": "Paris is UTC+1 in winter and Tahiti is UTC-10, an 11-hour gap (12 in summer); midnight in Paris is 13:00 (or 12:00) the previous day in Tahiti.",
+      "sourceUrl": "https://www.timeanddate.com/time/zone/france"
+    }
+  ],
+  "title": "The country with the most time zones isn't Russia",
+  "description": "France spans 12 time zones, more than Russia or the USA, thanks to territories in every ocean.",
+  "tags": [
+    "geography",
+    "time zones",
+    "France",
+    "maps",
+    "shorts"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "hook": "Walking Canada's coastline would take you more than 27 years.",
+  "beats": [
+    {
+      "id": "b01",
+      "narration": "Walking Canada's coastline would take you more than 27 years.",
+      "onScreen": "27 YEARS",
+      "claim": "202,080 km at 20 km per day is about 27.7 years.",
+      "sourceUrl": "https://geofactbook.com/fact/coastline/2024"
+    },
+    {
+      "id": "b02",
+      "narration": "It's 202,080 kilometres long. The longest coastline on Earth.",
+      "onScreen": "202,080 KM",
+      "claim": "Canada's coastline is 202,080 km per the CIA World Factbook, the longest in the world.",
+      "sourceUrl": "https://geofactbook.com/fact/coastline/2024"
+    },
+    {
+      "id": "b03",
+      "narration": "That's almost four times Indonesia's.",
+      "onScreen": "≈ 3.7 × INDONESIA",
+      "claim": "Indonesia's coastline is 54,716 km (CIA); 202,080 / 54,716 = 3.7.",
+      "sourceUrl": "https://makemechart-80k.pages.dev/length/longest-coastlines/"
+    },
+    {
+      "id": "b04",
+      "narration": "The reason is up north. The Canadian Arctic Archipelago has 36,563 islands, each with its own shore.",
+      "onScreen": "36,563 ISLANDS",
+      "claim": "The Canadian Arctic Archipelago consists of 36,563 islands.",
+      "sourceUrl": "https://www.cia.gov/the-world-factbook/about/archives/2022/field/coastline"
+    },
+    {
+      "id": "b05",
+      "narration": "But measure with a finer ruler, and the same coast becomes 265,523 kilometres.",
+      "onScreen": "265,523 KM?",
+      "claim": "The World Resources Institute gives Canada's coastline as 265,523 km.",
+      "sourceUrl": "https://www.discoverwildlife.com/environment/which-country-has-longest-coastline"
+    },
+    {
+      "id": "b06",
+      "narration": "Zoom in, and a coastline keeps getting longer. It's called the coastline paradox.",
+      "onScreen": "THE COASTLINE PARADOX",
+      "claim": "The coastline paradox explains why the World Factbook and WRI report different lengths for Canada.",
+      "sourceUrl": "https://www.worldatlas.com/articles/the-coastline-of-canada-the-longest-in-the-world.html"
+    },
+    {
+      "id": "b07",
+      "narration": "So Canada's coastline has no true length. Only the length of your ruler.",
+      "onScreen": null
+    }
+  ],
+  "title": "Walking Canada's coastline would take 27 years",
+  "description": "Canada has the longest coastline on Earth. But how long is it really? Depends on your ruler.",
+  "tags": [
+    "geography",
+    "Canada",
+    "coastline paradox",
+    "maps",
+    "shorts"
+  ]
+}

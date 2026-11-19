@@ -1,0 +1,57 @@
+{
+  "hook": "Google DeepMind ka chhappan ghante ka AI course, bilkul free.",
+  "beats": [
+    {
+      "id": "b01",
+      "narration": "Google DeepMind ka chhappan ghante ka AI course, bilkul free.",
+      "onScreen": "56 HOURS · FREE",
+      "claim": "AI Research Foundations is a free 56-hour program from Google DeepMind.",
+      "sourceUrl": "https://blog.google/intl/en-in/company-news/deepening-our-commitment-to-indias-ai-ambition/"
+    },
+    {
+      "id": "b02",
+      "narration": "Naam hai AI Research Foundations.",
+      "onScreen": "AI RESEARCH FOUNDATIONS"
+    },
+    {
+      "id": "b03",
+      "narration": "Isme sikhate hain large language models kaise banate hain aur fine-tune kaise karte hain.",
+      "onScreen": "BUILD · FINE-TUNE LLMs",
+      "claim": "The curriculum covers building and fine-tuning large language models and conducting AI research.",
+      "sourceUrl": "https://blog.google/intl/en-in/company-news/deepening-our-commitment-to-indias-ai-ambition/"
+    },
+    {
+      "id": "b04",
+      "narration": "Course Google Skills pe hai. Poora karne pe Google Cloud ke skill badges aur certificate milte hain.",
+      "onScreen": "BADGES + CERTIFICATE",
+      "claim": "It is offered on Google Skills; learners can earn Google Cloud skill badges and certificates.",
+      "sourceUrl": "https://blog.google/intl/en-in/company-news/deepening-our-commitment-to-indias-ai-ambition/"
+    },
+    {
+      "id": "b05",
+      "narration": "IISc Bangalore isse already use kar raha hai, aur NASSCOM ise Future Skills Prime pe laayega.",
+      "onScreen": "IISc · NASSCOM",
+      "claim": "IISc Bangalore has started using it; NASSCOM will make it available through Future Skills Prime.",
+      "sourceUrl": "https://blog.google/intl/en-in/company-news/deepening-our-commitment-to-indias-ai-ambition/"
+    },
+    {
+      "id": "b06",
+      "narration": "Link description mein hai.",
+      "onScreen": "LINK ↓"
+    },
+    {
+      "id": "b07",
+      "narration": "Resume pe AI likhna hai? Pehle ye chhappan ghante.",
+      "onScreen": "56 HOURS → RESUME"
+    }
+  ],
+  "title": "Google DeepMind ka 56 ghante ka AI course, bilkul free",
+  "description": "AI Research Foundations by Google DeepMind on Google Skills: LLM building aur fine-tuning, badges aur certificate ke saath. Link: https://skills.google/paths/3135",
+  "tags": [
+    "Google DeepMind",
+    "free course",
+    "AI",
+    "LLM",
+    "Hinglish"
+  ]
+}

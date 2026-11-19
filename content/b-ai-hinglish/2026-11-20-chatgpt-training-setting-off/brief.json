@@ -1,0 +1,14 @@
+{
+  "id": "2026-11-20-chatgpt-training-setting-off",
+  "channel": "b-ai-hinglish",
+  "topic": "Turning off model training on free ChatGPT",
+  "angle": "One setting most free users never change",
+  "cluster": "privacy-and-safety",
+  "hookPattern": "contradiction",
+  "lengthBucket": "25-55s",
+  "format": "short",
+  "sources": [
+    "https://engadget.com/2234173/chatgpt-free-features-2026"
+  ],
+  "publishBy": "2027-02-28"
+}

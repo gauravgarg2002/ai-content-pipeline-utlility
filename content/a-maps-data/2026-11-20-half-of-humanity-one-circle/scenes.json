@@ -1,0 +1,98 @@
+{
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "scenes": [
+    {
+      "id": "s01",
+      "type": "globe_circle",
+      "beatId": "b01",
+      "startMs": 0,
+      "endMs": 4196,
+      "props": {
+        "center": [
+          21.65,
+          99.63
+        ],
+        "radius_km": 3300,
+        "draw_on": true
+      }
+    },
+    {
+      "id": "s02",
+      "type": "globe_circle",
+      "beatId": "b02",
+      "startMs": 4196,
+      "endMs": 10315,
+      "props": {
+        "center": [
+          21.65,
+          99.63
+        ],
+        "radius_km": 3300,
+        "label_radius": true
+      }
+    },
+    {
+      "id": "s03",
+      "type": "globe_circle",
+      "beatId": "b03",
+      "startMs": 10315,
+      "endMs": 14895,
+      "props": {
+        "shrink_from_radius_km": 6000,
+        "to_radius_km": 3300
+      }
+    },
+    {
+      "id": "s04",
+      "type": "city_pins",
+      "beatId": "b04",
+      "startMs": 14895,
+      "endMs": 18706,
+      "props": {
+        "inside": [
+          "Delhi",
+          "Mumbai",
+          "Beijing",
+          "Manila",
+          "Jakarta"
+        ]
+      }
+    },
+    {
+      "id": "s05",
+      "type": "city_pins",
+      "beatId": "b05",
+      "startMs": 18706,
+      "endMs": 20209,
+      "props": {
+        "outside": [
+          "Tokyo"
+        ],
+        "distance_label": "4,173 km"
+      }
+    },
+    {
+      "id": "s06",
+      "type": "density_heat",
+      "beatId": "b06",
+      "startMs": 20209,
+      "endMs": 26328,
+      "props": {
+        "region": "south_east_asia"
+      }
+    },
+    {
+      "id": "s07",
+      "type": "globe_circle",
+      "beatId": "b07",
+      "startMs": 26328,
+      "endMs": 32831,
+      "props": {
+        "spin": true,
+        "end_on_start_frame": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "scenes": [
+    {
+      "id": "s01",
+      "type": "count_up",
+      "beatId": "b01",
+      "startMs": 0,
+      "endMs": 4196,
+      "props": {
+        "items": [
+          [
+            "hours",
+            56
+          ]
+        ],
+        "stamp": "FREE"
+      }
+    },
+    {
+      "id": "s02",
+      "type": "kinetic_text",
+      "beatId": "b02",
+      "startMs": 4196,
+      "endMs": 6469,
+      "props": {
+        "text": "AI RESEARCH FOUNDATIONS"
+      }
+    },
+    {
+      "id": "s03",
+      "type": "grid_reveal",
+      "beatId": "b03",
+      "startMs": 6469,
+      "endMs": 12203,
+      "props": {
+        "cells": [
+          "Build LLMs",
+          "Fine-tune",
+          "AI research"
+        ]
+      }
+    },
+    {
+      "id": "s04",
+      "type": "annotated_screenshot",
+      "beatId": "b04",
+      "startMs": 12203,
+      "endMs": 19091,
+      "props": {
+        "capture": "https://skills.google/paths/3135",
+        "highlight": "course_header"
+      }
+    },
+    {
+      "id": "s05",
+      "type": "grid_reveal",
+      "beatId": "b05",
+      "startMs": 19091,
+      "endMs": 25594,
+      "props": {
+        "cells": [
+          "IISc Bangalore",
+          "NASSCOM Future Skills Prime"
+        ]
+      }
+    },
+    {
+      "id": "s06",
+      "type": "kinetic_text",
+      "beatId": "b06",
+      "startMs": 25594,
+      "endMs": 27482,
+      "props": {
+        "text": "skills.google"
+      }
+    },
+    {
+      "id": "s07",
+      "type": "count_up",
+      "beatId": "b07",
+      "startMs": 27482,
+      "endMs": 31293,
+      "props": {
+        "items": [
+          [
+            "hours",
+            56
+          ]
+        ],
+        "stamp": "FREE",
+        "end_on_start_frame": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "hook": "The easternmost point of the United States is in Alaska.",
+  "beats": [
+    {
+      "id": "b01",
+      "narration": "The easternmost point of the United States is in Alaska.",
+      "onScreen": "EASTERNMOST?",
+      "claim": "The easternmost point of the US by longitude is Pochnoi Point on Semisopochnoi Island, Alaska.",
+      "sourceUrl": "https://www.worldatlas.com/geography/the-easternmost-point-in-north-america-is-actually-west-of-alaska.html"
+    },
+    {
+      "id": "b02",
+      "narration": "Not Maine. Alaska.",
+      "onScreen": "NOT MAINE"
+    },
+    {
+      "id": "b03",
+      "narration": "Alaska's Aleutian Islands stretch so far west, they cross the 180th meridian into the Eastern Hemisphere.",
+      "onScreen": "180°",
+      "claim": "The Aleutian Islands cross the 180th meridian, which separates the eastern and western hemispheres.",
+      "sourceUrl": "https://www.worldatlas.com/geography/the-easternmost-point-in-north-america-is-actually-west-of-alaska.html"
+    },
+    {
+      "id": "b04",
+      "narration": "Semisopochnoi Island sits at 179 degrees east. By longitude, that's the most eastern point in the country.",
+      "onScreen": "179°46′ E",
+      "claim": "Semisopochnoi Island (51°57′42″N 179°46′23″E) is the easternmost point in all US territory by longitude.",
+      "sourceUrl": "https://www.worldatlas.com/geography/the-easternmost-point-in-north-america-is-actually-west-of-alaska.html"
+    },
+    {
+      "id": "b05",
+      "narration": "And Amatignak Island, at 179 degrees west, is the most western.",
+      "onScreen": "179°08′ W",
+      "claim": "Amatignak Island (51°16′7″N 179°8′55″W) is the westernmost point in the US by longitude.",
+      "sourceUrl": "https://www.worldatlas.com/geography/the-easternmost-point-in-north-america-is-actually-west-of-alaska.html"
+    },
+    {
+      "id": "b06",
+      "narration": "The two extremes are only about 71 miles apart.",
+      "onScreen": "71 MILES",
+      "claim": "The distance between the easternmost and westernmost US points is about 71 miles.",
+      "sourceUrl": "https://www.mentalfloss.com/article/567342/why-alaska-is-americas-easternmost-point"
+    },
+    {
+      "id": "b07",
+      "narration": "So Alaska is the northernmost, westernmost and easternmost state. Hawaii keeps the south.",
+      "onScreen": "N · W · E",
+      "claim": "Alaska is simultaneously the northernmost, westernmost and easternmost state; the southernmost title belongs to Hawaii.",
+      "sourceUrl": "https://www.worldatlas.com/geography/the-easternmost-point-in-north-america-is-actually-west-of-alaska.html"
+    }
+  ],
+  "title": "The easternmost point of the USA is in Alaska",
+  "description": "Alaska is the northernmost, westernmost and easternmost US state. Here's how.",
+  "tags": [
+    "geography",
+    "Alaska",
+    "maps",
+    "USA",
+    "shorts"
+  ]
+}

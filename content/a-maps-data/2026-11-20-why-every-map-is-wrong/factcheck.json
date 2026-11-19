@@ -1,0 +1,190 @@
+{
+  "checkedOn": "2026-11-20",
+  "checkedBy": "Claude (manual fact gate, week 1)",
+  "beats": [
+    {
+      "id": "b01",
+      "verdict": "supported",
+      "evidence": "On 4 September 2026 the UN General Assembly adopted the 'Correct the Map' resolution by 164 votes to 1.",
+      "source": "https://www.un.org/osaa/es/node/899"
+    },
+    {
+      "id": "b02",
+      "verdict": "supported",
+      "evidence": "Africa is about 14 times the size of Greenland.",
+      "source": "https://allafrica.com/stories/202508180103.html"
+    },
+    {
+      "id": "b03",
+      "verdict": "supported",
+      "evidence": "Africa is 30.37 million km²; Russia is 17.1 million km².",
+      "source": "https://allafrica.com/stories/202508180103.html"
+    },
+    {
+      "id": "b04",
+      "verdict": "supported",
+      "evidence": "Greenland is smaller than the Democratic Republic of the Congo.",
+      "source": "https://www.worldatlas.com/articles/is-greenland-larger-than-africa.html"
+    },
+    {
+      "id": "b05",
+      "verdict": "supported",
+      "evidence": "There is no perfectly satisfying way to map the globe onto a flat surface; every projection has advantages and disadvantages.",
+      "source": "https://www.johndcook.com/blog/2018/08/10/equal-earth-projection/"
+    },
+    {
+      "id": "b06",
+      "verdict": "no-claim",
+      "evidence": "Framing, opinion, instruction or story; no factual claim."
+    },
+    {
+      "id": "b07",
+      "verdict": "supported",
+      "evidence": "The Mercator projection was introduced by Gerardus Mercator in 1569.",
+      "source": "https://origin-exchange.autodesk.com/greenland-actual-size"
+    },
+    {
+      "id": "b08",
+      "verdict": "supported",
+      "evidence": "On the Mercator projection, lines of constant bearing correspond to straight lines on the map.",
+      "source": "https://www.johndcook.com/blog/2018/08/10/equal-earth-projection/"
+    },
+    {
+      "id": "b09",
+      "verdict": "no-claim",
+      "evidence": "Framing, opinion, instruction or story; no factual claim."
+    },
+    {
+      "id": "b10",
+      "verdict": "supported",
+      "evidence": "The Mercator projection keeps shapes for navigation but enlarges areas increasingly toward the poles.",
+      "source": "https://origin-exchange.autodesk.com/greenland-actual-size"
+    },
+    {
+      "id": "b11",
+      "verdict": "supported",
+      "evidence": "Mercator area scale factor is sec²(latitude); at 72° this is about 10.5. [computed from the cited figures]",
+      "source": "https://origin-exchange.autodesk.com/greenland-actual-size"
+    },
+    {
+      "id": "b12",
+      "verdict": "supported",
+      "evidence": "Mercator area scale factor sec²(latitude): 2.0 at 45°, 4.0 at 60°. [computed from the cited figures]",
+      "source": "https://origin-exchange.autodesk.com/greenland-actual-size"
+    },
+    {
+      "id": "b13",
+      "verdict": "supported",
+      "evidence": "Australia is over 7.6 million km² and Saudi Arabia's land area is larger than Greenland's 2.16 million km².",
+      "source": "https://origin-exchange.autodesk.com/greenland-actual-size"
+    },
+    {
+      "id": "b14",
+      "verdict": "supported",
+      "evidence": "India is 3.287 million km² and Greenland 2.166 million km²; ratio 1.52. [computed from the cited figures]",
+      "source": "https://allafrica.com/stories/202508180103.html"
+    },
+    {
+      "id": "b15",
+      "verdict": "no-claim",
+      "evidence": "Framing, opinion, instruction or story; no factual claim."
+    },
+    {
+      "id": "b16",
+      "verdict": "supported",
+      "evidence": "Because Africa straddles the equator its size is nearly true on Mercator, while Europe and North America appear bigger.",
+      "source": "https://www.green.earth/blog/true-size-map-africa"
+    },
+    {
+      "id": "b17",
+      "verdict": "supported",
+      "evidence": "US 9.867M + China 9.597M + India 3.287M = 22.75M km²; Africa 30.37M km² leaves 7.6M km². [computed from the cited figures]",
+      "source": "https://allafrica.com/stories/202508180103.html"
+    },
+    {
+      "id": "b18",
+      "verdict": "no-claim",
+      "evidence": "Framing, opinion, instruction or story; no factual claim."
+    },
+    {
+      "id": "b19",
+      "verdict": "supported",
+      "evidence": "News stories wrongly treated Gall-Peters as the only equal-area projection, despite a consensus that it is inappropriate for small-scale mapping.",
+      "source": "https://www.esri.com/about/newsroom/arcuser/equal-earth/"
+    },
+    {
+      "id": "b20",
+      "verdict": "supported",
+      "evidence": "Equal Earth is an equal-area pseudocylindrical projection developed by Patterson, Jenny and Šavrič in 2018.",
+      "source": "https://pro.arcgis.com/en/pro-app/3.4/help/mapping/properties/equal-earth.htm"
+    },
+    {
+      "id": "b21",
+      "verdict": "supported",
+      "evidence": "In Equal Earth, parallels are straight and the poles are 0.59247 times the length of the equator.",
+      "source": "https://pro.arcgis.com/en/pro-app/3.4/help/mapping/properties/equal-earth.htm"
+    },
+    {
+      "id": "b22",
+      "verdict": "supported",
+      "evidence": "Equal Earth was quickly adopted by the NASA Goddard Institute for Space Studies.",
+      "source": "https://pro.arcgis.com/en/pro-app/3.4/help/mapping/properties/equal-earth.htm"
+    },
+    {
+      "id": "b23",
+      "verdict": "supported",
+      "evidence": "In March 2017 Boston Public Schools adopted the Gall-Peters projection; the controversy over its polar distortion led Šavrič, Jenny and Patterson to create Equal Earth.",
+      "source": "https://en.wikipedia.org/wiki/Equal_Earth_projection"
+    },
+    {
+      "id": "b24",
+      "verdict": "supported",
+      "evidence": "Africa No Filter and Speak Up Africa launched Correct the Map; the African Union backed it.",
+      "source": "https://en.wikipedia.org/wiki/Equal_Earth_projection"
+    },
+    {
+      "id": "b25",
+      "verdict": "supported",
+      "evidence": "The UN General Assembly adopted resolution A/80/L.104 'Correct the Map' on 4 September 2026 by 164 to 1 with 6 abstentions.",
+      "source": "https://www.un.org/osaa/es/node/899"
+    },
+    {
+      "id": "b26",
+      "verdict": "supported",
+      "evidence": "The resolution does not ban Mercator or impose a replacement; it encourages equal-area maps when relative size matters.",
+      "source": "https://www.un.org/osaa/es/node/899"
+    },
+    {
+      "id": "b27",
+      "verdict": "supported",
+      "evidence": "The US, the only country to vote against, said the resolution promoted an 'ideological agenda' and was a distraction from genuine problems.",
+      "source": "https://www.khaleejtimes.com/world/africa-bigger-us-smaller-un-adopts-new-map-continents"
+    },
+    {
+      "id": "b28",
+      "verdict": "no-claim",
+      "evidence": "Framing, opinion, instruction or story; no factual claim."
+    },
+    {
+      "id": "b29",
+      "verdict": "supported",
+      "evidence": "The resolution acknowledges Mercator's continued utility for maritime and aerial navigation.",
+      "source": "https://ground.news/article/9be8f433-1148-46c9-b34d-f9f7344d8f49"
+    },
+    {
+      "id": "b30",
+      "verdict": "no-claim",
+      "evidence": "Framing, opinion, instruction or story; no factual claim."
+    },
+    {
+      "id": "b31",
+      "verdict": "no-claim",
+      "evidence": "Framing, opinion, instruction or story; no factual claim."
+    },
+    {
+      "id": "b32",
+      "verdict": "no-claim",
+      "evidence": "Framing, opinion, instruction or story; no factual claim."
+    }
+  ]
+}

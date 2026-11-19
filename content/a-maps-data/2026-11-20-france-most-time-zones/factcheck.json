@@ -1,0 +1,46 @@
+{
+  "checkedOn": "2026-11-20",
+  "checkedBy": "Claude (manual fact gate, week 1)",
+  "beats": [
+    {
+      "id": "b01",
+      "verdict": "no-claim",
+      "evidence": "Framing, opinion, instruction or story; no factual claim."
+    },
+    {
+      "id": "b02",
+      "verdict": "supported",
+      "evidence": "Russia and the USA each have 11 time zones.",
+      "source": "https://www.timeanddate.com/time/country-with-the-most-time-zones.html"
+    },
+    {
+      "id": "b03",
+      "verdict": "supported",
+      "evidence": "France has 12 time zones, the most of any country.",
+      "source": "https://www.timeanddate.com/time/zone/france"
+    },
+    {
+      "id": "b04",
+      "verdict": "supported",
+      "evidence": "Metropolitan France spans 1 time zone; the other 11 come from its dependencies.",
+      "source": "https://www.timeanddate.com/time/zone/france"
+    },
+    {
+      "id": "b05",
+      "verdict": "no-claim",
+      "evidence": "Framing, opinion, instruction or story; no factual claim."
+    },
+    {
+      "id": "b06",
+      "verdict": "supported",
+      "evidence": "Including its Antarctic claim, France has 13 time zones.",
+      "source": "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/Time_zones_by_country"
+    },
+    {
+      "id": "b07",
+      "verdict": "supported",
+      "evidence": "Paris is UTC+1 in winter and Tahiti is UTC-10, an 11-hour gap (12 in summer); midnight in Paris is 13:00 (or 12:00) the previous day in Tahiti. [computed from the cited figures]",
+      "source": "https://www.timeanddate.com/time/zone/france"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "checkedOn": "2026-11-20",
+  "checkedBy": "Claude (manual fact gate, week 1)",
+  "beats": [
+    {
+      "id": "b01",
+      "verdict": "supported",
+      "evidence": "AI Research Foundations is a free 56-hour program from Google DeepMind.",
+      "source": "https://blog.google/intl/en-in/company-news/deepening-our-commitment-to-indias-ai-ambition/"
+    },
+    {
+      "id": "b02",
+      "verdict": "no-claim",
+      "evidence": "Framing, opinion, instruction or story; no factual claim."
+    },
+    {
+      "id": "b03",
+      "verdict": "supported",
+      "evidence": "The curriculum covers building and fine-tuning large language models and conducting AI research.",
+      "source": "https://blog.google/intl/en-in/company-news/deepening-our-commitment-to-indias-ai-ambition/"
+    },
+    {
+      "id": "b04",
+      "verdict": "supported",
+      "evidence": "It is offered on Google Skills; learners can earn Google Cloud skill badges and certificates.",
+      "source": "https://blog.google/intl/en-in/company-news/deepening-our-commitment-to-indias-ai-ambition/"
+    },
+    {
+      "id": "b05",
+      "verdict": "supported",
+      "evidence": "IISc Bangalore has started using it; NASSCOM will make it available through Future Skills Prime.",
+      "source": "https://blog.google/intl/en-in/company-news/deepening-our-commitment-to-indias-ai-ambition/"
+    },
+    {
+      "id": "b06",
+      "verdict": "no-claim",
+      "evidence": "Framing, opinion, instruction or story; no factual claim."
+    },
+    {
+      "id": "b07",
+      "verdict": "no-claim",
+      "evidence": "Framing, opinion, instruction or story; no factual claim."
+    }
+  ]
+}

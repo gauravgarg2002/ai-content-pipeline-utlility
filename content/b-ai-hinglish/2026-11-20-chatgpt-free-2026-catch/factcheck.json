@@ -1,0 +1,46 @@
+{
+  "checkedOn": "2026-11-20",
+  "checkedBy": "Claude (manual fact gate, week 1)",
+  "beats": [
+    {
+      "id": "b01",
+      "verdict": "no-claim",
+      "evidence": "Framing, opinion, instruction or story; no factual claim."
+    },
+    {
+      "id": "b02",
+      "verdict": "supported",
+      "evidence": "On August 6, 2026 OpenAI announced unlimited text chats for free and Go users, starting the week of August 10.",
+      "source": "https://engadget.com/2234173/chatgpt-free-features-2026"
+    },
+    {
+      "id": "b03",
+      "verdict": "supported",
+      "evidence": "Free accounts are limited to GPT-5.6 Luna, the smallest model in the GPT-5.6 family.",
+      "source": "https://engadget.com/2234173/chatgpt-free-features-2026"
+    },
+    {
+      "id": "b04",
+      "verdict": "supported",
+      "evidence": "Free accounts get a Think button with a single reasoning mode.",
+      "source": "https://engadget.com/2234173/chatgpt-free-features-2026"
+    },
+    {
+      "id": "b05",
+      "verdict": "supported",
+      "evidence": "Free accounts have limits on file and image uploads, image generation, Deep Research and voice, under one weekly limit visible in Settings > Usage.",
+      "source": "https://engadget.com/2234173/chatgpt-free-features-2026"
+    },
+    {
+      "id": "b06",
+      "verdict": "supported",
+      "evidence": "Free users may see ads in a sponsored section below responses.",
+      "source": "https://engadget.com/2234173/chatgpt-free-features-2026"
+    },
+    {
+      "id": "b07",
+      "verdict": "no-claim",
+      "evidence": "Framing, opinion, instruction or story; no factual claim."
+    }
+  ]
+}

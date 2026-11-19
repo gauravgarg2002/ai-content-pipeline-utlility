@@ -1,0 +1,15 @@
+{
+  "id": "2026-11-20-france-most-time-zones",
+  "channel": "a-maps-data",
+  "topic": "Which country has the most time zones",
+  "angle": "Everyone guesses Russia; the answer is France, because of its overseas territories",
+  "cluster": "borders-and-time",
+  "hookPattern": "contradiction",
+  "lengthBucket": "25-55s",
+  "format": "short",
+  "sources": [
+    "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/Time_zones_by_country",
+    "https://www.timeanddate.com/time/country-with-the-most-time-zones.html",
+    "https://www.timeanddate.com/time/zone/france"
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "scenes": [
+    {
+      "id": "s01",
+      "type": "kinetic_text",
+      "beatId": "b01",
+      "startMs": 0,
+      "endMs": 4196,
+      "props": {
+        "text": "UNLIMITED*",
+        "asterisk_reveal": true
+      }
+    },
+    {
+      "id": "s02",
+      "type": "annotated_screenshot",
+      "beatId": "b02",
+      "startMs": 4196,
+      "endMs": 9930,
+      "props": {
+        "capture": "chatgpt.com",
+        "highlight": "composer"
+      }
+    },
+    {
+      "id": "s03",
+      "type": "kinetic_text",
+      "beatId": "b03",
+      "startMs": 9930,
+      "endMs": 15664,
+      "props": {
+        "text": "GPT-5.6 LUNA"
+      }
+    },
+    {
+      "id": "s04",
+      "type": "annotated_screenshot",
+      "beatId": "b04",
+      "startMs": 15664,
+      "endMs": 21398,
+      "props": {
+        "capture": "chatgpt.com",
+        "highlight": "think_button"
+      }
+    },
+    {
+      "id": "s05",
+      "type": "grid_reveal",
+      "beatId": "b05",
+      "startMs": 21398,
+      "endMs": 29824,
+      "props": {
+        "cells": [
+          "Images",
+          "Files",
+          "Voice",
+          "Deep Research"
+        ],
+        "stamp": "WEEKLY LIMIT"
+      }
+    },
+    {
+      "id": "s06",
+      "type": "annotated_screenshot",
+      "beatId": "b06",
+      "startMs": 29824,
+      "endMs": 35174,
+      "props": {
+        "capture": "chatgpt.com",
+        "highlight": "sponsored_section",
+        "mock_if_unavailable": true
+      }
+    },
+    {
+      "id": "s07",
+      "type": "kinetic_text",
+      "beatId": "b07",
+      "startMs": 35174,
+      "endMs": 42831,
+      "props": {
+        "text": "FREE = TEXT ✅",
+        "end_on_start_frame": true
+      }
+    }
+  ]
+}

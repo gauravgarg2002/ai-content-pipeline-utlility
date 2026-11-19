@@ -1,0 +1,482 @@
+{
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "scenes": [
+    {
+      "id": "s01",
+      "type": "count_up",
+      "beatId": "b01",
+      "startMs": 0,
+      "endMs": 7657,
+      "props": {
+        "items": [
+          [
+            "UN votes in favour",
+            164
+          ]
+        ],
+        "then": "map_flash_mercator"
+      }
+    },
+    {
+      "id": "s02",
+      "type": "comparison_split",
+      "beatId": "b02",
+      "startMs": 7657,
+      "endMs": 17622,
+      "props": {
+        "projection": "mercator",
+        "shapes": [
+          "Greenland",
+          "Africa"
+        ],
+        "chapter": "The illusion"
+      }
+    },
+    {
+      "id": "s03",
+      "type": "bar_compare",
+      "beatId": "b03",
+      "startMs": 17622,
+      "endMs": 30279,
+      "props": {
+        "bars": [
+          [
+            "Africa",
+            30.37
+          ],
+          [
+            "Russia",
+            17.1
+          ]
+        ],
+        "unit": "M km²"
+      }
+    },
+    {
+      "id": "s04",
+      "type": "comparison_split",
+      "beatId": "b04",
+      "startMs": 30279,
+      "endMs": 39859,
+      "props": {
+        "projection": "equal_area",
+        "shapes": [
+          "Greenland",
+          "DR Congo"
+        ]
+      }
+    },
+    {
+      "id": "s05",
+      "type": "orange_peel",
+      "beatId": "b05",
+      "startMs": 39859,
+      "endMs": 54824,
+      "props": {
+        "chapter": "Peeling an orange"
+      }
+    },
+    {
+      "id": "s06",
+      "type": "grid_reveal",
+      "beatId": "b06",
+      "startMs": 54824,
+      "endMs": 67866,
+      "props": {
+        "cells": [
+          "Shape",
+          "Area",
+          "Distance",
+          "Direction"
+        ],
+        "cross_out_after": 2
+      }
+    },
+    {
+      "id": "s07",
+      "type": "timeline",
+      "beatId": "b07",
+      "startMs": 67866,
+      "endMs": 74369,
+      "props": {
+        "events": [
+          [
+            1569,
+            "Mercator's world map"
+          ]
+        ],
+        "chapter": "A map for sailors"
+      }
+    },
+    {
+      "id": "s08",
+      "type": "rhumb_line",
+      "beatId": "b08",
+      "startMs": 74369,
+      "endMs": 88180,
+      "props": {
+        "from": "Lisbon",
+        "to": "Salvador",
+        "show_compass": true
+      }
+    },
+    {
+      "id": "s09",
+      "type": "kinetic_text",
+      "beatId": "b09",
+      "startMs": 88180,
+      "endMs": 94683,
+      "props": {
+        "text": "THE COST: AREA",
+        "chapter": "What it costs"
+      }
+    },
+    {
+      "id": "s10",
+      "type": "grid_stretch",
+      "beatId": "b10",
+      "startMs": 94683,
+      "endMs": 108879,
+      "props": {
+        "show_tissot": true,
+        "latitudes": [
+          0,
+          30,
+          60,
+          75
+        ]
+      }
+    },
+    {
+      "id": "s11",
+      "type": "line_draw",
+      "beatId": "b11",
+      "startMs": 108879,
+      "endMs": 120767,
+      "props": {
+        "chart": "area_inflation_vs_latitude",
+        "mark": [
+          72,
+          10.5
+        ]
+      }
+    },
+    {
+      "id": "s12",
+      "type": "line_draw",
+      "beatId": "b12",
+      "startMs": 120767,
+      "endMs": 134193,
+      "props": {
+        "chart": "area_inflation_vs_latitude",
+        "mark": [
+          [
+            45,
+            2
+          ],
+          [
+            60,
+            4
+          ]
+        ]
+      }
+    },
+    {
+      "id": "s13",
+      "type": "comparison_split",
+      "beatId": "b13",
+      "startMs": 134193,
+      "endMs": 145696,
+      "props": {
+        "projection": "equal_area",
+        "shapes": [
+          "Greenland",
+          "Australia",
+          "Saudi Arabia"
+        ]
+      }
+    },
+    {
+      "id": "s14",
+      "type": "comparison_split",
+      "beatId": "b14",
+      "startMs": 145696,
+      "endMs": 160661,
+      "props": {
+        "projection": "mercator_then_equal_area",
+        "shapes": [
+          "India",
+          "Greenland"
+        ]
+      }
+    },
+    {
+      "id": "s15",
+      "type": "grid_stretch",
+      "beatId": "b15",
+      "startMs": 160661,
+      "endMs": 171780,
+      "props": {
+        "latitudes": [
+          80,
+          85,
+          89
+        ],
+        "cutoff": true
+      }
+    },
+    {
+      "id": "s16",
+      "type": "map_highlight",
+      "beatId": "b16",
+      "startMs": 171780,
+      "endMs": 182899,
+      "props": {
+        "base": "world",
+        "projection": "mercator",
+        "highlight": [
+          "Africa",
+          "Europe",
+          "North America"
+        ]
+      }
+    },
+    {
+      "id": "s17",
+      "type": "shape_pack",
+      "beatId": "b17",
+      "startMs": 182899,
+      "endMs": 196710,
+      "props": {
+        "container": "Africa",
+        "pieces": [
+          "USA",
+          "China",
+          "India"
+        ],
+        "projection": "equal_area",
+        "show_remainder": true
+      }
+    },
+    {
+      "id": "s18",
+      "type": "projection_morph",
+      "beatId": "b18",
+      "startMs": 196710,
+      "endMs": 208598,
+      "props": {
+        "from": "mercator",
+        "to": "gall_peters",
+        "chapter": "The fixes"
+      }
+    },
+    {
+      "id": "s19",
+      "type": "projection_morph",
+      "beatId": "b19",
+      "startMs": 208598,
+      "endMs": 217794,
+      "props": {
+        "hold": "gall_peters",
+        "highlight": [
+          "Africa",
+          "South America"
+        ]
+      }
+    },
+    {
+      "id": "s20",
+      "type": "projection_morph",
+      "beatId": "b20",
+      "startMs": 217794,
+      "endMs": 231220,
+      "props": {
+        "from": "gall_peters",
+        "to": "equal_earth"
+      }
+    },
+    {
+      "id": "s21",
+      "type": "projection_morph",
+      "beatId": "b21",
+      "startMs": 231220,
+      "endMs": 246570,
+      "props": {
+        "hold": "equal_earth",
+        "highlight_graticule": true
+      }
+    },
+    {
+      "id": "s22",
+      "type": "kinetic_text",
+      "beatId": "b22",
+      "startMs": 246570,
+      "endMs": 251150,
+      "props": {
+        "text": "NASA GISS"
+      }
+    },
+    {
+      "id": "s23",
+      "type": "timeline",
+      "beatId": "b23",
+      "startMs": 251150,
+      "endMs": 267269,
+      "props": {
+        "events": [
+          [
+            1569,
+            "Mercator"
+          ],
+          [
+            2017,
+            "Boston adopts Gall-Peters"
+          ],
+          [
+            2018,
+            "Equal Earth"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "s24",
+      "type": "kinetic_text",
+      "beatId": "b24",
+      "startMs": 267269,
+      "endMs": 278388,
+      "props": {
+        "text": "CORRECT THE MAP",
+        "chapter": "The vote"
+      }
+    },
+    {
+      "id": "s25",
+      "type": "bar_compare",
+      "beatId": "b25",
+      "startMs": 278388,
+      "endMs": 289122,
+      "props": {
+        "bars": [
+          [
+            "For",
+            164
+          ],
+          [
+            "Against",
+            1
+          ],
+          [
+            "Abstain",
+            6
+          ]
+        ]
+      }
+    },
+    {
+      "id": "s26",
+      "type": "grid_reveal",
+      "beatId": "b26",
+      "startMs": 289122,
+      "endMs": 299087,
+      "props": {
+        "cells": [
+          "Governments",
+          "Schools",
+          "Tech companies"
+        ]
+      }
+    },
+    {
+      "id": "s27",
+      "type": "comparison_split",
+      "beatId": "b27",
+      "startMs": 299087,
+      "endMs": 311360,
+      "props": {
+        "labels": [
+          "Supporters",
+          "United States"
+        ]
+      }
+    },
+    {
+      "id": "s28",
+      "type": "grid_reveal",
+      "beatId": "b28",
+      "startMs": 311360,
+      "endMs": 319402,
+      "props": {
+        "cells": [
+          "Mercator",
+          "Gall-Peters",
+          "Equal Earth"
+        ],
+        "chapter": "Choosing a map"
+      }
+    },
+    {
+      "id": "s29",
+      "type": "rhumb_line",
+      "beatId": "b29",
+      "startMs": 319402,
+      "endMs": 334367,
+      "props": {
+        "from": "Lisbon",
+        "to": "Salvador",
+        "show_compass": true,
+        "callback": true
+      }
+    },
+    {
+      "id": "s30",
+      "type": "grid_reveal",
+      "beatId": "b30",
+      "startMs": 334367,
+      "endMs": 347409,
+      "props": {
+        "cells": [
+          [
+            "Navigate",
+            "Mercator"
+          ],
+          [
+            "Compare size",
+            "Equal-area"
+          ],
+          [
+            "Both",
+            "Globe"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "s31",
+      "type": "kinetic_text",
+      "beatId": "b31",
+      "startMs": 347409,
+      "endMs": 355066,
+      "props": {
+        "text": "A SAILOR'S TOOL"
+      }
+    },
+    {
+      "id": "s32",
+      "type": "comparison_split",
+      "beatId": "b32",
+      "startMs": 355066,
+      "endMs": 365031,
+      "props": {
+        "projection": "mercator",
+        "shapes": [
+          "Greenland",
+          "Africa"
+        ],
+        "end_on_start_frame": true
+      }
+    }
+  ]
+}

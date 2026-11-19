@@ -1,0 +1,105 @@
+{
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "scenes": [
+    {
+      "id": "s01",
+      "type": "comparison_split",
+      "beatId": "b01",
+      "startMs": 0,
+      "endMs": 4196,
+      "props": {
+        "projection": "mercator",
+        "shapes": [
+          "Greenland",
+          "Africa"
+        ]
+      }
+    },
+    {
+      "id": "s02",
+      "type": "bar_compare",
+      "beatId": "b02",
+      "startMs": 4196,
+      "endMs": 8776,
+      "props": {
+        "bars": [
+          [
+            "Greenland",
+            2.166
+          ],
+          [
+            "Africa",
+            30.37
+          ]
+        ],
+        "unit": "M km²"
+      }
+    },
+    {
+      "id": "s03",
+      "type": "shape_pack",
+      "beatId": "b03",
+      "startMs": 8776,
+      "endMs": 13741,
+      "props": {
+        "container": "Africa",
+        "pieces": [
+          "USA",
+          "China",
+          "India"
+        ],
+        "projection": "equal_area"
+      }
+    },
+    {
+      "id": "s04",
+      "type": "kinetic_text",
+      "beatId": "b04",
+      "startMs": 13741,
+      "endMs": 18321,
+      "props": {
+        "text": "MERCATOR · 1569",
+        "with": "ship_icon"
+      }
+    },
+    {
+      "id": "s05",
+      "type": "grid_stretch",
+      "beatId": "b05",
+      "startMs": 18321,
+      "endMs": 24440,
+      "props": {
+        "show_tissot": true
+      }
+    },
+    {
+      "id": "s06",
+      "type": "grid_stretch",
+      "beatId": "b06",
+      "startMs": 24440,
+      "endMs": 31328,
+      "props": {
+        "highlight": [
+          "Africa",
+          "Greenland"
+        ]
+      }
+    },
+    {
+      "id": "s07",
+      "type": "drag_shape",
+      "beatId": "b07",
+      "startMs": 31328,
+      "endMs": 35524,
+      "props": {
+        "shape": "Greenland",
+        "from_lat": 72,
+        "to_lat": 0,
+        "projection": "mercator",
+        "land_on": "Africa"
+      }
+    }
+  ]
+}

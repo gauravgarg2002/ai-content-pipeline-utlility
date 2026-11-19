@@ -1,0 +1,31 @@
+{
+  "id": "2026-11-20-why-every-map-is-wrong",
+  "channel": "a-maps-data",
+  "topic": "Map projections: why every flat map distorts",
+  "angle": "Long-form expansion of the Greenland vs Africa Short",
+  "cluster": "map-projections",
+  "hookPattern": "contradiction",
+  "lengthBucket": "360-540s",
+  "format": "long",
+  "sources": [
+    "https://allafrica.com/stories/202508180103.html",
+    "https://en.wikipedia.org/wiki/Equal_Earth_projection",
+    "https://ground.news/article/9be8f433-1148-46c9-b34d-f9f7344d8f49",
+    "https://origin-exchange.autodesk.com/greenland-actual-size",
+    "https://pro.arcgis.com/en/pro-app/3.4/help/mapping/properties/equal-earth.htm",
+    "https://www.esri.com/about/newsroom/arcuser/equal-earth/",
+    "https://www.green.earth/blog/true-size-map-africa",
+    "https://www.johndcook.com/blog/2018/08/10/equal-earth-projection/",
+    "https://www.khaleejtimes.com/world/africa-bigger-us-smaller-un-adopts-new-map-continents",
+    "https://www.un.org/osaa/es/node/899",
+    "https://www.worldatlas.com/articles/is-greenland-larger-than-africa.html"
+  ],
+  "chapters": [
+    "The illusion",
+    "Peeling an orange",
+    "A map for sailors",
+    "What it costs",
+    "The fixes",
+    "Choosing a map"
+  ]
+}

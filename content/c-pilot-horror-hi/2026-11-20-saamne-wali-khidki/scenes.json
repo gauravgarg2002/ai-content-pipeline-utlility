@@ -1,0 +1,225 @@
+{
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "scenes": [
+    {
+      "id": "s01",
+      "type": "atmosphere_loop",
+      "beatId": "b01",
+      "startMs": 0,
+      "endMs": 48531,
+      "props": {
+        "scene": "narrow_lane_night",
+        "camera": "slow_push_up_building",
+        "sfx": [
+          "distant_dog",
+          "wind"
+        ]
+      }
+    },
+    {
+      "id": "s02",
+      "type": "atmosphere_loop",
+      "beatId": "b02",
+      "startMs": 48531,
+      "endMs": 92517,
+      "props": {
+        "scene": "room_interior_fan",
+        "cut_to": "phone_clock_0210",
+        "end_with": "window_light_on",
+        "sfx": [
+          "fan_click",
+          "switch_click"
+        ]
+      }
+    },
+    {
+      "id": "s03",
+      "type": "atmosphere_loop",
+      "beatId": "b03",
+      "startMs": 92517,
+      "endMs": 139230,
+      "props": {
+        "scene": "opposite_window_silhouette_combing",
+        "loop_seconds": 8,
+        "camera": "static_slow_breathing_zoom",
+        "sfx": [
+          "comb_strokes_soft"
+        ]
+      }
+    },
+    {
+      "id": "s04",
+      "type": "atmosphere_loop",
+      "beatId": "b04",
+      "startMs": 139230,
+      "endMs": 180943,
+      "props": {
+        "scene": "morning_shop_shutter",
+        "palette": "desaturated_day",
+        "sfx": [
+          "shutter_rattle",
+          "street_morning"
+        ]
+      }
+    },
+    {
+      "id": "s05",
+      "type": "atmosphere_loop",
+      "beatId": "b05",
+      "startMs": 180943,
+      "endMs": 223565,
+      "props": {
+        "scene": "opposite_window_silhouette_wave",
+        "camera": "slow_push_in",
+        "sfx": [
+          "clock_tick",
+          "silence_drop"
+        ]
+      }
+    },
+    {
+      "id": "s06",
+      "type": "atmosphere_loop",
+      "beatId": "b06",
+      "startMs": 223565,
+      "endMs": 275278,
+      "props": {
+        "scene": "room_chair_turned_to_window",
+        "then": "fogged_glass_inside",
+        "camera": "slow_pan",
+        "sfx": [
+          "chair_creak_low"
+        ]
+      }
+    },
+    {
+      "id": "s07",
+      "type": "atmosphere_loop",
+      "beatId": "b07",
+      "startMs": 275278,
+      "endMs": 336991,
+      "props": {
+        "scene": "tea_stall_dusk",
+        "camera": "slow_push_on_kettle",
+        "sfx": [
+          "kettle_boil",
+          "street_dusk",
+          "silence_drop"
+        ]
+      }
+    },
+    {
+      "id": "s08",
+      "type": "atmosphere_loop",
+      "beatId": "b08",
+      "startMs": 336991,
+      "endMs": 373704,
+      "props": {
+        "scene": "opposite_window_figure_pointing",
+        "cut": "whip_turn_empty_room",
+        "end": "opposite_window_dark",
+        "sfx": [
+          "heartbeat_slow",
+          "whoosh_turn"
+        ]
+      }
+    },
+    {
+      "id": "s09",
+      "type": "atmosphere_loop",
+      "beatId": "b09",
+      "startMs": 373704,
+      "endMs": 410872,
+      "props": {
+        "scene": "abandoned_stairwell_torch",
+        "camera": "handheld_climb",
+        "sfx": [
+          "footsteps_dust",
+          "creak_stairs"
+        ]
+      }
+    },
+    {
+      "id": "s10",
+      "type": "atmosphere_loop",
+      "beatId": "b10",
+      "startMs": 410872,
+      "endMs": 448949,
+      "props": {
+        "scene": "empty_dusty_room",
+        "insert": "single_trail_footprints",
+        "camera": "slow_reveal",
+        "sfx": [
+          "room_tone_hollow"
+        ]
+      }
+    },
+    {
+      "id": "s11",
+      "type": "atmosphere_loop",
+      "beatId": "b11",
+      "startMs": 448949,
+      "endMs": 480208,
+      "props": {
+        "scene": "pov_through_dusty_glass_to_own_room",
+        "reveal": "silhouette_on_own_bed",
+        "camera": "hand_wipe_reveal",
+        "sfx": [
+          "glass_wipe",
+          "comb_strokes_soft",
+          "drone_rise"
+        ]
+      }
+    },
+    {
+      "id": "s12",
+      "type": "atmosphere_loop",
+      "beatId": "b12",
+      "startMs": 480208,
+      "endMs": 541467,
+      "props": {
+        "scene": "own_room_empty_bed",
+        "insert": "single_long_hair_on_pillow",
+        "camera": "static",
+        "sfx": [
+          "breath_fast_then_still"
+        ]
+      }
+    },
+    {
+      "id": "s13",
+      "type": "atmosphere_loop",
+      "beatId": "b13",
+      "startMs": 541467,
+      "endMs": 583180,
+      "props": {
+        "scene": "opposite_window_shows_narrator_with_figure_behind",
+        "beat": "finger_to_lips",
+        "end": "both_lights_off_hard_cut_black",
+        "sfx": [
+          "silence_drop",
+          "single_shh",
+          "dual_switch_click"
+        ]
+      }
+    },
+    {
+      "id": "s14",
+      "type": "atmosphere_loop",
+      "beatId": "b14",
+      "startMs": 583180,
+      "endMs": 624439,
+      "props": {
+        "scene": "narrow_lane_night",
+        "camera": "slow_pull_back_to_opposite_window",
+        "end_on_start_frame": true,
+        "sfx": [
+          "wind",
+          "distant_dog"
+        ]
+      }
+    }
+  ]
+}

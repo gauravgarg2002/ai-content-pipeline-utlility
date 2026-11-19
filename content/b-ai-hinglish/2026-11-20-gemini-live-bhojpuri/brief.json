@@ -1,0 +1,14 @@
+{
+  "id": "2026-11-20-gemini-live-bhojpuri",
+  "channel": "b-ai-hinglish",
+  "topic": "Gemini Live in 25+ Indian languages",
+  "angle": "Talk to AI in Bhojpuri, Maithili or Sanskrit",
+  "cluster": "launches",
+  "hookPattern": "contradiction",
+  "lengthBucket": "25-55s",
+  "format": "short",
+  "sources": [
+    "https://blog.google/intl/en-in/company-news/deepening-our-commitment-to-indias-ai-ambition/"
+  ],
+  "publishBy": "2027-01-31"
+}

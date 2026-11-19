@@ -1,0 +1,121 @@
+{
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "scenes": [
+    {
+      "id": "s01",
+      "type": "map_highlight",
+      "beatId": "b01",
+      "startMs": 0,
+      "endMs": 3811,
+      "props": {
+        "base": "world",
+        "highlight": [
+          "RUS"
+        ],
+        "then": "strike"
+      }
+    },
+    {
+      "id": "s02",
+      "type": "count_up",
+      "beatId": "b02",
+      "startMs": 3811,
+      "endMs": 7237,
+      "props": {
+        "items": [
+          [
+            "Russia",
+            11
+          ],
+          [
+            "USA",
+            11
+          ]
+        ]
+      }
+    },
+    {
+      "id": "s03",
+      "type": "count_up",
+      "beatId": "b03",
+      "startMs": 7237,
+      "endMs": 8740,
+      "props": {
+        "items": [
+          [
+            "France",
+            12
+          ]
+        ],
+        "accent": true
+      }
+    },
+    {
+      "id": "s04",
+      "type": "map_highlight",
+      "beatId": "b04",
+      "startMs": 8740,
+      "endMs": 14090,
+      "props": {
+        "base": "world",
+        "pins": [
+          "French Polynesia",
+          "Guadeloupe",
+          "Martinique",
+          "French Guiana",
+          "Saint Pierre and Miquelon",
+          "Reunion",
+          "Mayotte",
+          "Kerguelen",
+          "New Caledonia",
+          "Wallis and Futuna",
+          "Marquesas"
+        ]
+      }
+    },
+    {
+      "id": "s05",
+      "type": "camera_pan",
+      "beatId": "b05",
+      "startMs": 14090,
+      "endMs": 19055,
+      "props": {
+        "from": "French Polynesia",
+        "to": "Reunion",
+        "draw_route": true
+      }
+    },
+    {
+      "id": "s06",
+      "type": "map_highlight",
+      "beatId": "b06",
+      "startMs": 19055,
+      "endMs": 22481,
+      "props": {
+        "base": "world",
+        "highlight": [
+          "Adelie Land"
+        ]
+      }
+    },
+    {
+      "id": "s07",
+      "type": "split_clock",
+      "beatId": "b07",
+      "startMs": 22481,
+      "endMs": 26677,
+      "props": {
+        "left": [
+          "Paris",
+          "00:00"
+        ],
+        "right": [
+          "Tahiti",
+          "13:00"
+        ]
+      }
+    }
+  ]
+}

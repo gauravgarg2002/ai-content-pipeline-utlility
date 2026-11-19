@@ -1,0 +1,61 @@
+{
+  "hook": "Greenland looks as big as Africa. It's fourteen times smaller.",
+  "beats": [
+    {
+      "id": "b01",
+      "narration": "Greenland looks as big as Africa. It's fourteen times smaller.",
+      "onScreen": "14× SMALLER",
+      "claim": "Africa is about 14 times the size of Greenland.",
+      "sourceUrl": "https://allafrica.com/stories/202508180103.html"
+    },
+    {
+      "id": "b02",
+      "narration": "Greenland is about 2.17 million square kilometres. Africa is 30.37 million.",
+      "onScreen": "2.17M vs 30.37M KM²",
+      "claim": "Greenland is 2.166 million km²; Africa is 30.37 million km².",
+      "sourceUrl": "https://allafrica.com/stories/202508180103.html"
+    },
+    {
+      "id": "b03",
+      "narration": "Africa could hold the USA, China and India, with room to spare.",
+      "onScreen": "USA + CHINA + INDIA",
+      "claim": "US 9.867M + China 9.597M + India 3.287M = 22.75M km², less than Africa's 30.37M km².",
+      "sourceUrl": "https://allafrica.com/stories/202508180103.html"
+    },
+    {
+      "id": "b04",
+      "narration": "The culprit is the Mercator map, made in 1569 for sailors.",
+      "onScreen": "MERCATOR, 1569",
+      "claim": "The Mercator projection was introduced by Gerardus Mercator in 1569.",
+      "sourceUrl": "https://origin-exchange.autodesk.com/greenland-actual-size"
+    },
+    {
+      "id": "b05",
+      "narration": "It keeps compass directions as straight lines. The price: everything near the poles gets stretched.",
+      "onScreen": "STRAIGHT BEARINGS · STRETCHED POLES",
+      "claim": "On the Mercator projection, lines of constant bearing are straight lines, but area is distorted.",
+      "sourceUrl": "https://www.johndcook.com/blog/2018/08/10/equal-earth-projection/"
+    },
+    {
+      "id": "b06",
+      "narration": "Africa sits on the equator, so it barely stretches. Greenland sits near the pole, so it balloons.",
+      "onScreen": null,
+      "claim": "Because Africa straddles the equator its Mercator size stays nearly true, while areas far from the equator are enlarged.",
+      "sourceUrl": "https://www.green.earth/blog/true-size-map-africa"
+    },
+    {
+      "id": "b07",
+      "narration": "Slide Greenland down to the equator, and watch it shrink.",
+      "onScreen": null
+    }
+  ],
+  "title": "Greenland looks as big as Africa. It's 14 times smaller.",
+  "description": "Why the map on your classroom wall makes Greenland look huge.",
+  "tags": [
+    "maps",
+    "Mercator",
+    "Africa",
+    "Greenland",
+    "shorts"
+  ]
+}

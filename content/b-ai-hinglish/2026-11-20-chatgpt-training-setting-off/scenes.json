@@ -1,0 +1,91 @@
+{
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "scenes": [
+    {
+      "id": "s01",
+      "type": "kinetic_text",
+      "beatId": "b01",
+      "startMs": 0,
+      "endMs": 5350,
+      "props": {
+        "text": "YOUR CHATS → AI",
+        "glitch": true
+      }
+    },
+    {
+      "id": "s02",
+      "type": "toggle_anim",
+      "beatId": "b02",
+      "startMs": 5350,
+      "endMs": 9546,
+      "props": {
+        "label": "Improve the model for everyone",
+        "state": "on"
+      }
+    },
+    {
+      "id": "s03",
+      "type": "flow_arrow",
+      "beatId": "b03",
+      "startMs": 9546,
+      "endMs": 14896,
+      "props": {
+        "from": "chat bubble",
+        "to": "model"
+      }
+    },
+    {
+      "id": "s04",
+      "type": "annotated_screenshot",
+      "beatId": "b04",
+      "startMs": 14896,
+      "endMs": 18707,
+      "props": {
+        "capture": "chatgpt.com/#settings/DataControls",
+        "path_steps": [
+          "Settings",
+          "Data Controls"
+        ]
+      }
+    },
+    {
+      "id": "s05",
+      "type": "toggle_anim",
+      "beatId": "b05",
+      "startMs": 18707,
+      "endMs": 22903,
+      "props": {
+        "label": "Improve the model for everyone",
+        "state": "off"
+      }
+    },
+    {
+      "id": "s06",
+      "type": "grid_reveal",
+      "beatId": "b06",
+      "startMs": 22903,
+      "endMs": 29406,
+      "props": {
+        "cells": [
+          "Office code",
+          "Documents",
+          "Personal"
+        ]
+      }
+    },
+    {
+      "id": "s07",
+      "type": "toggle_anim",
+      "beatId": "b07",
+      "startMs": 29406,
+      "endMs": 33217,
+      "props": {
+        "label": "Improve the model for everyone",
+        "state": "off",
+        "end_on_start_frame": true
+      }
+    }
+  ]
+}

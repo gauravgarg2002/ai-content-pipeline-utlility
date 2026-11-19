@@ -1,0 +1,47 @@
+{
+  "checkedOn": "2026-11-20",
+  "checkedBy": "Claude (manual fact gate, week 1)",
+  "beats": [
+    {
+      "id": "b01",
+      "verdict": "supported",
+      "evidence": "Africa is about 14 times the size of Greenland.",
+      "source": "https://allafrica.com/stories/202508180103.html"
+    },
+    {
+      "id": "b02",
+      "verdict": "supported",
+      "evidence": "Greenland is 2.166 million km²; Africa is 30.37 million km².",
+      "source": "https://allafrica.com/stories/202508180103.html"
+    },
+    {
+      "id": "b03",
+      "verdict": "supported",
+      "evidence": "US 9.867M + China 9.597M + India 3.287M = 22.75M km², less than Africa's 30.37M km². [computed from the cited figures]",
+      "source": "https://allafrica.com/stories/202508180103.html"
+    },
+    {
+      "id": "b04",
+      "verdict": "supported",
+      "evidence": "The Mercator projection was introduced by Gerardus Mercator in 1569.",
+      "source": "https://origin-exchange.autodesk.com/greenland-actual-size"
+    },
+    {
+      "id": "b05",
+      "verdict": "supported",
+      "evidence": "On the Mercator projection, lines of constant bearing are straight lines, but area is distorted.",
+      "source": "https://www.johndcook.com/blog/2018/08/10/equal-earth-projection/"
+    },
+    {
+      "id": "b06",
+      "verdict": "supported",
+      "evidence": "Because Africa straddles the equator its Mercator size stays nearly true, while areas far from the equator are enlarged.",
+      "source": "https://www.green.earth/blog/true-size-map-africa"
+    },
+    {
+      "id": "b07",
+      "verdict": "no-claim",
+      "evidence": "Framing, opinion, instruction or story; no factual claim."
+    }
+  ]
+}

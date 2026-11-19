@@ -1,0 +1,47 @@
+{
+  "checkedOn": "2026-11-20",
+  "checkedBy": "Claude (manual fact gate, week 1)",
+  "beats": [
+    {
+      "id": "b01",
+      "verdict": "supported",
+      "evidence": "202,080 km at 20 km per day is about 27.7 years. [computed from the cited figures]",
+      "source": "https://geofactbook.com/fact/coastline/2024"
+    },
+    {
+      "id": "b02",
+      "verdict": "supported",
+      "evidence": "Canada's coastline is 202,080 km per the CIA World Factbook, the longest in the world.",
+      "source": "https://geofactbook.com/fact/coastline/2024"
+    },
+    {
+      "id": "b03",
+      "verdict": "supported",
+      "evidence": "Indonesia's coastline is 54,716 km (CIA); 202,080 / 54,716 = 3.7. [computed from the cited figures]",
+      "source": "https://makemechart-80k.pages.dev/length/longest-coastlines/"
+    },
+    {
+      "id": "b04",
+      "verdict": "supported",
+      "evidence": "The Canadian Arctic Archipelago consists of 36,563 islands.",
+      "source": "https://www.cia.gov/the-world-factbook/about/archives/2022/field/coastline"
+    },
+    {
+      "id": "b05",
+      "verdict": "supported",
+      "evidence": "The World Resources Institute gives Canada's coastline as 265,523 km.",
+      "source": "https://www.discoverwildlife.com/environment/which-country-has-longest-coastline"
+    },
+    {
+      "id": "b06",
+      "verdict": "supported",
+      "evidence": "The coastline paradox explains why the World Factbook and WRI report different lengths for Canada.",
+      "source": "https://www.worldatlas.com/articles/the-coastline-of-canada-the-longest-in-the-world.html"
+    },
+    {
+      "id": "b07",
+      "verdict": "no-claim",
+      "evidence": "Framing, opinion, instruction or story; no factual claim."
+    }
+  ]
+}

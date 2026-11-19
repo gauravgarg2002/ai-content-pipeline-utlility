@@ -1,0 +1,14 @@
+{
+  "id": "2026-11-20-deepmind-free-56-hour-course",
+  "channel": "b-ai-hinglish",
+  "topic": "Google DeepMind's free AI Research Foundations course",
+  "angle": "A free, certificate-bearing course from DeepMind most people missed",
+  "cluster": "learn-ai-free",
+  "hookPattern": "number",
+  "lengthBucket": "25-55s",
+  "format": "short",
+  "sources": [
+    "https://blog.google/intl/en-in/company-news/deepening-our-commitment-to-indias-ai-ambition/"
+  ],
+  "publishBy": "2027-03-31"
+}

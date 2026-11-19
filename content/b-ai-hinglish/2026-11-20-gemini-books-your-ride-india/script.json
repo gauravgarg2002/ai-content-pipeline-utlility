@@ -1,0 +1,59 @@
+{
+  "hook": "Ab Gemini aapke liye khud ride book karega.",
+  "beats": [
+    {
+      "id": "b01",
+      "narration": "Ab Gemini aapke liye khud ride book karega.",
+      "onScreen": "GEMINI → RIDE 🚕"
+    },
+    {
+      "id": "b02",
+      "narration": "November 2026 mein Google ne India mein Gemini ke multi-step tasks launch kiye.",
+      "onScreen": "INDIA · NOV 2026",
+      "claim": "Multi-step tasks became available in India, Japan and the UK in Google's November 2026 Pixel Drop.",
+      "sourceUrl": "https://gadgets.beebom.com/news/google-rolls-out-november-2026-pixel-drop"
+    },
+    {
+      "id": "b03",
+      "narration": "Aap bas bolo. Grocery order, ride booking, khaana order ya restaurant reservation, steps Gemini khud karta hai.",
+      "onScreen": "GROCERY · RIDE · FOOD · TABLE",
+      "claim": "Gemini can carry out multi-step requests such as ordering groceries, booking a ride, ordering takeout or making a restaurant reservation.",
+      "sourceUrl": "https://gadgets.beebom.com/news/google-rolls-out-november-2026-pixel-drop"
+    },
+    {
+      "id": "b04",
+      "narration": "Abhi ye Pixel 10, Motorola Signature 27 aur kuch Samsung Galaxy phones pe aa raha hai.",
+      "onScreen": "PIXEL 10 · MOTO SIG 27 · SAMSUNG*",
+      "claim": "Task automation supports Pixel 10, Motorola Signature 27 and select Samsung Galaxy models.",
+      "sourceUrl": "https://www.analyticsinsight.net/news/google-gemini-expands-in-india-7-new-ai-features-arrive-on-android"
+    },
+    {
+      "id": "b05",
+      "narration": "Android 17 wale select phones pe aap Gemini se storage clear karwa sakte ho, ya location permissions check karwa sakte ho.",
+      "onScreen": "\"STORAGE CLEAR KARO\"",
+      "claim": "Device Assistance on select Android 17+ devices handles tasks such as clearing storage and checking location permissions.",
+      "sourceUrl": "https://www.analyticsinsight.net/news/google-gemini-expands-in-india-7-new-ai-features-arrive-on-android"
+    },
+    {
+      "id": "b06",
+      "narration": "Dhyan rahe, kuch features ke liye age, language ya subscription ki shart hai.",
+      "onScreen": "*CONDITIONS APPLY",
+      "claim": "Some features require users to meet age, language and subscription requirements.",
+      "sourceUrl": "https://www.analyticsinsight.net/news/google-gemini-expands-in-india-7-new-ai-features-arrive-on-android"
+    },
+    {
+      "id": "b07",
+      "narration": "Chat se aage, ab AI aapke phone pe kaam karta hai. Aapke phone pe aaya kya?",
+      "onScreen": "AAPKE PHONE PE AAYA?"
+    }
+  ],
+  "title": "Ab Gemini aapke liye khud ride book karega",
+  "description": "Gemini multi-step tasks ab India mein: grocery, ride, food, reservation. Pixel 10, Motorola Signature 27 aur select Samsung phones. Nov 2026.",
+  "tags": [
+    "Gemini",
+    "Google",
+    "AI agent",
+    "Android",
+    "Hinglish"
+  ]
+}

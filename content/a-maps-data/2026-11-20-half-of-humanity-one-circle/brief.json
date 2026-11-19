@@ -1,0 +1,14 @@
+{
+  "id": "2026-11-20-half-of-humanity-one-circle",
+  "channel": "a-maps-data",
+  "topic": "The Valeriepieris circle",
+  "angle": "One small circle on the globe holds half of all people; Tokyo is outside it",
+  "cluster": "population",
+  "hookPattern": "visual-first",
+  "lengthBucket": "25-55s",
+  "format": "short",
+  "sources": [
+    "https://arxiv.org/pdf/2307.16728",
+    "https://www.tropicalhainan.com/the-valeriepieris-circle-a-geographical-phenomenon-that-contains-half-of-the-worlds-population/"
+  ]
+}

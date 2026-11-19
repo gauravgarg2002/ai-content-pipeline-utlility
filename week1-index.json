@@ -1,0 +1,210 @@
+[
+  {
+    "channel": "a-maps-data",
+    "id": "2026-11-20-france-most-time-zones",
+    "title": "The country with the most time zones isn't Russia",
+    "format": "short",
+    "seconds": 26.677,
+    "range": [
+      25,
+      55
+    ],
+    "hookWords": 9,
+    "beats": 7,
+    "claims": 5,
+    "words": 63,
+    "publishBy": null
+  },
+  {
+    "channel": "a-maps-data",
+    "id": "2026-11-20-canada-coastline-27-years",
+    "title": "Walking Canada's coastline would take 27 years",
+    "format": "short",
+    "seconds": 33.218,
+    "range": [
+      25,
+      55
+    ],
+    "hookWords": 10,
+    "beats": 7,
+    "claims": 6,
+    "words": 80,
+    "publishBy": null
+  },
+  {
+    "channel": "a-maps-data",
+    "id": "2026-11-20-half-of-humanity-one-circle",
+    "title": "Half of humanity lives inside this circle",
+    "format": "short",
+    "seconds": 32.831,
+    "range": [
+      25,
+      55
+    ],
+    "hookWords": 10,
+    "beats": 7,
+    "claims": 5,
+    "words": 79,
+    "publishBy": null
+  },
+  {
+    "channel": "a-maps-data",
+    "id": "2026-11-20-greenland-vs-africa-14x",
+    "title": "Greenland looks as big as Africa. It's 14 times smaller.",
+    "format": "short",
+    "seconds": 35.524,
+    "range": [
+      25,
+      55
+    ],
+    "hookWords": 6,
+    "beats": 7,
+    "claims": 6,
+    "words": 86,
+    "publishBy": null
+  },
+  {
+    "channel": "a-maps-data",
+    "id": "2026-11-20-alaska-easternmost-state",
+    "title": "The easternmost point of the USA is in Alaska",
+    "format": "short",
+    "seconds": 32.831,
+    "range": [
+      25,
+      55
+    ],
+    "hookWords": 10,
+    "beats": 7,
+    "claims": 6,
+    "words": 79,
+    "publishBy": null
+  },
+  {
+    "channel": "a-maps-data",
+    "id": "2026-11-20-why-every-map-is-wrong",
+    "title": "Why every world map you know is wrong",
+    "format": "long",
+    "seconds": 365.031,
+    "range": [
+      360,
+      540
+    ],
+    "hookWords": 14,
+    "beats": 32,
+    "claims": 24,
+    "words": 920,
+    "publishBy": null
+  },
+  {
+    "channel": "b-ai-hinglish",
+    "id": "2026-11-20-chatgpt-free-2026-catch",
+    "title": "ChatGPT free mein unlimited chat, par ek catch hai",
+    "format": "short",
+    "seconds": 42.831,
+    "range": [
+      25,
+      55
+    ],
+    "hookWords": 10,
+    "beats": 7,
+    "claims": 5,
+    "words": 105,
+    "publishBy": "2027-01-31"
+  },
+  {
+    "channel": "b-ai-hinglish",
+    "id": "2026-11-20-chatgpt-training-setting-off",
+    "title": "Aapki ChatGPT chats se AI seekh raha hai. Ye setting band karo",
+    "format": "short",
+    "seconds": 33.217,
+    "range": [
+      25,
+      55
+    ],
+    "hookWords": 8,
+    "beats": 7,
+    "claims": 4,
+    "words": 80,
+    "publishBy": "2027-02-28"
+  },
+  {
+    "channel": "b-ai-hinglish",
+    "id": "2026-11-20-gemini-books-your-ride-india",
+    "title": "Ab Gemini aapke liye khud ride book karega",
+    "format": "short",
+    "seconds": 42.446,
+    "range": [
+      25,
+      55
+    ],
+    "hookWords": 8,
+    "beats": 7,
+    "claims": 5,
+    "words": 104,
+    "publishBy": "2026-12-15"
+  },
+  {
+    "channel": "b-ai-hinglish",
+    "id": "2026-11-20-gemini-live-bhojpuri",
+    "title": "Gemini se ab Bhojpuri mein baat kar sakte ho",
+    "format": "short",
+    "seconds": 32.062,
+    "range": [
+      25,
+      55
+    ],
+    "hookWords": 9,
+    "beats": 7,
+    "claims": 3,
+    "words": 77,
+    "publishBy": "2027-01-31"
+  },
+  {
+    "channel": "b-ai-hinglish",
+    "id": "2026-11-20-deepmind-free-56-hour-course",
+    "title": "Google DeepMind ka 56 ghante ka AI course, bilkul free",
+    "format": "short",
+    "seconds": 31.293,
+    "range": [
+      25,
+      55
+    ],
+    "hookWords": 10,
+    "beats": 7,
+    "claims": 4,
+    "words": 75,
+    "publishBy": "2027-03-31"
+  },
+  {
+    "channel": "c-pilot-horror-hi",
+    "id": "2026-11-20-saamne-wali-khidki",
+    "title": "सामने वाली खिड़की | रात 2:10 का राज़ | हिंदी हॉरर कहानी",
+    "format": "long",
+    "seconds": 624.439,
+    "range": [
+      600,
+      900
+    ],
+    "hookWords": 15,
+    "beats": 14,
+    "claims": 0,
+    "words": 1363,
+    "publishBy": null
+  },
+  {
+    "channel": "c-pilot-epics-en",
+    "id": "2026-11-20-mahabharata-family-tree",
+    "title": "The Mahabharata Family Tree, Explained | Who Is Related to Whom",
+    "format": "long",
+    "seconds": 360.314,
+    "range": [
+      360,
+      600
+    ],
+    "hookWords": 10,
+    "beats": 24,
+    "claims": 22,
+    "words": 915,
+    "publishBy": null
+  }
+]

@@ -1,0 +1,103 @@
+{
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "scenes": [
+    {
+      "id": "s01",
+      "type": "map_highlight",
+      "beatId": "b01",
+      "startMs": 0,
+      "endMs": 4196,
+      "props": {
+        "base": "usa",
+        "highlight": [
+          "ME"
+        ],
+        "then": "strike"
+      }
+    },
+    {
+      "id": "s02",
+      "type": "camera_pan",
+      "beatId": "b02",
+      "startMs": 4196,
+      "endMs": 5699,
+      "props": {
+        "from": "Maine",
+        "to": "Aleutian Islands"
+      }
+    },
+    {
+      "id": "s03",
+      "type": "line_draw",
+      "beatId": "b03",
+      "startMs": 5699,
+      "endMs": 12202,
+      "props": {
+        "path": "aleutians",
+        "meridian": 180
+      }
+    },
+    {
+      "id": "s04",
+      "type": "map_pin",
+      "beatId": "b04",
+      "startMs": 12202,
+      "endMs": 19090,
+      "props": {
+        "name": "Semisopochnoi",
+        "coords": [
+          51.96,
+          179.77
+        ],
+        "label": "EAST"
+      }
+    },
+    {
+      "id": "s05",
+      "type": "map_pin",
+      "beatId": "b05",
+      "startMs": 19090,
+      "endMs": 23670,
+      "props": {
+        "name": "Amatignak",
+        "coords": [
+          51.27,
+          -179.15
+        ],
+        "label": "WEST"
+      }
+    },
+    {
+      "id": "s06",
+      "type": "map_measure",
+      "beatId": "b06",
+      "startMs": 23670,
+      "endMs": 27481,
+      "props": {
+        "a": "Amatignak",
+        "b": "Semisopochnoi",
+        "label": "71 mi"
+      }
+    },
+    {
+      "id": "s07",
+      "type": "map_highlight",
+      "beatId": "b07",
+      "startMs": 27481,
+      "endMs": 32831,
+      "props": {
+        "base": "usa",
+        "highlight": [
+          "AK"
+        ],
+        "badges": [
+          "N",
+          "W",
+          "E"
+        ]
+      }
+    }
+  ]
+}

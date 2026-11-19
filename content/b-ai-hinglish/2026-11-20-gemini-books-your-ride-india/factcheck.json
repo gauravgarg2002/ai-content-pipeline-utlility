@@ -1,0 +1,46 @@
+{
+  "checkedOn": "2026-11-20",
+  "checkedBy": "Claude (manual fact gate, week 1)",
+  "beats": [
+    {
+      "id": "b01",
+      "verdict": "no-claim",
+      "evidence": "Framing, opinion, instruction or story; no factual claim."
+    },
+    {
+      "id": "b02",
+      "verdict": "supported",
+      "evidence": "Multi-step tasks became available in India, Japan and the UK in Google's November 2026 Pixel Drop.",
+      "source": "https://gadgets.beebom.com/news/google-rolls-out-november-2026-pixel-drop"
+    },
+    {
+      "id": "b03",
+      "verdict": "supported",
+      "evidence": "Gemini can carry out multi-step requests such as ordering groceries, booking a ride, ordering takeout or making a restaurant reservation.",
+      "source": "https://gadgets.beebom.com/news/google-rolls-out-november-2026-pixel-drop"
+    },
+    {
+      "id": "b04",
+      "verdict": "supported",
+      "evidence": "Task automation supports Pixel 10, Motorola Signature 27 and select Samsung Galaxy models.",
+      "source": "https://www.analyticsinsight.net/news/google-gemini-expands-in-india-7-new-ai-features-arrive-on-android"
+    },
+    {
+      "id": "b05",
+      "verdict": "supported",
+      "evidence": "Device Assistance on select Android 17+ devices handles tasks such as clearing storage and checking location permissions.",
+      "source": "https://www.analyticsinsight.net/news/google-gemini-expands-in-india-7-new-ai-features-arrive-on-android"
+    },
+    {
+      "id": "b06",
+      "verdict": "supported",
+      "evidence": "Some features require users to meet age, language and subscription requirements.",
+      "source": "https://www.analyticsinsight.net/news/google-gemini-expands-in-india-7-new-ai-features-arrive-on-android"
+    },
+    {
+      "id": "b07",
+      "verdict": "no-claim",
+      "evidence": "Framing, opinion, instruction or story; no factual claim."
+    }
+  ]
+}
