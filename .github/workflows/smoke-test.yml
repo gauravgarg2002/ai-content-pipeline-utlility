@@ -28,9 +28,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
-        with: { python-version: "3.11", cache: pip }
+        with: { python-version: "3.11", cache: pip, cache-dependency-path: tools/smoke/requirements-kokoro.txt }
       - run: sudo apt-get update -qq && sudo apt-get install -y -qq espeak-ng
-      - run: pip install -q "kokoro>=0.9" soundfile numpy --extra-index-url https://download.pytorch.org/whl/cpu
+      - run: pip install -q -r tools/smoke/requirements-kokoro.txt
       - name: Generate samples
         env: { HF_TOKEN: "${{ secrets.HF_TOKEN }}" }
         run: python tools/smoke/tts_kokoro.py
@@ -45,8 +45,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
-        with: { python-version: "3.11", cache: pip }
-      - run: pip install -q chatterbox-tts --extra-index-url https://download.pytorch.org/whl/cpu
+        with: { python-version: "3.11", cache: pip, cache-dependency-path: tools/smoke/requirements-chatterbox.txt }
+      - run: pip install -q -r tools/smoke/requirements-chatterbox.txt
       - name: Generate sample
         env: { HF_TOKEN: "${{ secrets.HF_TOKEN }}" }
         run: python tools/smoke/tts_chatterbox.py
