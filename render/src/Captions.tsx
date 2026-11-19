@@ -21,7 +21,7 @@ export const Captions: React.FC<{words: Word[]}> = ({words}) => {
   const g = groups.find((x, i) => ms >= x[0].startMs - 60 && ms < (groups[i + 1]?.[0].startMs ?? x[x.length - 1].endMs + 400) - 60);
   if (!g) return null;
   return (
-    <div style={{position: 'absolute', top: 1300, left: 70, right: 150, display: 'flex', justifyContent: 'center'}}>
+    <div style={{position: 'absolute', top: 1440, left: 70, right: 150, display: 'flex', justifyContent: 'center'}}>
       <div style={{background: 'rgba(8,12,24,0.72)', borderRadius: 22, padding: '14px 26px',
         fontFamily: fonts.body, fontWeight: 800, fontSize: 70, lineHeight: 1.1, textAlign: 'center', color: C.text}}>
         {g.map((w, i) => (

@@ -17,8 +17,20 @@ const IDS: Record<string, number> = {
 export const land: any = topojson.feature(topo, topo.objects.land);
 const africa: any = topojson.merge(topo, geoms.filter((g) => AFRICA.has(Number(g.id)) || g.properties?.name === 'Somaliland'));
 
+// The USA split into its contiguous states and Alaska, so packing scenes can
+// place them separately (Hawaii, ~0.3% of the area, is left out of the drawing).
+function usaPart(part: 'USA (48 states)' | 'Alaska'): any {
+  const f: any = topojson.feature(topo, geoms.find((x) => Number(x.id) === 840));
+  const polys = (f.geometry.type === 'MultiPolygon' ? f.geometry.coordinates : [f.geometry.coordinates]).filter((poly: any) => {
+    const c = geoCentroid({type: 'Polygon', coordinates: poly} as any);
+    return part === 'Alaska' ? c[1] > 50 : c[1] > 24 && c[1] <= 50 && c[0] > -130;
+  });
+  return {type: 'Feature', properties: {name: part}, geometry: {type: 'MultiPolygon', coordinates: polys}};
+}
+
 export function shape(name: string): any {
   if (name === 'Africa') return africa;
+  if (name === 'USA (48 states)' || name === 'Alaska') return usaPart(name);
   const g = geoms.find((x) => Number(x.id) === IDS[name] || x.properties?.name === name);
   if (!g) throw new Error(`Unknown shape: ${name}`);
   return topojson.feature(topo, g);
@@ -30,7 +42,7 @@ const mercY = (lat: number) => Math.log(Math.tan(Math.PI / 4 + rad(lat) / 2));
 // A Mercator view framed on a lon/lat box, used by every "real map" scene so the
 // world never jumps between scenes.
 export type View = {lon0: number; lon1: number; latTop: number; top: number; width: number};
-export const ATLANTIC: View = {lon0: -78, lon1: 68, latTop: 83, top: 330, width: 1080};
+export const ATLANTIC: View = {lon0: -76, lon1: 56, latTop: 84, top: 300, width: 1080};
 
 export function mercatorFor(v: View, shiftLon = 0, rotate: [number, number] = [0, 0]): GeoProjection {
   const S = v.width / rad(v.lon1 - v.lon0);

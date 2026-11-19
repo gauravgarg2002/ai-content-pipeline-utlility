@@ -1,6 +1,6 @@
 import React from 'react';
 import {AbsoluteFill, Audio, interpolate, Sequence, spring, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
-import {C, fonts} from './theme';
+import {C, fonts, ColorCtx, buildColorMap} from './theme';
 import {SCENES, Fallback} from './scenes';
 import {Captions, Word} from './Captions';
 
@@ -29,6 +29,7 @@ const Camera: React.FC<{d: number; children: React.ReactNode; first: boolean}> =
 };
 
 export const Short: React.FC<ShortProps> = ({scenes, words, audio}) => (
+  <ColorCtx.Provider value={buildColorMap(scenes)}>
   <AbsoluteFill style={{background: `radial-gradient(ellipse at 50% 45%, ${C.bgGlow} 0%, ${C.bg} 70%)`}}>
     {scenes.map((sc, i) => {
       const Scene = SCENES[sc.type] || Fallback;
@@ -44,4 +45,5 @@ export const Short: React.FC<ShortProps> = ({scenes, words, audio}) => (
     <Captions words={words} />
     {audio ? <Audio src={staticFile(audio)} /> : null}
   </AbsoluteFill>
+  </ColorCtx.Provider>
 );

@@ -14,5 +14,23 @@ export const C = {
   muted: '#8E9AB8',
   accent: '#FFB547',   // the thing we are talking about
   second: '#3DD6C6',   // the thing we compare it with
+  third: '#9AA8FF',    // everything else named in the video
 };
 export const colorFor = (i: number) => (i === 0 ? C.accent : C.second);
+
+// One colour per named place for the whole video: first named = accent,
+// second = support, everything else = third.
+import React from 'react';
+export const ColorCtx = React.createContext<Record<string, string>>({});
+export function buildColorMap(scenes: {props: any}[]): Record<string, string> {
+  const order: string[] = [];
+  const add = (n: any) => { if (typeof n === 'string' && !order.includes(n)) order.push(n); };
+  for (const sc of scenes) {
+    const p = sc.props || {};
+    [...(p.shapes || []), ...(p.highlight || []), ...((p.bars || []).map((b: any) => b[0])), p.shape, p.land_on].forEach(add);
+  }
+  const map: Record<string, string> = {};
+  order.forEach((n, i) => { map[n] = i === 0 ? C.accent : i === 1 ? C.second : C.third; });
+  return map;
+}
+export const useColor = () => { const m = React.useContext(ColorCtx); return (n: string, i = 0) => m[n] || colorFor(i); };
