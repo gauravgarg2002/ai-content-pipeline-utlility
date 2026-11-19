@@ -35,20 +35,17 @@ jobs:
         env: { HF_TOKEN: "${{ secrets.HF_TOKEN }}" }
         run: python tools/smoke/tts_kokoro.py
       - uses: actions/upload-artifact@v4
-        with: { name: kokoro-samples, path: renders/smoke/, retention-days: 14 }
+        with: { name: kokoro-v2-samples, path: renders/smoke/, retention-days: 14 }
 
-  chatterbox:
+  gemini-tts:
     needs: keys
     runs-on: ubuntu-latest
-    timeout-minutes: 45
-    continue-on-error: true
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with: { python-version: "3.11", cache: pip, cache-dependency-path: tools/smoke/requirements-chatterbox.txt }
-      - run: pip install -q -r tools/smoke/requirements-chatterbox.txt
-      - name: Generate sample
-        env: { HF_TOKEN: "${{ secrets.HF_TOKEN }}" }
-        run: python tools/smoke/tts_chatterbox.py
+      - name: Generate samples
+        env: { GEMINI_API_KEY: "${{ secrets.GEMINI_API_KEY }}" }
+        run: python3 tools/smoke/tts_gemini.py
       - uses: actions/upload-artifact@v4
-        with: { name: chatterbox-sample, path: renders/smoke/, retention-days: 14 }
+        if: always()
+        with: { name: gemini-samples, path: renders/smoke/, retention-days: 14 }
