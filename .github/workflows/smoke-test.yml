@@ -4,6 +4,7 @@ on:
   workflow_dispatch:
   push:
     branches: ["phase1/**"]
+    paths: ["tools/smoke/**", ".github/workflows/smoke-test.yml"]
 concurrency: { group: smoke-test, cancel-in-progress: true }
 
 jobs:

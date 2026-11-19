@@ -1,0 +1,39 @@
+name: pilot-voice
+# Voices both slot C pilot episodes in full for Gaurav's listening test.
+on:
+  workflow_dispatch:
+  push:
+    branches: ["phase1/**"]
+    paths: ["tools/pilot/**", "config/voices.json", ".github/workflows/pilot-voice.yml"]
+concurrency: { group: pilot-voice, cancel-in-progress: true }
+
+jobs:
+  horror-gemini:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Voice beats
+        env: { GEMINI_API_KEY: "${{ secrets.GEMINI_API_KEY }}" }
+        run: python3 tools/pilot/voice_horror_gemini.py
+      - name: Mix
+        run: bash tools/pilot/mix.sh renders/pilot/horror renders/pilot/horror-pilot-charon.mp3
+      - uses: actions/upload-artifact@v4
+        with: { name: horror-pilot, path: "renders/pilot/horror-pilot-charon.mp3\nrenders/pilot/horror/timings.json", retention-days: 14 }
+
+  epics-kokoro:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11", cache: pip, cache-dependency-path: tools/smoke/requirements-kokoro.txt }
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq espeak-ng
+      - run: pip install -q -r tools/smoke/requirements-kokoro.txt
+      - name: Voice beats
+        env: { HF_TOKEN: "${{ secrets.HF_TOKEN }}" }
+        run: python tools/pilot/voice_epics_kokoro.py
+      - name: Mix
+        run: bash tools/pilot/mix.sh renders/pilot/epics renders/pilot/epics-pilot-michael.mp3
+      - uses: actions/upload-artifact@v4
+        with: { name: epics-pilot, path: "renders/pilot/epics-pilot-michael.mp3\nrenders/pilot/epics/timings.json", retention-days: 14 }
