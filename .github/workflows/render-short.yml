@@ -21,7 +21,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: "3.11", cache: pip, cache-dependency-path: tools/smoke/requirements-kokoro.txt }
-      - run: sudo apt-get update -qq && sudo apt-get install -y -qq espeak-ng
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq espeak-ng ffmpeg
       - run: pip install -q -r tools/smoke/requirements-kokoro.txt
       - name: Voice and timings
         env: { HF_TOKEN: "${{ secrets.HF_TOKEN }}" }
