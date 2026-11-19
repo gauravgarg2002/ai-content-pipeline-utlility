@@ -1,7 +1,7 @@
 """Spike: Gemini free-tier text-to-speech for the Hindi horror opening.
 Finds a TTS model from the live model list, so no model id is hard-coded.
 The key goes in a header, never the URL, so it can't leak into logs."""
-import base64, json, os, sys, time, urllib.request, urllib.error, wave
+import base64, json, os, re, sys, time, urllib.request, urllib.error, wave
 
 KEY = os.environ["GEMINI_API_KEY"]
 BASE = "https://generativelanguage.googleapis.com/v1beta"
@@ -37,12 +37,17 @@ for voice in VOICES:
         rows.append({"model": model, "voice": voice, "error": f"HTTP {e.code}: {e.read().decode()[:300]}"}); continue
     gen = time.time() - t
     part = res["candidates"][0]["content"]["parts"][0]["inlineData"]
-    pcm = base64.b64decode(part["data"])
-    rate = int(part.get("mimeType", "rate=24000").split("rate=")[-1].split(";")[0] or 24000)
+    data = base64.b64decode(part["data"])
+    mime = part.get("mimeType", "")
     out = f"renders/smoke/gemini_{voice}.wav"
-    with wave.open(out, "wb") as w:
-        w.setnchannels(1); w.setsampwidth(2); w.setframerate(rate); w.writeframes(pcm)
-    secs = len(pcm) / 2 / rate
+    if "wav" in mime or data[:4] == b"RIFF":  # already a WAV file
+        open(out, "wb").write(data)
+    else:  # raw 16-bit PCM, e.g. "audio/L16;codec=pcm;rate=24000"
+        m = re.search(r"rate=(\d+)", mime)
+        with wave.open(out, "wb") as w:
+            w.setnchannels(1); w.setsampwidth(2); w.setframerate(int(m.group(1)) if m else 24000); w.writeframes(data)
+    with wave.open(out) as w:
+        secs = w.getnframes() / w.getframerate()
     rows.append({"model": model, "voice": voice, "words": len(text.split()), "audio_s": round(secs, 1),
                  "words_per_s": round(len(text.split()) / secs, 2), "gen_s": round(gen, 1)})
     time.sleep(15)  # stay under free-tier per-minute limits
