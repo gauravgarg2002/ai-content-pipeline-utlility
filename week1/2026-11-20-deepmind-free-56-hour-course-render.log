@@ -1,0 +1,6 @@
+
+[31mError: concurrency is set higher than the amount of CPU cores available. Available CPU cores: 2, value set: 4[39m
+[31m    at Object.validateConcurrency (/home/runner/work/ai-content-pipeline-utlility/ai-content-pipeline-utlility/render/node_modules/@remotion/renderer/dist/validate-concurrency.js:24:23)[39m
+[31m    at renderVideoFlow (/home/runner/work/ai-content-pipeline-utlility/ai-content-pipeline-utlility/render/node_modules/@remotion/cli/dist/render-flows/render.js:69:32)[39m
+[31m    at render (/home/runner/work/ai-content-pipeline-utlility/ai-content-pipeline-utlility/render/node_modules/@remotion/cli/dist/render.js:177:40)[39m
+[31m    at cli (/home/runner/work/ai-content-pipeline-utlility/ai-content-pipeline-utlility/render/node_modules/@remotion/cli/dist/index.js:119:39)[39m
