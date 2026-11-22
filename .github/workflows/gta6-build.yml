@@ -22,6 +22,10 @@ jobs:
       CH: ${{ github.event.inputs.channel || 'hi' }}
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
     steps:
+      - name: Free disk space
+        run: |
+          sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc /opt/hostedtoolcache/CodeQL /usr/local/share/boost || true
+          df -h /
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: "3.12", cache: pip, cache-dependency-path: gta6/requirements.txt }
@@ -32,11 +36,24 @@ jobs:
           mkdir -p gta6/assets/fonts
           curl -fsSL -o /tmp/inter.zip https://github.com/rsms/inter/releases/download/v4.1/Inter-4.1.zip \
             && unzip -o -j -q /tmp/inter.zip "extras/ttf/Inter-Bold.ttf" -d gta6/assets/fonts || echo "Inter download failed; DejaVu fallback"
-      - name: Build
+      - name: Voice
         working-directory: gta6
-        run: |
-          set -o pipefail
-          python -m pipeline -c "$CH" build "$VIDEO" 2>&1 | tee build.log
+        run: set -o pipefail; python -m pipeline -c "$CH" voice "$VIDEO" 2>&1 | tee -a build.log
+      - name: Footage (official Rockstar media, 720p)
+        working-directory: gta6
+        run: set -o pipefail; python -m pipeline -c "$CH" source "$VIDEO" 2>&1 | tee -a build.log; df -h / | tee -a build.log
+      - name: Index scenes (Gemini vision)
+        working-directory: gta6
+        run: set -o pipefail; python -m pipeline -c "$CH" index "$VIDEO" 2>&1 | tee -a build.log
+      - name: Match footage to script
+        working-directory: gta6
+        run: set -o pipefail; python -m pipeline -c "$CH" match "$VIDEO" 2>&1 | tee -a build.log
+      - name: Render
+        working-directory: gta6
+        run: set -o pipefail; python -m pipeline -c "$CH" assemble "$VIDEO" 2>&1 | tee -a build.log
+      - name: Thumbnail and metadata
+        working-directory: gta6
+        run: set -o pipefail; python -m pipeline -c "$CH" thumbnail "$VIDEO" 2>&1 | tee -a build.log
       - name: Collect output
         if: always()
         run: |

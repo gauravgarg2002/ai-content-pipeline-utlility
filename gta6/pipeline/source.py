@@ -71,10 +71,25 @@ def stills_video(zip_url, n, secs):
     return out
 
 
+def transcode_url(url, path):
+    """Stream an official 4K master straight into a 720p working copy (the 4K file never
+    touches disk: the Extended Look master alone is 14 GB)."""
+    if path.exists() and path.stat().st_size > 0:
+        return path
+    path.parent.mkdir(parents=True, exist_ok=True)
+    tmp = path.with_suffix(".part.mp4")
+    log(f"Streaming + converting to 720p: {url}")
+    run(["ffmpeg", "-y", "-hide_banner", "-loglevel", "error", "-reconnect", "1", "-reconnect_streamed", "1",
+         "-reconnect_delay_max", "10", "-i", url, "-an", "-vf", "scale=-2:720,fps=30",
+         "-c:v", "libx264", "-preset", "veryfast", "-crf", "21", "-pix_fmt", "yuv420p", str(tmp)])
+    tmp.rename(path)
+    return path
+
+
 def official(vdir, cfg):
     picked = []
     for src in cfg["official_sources"]:
-        path = fetch(src["url"], CACHE / "sources" / f"{src['id']}.mp4")
+        path = transcode_url(src["url"], CACHE / "sources" / f"{src['id']}.mp4")
         picked.append({**src, "url": src.get("page", src["url"]), "download": src["url"],
                        "channel": "Rockstar Games", "path": str(path)})
     st = cfg.get("official_stills")
