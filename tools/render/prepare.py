@@ -76,7 +76,10 @@ def gemini_request(text):
                 part = json.load(r)["candidates"][0]["content"]["parts"][0]["inlineData"]
                 return base64.b64decode(part["data"]), part.get("mimeType", "")
         except urllib.error.HTTPError as e:
-            msg = e.read().decode()[:400]
+            msg = e.read().decode()[:800]
+            if e.code == 429 and ("PerDay" in msg or "free_tier_requests" in msg and "limit: 10," in msg):
+                print(f"::error::Gemini free-tier daily limit reached (10 TTS requests a day). Cached audio is kept; re-run after the reset.")
+                sys.exit(76)
             if e.code in (429, 500, 503) and attempt < 4:
                 print(f"HTTP {e.code}, waiting 70 s ({attempt + 1}/4)", flush=True); time.sleep(70); continue
             print(f"::error::Gemini TTS HTTP {e.code}. A 429 here means the free daily quota is used up; re-run later and cached chunks are reused.\n{msg}")

@@ -10,7 +10,7 @@
       "fps": 24,
       "ambience": true,
       "theme": "horror",
-      "chunk_words": 320
+      "chunk_words": 480
     },
     "backup": {
       "engine": "kokoro",

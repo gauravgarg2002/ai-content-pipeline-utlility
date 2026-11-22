@@ -63,7 +63,11 @@ jobs:
         env: { GEMINI_API_KEY: "${{ secrets.GEMINI_API_KEY }}" }
         run: |
           mkdir -p logs; set -o pipefail
-          for v in $GEMINI_VIDEOS; do python tools/render/prepare.py "$v" 2>&1 | tee -a logs/voice-gemini.log || echo "voice failed for $v" | tee -a logs/voice-gemini.log; done
+          for v in $GEMINI_VIDEOS; do
+            python tools/render/prepare.py "$v" 2>&1 | tee -a logs/voice-gemini.log; rc=${PIPESTATUS[0]}
+            if [ $rc -eq 76 ]; then echo "daily Gemini limit reached; stopping before $v" | tee -a logs/voice-gemini.log; break; fi
+            [ $rc -ne 0 ] && echo "voice failed for $v ($rc)" | tee -a logs/voice-gemini.log
+          done; true
       - name: Save voice cache
         if: always()
         uses: actions/cache/save@v4
@@ -122,7 +126,7 @@ jobs:
         working-directory: render
         run: |
           mkdir -p out; set -o pipefail
-          npx remotion render src/index.ts Short "out/$ID.mp4" --props="public/$ID/props.json" --crf=22 --concurrency=4 --timeout=120000 2>&1 | tail -c 20000 | tee "out/$ID-render.log"
+          npx remotion render src/index.ts Short "out/$ID.mp4" --props="public/$ID/props.json" --crf=22 --timeout=120000 2>&1 | tail -c 20000 | tee "out/$ID-render.log"
       - name: Contact sheet
         if: env.ok == '1' && hashFiles(format('render/out/{0}.mp4', env.ID)) != ''
         run: |
