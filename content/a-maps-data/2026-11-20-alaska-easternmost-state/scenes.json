@@ -5,97 +5,161 @@
   "scenes": [
     {
       "id": "s01",
-      "type": "map_highlight",
+      "type": "geo",
       "beatId": "b01",
       "startMs": 0,
       "endMs": 4196,
       "props": {
-        "base": "usa",
-        "highlight": [
-          "ME"
+        "view": "usa_alaska",
+        "fills": [
+          {
+            "name": "USA (48 states)",
+            "label": "USA"
+          },
+          {
+            "name": "Alaska"
+          }
         ],
-        "then": "strike"
+        "pins": [
+          {
+            "place": "Maine",
+            "label": "Maine?"
+          }
+        ]
       }
     },
     {
       "id": "s02",
-      "type": "camera_pan",
+      "type": "geo",
       "beatId": "b02",
       "startMs": 4196,
       "endMs": 5699,
       "props": {
-        "from": "Maine",
-        "to": "Aleutian Islands"
+        "view": {
+          "from": "usa",
+          "to": "alaska"
+        },
+        "fills": [
+          {
+            "name": "Alaska"
+          }
+        ]
       }
     },
     {
       "id": "s03",
-      "type": "line_draw",
+      "type": "geo",
       "beatId": "b03",
       "startMs": 5699,
       "endMs": 12202,
       "props": {
-        "path": "aleutians",
+        "view": "aleutians",
+        "fills": [
+          {
+            "name": "Alaska",
+            "label": false
+          }
+        ],
         "meridian": 180
       }
     },
     {
       "id": "s04",
-      "type": "map_pin",
+      "type": "geo",
       "beatId": "b04",
       "startMs": 12202,
       "endMs": 19090,
       "props": {
-        "name": "Semisopochnoi",
-        "coords": [
-          51.96,
-          179.77
+        "view": "aleutians",
+        "fills": [
+          {
+            "name": "Alaska",
+            "label": false
+          }
         ],
-        "label": "EAST"
+        "meridian": 180,
+        "pins": [
+          {
+            "place": "Semisopochnoi",
+            "label": "East"
+          }
+        ]
       }
     },
     {
       "id": "s05",
-      "type": "map_pin",
+      "type": "geo",
       "beatId": "b05",
       "startMs": 19090,
       "endMs": 23670,
       "props": {
-        "name": "Amatignak",
-        "coords": [
-          51.27,
-          -179.15
+        "view": "aleutians",
+        "fills": [
+          {
+            "name": "Alaska",
+            "label": false
+          }
         ],
-        "label": "WEST"
+        "meridian": 180,
+        "pins": [
+          {
+            "place": "Semisopochnoi",
+            "label": "East",
+            "at": 0
+          },
+          {
+            "place": "Amatignak",
+            "label": "West"
+          }
+        ]
       }
     },
     {
       "id": "s06",
-      "type": "map_measure",
+      "type": "geo",
       "beatId": "b06",
       "startMs": 23670,
       "endMs": 27481,
       "props": {
-        "a": "Amatignak",
-        "b": "Semisopochnoi",
-        "label": "71 mi"
+        "view": "aleutians",
+        "fills": [
+          {
+            "name": "Alaska",
+            "label": false
+          }
+        ],
+        "measure": {
+          "a": "Amatignak",
+          "b": "Semisopochnoi",
+          "label": "71 mi"
+        },
+        "pins": [
+          {
+            "place": "Semisopochnoi",
+            "label": "",
+            "at": 0
+          },
+          {
+            "place": "Amatignak",
+            "label": "",
+            "at": 0
+          }
+        ]
       }
     },
     {
       "id": "s07",
-      "type": "map_highlight",
+      "type": "geo",
       "beatId": "b07",
       "startMs": 27481,
       "endMs": 32831,
       "props": {
-        "base": "usa",
-        "highlight": [
-          "AK"
-        ],
-        "badges": [
-          "N",
-          "W",
-          "E"
+        "view": "usa_alaska",
+        "fills": [
+          {
+            "name": "Alaska",
+            "label": "Alaska: N · W · E"
+          }
         ]
       }
     }

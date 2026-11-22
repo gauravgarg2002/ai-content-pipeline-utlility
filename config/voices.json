@@ -1,12 +1,57 @@
 {
-  "_note": "Voice choices from the 20 Nov 2026 smoke tests. Gaurav picked Charon for horror; Kokoro hm_omega (sentence split) is the Hindi backup.",
+  "_note": "Voice choices from the 20 Nov 2026 tests. Charon picked for horror; Kokoro hm_omega (sentence split) is the Hindi backup. Channel B uses Gemini because Kokoro rushes Hindi.",
   "c-pilot-horror-hi": {
-    "primary": {"engine": "gemini", "model": "models/gemini-3.8-flash-tts", "voice": "Charon",
-                "style": "Read this Hindi horror story aloud like a skilled late-night storyteller. Use a quiet, eerie, suspenseful tone. Keep a slow but steady pace, not drawn out. Pause briefly at every full stop (।) and a little longer between paragraphs.",
-                "target_words_per_s": 1.6},
-    "backup": {"engine": "kokoro", "lang_code": "h", "voice": "hm_omega", "speed": 0.9, "sentence_pause_s": 0.25, "paragraph_pause_s": 0.6}
+    "primary": {
+      "engine": "gemini",
+      "model": "models/gemini-3.8-flash-tts",
+      "voice": "Charon",
+      "style": "Read this Hindi horror story aloud like a skilled late-night storyteller. Use a quiet, eerie, suspenseful tone. Keep a slow but steady pace, not drawn out. Pause briefly at every full stop (।) and a little longer between paragraphs.",
+      "target_words_per_s": 1.6,
+      "fps": 24,
+      "ambience": true,
+      "theme": "horror",
+      "chunk_words": 320
+    },
+    "backup": {
+      "engine": "kokoro",
+      "lang_code": "h",
+      "voice": "hm_omega",
+      "speed": 0.9,
+      "sentence_pause_s": 0.25,
+      "paragraph_pause_s": 0.6
+    }
   },
-  "c-pilot-epics-en": {"primary": {"engine": "kokoro", "lang_code": "a", "voice": "am_michael", "speed": 1.0, "sentence_pause_s": 0.0, "beat_pause_s": 0.5}},
-  "a-maps-data": {"primary": {"engine": "kokoro", "lang_code": "a", "voice": "af_heart", "speed": 1.0}},
-  "mix": {"beat_gap_s": 0.8, "loudness_lufs": -16, "true_peak_db": -1.5}
+  "c-pilot-epics-en": {
+    "primary": {
+      "engine": "kokoro",
+      "lang_code": "a",
+      "voice": "am_michael",
+      "speed": 1.0,
+      "sentence_pause_s": 0.0,
+      "beat_pause_s": 0.5,
+      "fps": 24
+    }
+  },
+  "a-maps-data": {
+    "primary": {
+      "engine": "kokoro",
+      "lang_code": "a",
+      "voice": "af_heart",
+      "speed": 1.0,
+      "fps": 30
+    }
+  },
+  "mix": {
+    "beat_gap_s": 0.8,
+    "loudness_lufs": -16,
+    "true_peak_db": -1.5
+  },
+  "b-ai-hinglish": {
+    "primary": {
+      "engine": "gemini",
+      "model": "models/gemini-3.8-flash-tts",
+      "voice": "Puck",
+      "style": "Read this Hinglish script (Hindi written in Roman letters, mixed with English tech words) like an energetic, friendly Indian tech creator on Instagram Reels. Pronounce Hindi words the Hindi way and English product names in English. Brisk, clear, upbeat pace with short natural pauses between sentences."
+    }
+  }
 }

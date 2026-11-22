@@ -4,3 +4,4 @@ __pycache__/
 renders/
 *.wav
 *.mp4
+.voice-cache/

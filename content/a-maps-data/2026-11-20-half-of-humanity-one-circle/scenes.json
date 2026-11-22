@@ -5,93 +5,215 @@
   "scenes": [
     {
       "id": "s01",
-      "type": "globe_circle",
+      "type": "geo",
       "beatId": "b01",
       "startMs": 0,
       "endMs": 4196,
       "props": {
+        "projection": "ortho",
         "center": [
-          21.65,
-          99.63
+          99.63,
+          21.65
         ],
-        "radius_km": 3300,
-        "draw_on": true
+        "circles": [
+          {
+            "center": [
+              99.63,
+              21.65
+            ],
+            "radiusKm": 3300,
+            "at": 0
+          }
+        ]
       }
     },
     {
       "id": "s02",
-      "type": "globe_circle",
+      "type": "geo",
       "beatId": "b02",
       "startMs": 4196,
       "endMs": 10315,
       "props": {
+        "projection": "ortho",
         "center": [
-          21.65,
-          99.63
+          99.63,
+          21.65
         ],
-        "radius_km": 3300,
-        "label_radius": true
+        "circles": [
+          {
+            "center": [
+              99.63,
+              21.65
+            ],
+            "radiusKm": 3300,
+            "at": 0
+          }
+        ],
+        "pins": [
+          {
+            "coords": [
+              99.63,
+              21.65
+            ],
+            "label": "Centre"
+          }
+        ]
       }
     },
     {
       "id": "s03",
-      "type": "globe_circle",
+      "type": "geo",
       "beatId": "b03",
       "startMs": 10315,
       "endMs": 14895,
       "props": {
-        "shrink_from_radius_km": 6000,
-        "to_radius_km": 3300
+        "projection": "ortho",
+        "center": [
+          99.63,
+          21.65
+        ],
+        "circles": [
+          {
+            "center": [
+              99.63,
+              21.65
+            ],
+            "radiusKm": 3300,
+            "at": 0.05
+          }
+        ]
       }
     },
     {
       "id": "s04",
-      "type": "city_pins",
+      "type": "geo",
       "beatId": "b04",
       "startMs": 14895,
       "endMs": 18706,
       "props": {
-        "inside": [
-          "Delhi",
-          "Mumbai",
-          "Beijing",
-          "Manila",
-          "Jakarta"
+        "projection": "ortho",
+        "center": [
+          99.63,
+          21.65
+        ],
+        "circles": [
+          {
+            "center": [
+              99.63,
+              21.65
+            ],
+            "radiusKm": 3300,
+            "at": 0
+          }
+        ],
+        "pins": [
+          {
+            "place": "Delhi"
+          },
+          {
+            "place": "Mumbai"
+          },
+          {
+            "place": "Beijing"
+          },
+          {
+            "place": "Manila"
+          },
+          {
+            "place": "Jakarta"
+          }
         ]
       }
     },
     {
       "id": "s05",
-      "type": "city_pins",
+      "type": "geo",
       "beatId": "b05",
       "startMs": 18706,
       "endMs": 20209,
       "props": {
-        "outside": [
-          "Tokyo"
+        "projection": "ortho",
+        "center": [
+          112,
+          25
         ],
-        "distance_label": "4,173 km"
+        "circles": [
+          {
+            "center": [
+              99.63,
+              21.65
+            ],
+            "radiusKm": 3300,
+            "at": 0
+          }
+        ],
+        "pins": [
+          {
+            "place": "Tokyo",
+            "color": "#FF5A5F"
+          }
+        ]
       }
     },
     {
       "id": "s06",
-      "type": "density_heat",
+      "type": "geo",
       "beatId": "b06",
       "startMs": 20209,
       "endMs": 26328,
       "props": {
-        "region": "south_east_asia"
+        "projection": "ortho",
+        "center": [
+          99.63,
+          21.65
+        ],
+        "circles": [
+          {
+            "center": [
+              99.63,
+              21.65
+            ],
+            "radiusKm": 3300,
+            "at": 0
+          }
+        ],
+        "heat": [
+          "India",
+          "China",
+          "Bangladesh",
+          "Pakistan",
+          "Indonesia",
+          "Vietnam",
+          "Philippines",
+          "Myanmar",
+          "Thailand",
+          "Nepal"
+        ]
       }
     },
     {
       "id": "s07",
-      "type": "globe_circle",
+      "type": "geo",
       "beatId": "b07",
       "startMs": 26328,
       "endMs": 32831,
       "props": {
+        "projection": "ortho",
+        "center": [
+          60,
+          15
+        ],
         "spin": true,
-        "end_on_start_frame": true
+        "circles": [
+          {
+            "center": [
+              99.63,
+              21.65
+            ],
+            "radiusKm": 3300,
+            "at": 0
+          }
+        ]
       }
     }
   ]

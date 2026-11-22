@@ -5,21 +5,21 @@
   "scenes": [
     {
       "id": "s01",
-      "type": "comparison_split",
+      "type": "geo",
       "beatId": "b01",
       "startMs": 0,
       "endMs": 4196,
       "props": {
-        "projection": "mercator",
-        "shapes": [
+        "fills": [
           "Greenland",
           "Africa"
-        ]
+        ],
+        "view": "atlantic"
       }
     },
     {
       "id": "s02",
-      "type": "bar_compare",
+      "type": "bars",
       "beatId": "b02",
       "startMs": 4196,
       "endMs": 8776,
@@ -39,7 +39,7 @@
     },
     {
       "id": "s03",
-      "type": "shape_pack",
+      "type": "pack",
       "beatId": "b03",
       "startMs": 8776,
       "endMs": 13741,
@@ -49,55 +49,70 @@
           "USA",
           "China",
           "India"
-        ],
-        "projection": "equal_area"
-      }
-    },
-    {
-      "id": "s04",
-      "type": "kinetic_text",
-      "beatId": "b04",
-      "startMs": 13741,
-      "endMs": 18321,
-      "props": {
-        "text": "MERCATOR · 1569",
-        "with": "ship_icon"
-      }
-    },
-    {
-      "id": "s05",
-      "type": "grid_stretch",
-      "beatId": "b05",
-      "startMs": 18321,
-      "endMs": 24440,
-      "props": {
-        "show_tissot": true
-      }
-    },
-    {
-      "id": "s06",
-      "type": "grid_stretch",
-      "beatId": "b06",
-      "startMs": 24440,
-      "endMs": 31328,
-      "props": {
-        "highlight": [
-          "Africa",
-          "Greenland"
         ]
       }
     },
     {
+      "id": "s04",
+      "type": "kinetic",
+      "beatId": "b04",
+      "startMs": 13741,
+      "endMs": 18321,
+      "props": {
+        "text": "MERCATOR · 1569"
+      }
+    },
+    {
+      "id": "s05",
+      "type": "geo",
+      "beatId": "b05",
+      "startMs": 18321,
+      "endMs": 24440,
+      "props": {
+        "view": "atlantic",
+        "tissot": {
+          "lats": [
+            0,
+            25,
+            45,
+            60,
+            70
+          ]
+        }
+      }
+    },
+    {
+      "id": "s06",
+      "type": "geo",
+      "beatId": "b06",
+      "startMs": 24440,
+      "endMs": 31328,
+      "props": {
+        "view": "atlantic",
+        "fills": [
+          "Greenland",
+          "Africa"
+        ],
+        "tissot": {
+          "lats": [
+            0,
+            25,
+            45,
+            60,
+            70
+          ]
+        }
+      }
+    },
+    {
       "id": "s07",
-      "type": "drag_shape",
+      "type": "drag",
       "beatId": "b07",
       "startMs": 31328,
       "endMs": 35524,
       "props": {
         "shape": "Greenland",
-        "from_lat": 72,
         "to_lat": 0,
-        "projection": "mercator",
         "land_on": "Africa"
       }
     }

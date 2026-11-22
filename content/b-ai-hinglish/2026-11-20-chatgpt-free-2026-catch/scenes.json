@@ -5,50 +5,52 @@
   "scenes": [
     {
       "id": "s01",
-      "type": "kinetic_text",
+      "type": "kinetic",
       "beatId": "b01",
       "startMs": 0,
       "endMs": 4196,
       "props": {
-        "text": "UNLIMITED*",
-        "asterisk_reveal": true
+        "text": "UNLIMITED*"
       }
     },
     {
       "id": "s02",
-      "type": "annotated_screenshot",
+      "type": "ui",
       "beatId": "b02",
       "startMs": 4196,
       "endMs": 9930,
       "props": {
-        "capture": "chatgpt.com",
+        "kind": "chat",
+        "app": "ChatGPT",
         "highlight": "composer"
       }
     },
     {
       "id": "s03",
-      "type": "kinetic_text",
+      "type": "kinetic",
       "beatId": "b03",
       "startMs": 9930,
       "endMs": 15664,
       "props": {
-        "text": "GPT-5.6 LUNA"
+        "text": "GPT-5.6 · LUNA"
       }
     },
     {
       "id": "s04",
-      "type": "annotated_screenshot",
+      "type": "ui",
       "beatId": "b04",
       "startMs": 15664,
       "endMs": 21398,
       "props": {
-        "capture": "chatgpt.com",
-        "highlight": "think_button"
+        "kind": "chat",
+        "app": "ChatGPT",
+        "highlight": "think_button",
+        "prompt": "Ye problem step by step samjhao"
       }
     },
     {
       "id": "s05",
-      "type": "grid_reveal",
+      "type": "cards",
       "beatId": "b05",
       "startMs": 21398,
       "endMs": 29824,
@@ -64,25 +66,33 @@
     },
     {
       "id": "s06",
-      "type": "annotated_screenshot",
+      "type": "ui",
       "beatId": "b06",
       "startMs": 29824,
       "endMs": 35174,
       "props": {
-        "capture": "chatgpt.com",
-        "highlight": "sponsored_section",
-        "mock_if_unavailable": true
+        "kind": "chat",
+        "app": "ChatGPT",
+        "highlight": "sponsored_section"
       }
     },
     {
       "id": "s07",
-      "type": "kinetic_text",
+      "type": "cards",
       "beatId": "b07",
       "startMs": 35174,
       "endMs": 42831,
       "props": {
-        "text": "FREE = TEXT ✅",
-        "end_on_start_frame": true
+        "cells": [
+          [
+            "Daily text",
+            "Free is enough"
+          ],
+          [
+            "Heavy images & files",
+            "Then think paid"
+          ]
+        ]
       }
     }
   ]

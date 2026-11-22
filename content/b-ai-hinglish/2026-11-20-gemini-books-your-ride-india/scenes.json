@@ -5,36 +5,37 @@
   "scenes": [
     {
       "id": "s01",
-      "type": "phone_mock",
+      "type": "ui",
       "beatId": "b01",
       "startMs": 0,
       "endMs": 3426,
       "props": {
+        "kind": "phone",
         "sequence": [
-          "voice prompt",
-          "app opens",
-          "booking confirmed"
+          "Voice prompt",
+          "App opens",
+          "Ride booked"
         ]
       }
     },
     {
       "id": "s02",
-      "type": "map_highlight",
+      "type": "geo",
       "beatId": "b02",
       "startMs": 3426,
       "endMs": 8776,
       "props": {
-        "base": "world",
-        "highlight": [
-          "IND",
-          "JPN",
-          "GBR"
+        "view": "world",
+        "fills": [
+          "India",
+          "Japan",
+          "United Kingdom"
         ]
       }
     },
     {
       "id": "s03",
-      "type": "grid_reveal",
+      "type": "cards",
       "beatId": "b03",
       "startMs": 8776,
       "endMs": 15664,
@@ -49,11 +50,12 @@
     },
     {
       "id": "s04",
-      "type": "phone_lineup",
+      "type": "ui",
       "beatId": "b04",
       "startMs": 15664,
       "endMs": 22167,
       "props": {
+        "kind": "devices",
         "devices": [
           "Pixel 10",
           "Motorola Signature 27",
@@ -63,38 +65,44 @@
     },
     {
       "id": "s05",
-      "type": "phone_mock",
+      "type": "ui",
       "beatId": "b05",
       "startMs": 22167,
       "endMs": 30593,
       "props": {
+        "kind": "phone",
         "sequence": [
-          "voice prompt: clear storage",
-          "settings result"
+          "Voice prompt: storage clear karo",
+          "Settings result"
         ]
       }
     },
     {
       "id": "s06",
-      "type": "kinetic_text",
+      "type": "cards",
       "beatId": "b06",
       "startMs": 30593,
       "endMs": 35943,
       "props": {
-        "text": "AGE · LANGUAGE · SUBSCRIPTION"
+        "cells": [
+          "Age",
+          "Language",
+          "Subscription"
+        ],
+        "stamp": "CONDITIONS APPLY"
       }
     },
     {
       "id": "s07",
-      "type": "phone_mock",
+      "type": "ui",
       "beatId": "b07",
       "startMs": 35943,
       "endMs": 42446,
       "props": {
+        "kind": "phone",
         "sequence": [
-          "booking confirmed"
-        ],
-        "end_on_start_frame": true
+          "Ride booked"
+        ]
       }
     }
   ]

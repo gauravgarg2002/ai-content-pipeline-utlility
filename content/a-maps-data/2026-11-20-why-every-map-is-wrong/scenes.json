@@ -5,38 +5,41 @@
   "scenes": [
     {
       "id": "s01",
-      "type": "count_up",
+      "type": "number",
       "beatId": "b01",
       "startMs": 0,
       "endMs": 7657,
       "props": {
         "items": [
           [
-            "UN votes in favour",
+            "countries voted for 'Correct the Map'",
             164
           ]
-        ],
-        "then": "map_flash_mercator"
+        ]
       }
     },
     {
       "id": "s02",
-      "type": "comparison_split",
+      "type": "geo",
       "beatId": "b02",
       "startMs": 7657,
       "endMs": 17622,
       "props": {
-        "projection": "mercator",
-        "shapes": [
+        "view": [
+          -85,
+          -40,
+          75,
+          84
+        ],
+        "fills": [
           "Greenland",
           "Africa"
-        ],
-        "chapter": "The illusion"
+        ]
       }
     },
     {
       "id": "s03",
-      "type": "bar_compare",
+      "type": "bars",
       "beatId": "b03",
       "startMs": 17622,
       "endMs": 30279,
@@ -56,12 +59,11 @@
     },
     {
       "id": "s04",
-      "type": "comparison_split",
+      "type": "truesize",
       "beatId": "b04",
       "startMs": 30279,
       "endMs": 39859,
       "props": {
-        "projection": "equal_area",
         "shapes": [
           "Greenland",
           "DR Congo"
@@ -70,17 +72,26 @@
     },
     {
       "id": "s05",
-      "type": "orange_peel",
+      "type": "geo",
       "beatId": "b05",
       "startMs": 39859,
       "endMs": 54824,
       "props": {
-        "chapter": "Peeling an orange"
+        "projection": "ortho",
+        "center": [
+          10,
+          20
+        ],
+        "morph": {
+          "from": "ortho",
+          "to": "mercator"
+        },
+        "view": "world"
       }
     },
     {
       "id": "s06",
-      "type": "grid_reveal",
+      "type": "cards",
       "beatId": "b06",
       "startMs": 54824,
       "endMs": 67866,
@@ -106,91 +117,153 @@
             1569,
             "Mercator's world map"
           ]
-        ],
-        "chapter": "A map for sailors"
+        ]
       }
     },
     {
       "id": "s08",
-      "type": "rhumb_line",
+      "type": "geo",
       "beatId": "b08",
       "startMs": 74369,
       "endMs": 88180,
       "props": {
-        "from": "Lisbon",
-        "to": "Salvador",
-        "show_compass": true
+        "view": [
+          -60,
+          -25,
+          15,
+          50
+        ],
+        "pins": [
+          {
+            "place": "Lisbon"
+          },
+          {
+            "place": "Salvador"
+          }
+        ],
+        "lines": [
+          {
+            "places": [
+              "Lisbon",
+              "Salvador"
+            ],
+            "straight": true,
+            "at": 0.15
+          }
+        ]
       }
     },
     {
       "id": "s09",
-      "type": "kinetic_text",
+      "type": "kinetic",
       "beatId": "b09",
       "startMs": 88180,
       "endMs": 94683,
       "props": {
-        "text": "THE COST: AREA",
-        "chapter": "What it costs"
+        "text": "THE COST: AREA"
       }
     },
     {
       "id": "s10",
-      "type": "grid_stretch",
+      "type": "geo",
       "beatId": "b10",
       "startMs": 94683,
       "endMs": 108879,
       "props": {
-        "show_tissot": true,
-        "latitudes": [
-          0,
-          30,
-          60,
-          75
-        ]
+        "view": "world",
+        "tissot": {
+          "lats": [
+            0,
+            30,
+            60,
+            75
+          ],
+          "lons": [
+            -120,
+            -60,
+            0,
+            60,
+            120
+          ]
+        }
       }
     },
     {
       "id": "s11",
-      "type": "line_draw",
+      "type": "geo",
       "beatId": "b11",
       "startMs": 108879,
       "endMs": 120767,
       "props": {
-        "chart": "area_inflation_vs_latitude",
-        "mark": [
-          72,
-          10.5
-        ]
+        "view": [
+          -85,
+          -40,
+          75,
+          84
+        ],
+        "fills": [
+          "Greenland"
+        ],
+        "tissot": {
+          "lats": [
+            0,
+            72
+          ],
+          "lons": [
+            -40,
+            20
+          ],
+          "radius": 5
+        }
       }
     },
     {
       "id": "s12",
-      "type": "line_draw",
+      "type": "geo",
       "beatId": "b12",
       "startMs": 120767,
       "endMs": 134193,
       "props": {
-        "chart": "area_inflation_vs_latitude",
-        "mark": [
-          [
+        "view": [
+          -85,
+          -40,
+          75,
+          84
+        ],
+        "tissot": {
+          "lats": [
+            0,
             45,
-            2
+            60
           ],
-          [
-            60,
-            4
+          "lons": [
+            -40,
+            20
           ]
+        },
+        "pins": [
+          {
+            "place": "Milan"
+          },
+          {
+            "place": "Montreal"
+          },
+          {
+            "place": "Oslo"
+          },
+          {
+            "place": "Anchorage"
+          }
         ]
       }
     },
     {
       "id": "s13",
-      "type": "comparison_split",
+      "type": "truesize",
       "beatId": "b13",
       "startMs": 134193,
       "endMs": 145696,
       "props": {
-        "projection": "equal_area",
         "shapes": [
           "Greenland",
           "Australia",
@@ -200,43 +273,62 @@
     },
     {
       "id": "s14",
-      "type": "comparison_split",
+      "type": "geo",
       "beatId": "b14",
       "startMs": 145696,
       "endMs": 160661,
       "props": {
-        "projection": "mercator_then_equal_area",
-        "shapes": [
-          "India",
-          "Greenland"
+        "view": [
+          -100,
+          -15,
+          110,
+          84
+        ],
+        "fills": [
+          "Greenland",
+          "India"
         ]
       }
     },
     {
       "id": "s15",
-      "type": "grid_stretch",
+      "type": "geo",
       "beatId": "b15",
       "startMs": 160661,
       "endMs": 171780,
       "props": {
-        "latitudes": [
-          80,
-          85,
-          89
+        "view": [
+          -180,
+          30,
+          180,
+          86
         ],
-        "cutoff": true
+        "tissot": {
+          "lats": [
+            60,
+            75,
+            82
+          ],
+          "lons": [
+            -120,
+            -60,
+            0,
+            60,
+            120
+          ],
+          "radius": 3
+        }
       }
     },
     {
       "id": "s16",
-      "type": "map_highlight",
+      "type": "geo",
       "beatId": "b16",
       "startMs": 171780,
       "endMs": 182899,
       "props": {
-        "base": "world",
-        "projection": "mercator",
-        "highlight": [
+        "view": "world",
+        "fills": [
           "Africa",
           "Europe",
           "North America"
@@ -245,7 +337,7 @@
     },
     {
       "id": "s17",
-      "type": "shape_pack",
+      "type": "pack",
       "beatId": "b17",
       "startMs": 182899,
       "endMs": 196710,
@@ -256,31 +348,33 @@
           "China",
           "India"
         ],
-        "projection": "equal_area",
         "show_remainder": true
       }
     },
     {
       "id": "s18",
-      "type": "projection_morph",
+      "type": "geo",
       "beatId": "b18",
       "startMs": 196710,
       "endMs": 208598,
       "props": {
-        "from": "mercator",
-        "to": "gall_peters",
-        "chapter": "The fixes"
+        "view": "world",
+        "morph": {
+          "from": "mercator",
+          "to": "gall_peters"
+        }
       }
     },
     {
       "id": "s19",
-      "type": "projection_morph",
+      "type": "geo",
       "beatId": "b19",
       "startMs": 208598,
       "endMs": 217794,
       "props": {
-        "hold": "gall_peters",
-        "highlight": [
+        "view": "world",
+        "projection": "gall_peters",
+        "fills": [
           "Africa",
           "South America"
         ]
@@ -288,29 +382,32 @@
     },
     {
       "id": "s20",
-      "type": "projection_morph",
+      "type": "geo",
       "beatId": "b20",
       "startMs": 217794,
       "endMs": 231220,
       "props": {
-        "from": "gall_peters",
-        "to": "equal_earth"
+        "view": "world",
+        "morph": {
+          "from": "gall_peters",
+          "to": "equal_earth"
+        }
       }
     },
     {
       "id": "s21",
-      "type": "projection_morph",
+      "type": "geo",
       "beatId": "b21",
       "startMs": 231220,
       "endMs": 246570,
       "props": {
-        "hold": "equal_earth",
-        "highlight_graticule": true
+        "view": "world",
+        "projection": "equal_earth"
       }
     },
     {
       "id": "s22",
-      "type": "kinetic_text",
+      "type": "kinetic",
       "beatId": "b22",
       "startMs": 246570,
       "endMs": 251150,
@@ -343,18 +440,17 @@
     },
     {
       "id": "s24",
-      "type": "kinetic_text",
+      "type": "kinetic",
       "beatId": "b24",
       "startMs": 267269,
       "endMs": 278388,
       "props": {
-        "text": "CORRECT THE MAP",
-        "chapter": "The vote"
+        "text": "CORRECT THE MAP"
       }
     },
     {
       "id": "s25",
-      "type": "bar_compare",
+      "type": "bars",
       "beatId": "b25",
       "startMs": 278388,
       "endMs": 289122,
@@ -377,7 +473,7 @@
     },
     {
       "id": "s26",
-      "type": "grid_reveal",
+      "type": "cards",
       "beatId": "b26",
       "startMs": 289122,
       "endMs": 299087,
@@ -386,25 +482,32 @@
           "Governments",
           "Schools",
           "Tech companies"
-        ]
+        ],
+        "stamp": "Encouraged, not forced"
       }
     },
     {
       "id": "s27",
-      "type": "comparison_split",
+      "type": "cards",
       "beatId": "b27",
       "startMs": 299087,
       "endMs": 311360,
       "props": {
-        "labels": [
-          "Supporters",
-          "United States"
+        "cells": [
+          [
+            "Supporters",
+            "Old map shrinks Africa"
+          ],
+          [
+            "United States",
+            "“Ideological agenda”"
+          ]
         ]
       }
     },
     {
       "id": "s28",
-      "type": "grid_reveal",
+      "type": "cards",
       "beatId": "b28",
       "startMs": 311360,
       "endMs": 319402,
@@ -413,26 +516,45 @@
           "Mercator",
           "Gall-Peters",
           "Equal Earth"
-        ],
-        "chapter": "Choosing a map"
+        ]
       }
     },
     {
       "id": "s29",
-      "type": "rhumb_line",
+      "type": "geo",
       "beatId": "b29",
       "startMs": 319402,
       "endMs": 334367,
       "props": {
-        "from": "Lisbon",
-        "to": "Salvador",
-        "show_compass": true,
-        "callback": true
+        "view": [
+          -60,
+          -25,
+          15,
+          50
+        ],
+        "pins": [
+          {
+            "place": "Lisbon"
+          },
+          {
+            "place": "Salvador"
+          }
+        ],
+        "lines": [
+          {
+            "places": [
+              "Lisbon",
+              "Salvador"
+            ],
+            "straight": true,
+            "at": 0.1
+          }
+        ]
       }
     },
     {
       "id": "s30",
-      "type": "grid_reveal",
+      "type": "cards",
       "beatId": "b30",
       "startMs": 334367,
       "endMs": 347409,
@@ -455,7 +577,7 @@
     },
     {
       "id": "s31",
-      "type": "kinetic_text",
+      "type": "kinetic",
       "beatId": "b31",
       "startMs": 347409,
       "endMs": 355066,
@@ -465,17 +587,21 @@
     },
     {
       "id": "s32",
-      "type": "comparison_split",
+      "type": "geo",
       "beatId": "b32",
       "startMs": 355066,
       "endMs": 365031,
       "props": {
-        "projection": "mercator",
-        "shapes": [
+        "view": [
+          -85,
+          -40,
+          75,
+          84
+        ],
+        "fills": [
           "Greenland",
           "Africa"
-        ],
-        "end_on_start_frame": true
+        ]
       }
     }
   ]

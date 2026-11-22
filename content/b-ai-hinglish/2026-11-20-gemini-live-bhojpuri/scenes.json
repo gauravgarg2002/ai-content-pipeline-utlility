@@ -5,17 +5,17 @@
   "scenes": [
     {
       "id": "s01",
-      "type": "kinetic_text",
+      "type": "kinetic",
       "beatId": "b01",
       "startMs": 0,
       "endMs": 3811,
       "props": {
-        "text": "भोजपुरी ✅"
+        "text": "भोजपुरी"
       }
     },
     {
       "id": "s02",
-      "type": "count_up",
+      "type": "number",
       "beatId": "b02",
       "startMs": 3811,
       "endMs": 10699,
@@ -31,7 +31,7 @@
     },
     {
       "id": "s03",
-      "type": "grid_reveal",
+      "type": "cards",
       "beatId": "b03",
       "startMs": 10699,
       "endMs": 13741,
@@ -44,7 +44,7 @@
     },
     {
       "id": "s04",
-      "type": "grid_reveal",
+      "type": "cards",
       "beatId": "b04",
       "startMs": 13741,
       "endMs": 17167,
@@ -58,38 +58,37 @@
     },
     {
       "id": "s05",
-      "type": "chat_bubbles",
+      "type": "ui",
       "beatId": "b05",
       "startMs": 17167,
       "endMs": 22901,
       "props": {
-        "script": "Devanagari",
-        "lines": 3
+        "kind": "bubbles"
       }
     },
     {
       "id": "s06",
-      "type": "phone_mock",
+      "type": "ui",
       "beatId": "b06",
       "startMs": 22901,
       "endMs": 28251,
       "props": {
+        "kind": "phone",
         "sequence": [
-          "open Gemini",
+          "Open Gemini",
           "Live mode",
-          "speak"
+          "Speak"
         ]
       }
     },
     {
       "id": "s07",
-      "type": "kinetic_text",
+      "type": "kinetic",
       "beatId": "b07",
       "startMs": 28251,
       "endMs": 32062,
       "props": {
-        "text": "भोजपुरी ✅",
-        "end_on_start_frame": true
+        "text": "AAPKI · BHASHA?"
       }
     }
   ]

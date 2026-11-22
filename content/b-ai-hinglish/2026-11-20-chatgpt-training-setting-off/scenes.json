@@ -5,65 +5,70 @@
   "scenes": [
     {
       "id": "s01",
-      "type": "kinetic_text",
+      "type": "kinetic",
       "beatId": "b01",
       "startMs": 0,
       "endMs": 5350,
       "props": {
-        "text": "YOUR CHATS → AI",
-        "glitch": true
+        "text": "YOUR CHATS → AI"
       }
     },
     {
       "id": "s02",
-      "type": "toggle_anim",
+      "type": "ui",
       "beatId": "b02",
       "startMs": 5350,
       "endMs": 9546,
       "props": {
-        "label": "Improve the model for everyone",
+        "kind": "toggle",
         "state": "on"
       }
     },
     {
       "id": "s03",
-      "type": "flow_arrow",
+      "type": "ui",
       "beatId": "b03",
       "startMs": 9546,
       "endMs": 14896,
       "props": {
-        "from": "chat bubble",
-        "to": "model"
+        "kind": "flow",
+        "from": "Your chats",
+        "to": "Next model"
       }
     },
     {
       "id": "s04",
-      "type": "annotated_screenshot",
+      "type": "ui",
       "beatId": "b04",
       "startMs": 14896,
       "endMs": 18707,
       "props": {
-        "capture": "chatgpt.com/#settings/DataControls",
+        "kind": "settings",
         "path_steps": [
           "Settings",
           "Data Controls"
-        ]
+        ],
+        "state": "on"
       }
     },
     {
       "id": "s05",
-      "type": "toggle_anim",
+      "type": "ui",
       "beatId": "b05",
       "startMs": 18707,
       "endMs": 22903,
       "props": {
-        "label": "Improve the model for everyone",
+        "kind": "settings",
+        "path_steps": [
+          "Settings",
+          "Data Controls"
+        ],
         "state": "off"
       }
     },
     {
       "id": "s06",
-      "type": "grid_reveal",
+      "type": "cards",
       "beatId": "b06",
       "startMs": 22903,
       "endMs": 29406,
@@ -77,14 +82,13 @@
     },
     {
       "id": "s07",
-      "type": "toggle_anim",
+      "type": "ui",
       "beatId": "b07",
       "startMs": 29406,
       "endMs": 33217,
       "props": {
-        "label": "Improve the model for everyone",
-        "state": "off",
-        "end_on_start_frame": true
+        "kind": "toggle",
+        "state": "off"
       }
     }
   ]

@@ -7,7 +7,7 @@ on:
       video: {description: "Video folder", default: "content/a-maps-data/2026-11-20-greenland-vs-africa-14x"}
   push:
     branches: ["phase1/**"]
-    paths: ["render/**", "tools/render/**", ".github/workflows/render-short.yml"]
+    paths: [".github/workflows/render-short.yml"]
 concurrency: { group: render-short, cancel-in-progress: true }
 permissions: { contents: write }
 

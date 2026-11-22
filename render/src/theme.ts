@@ -1,7 +1,10 @@
 import {loadFont as loadInter} from '@remotion/google-fonts/Inter';
 import {loadFont as loadGrotesk} from '@remotion/google-fonts/SpaceGrotesk';
+import {loadFont as loadDeva} from '@remotion/google-fonts/NotoSansDevanagari';
 
-export const fonts = {body: loadInter().fontFamily, display: loadGrotesk().fontFamily};
+// Devanagari falls back to Noto Sans Devanagari so Hindi text renders on any machine.
+const deva = loadDeva().fontFamily;
+export const fonts = {body: `${loadInter().fontFamily}, ${deva}`, display: `${loadGrotesk().fontFamily}, ${deva}`, deva};
 
 // Channel A design tokens: one background, one accent, one support colour.
 export const C = {
@@ -27,7 +30,8 @@ export function buildColorMap(scenes: {props: any}[]): Record<string, string> {
   const add = (n: any) => { if (typeof n === 'string' && !order.includes(n)) order.push(n); };
   for (const sc of scenes) {
     const p = sc.props || {};
-    [...(p.shapes || []), ...(p.highlight || []), ...((p.bars || []).map((b: any) => b[0])), p.shape, p.land_on].forEach(add);
+    [...(p.shapes || []), ...(p.highlight || []), ...((p.fills || []).map((x: any) => (typeof x === 'string' ? x : x.name))),
+     ...((p.bars || []).map((b: any) => b[0])), p.shape, p.land_on].forEach(add);
   }
   const map: Record<string, string> = {};
   order.forEach((n, i) => { map[n] = i === 0 ? C.accent : i === 1 ? C.second : C.third; });

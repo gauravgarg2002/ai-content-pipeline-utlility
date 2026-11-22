@@ -5,21 +5,22 @@
   "scenes": [
     {
       "id": "s01",
-      "type": "map_highlight",
+      "type": "geo",
       "beatId": "b01",
       "startMs": 0,
       "endMs": 3811,
       "props": {
-        "base": "world",
-        "highlight": [
-          "RUS"
+        "view": "world",
+        "fills": [
+          "Russia"
         ],
-        "then": "strike"
+        "strike": "Russia",
+        "strikeAt": 0.5
       }
     },
     {
       "id": "s02",
-      "type": "count_up",
+      "type": "number",
       "beatId": "b02",
       "startMs": 3811,
       "endMs": 7237,
@@ -38,7 +39,7 @@
     },
     {
       "id": "s03",
-      "type": "count_up",
+      "type": "number",
       "beatId": "b03",
       "startMs": 7237,
       "endMs": 8740,
@@ -54,55 +55,119 @@
     },
     {
       "id": "s04",
-      "type": "map_highlight",
+      "type": "geo",
       "beatId": "b04",
       "startMs": 8740,
       "endMs": 14090,
       "props": {
-        "base": "world",
+        "view": "world",
+        "fills": [
+          {
+            "name": "France",
+            "label": "France"
+          }
+        ],
         "pins": [
-          "French Polynesia",
-          "Guadeloupe",
-          "Martinique",
-          "French Guiana",
-          "Saint Pierre and Miquelon",
-          "Reunion",
-          "Mayotte",
-          "Kerguelen",
-          "New Caledonia",
-          "Wallis and Futuna",
-          "Marquesas"
+          {
+            "place": "French Polynesia",
+            "label": "French Polynesia"
+          },
+          {
+            "place": "Guadeloupe",
+            "label": ""
+          },
+          {
+            "place": "Martinique",
+            "label": ""
+          },
+          {
+            "place": "French Guiana",
+            "label": "French Guiana"
+          },
+          {
+            "place": "Saint Pierre and Miquelon",
+            "label": ""
+          },
+          {
+            "place": "Reunion",
+            "label": "Reunion"
+          },
+          {
+            "place": "Mayotte",
+            "label": ""
+          },
+          {
+            "place": "Kerguelen",
+            "label": ""
+          },
+          {
+            "place": "New Caledonia",
+            "label": "New Caledonia"
+          },
+          {
+            "place": "Wallis and Futuna",
+            "label": ""
+          },
+          {
+            "place": "Marquesas",
+            "label": ""
+          }
         ]
       }
     },
     {
       "id": "s05",
-      "type": "camera_pan",
+      "type": "geo",
       "beatId": "b05",
       "startMs": 14090,
       "endMs": 19055,
       "props": {
-        "from": "French Polynesia",
-        "to": "Reunion",
-        "draw_route": true
+        "view": "world",
+        "pins": [
+          {
+            "place": "Tahiti"
+          },
+          {
+            "place": "Reunion"
+          }
+        ],
+        "lines": [
+          {
+            "places": [
+              "Tahiti",
+              "Reunion"
+            ],
+            "at": 0.15
+          }
+        ]
       }
     },
     {
       "id": "s06",
-      "type": "map_highlight",
+      "type": "geo",
       "beatId": "b06",
       "startMs": 19055,
       "endMs": 22481,
       "props": {
-        "base": "world",
-        "highlight": [
-          "Adelie Land"
+        "view": "world",
+        "fills": [
+          {
+            "name": "France",
+            "label": "France"
+          }
+        ],
+        "pins": [
+          {
+            "place": "Adelie Land",
+            "label": "Adélie Land",
+            "dy": 50
+          }
         ]
       }
     },
     {
       "id": "s07",
-      "type": "split_clock",
+      "type": "clocks",
       "beatId": "b07",
       "startMs": 22481,
       "endMs": 26677,

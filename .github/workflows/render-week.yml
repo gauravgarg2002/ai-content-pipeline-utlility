@@ -1,0 +1,142 @@
+name: render-week
+# Voices and renders every video for a week, then publishes MP4s, contact
+# sheets and first frames to the `renders` branch under week1/.
+on:
+  workflow_dispatch:
+  push:
+    branches: ["phase1/**"]
+    paths: ["render/**", "tools/render/**", "config/voices.json", "content/**/scenes.json", ".github/workflows/render-week.yml"]
+concurrency: { group: render-week, cancel-in-progress: true }
+permissions: { contents: write }
+
+env:
+  KOKORO_VIDEOS: >-
+    content/a-maps-data/2026-11-20-greenland-vs-africa-14x
+    content/a-maps-data/2026-11-20-france-most-time-zones
+    content/a-maps-data/2026-11-20-canada-coastline-27-years
+    content/a-maps-data/2026-11-20-half-of-humanity-one-circle
+    content/a-maps-data/2026-11-20-alaska-easternmost-state
+    content/a-maps-data/2026-11-20-why-every-map-is-wrong
+    content/c-pilot-epics-en/2026-11-20-mahabharata-family-tree
+  GEMINI_VIDEOS: >-
+    content/b-ai-hinglish/2026-11-20-chatgpt-free-2026-catch
+    content/b-ai-hinglish/2026-11-20-chatgpt-training-setting-off
+    content/b-ai-hinglish/2026-11-20-deepmind-free-56-hour-course
+    content/b-ai-hinglish/2026-11-20-gemini-books-your-ride-india
+    content/b-ai-hinglish/2026-11-20-gemini-live-bhojpuri
+    content/c-pilot-horror-hi/2026-11-20-saamne-wali-khidki
+
+jobs:
+  voice-kokoro:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11", cache: pip, cache-dependency-path: tools/smoke/requirements-kokoro.txt }
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq espeak-ng ffmpeg
+      - run: pip install -q -r tools/smoke/requirements-kokoro.txt
+      - name: Voice
+        env: { HF_TOKEN: "${{ secrets.HF_TOKEN }}" }
+        run: for v in $KOKORO_VIDEOS; do python tools/render/prepare.py "$v"; done
+      - uses: actions/upload-artifact@v4
+        with: { name: inputs-kokoro, path: render/public/, retention-days: 7 }
+
+  voice-gemini:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg && pip install -q numpy soundfile
+      - name: Restore voice cache
+        uses: actions/cache/restore@v4
+        with: { path: .voice-cache, key: "voice-gemini-${{ github.run_id }}", restore-keys: "voice-gemini-" }
+      - name: Voice (one request at a time, free-tier safe)
+        env: { GEMINI_API_KEY: "${{ secrets.GEMINI_API_KEY }}" }
+        run: |
+          failed=0
+          for v in $GEMINI_VIDEOS; do python tools/render/prepare.py "$v" || { echo "::warning::voice failed for $v"; failed=1; }; done
+          echo "failed=$failed" >> $GITHUB_ENV
+      - name: Save voice cache
+        if: always()
+        uses: actions/cache/save@v4
+        with: { path: .voice-cache, key: "voice-gemini-${{ github.run_id }}" }
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with: { name: inputs-gemini, path: render/public/, retention-days: 7, if-no-files-found: ignore }
+
+  render:
+    needs: [voice-kokoro, voice-gemini]
+    if: always()
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    strategy:
+      fail-fast: false
+      matrix:
+        video:
+          - a-maps-data/2026-11-20-greenland-vs-africa-14x
+          - a-maps-data/2026-11-20-france-most-time-zones
+          - a-maps-data/2026-11-20-canada-coastline-27-years
+          - a-maps-data/2026-11-20-half-of-humanity-one-circle
+          - a-maps-data/2026-11-20-alaska-easternmost-state
+          - a-maps-data/2026-11-20-why-every-map-is-wrong
+          - b-ai-hinglish/2026-11-20-chatgpt-free-2026-catch
+          - b-ai-hinglish/2026-11-20-chatgpt-training-setting-off
+          - b-ai-hinglish/2026-11-20-deepmind-free-56-hour-course
+          - b-ai-hinglish/2026-11-20-gemini-books-your-ride-india
+          - b-ai-hinglish/2026-11-20-gemini-live-bhojpuri
+          - c-pilot-epics-en/2026-11-20-mahabharata-family-tree
+          - c-pilot-horror-hi/2026-11-20-saamne-wali-khidki
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with: { pattern: "inputs-*", path: render/public, merge-multiple: true }
+      - name: Check inputs
+        run: |
+          ID=$(basename "${{ matrix.video }}"); echo "ID=$ID" >> $GITHUB_ENV
+          if [ -f "render/public/$ID/props.json" ]; then echo "ok=1" >> $GITHUB_ENV; else echo "::warning::no voiced input for $ID, skipping"; echo "ok=0" >> $GITHUB_ENV; fi
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+        if: env.ok == '1'
+      - uses: actions/setup-node@v4
+        if: env.ok == '1'
+        with: { node-version: "22" }
+      - uses: actions/cache@v4
+        if: env.ok == '1'
+        with: { path: ~/.npm, key: "npm-${{ hashFiles('render/package.json') }}" }
+      - name: Install
+        if: env.ok == '1'
+        working-directory: render
+        run: npm install --no-audit --no-fund
+      - name: Render
+        if: env.ok == '1'
+        working-directory: render
+        run: npx remotion render src/index.ts Short "out/$ID.mp4" --props="public/$ID/props.json" --crf=22 --concurrency=4 --timeout=120000
+      - name: Contact sheet
+        if: env.ok == '1'
+        run: |
+          cd render/out
+          D=$(ffprobe -v error -show_entries format=duration -of csv=p=0 "$ID.mp4")
+          STEP=$(python3 -c "print(max(1.0, $D/24))")
+          ffmpeg -v error -y -i "$ID.mp4" -vf "fps=1/$STEP,scale=320:-1,tile=8x3:padding=6:color=white" -frames:v 1 "$ID-contact.jpg"
+          ffmpeg -v error -y -i "$ID.mp4" -frames:v 1 -q:v 3 "$ID-frame0.jpg"
+          echo "**$ID**: ${D}s" >> $GITHUB_STEP_SUMMARY
+      - uses: actions/upload-artifact@v4
+        if: env.ok == '1'
+        with: { name: "video-${{ env.ID }}", path: render/out/, retention-days: 14 }
+
+  publish:
+    needs: render
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with: { pattern: "video-*", path: /tmp/week1, merge-multiple: true }
+      - name: Push to renders branch
+        run: |
+          cd /tmp/week1 && ls -la
+          mkdir -p /tmp/r/week1 && cp /tmp/week1/* /tmp/r/week1/ && cd /tmp/r
+          git init -q -b renders && git config user.name "render-bot" && git config user.email "render-bot@users.noreply.github.com"
+          git add . && git commit -qm "Week 1 renders from ${GITHUB_SHA::7}"
+          git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" renders
