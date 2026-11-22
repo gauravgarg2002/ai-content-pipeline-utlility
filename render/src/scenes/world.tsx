@@ -15,7 +15,7 @@ const mercY = (lat: number) => Math.log(Math.tan(Math.PI / 4 + rad(lat) / 2));
 // without being cut, and Antarctica's coast is just visible at the bottom.
 const LAT_TOP = 75, LAT_BOTTOM = -72, TOP = 560, CENTER_LON = 10;
 const S = W / (2 * Math.PI);
-export const worldProj = () => geoMercator().scale(S).rotate([-CENTER_LON, 0, 0])
+export const worldProj = (centerLon = CENTER_LON) => geoMercator().scale(S).rotate([-centerLon, 0, 0])
   .translate([W / 2, TOP + S * mercY(LAT_TOP)]).precision(0.2);
 const MAP_BOTTOM = TOP + S * (mercY(LAT_TOP) - mercY(LAT_BOTTOM));
 
@@ -44,8 +44,8 @@ const Txt: React.FC<{x: number; y: number; t: string; c: string; s?: number; o?:
     style={{paintOrder: 'stroke', stroke: C.bg, strokeWidth: 8}}>{t}</text>
 );
 
-const WorldMap: React.FC = () => {
-  const path = pathFor(worldProj());
+const WorldMap: React.FC<{center?: number}> = ({center}) => {
+  const path = pathFor(worldProj(center));
   return (<g clipPath="url(#mapclip)">
     <path d={path(geoGraticule10()) || ''} fill="none" stroke={C.grid} strokeWidth={1.2} />
     <path d={path(land) || ''} fill={C.land} stroke={C.landEdge} strokeWidth={1} />
@@ -82,7 +82,7 @@ export const WorldHighlight: React.FC<SceneP> = ({p, d, first}) => {
           <path d={path(feat) || ''} fill={c} fillOpacity={0.85 * s} stroke={c} strokeWidth={3} />
           {SECTORS[n] ? <circle cx={x} cy={y} r={34 * s} fill="none" stroke={c} strokeWidth={5} /> : null}
           <Txt x={x + (p.labelDx || 0)} y={SECTORS[n] ? y - 52 : y + 12} t={(p.label || n).toUpperCase()} c={C.text} s={40} o={s} />
-          {strike > 0 ? <line x1={x - 260} y1={y - 90} x2={x - 260 + 520 * strike} y2={y - 90 + 180 * strike}
+          {strike > 0 ? <line x1={x - 210} y1={y - 60} x2={x - 210 + 420 * strike} y2={y - 60 + 110 * strike}
             stroke="#FF5A5F" strokeWidth={16} strokeLinecap="round" /> : null}
         </g>); })}
     </g>
@@ -91,25 +91,27 @@ export const WorldHighlight: React.FC<SceneP> = ({p, d, first}) => {
       return (<g key={pin.name} opacity={s}>
         <circle cx={x} cy={y} r={(home ? 16 : 12) * s} fill={home ? C.accent : C.second} stroke={C.bg} strokeWidth={3} />
         <circle cx={x} cy={y} r={30 * s} fill="none" stroke={home ? C.accent : C.second} strokeWidth={2} opacity={0.5} />
-        {pin.label ? <Txt x={x + (pin.dx || 0)} y={y + (pin.dy ?? -26)} t={pin.label} c={home ? C.accent : C.text} s={26} /> : null}
+        {pin.label ? <Txt x={x + (pin.dx || 0)} y={y + (pin.dy ?? -26)} t={pin.label} c={home ? C.accent : C.text} s={36} /> : null}
       </g>); })}
   </Svg>);
 };
 
 // A route drawn between two places along the great circle, with a moving marker.
 export const CameraPan: React.FC<SceneP> = ({p, d, first}) => {
-  const f = useCurrentFrame(); const proj = worldProj(); const path = pathFor(proj);
+  const f = useCurrentFrame();
   const A = PLACES[p.from], B = PLACES[p.to]; const ip = geoInterpolate(A, B);
+  const center = (ip(0.5) as [number, number])[0];  // centre the map on the route so it never wraps
+  const proj = worldProj(center); const path = pathFor(proj);
   const t = first ? 1 : interpolate(f, [6, d * 0.8], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: Easing.inOut(Easing.cubic)});
   const pts: [number, number][] = []; for (let i = 0; i <= 80; i++) pts.push(ip((i / 80) * t) as [number, number]);
   const [ax, ay] = proj(A) || [0, 0], [bx, by] = proj(B) || [0, 0], [mx, my] = proj(ip(t)) || [0, 0];
   const sb = interpolate(t, [0.92, 1], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
-  return (<Svg><WorldMap />
+  return (<Svg><WorldMap center={center} />
     <path d={path({type: 'LineString', coordinates: pts} as any) || ''} fill="none" stroke={C.accent} strokeWidth={6}
       strokeDasharray="18 12" strokeLinecap="round" />
-    <circle cx={ax} cy={ay} r={14} fill={C.second} /><Txt x={ax} y={ay - 30} t={p.from.toUpperCase()} c={C.text} s={30} a="start" />
+    <circle cx={ax} cy={ay} r={14} fill={C.second} /><Txt x={ax} y={ay - 34} t={p.from.toUpperCase()} c={C.text} s={38} />
     <circle cx={bx} cy={by} r={14 * Math.max(sb, 0.01)} fill={C.second} />
-    <Txt x={bx} y={by + 52} t={p.to.toUpperCase()} c={C.text} s={30} o={sb} />
+    <Txt x={bx} y={by + 60} t={p.to.toUpperCase()} c={C.text} s={38} o={sb} />
     <circle cx={mx} cy={my} r={18} fill={C.accent} stroke={C.bg} strokeWidth={4} />
     {p.caption ? <Txt x={W / 2} y={MAP_BOTTOM + 90} t={p.caption} c={C.muted} s={38} o={sb} /> : null}
   </Svg>);
@@ -118,7 +120,7 @@ export const CameraPan: React.FC<SceneP> = ({p, d, first}) => {
 // Big numbers counting up, one row per item; the accent item is ours.
 export const CountUp: React.FC<SceneP> = ({p, first}) => {
   const f = useCurrentFrame(); const items: [string, number][] = p.items || [];
-  const rowH = items.length > 1 ? 330 : 0, y0 = 860 - (rowH * (items.length - 1)) / 2;
+  const rowH = items.length > 1 ? 520 : 0, y0 = 900 - (rowH * (items.length - 1)) / 2;
   return (<Svg>{items.map(([name, v], i) => {
     const s = useSpring(i * 10, first);
     const shown = first ? v : Math.round(interpolate(f, [4 + i * 10, 28 + i * 10], [0, v], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'}));
