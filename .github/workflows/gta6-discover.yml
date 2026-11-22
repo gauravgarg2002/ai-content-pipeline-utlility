@@ -1,0 +1,29 @@
+name: gta6-discover
+# One-off: find official Rockstar GTA VI media URLs (videos, zips) for footage.
+on:
+  push:
+    branches: ["gta6/discover"]
+permissions: { contents: write }
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - run: pip install -q "yt-dlp[default]"
+      - run: |
+          mkdir -p /tmp/o && cd /tmp/o
+          UA="Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130 Safari/537.36"
+          for p in VI/media/videos VI/media/screenshots VI/an-extended-look VI VI/downloads; do
+            n=$(echo $p | tr / _); curl -sL -A "$UA" "https://www.rockstargames.com/$p" -o "$n.html"; echo "$p $(wc -c < $n.html)" >> sizes.txt
+          done
+          cat *.html | grep -oE 'https?:[^"'"'"' )<>]+\.(zip|mp4|m3u8|webm)[^"'"'"' )<>]*' | sort -u > media_urls.txt || true
+          cat *.html | grep -oE '(youtube\.com/embed/|youtu\.be/|watch\?v=)[A-Za-z0-9_-]{11}' | sort -u > youtube_ids.txt || true
+          cat *.html | grep -oE '"(videoId|video_id|mediaId|id)":"?[A-Za-z0-9_-]{4,40}' | sort -u | head -100 > ids.txt || true
+          cat *.html | grep -oE '[a-zA-Z0-9/_.-]*(Trailer|Extended|Launch|trailer)[a-zA-Z0-9/_.-]*\.(mp4|m3u8|json)' | sort -u > trailer_paths.txt || true
+          for u in https://www.rockstargames.com/VI/an-extended-look https://www.rockstargames.com/VI/media/videos; do
+            echo "== $u" >> ytdlp.txt; timeout 120 yt-dlp -F --no-warnings "$u" >> ytdlp.txt 2>&1 || true
+          done
+          curl -sIL https://media-rockstargames-com.akamaized.net/VI/downloads/videos/GTAVI_Videos.zip | grep -iE "HTTP/|content-length" > zipinfo.txt
+          git init -q -b gta6-discover && git config user.name bot && git config user.email bot@users.noreply.github.com
+          rm -f *.html; git add . && git commit -qm discover
+          git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" gta6-discover
