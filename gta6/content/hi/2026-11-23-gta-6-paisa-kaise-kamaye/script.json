@@ -1,0 +1,431 @@
+{
+  "topic": "GTA 6 Unlimited Money Guide: Early Game Mein Amir Bano",
+  "format": "money_method",
+  "search_query": "GTA 6 money guide",
+  "research": [
+    {
+      "n": 1,
+      "title": "How to Make Money in GTA 6 (hands-on guide)",
+      "channel": "AlcastHQ",
+      "url": "https://alcasthq.com/?p=87542"
+    },
+    {
+      "n": 2,
+      "title": "GTA 6 beginner's guide: essential tips and hidden mechanics",
+      "channel": "Red Bull Gaming",
+      "url": "https://www.redbull.com/ie-en/gta-6-beginners-guide"
+    },
+    {
+      "n": 3,
+      "title": "How to make money in GTA 6",
+      "channel": "VGC",
+      "url": "https://www.videogameschronicle.com/guide/how-to-make-money-in-gta-6/"
+    },
+    {
+      "n": 4,
+      "title": "Grand Theft Auto 6 Early Game Money Guide",
+      "channel": "NoobFeed",
+      "url": "https://www.noobfeed.com/articles/gta-6-early-game-money"
+    }
+  ],
+  "title": "GTA 6 Paisa Kaise Kamaye: Early Game Money Guide (Hindi)",
+  "title_alternatives": [
+    "GTA 6 Money Guide Hindi: Shuruaat Se Amir Kaise Bane",
+    "GTA 6 Mein Fast Paisa: Ye Galti Mat Karna"
+  ],
+  "thumbnail_text": "PAISA HI PAISA",
+  "description_summary": "GTA 6 money guide in Hindi: early game se mid game tak paisa kamane ka poora route. Stick-ups, Kenton ki treasure diving, Moses ke car contracts, gang hideouts, high-end stores aur banks, plus cash bachane ke rules aur money cheat ka sach.",
+  "tags": [
+    "gta 6",
+    "gta 6 money guide",
+    "gta 6 hindi",
+    "gta 6 paisa kaise kamaye",
+    "gta 6 money",
+    "gta 6 early game money",
+    "gta 6 tips hindi",
+    "gta 6 guide",
+    "gta vi",
+    "gta 6 moses",
+    "gta 6 treasure diving",
+    "gta 6 bank robbery",
+    "gta 6 money cheat",
+    "gta 6 beginner guide",
+    "gta 6 gameplay hindi"
+  ],
+  "source_queries": [
+    "GTA 6 store robbery gameplay",
+    "GTA 6 treasure diving Kenton",
+    "GTA 6 Moses car contract",
+    "GTA 6 gang hideout gameplay",
+    "GTA 6 jewelry store robbery",
+    "GTA 6 bank robbery gameplay",
+    "GTA 6 Vice City free roam 4K",
+    "GTA 6 focus mode",
+    "GTA 6 police chase",
+    "GTA 6 official trailer"
+  ],
+  "beats": [
+    {
+      "id": 1,
+      "chapter": "",
+      "caption": "GTA 6 mein paisa pehle kisi bhi GTA se zyada important hai. Gun, gaadi, kapde, sab paise se aata hai, aur kuch story missions tab tak shuru hi nahi hote jab tak aapki jeb mein enough cash na ho.",
+      "tts": "GTA 6 में पैसा पहले किसी भी GTA से ज़्यादा important है। Gun, गाड़ी, कपड़े, सब पैसे से आता है, और कुछ story missions तब तक शुरू ही नहीं होते जब तक आपकी जेब में enough cash ना हो।",
+      "visual_need": "Vice City skyline, cash being counted, Jason and Lucia",
+      "onscreen": "PAISA = STORY",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 2,
+      "chapter": "",
+      "caption": "Toh is video mein main aapko early game se mid game tak ka poora money route dunga. Kya pehle karna hai, kya skip karna hai, aur woh ek galti jo aapka saara paisa ek second mein uda sakti hai.",
+      "tts": "तो इस video में मैं आपको early game से mid game तक का पूरा money route दूँगा। क्या पहले करना है, क्या skip करना है, और वो एक ग़लती जो आपका सारा पैसा एक second में उड़ा सकती है।",
+      "visual_need": "fast montage of robbery, car chase, diving",
+      "onscreen": "EARLY → MID GAME ROUTE",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 3,
+      "chapter": "Pehle paisa bachao",
+      "caption": "Sabse pehle woh galti. Shuru mein aapke paas koi bank account nahi hota. Saara paisa jeb mein hota hai, aur agar aap mar gaye ya pakde gaye, toh woh poora cash gaya.",
+      "tts": "सबसे पहले वो ग़लती। शुरू में आपके पास कोई bank account नहीं होता। सारा पैसा जेब में होता है, और अगर आप मर गए या पकड़े गए, तो वो पूरा cash गया।",
+      "visual_need": "player getting wasted or busted, police arrest",
+      "onscreen": "MAROGE = CASH GAYA",
+      "sources": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 4,
+      "chapter": "",
+      "caption": "Bank account milta hai mission Buck Me mein, jo game shuru hone ke lagbhag ek se do ghante baad aata hai. Tab tak ek trick yaad rakho: Jason ke bedroom mein loose floorboards ke neeche cash chhupa sakte ho.",
+      "tts": "Bank account मिलता है mission Buck Me में, जो game शुरू होने के लगभग एक से दो घंटे बाद आता है। तब तक एक trick याद रखो: Jason के bedroom में loose floorboards के नीचे cash छुपा सकते हो।",
+      "visual_need": "Jason's house interior, bedroom, phone banking app",
+      "onscreen": "MISSION: BUCK ME",
+      "sources": [
+        2
+      ]
+    },
+    {
+      "id": 5,
+      "chapter": "",
+      "caption": "Aur bank milne ke baad bhi ek rule hai. Jeb mein maximum twenty thousand dollar cash reh sakta hai. Usse upar ka paisa BuckMe account mein hi jaata hai. Toh har bade kaam ke baad seedha ATM jao aur deposit karo.",
+      "tts": "और bank मिलने के बाद भी एक rule है। जेब में maximum twenty thousand dollar cash रह सकता है। उससे ऊपर का पैसा BuckMe account में ही जाता है। तो हर बड़े काम के बाद सीधा ATM जाओ और deposit करो।",
+      "visual_need": "ATM on a Vice City street at night, HUD cash counter",
+      "onscreen": "MAX $20,000 CASH",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 6,
+      "chapter": "Shuruaat: stick-ups",
+      "caption": "Ab kamai. Pehla tareeka jo bilkul start se available hai: chhoti dukaanon ki stick-up. Kisi bhi grocery store mein jao, cashier pe gun point karo, aur register khulwao. Police response halka hota hai, par paisa bhi kam milta hai.",
+      "tts": "अब कमाई। पहला तरीका जो बिल्कुल start से available है: छोटी दुकानों की stick-up। किसी भी grocery store में जाओ, cashier पे gun point करो, और register खुलवाओ। Police response हल्का होता है, पर पैसा भी कम मिलता है।",
+      "visual_need": "convenience store robbery, aiming at cashier, register",
+      "onscreen": "STICK-UPS: LOW RISK",
+      "sources": [
+        3,
+        1
+      ]
+    },
+    {
+      "id": 7,
+      "chapter": "",
+      "caption": "Asli paisa register mein nahi, back room ki safe mein hota hai. Safe ka code aksar paas hi kisi Post-it note pe likha hota hai, ya clerk ko dara ke nikalwa sakte ho.",
+      "tts": "असली पैसा register में नहीं, back room की safe में होता है। Safe का code अक्सर पास ही किसी Post-it note पे लिखा होता है, या clerk को डरा के निकलवा सकते हो।",
+      "visual_need": "store back room, safe, note on wall",
+      "onscreen": "SAFE CODE = POST-IT",
+      "sources": [
+        3,
+        1
+      ]
+    },
+    {
+      "id": 8,
+      "chapter": "",
+      "caption": "Yahan Focus Mode game changer hai. Dono sticks ek saath click karo. Cash green mein dikhta hai, kaam ki cheezein yellow mein, aur safe codes wale notes bhi highlight ho jaate hain. Doors bhi batate hain: white matlab andar ja sakte ho, red matlab alarm laga hai.",
+      "tts": "यहाँ Focus Mode game changer है। दोनों sticks एक साथ click करो। Cash green में दिखता है, काम की चीज़ें yellow में, और safe codes वाले notes भी highlight हो जाते हैं। Doors भी बताते हैं: white मतलब अंदर जा सकते हो, red मतलब alarm लगा है।",
+      "visual_need": "slow-motion focus vision, highlighted objects, doors",
+      "onscreen": "FOCUS MODE: L3 + R3",
+      "sources": [
+        2
+      ]
+    },
+    {
+      "id": 9,
+      "chapter": "",
+      "caption": "Mugging bhi start se khula hai, par sach bolun toh usme bas chhutta paisa milta hai. Stick-ups aur mugging ko main sirf tab use karta jab bilkul thoda sa cash chahiye ho. Inhe ghanton grind mat karo.",
+      "tts": "Mugging भी start से खुला है, पर सच बोलूँ तो उसमें बस छुट्टा पैसा मिलता है। Stick-ups और mugging को मैं सिर्फ़ तब use करता जब बिल्कुल थोड़ा सा cash चाहिए हो। इन्हें घंटों grind मत करो।",
+      "visual_need": "mugging a pedestrian on the street",
+      "onscreen": "GRIND MAT KARO",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 10,
+      "chapter": "Heat se bacho",
+      "caption": "Ek chhoti investment jo har robbery mein kaam aayegi: suppressor. Tutorial ke turant baad Key Lento ke Ammu-Nation se le lo. Police gunshot reports pe aati hai, toh suppressor se aapko loot ke liye zyada time milta hai.",
+      "tts": "एक छोटी investment जो हर robbery में काम आएगी: suppressor। Tutorial के तुरंत बाद Key Lento के Ammu-Nation से ले लो। Police gunshot reports पे आती है, तो suppressor से आपको loot के लिए ज़्यादा time मिलता है।",
+      "visual_need": "Ammu-Nation gun store, weapon with suppressor",
+      "onscreen": "SUPPRESSOR = MORE TIME",
+      "sources": [
+        2
+      ]
+    },
+    {
+      "id": 11,
+      "chapter": "",
+      "caption": "Aur GTA 6 ki police ab sab kuch nahi jaanti. Woh aapki pehchaan track karti hai. Crime ke time hat aur bandana pehno, baad mein utaar do, trunk mein ek spare outfit rakho, gaadi badal lo, aur back room mein CCTV footage destroy kar do.",
+      "tts": "और GTA 6 की police अब सब कुछ नहीं जानती। वो आपकी पहचान track करती है। Crime के time hat और bandana पहनो, बाद में उतार दो, trunk में एक spare outfit रखो, गाड़ी बदल लो, और back room में CCTV footage destroy कर दो।",
+      "visual_need": "police search, character changing clothes, CCTV room",
+      "onscreen": "HAT · OUTFIT · CAR · CCTV",
+      "sources": [
+        2
+      ]
+    },
+    {
+      "id": 12,
+      "chapter": "Kenton: treasure diving",
+      "caption": "Ab aata hai early game ka sabse accha paisa. Key Lento mein Kenton ki scuba boat shop hai, aur uska ek illegal side business hai: underwater treasure diving. Jason dive karta hai, aur total milakar isse dasiyon hazaar dollar ban sakte hain.",
+      "tts": "अब आता है early game का सबसे अच्छा पैसा। Key Lento में Kenton की scuba boat shop है, और उसका एक illegal side business है: underwater treasure diving। Jason dive करता है, और total मिलाकर इससे दसियों हज़ार dollar बन सकते हैं।",
+      "visual_need": "boat on clear water, underwater diving, treasure",
+      "onscreen": "KENTON = BEST EARLY MONEY",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 13,
+      "chapter": "",
+      "caption": "Yeh instant paisa nahi hai, isme time lagta hai. Par jab bhi Key Lento mein ho, ek dive maar lo. Story ke saath saath chalta rahega, aur aapko pata bhi nahi chalega kab account bhar gaya.",
+      "tts": "ये instant पैसा नहीं है, इसमें time लगता है। पर जब भी Key Lento में हो, एक dive मार लो। Story के साथ साथ चलता रहेगा, और आपको पता भी नहीं चलेगा कब account भर गया।",
+      "visual_need": "Key Lento islands, boat cruising",
+      "onscreen": "",
+      "sources": [
+        4
+      ]
+    },
+    {
+      "id": 14,
+      "chapter": "Moses: car contracts",
+      "caption": "Doosra bada source: gaadiyan. Chapter 2 mein aapki mulaqat hoti hai Moses se, Port Gellhorn mein. Woh chori ki gaadiyan khareedta hai, par sirf woh jinme tracker na ho.",
+      "tts": "दूसरा बड़ा source: गाड़ियाँ। Chapter 2 में आपकी मुलाक़ात होती है Moses से, Port Gellhorn में। वो चोरी की गाड़ियाँ खरीदता है, पर सिर्फ़ वो जिनमें tracker ना हो।",
+      "visual_need": "stealing a car, driving to a garage, Port Gellhorn",
+      "onscreen": "MOSES · CHAPTER 2",
+      "sources": [
+        3,
+        1
+      ]
+    },
+    {
+      "id": 15,
+      "chapter": "",
+      "caption": "Kitna milta hai? Yahan guides alag alag bata rahe hain. Ek guide kehta hai ek se paanch hazaar dollar per car, doosra kehta hai achhi gaadi pe das hazaar se bhi upar. Matlab gaadi jitni achhi, paisa utna zyada.",
+      "tts": "कितना मिलता है? यहाँ guides अलग अलग बता रहे हैं। एक guide कहता है एक से पाँच हज़ार dollar per car, दूसरा कहता है अच्छी गाड़ी पे दस हज़ार से भी ऊपर। मतलब गाड़ी जितनी अच्छी, पैसा उतना ज़्यादा।",
+      "visual_need": "luxury cars driving through Vice City",
+      "onscreen": "$1K – $10K+ PER CAR",
+      "sources": [
+        3,
+        1
+      ]
+    },
+    {
+      "id": 16,
+      "chapter": "",
+      "caption": "Ek sale ke baad Moses cooldown mein chala jaata hai. Trick simple hai: kisi safehouse mein so jao, cooldown khatam. Aur Pay N Spray bhi gaadi khareedta hai, par wahan daily limit hai, aur high-end tracker wali gaadi woh lete hi nahi.",
+      "tts": "एक sale के बाद Moses cooldown में चला जाता है। Trick simple है: किसी safehouse में सो जाओ, cooldown ख़त्म। और Pay N Spray भी गाड़ी खरीदता है, पर वहाँ daily limit है, और high-end tracker वाली गाड़ी वो लेते ही नहीं।",
+      "visual_need": "character sleeping in bed, Pay N Spray garage",
+      "onscreen": "SO JAO = COOLDOWN KHATAM",
+      "sources": [
+        3,
+        1
+      ]
+    },
+    {
+      "id": 17,
+      "chapter": "",
+      "caption": "Gaadi uthane se pehle phone pe Waink app kholo. Woh batata hai gaadi mein kaunsa security system hai, bechne pe kitna milega, aur register karne mein kitna lagega. Bina dekhe gaadi chura li, toh time waste ho sakta hai.",
+      "tts": "गाड़ी उठाने से पहले phone पे Waink app खोलो। वो बताता है गाड़ी में कौनसा security system है, बेचने पे कितना मिलेगा, और register करने में कितना लगेगा। बिना देखे गाड़ी चुरा ली, तो time waste हो सकता है।",
+      "visual_need": "in-game phone app, parked sports car",
+      "onscreen": "WAINK APP CHECK KARO",
+      "sources": [
+        2
+      ]
+    },
+    {
+      "id": 18,
+      "chapter": "",
+      "caption": "Aage chal ke western Vice City mein Randy milta hai. Woh high-end gaadiyon ke contracts deta hai, zyada paisa, aur ek key cloner bhi deta hai jisse keyless electronic gaadiyan bhi chura sakte ho.",
+      "tts": "आगे चल के western Vice City में Randy मिलता है। वो high-end गाड़ियों के contracts देता है, ज़्यादा पैसा, और एक key cloner भी देता है जिससे keyless electronic गाड़ियाँ भी चुरा सकते हो।",
+      "visual_need": "supercar in a showroom, unlocking a car",
+      "onscreen": "RANDY = HIGH-END CARS",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 19,
+      "chapter": "Gang hideouts",
+      "caption": "Teesra source thoda risky hai par paisa accha hai: rival gang hideouts. Jab aap kisi hideout ke paas se guzarte ho, map pe ek yellow icon aa jaata hai, aur map hi bata deta hai andar kya maal hai.",
+      "tts": "तीसरा source थोड़ा risky है पर पैसा अच्छा है: rival gang hideouts। जब आप किसी hideout के पास से गुज़रते हो, map पे एक yellow icon आ जाता है, और map ही बता देता है अंदर क्या माल है।",
+      "visual_need": "shootout at a gang house, map with icons",
+      "onscreen": "YELLOW ICON = HIDEOUT",
+      "sources": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": 20,
+      "chapter": "",
+      "caption": "Wahan se milne wale drugs ki value alag alag hai. Weed sasti hai, crystal aur cocaine kaafi mehenge. Inhe aapko khud dealer tak le jaana padta hai, jaise Tyrone, jo turant paisa de deta hai. Baad mein garage mein drop bhi kar sakte ho, par tab dealer zyada cut leta hai.",
+      "tts": "वहाँ से मिलने वाले drugs की value अलग अलग है। Weed सस्ती है, crystal और cocaine काफ़ी महँगे। इन्हें आपको ख़ुद dealer तक ले जाना पड़ता है, जैसे Tyrone, जो तुरंत पैसा दे देता है। बाद में garage में drop भी कर सकते हो, पर तब dealer ज़्यादा cut लेता है।",
+      "visual_need": "carrying bags to a car, meeting a dealer",
+      "onscreen": "CARRY → SELL",
+      "sources": [
+        3,
+        1,
+        2
+      ]
+    },
+    {
+      "id": 21,
+      "chapter": "Bade score",
+      "caption": "Ab bade score. Bank jobs se pehle high-end stores aate hain: Capri, Ocean Beach aur Downtown Vice City ke jewellery aur clothing stores. Yahan security zyada hai, toh pehle map pe scout karo ki kitna maal hai aur security level kya hai.",
+      "tts": "अब बड़े score। Bank jobs से पहले high-end stores आते हैं: Capri, Ocean Beach और Downtown Vice City के jewellery और clothing stores। यहाँ security ज़्यादा है, तो पहले map पे scout करो कि कितना माल है और security level क्या है।",
+      "visual_need": "luxury jewellery store, Ocean Beach at night",
+      "onscreen": "CAPRI · OCEAN BEACH",
+      "sources": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 22,
+      "chapter": "",
+      "caption": "Medium aur high security wale jobs duo mein aasaan hain. Map icon pe partner ko invite karo. Back door aur snap gun se andar jao, toh alarm nahi bajta. Har character do stash bags utha sakta hai, van ya truck ki trunk mein aath tak aate hain, aur bike mein ek bhi nahi.",
+      "tts": "Medium और high security वाले jobs duo में आसान हैं। Map icon पे partner को invite करो। Back door और snap gun से अंदर जाओ, तो alarm नहीं बजता। हर character दो stash bags उठा सकता है, van या truck की trunk में आठ तक आते हैं, और bike में एक भी नहीं।",
+      "visual_need": "Jason and Lucia entering through a back door, loading a van",
+      "onscreen": "2 BAGS · VAN = 8",
+      "sources": [
+        2
+      ]
+    },
+    {
+      "id": 23,
+      "chapter": "",
+      "caption": "Jewellery ka maal bechne ke liye Little Cuba mein Yasmani ke paas jao. Woh jewellery aur marked bills dono ke acche paise deta hai. Aur yaad rakho, maal tab tak paisa nahi hai jab tak bik na jaaye.",
+      "tts": "Jewellery का माल बेचने के लिए Little Cuba में Yasmani के पास जाओ। वो jewellery और marked bills दोनों के अच्छे पैसे देता है। और याद रखो, माल तब तक पैसा नहीं है जब तक बिक ना जाए।",
+      "visual_need": "colourful Little Cuba street, handing over a bag",
+      "onscreen": "FENCE: YASMANI",
+      "sources": [
+        2,
+        1
+      ]
+    },
+    {
+      "id": 24,
+      "chapter": "",
+      "caption": "Aur phir banks. Yeh story ke lagbhag aadhe raste pe khulte hain. Banks mein dye packs hote hain jo phat jaate hain, isliye pehle dye pack jammer chahiye, jo Chapter 3 mein milta hai.",
+      "tts": "और फिर banks। ये story के लगभग आधे रास्ते पे खुलते हैं। Banks में dye packs होते हैं जो फट जाते हैं, इसलिए पहले dye pack jammer चाहिए, जो Chapter 3 में मिलता है।",
+      "visual_need": "bank exterior, tense heist entry",
+      "onscreen": "DYE PACK JAMMER · CH 3",
+      "sources": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 25,
+      "chapter": "",
+      "caption": "Bank mein teen targets hain: tellers ke cash drawers, safes jinme marked bills hote hain, aur vault, jahan sabse zyada paisa hai. Par jaise hi bahar niklo, wanted level seedha high. Yeh game ka sabse bada paisa hai, aur sabse bada risk bhi.",
+      "tts": "Bank में तीन targets हैं: tellers के cash drawers, safes जिनमें marked bills होते हैं, और vault, जहाँ सबसे ज़्यादा पैसा है। पर जैसे ही बाहर निकलो, wanted level सीधा high। ये game का सबसे बड़ा पैसा है, और सबसे बड़ा risk भी।",
+      "visual_need": "bank vault, police chase after a heist",
+      "onscreen": "DRAWER · SAFE · VAULT",
+      "sources": [
+        3
+      ]
+    },
+    {
+      "id": 26,
+      "chapter": "Paisa kahan lagaye",
+      "caption": "Ab sawaal, paisa kharch kahan karein? Mera order simple hai. Pehle story missions ke liye savings, kyunki kuch missions paise ke bina khulenge hi nahi. Phir weapons. Phir gaadiyan aur upgrades. Kapde sabse last mein.",
+      "tts": "अब सवाल, पैसा ख़र्च कहाँ करें? मेरा order simple है। पहले story missions के लिए savings, क्योंकि कुछ missions पैसे के बिना खुलेंगे ही नहीं। फिर weapons। फिर गाड़ियाँ और upgrades। कपड़े सबसे last में।",
+      "visual_need": "shopping montage: gun store, car garage, clothing store",
+      "onscreen": "STORY > GUNS > CARS > KAPDE",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 27,
+      "chapter": "",
+      "caption": "Aur ek baat jo bahut log nahi jaante: GTA 6 mein aap ghar ya safehouse khareed nahi sakte. Rehne ki jagah story hi deti hai. Toh property pe paisa bachane ki zaroorat nahi.",
+      "tts": "और एक बात जो बहुत लोग नहीं जानते: GTA 6 में आप घर या safehouse ख़रीद नहीं सकते। रहने की जगह story ही देती है। तो property पे पैसा बचाने की ज़रूरत नहीं।",
+      "visual_need": "Vice City houses and motel exteriors",
+      "onscreen": "GHAR KHAREED NAHI SAKTE",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 28,
+      "chapter": "Money cheat ka sach",
+      "caption": "Aur haan, money cheat. Ek cheat hai jo har baar dhai lakh dollar deta hai, par woh sirf main story khatam karne ke baad unlock hota hai.",
+      "tts": "और हाँ, money cheat। एक cheat है जो हर बार ढाई लाख dollar देता है, पर वो सिर्फ़ main story ख़त्म करने के बाद unlock होता है।",
+      "visual_need": "phone in hand, cash raining",
+      "onscreen": "$250,000 CHEAT",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 29,
+      "chapter": "",
+      "caption": "Aur catch yeh hai: cheat on rehte hue game save nahi hota, trophies aur achievements band ho jaate hain, aur game quit karte hi woh paisa gayab. Matlab shuru mein koi shortcut nahi. Kamana hi padega.",
+      "tts": "और catch ये है: cheat on रहते हुए game save नहीं होता, trophies और achievements बंद हो जाते हैं, और game quit करते ही वो पैसा ग़ायब। मतलब शुरू में कोई shortcut नहीं। कमाना ही पड़ेगा।",
+      "visual_need": "pause menu, save disabled warning",
+      "onscreen": "NO SAVE · NO TROPHIES",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 30,
+      "chapter": "Quick recap",
+      "caption": "Toh quick recap. Shuru mein thodi stick-ups aur Moses ke car contracts. Kenton milte hi treasure diving. Yellow icon dikhe toh gang hideout. Banks se pehle Capri aur Ocean Beach ke high-end stores. Aur mid game mein banks aur Randy ke contracts.",
+      "tts": "तो quick recap। शुरू में थोड़ी stick-ups और Moses के car contracts। Kenton मिलते ही treasure diving। Yellow icon दिखे तो gang hideout। Banks से पहले Capri और Ocean Beach के high-end stores। और mid game में banks और Randy के contracts।",
+      "visual_need": "fast recap montage of all methods",
+      "onscreen": "STICK-UPS → KENTON → MOSES → BANKS",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 31,
+      "chapter": "",
+      "caption": "Aur sabse important rule: har bade kaam ke baad paisa ATM mein daalo. Ek galat chase, aur jeb ka saara cash khatam. GTA 6 aur game links description mein hain.",
+      "tts": "और सबसे important rule: हर बड़े काम के बाद पैसा ATM में डालो। एक ग़लत chase, और जेब का सारा cash ख़त्म। GTA 6 और game links description में हैं।",
+      "visual_need": "ATM deposit, then police chase",
+      "onscreen": "HAMESHA DEPOSIT KARO",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 32,
+      "chapter": "",
+      "caption": "Ab aap batao, aapne GTA 6 mein abhi tak sabse zyada paisa kis tareeke se kamaya? Comment mein likho, aur agar yeh guide kaam ki lagi toh channel subscribe kar lo, agle video mein best cars ki baat karenge.",
+      "tts": "अब आप बताओ, आपने GTA 6 में अभी तक सबसे ज़्यादा पैसा किस तरीके से कमाया? Comment में लिखो, और अगर ये guide काम की लगी तो channel subscribe कर लो, अगले video में best cars की बात करेंगे।",
+      "visual_need": "Vice City sunset, Jason and Lucia driving",
+      "onscreen": "COMMENT KARO",
+      "sources": []
+    }
+  ]
+}

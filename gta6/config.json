@@ -1,0 +1,62 @@
+{
+  "beat_gap_sec": 0.25,
+  "words_per_minute": 150,
+  "target_minutes": [
+    8,
+    12
+  ],
+  "max_segment_sec": 15,
+  "min_segment_sec": 2.0,
+  "min_sources": 4,
+  "max_source_share": 0.3,
+  "max_sources_per_video": 8,
+  "max_source_duration_min": 60,
+  "crop_keep": 0.86,
+  "callout_sec": 4,
+  "font_path": "assets/fonts/Inter-Bold.ttf",
+  "music_dir": "assets/music",
+  "music_volume": 0.08,
+  "formats": [
+    "explainer",
+    "hidden_details",
+    "comparison",
+    "india_angle",
+    "weekly_roundup",
+    "how_to_guide",
+    "money_method",
+    "locations_guide",
+    "best_of_list"
+  ],
+  "blocked_source_channels": [],
+  "credit_line": "Gameplay footage used for commentary and analysis. All rights belong to their owners.",
+  "videos_per_day": 1,
+  "text_models": [
+    "gemini-3.8-flash",
+    "gemini-3.6-flash",
+    "gemini-3.5-flash",
+    "gemini-3-flash-preview",
+    "gemini-2.5-flash",
+    "gemini-4-hydrogen"
+  ],
+  "vision_models": [
+    "gemini-3.5-flash-lite",
+    "gemini-3.1-flash-lite"
+  ],
+  "_models_note": "Tried in order; when one hits its daily free quota (or is retired) the next is used. Each model has its own quota. Run `python -m pipeline models` to see exact IDs your key can use.",
+  "channels_enabled": [
+    "hi",
+    "en"
+  ],
+  "daily_script_hour": 7,
+  "publish_mode": "handoff",
+  "_publish_note": "handoff = Telegram tells you to upload in Studio (until the YouTube API audit passes); api = auto-upload scheduled at publish_time_utc",
+  "reddit_subs": [
+    "GTA6",
+    "GTAVI",
+    "GTA"
+  ],
+  "ytdlp_cookies_browser": "",
+  "research_mode": "gemini",
+  "_research_note": "gemini = Gemini watches source videos itself (no YouTube requests from this Mac); captions = yt-dlp captions (can hit YouTube 429)",
+  "max_scenes_per_source": 60
+}

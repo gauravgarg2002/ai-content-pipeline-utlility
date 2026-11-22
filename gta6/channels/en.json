@@ -1,0 +1,39 @@
+{
+  "channel": "en",
+  "channel_name": "GTA 6 Decoded",
+  "language": "English (simple, conversational, global audience)",
+  "audience": "GTA fans worldwide, mainly US/UK, 16-30",
+  "tts_voice": "en-US-AndrewNeural",
+  "tts_rate": "+4%",
+  "tts_script": "latin",
+  "caption_language": "en",
+  "video_language": "en",
+  "words_per_minute": 160,
+  "relevance_language": "en",
+  "excluded_formats": [
+    "india_angle"
+  ],
+  "youtube_search_queries": [
+    "GTA 6",
+    "GTA 6 secrets",
+    "GTA 6 guide",
+    "GTA 6 money",
+    "GTA 6 best cars"
+  ],
+  "affiliate_disclosure": "Some links are affiliate links: I may earn a small commission at no extra cost to you.",
+  "affiliate_links": [
+    {
+      "label": "GTA 6 (PS5)",
+      "url": ""
+    },
+    {
+      "label": "GTA 6 (Xbox Series X|S)",
+      "url": ""
+    },
+    {
+      "label": "PS5 controller",
+      "url": ""
+    }
+  ],
+  "publish_time_utc": "17:00"
+}

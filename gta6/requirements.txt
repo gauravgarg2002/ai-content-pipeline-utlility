@@ -1,0 +1,8 @@
+# GTA 6 commentary pipeline. Self-contained: install in its own venv.
+requests>=2.31
+pillow>=10.1
+edge-tts>=6.1
+yt-dlp>=2025.1.1
+scenedetect[opencv]>=0.6.4
+google-api-python-client>=2.120
+google-auth-oauthlib>=1.2

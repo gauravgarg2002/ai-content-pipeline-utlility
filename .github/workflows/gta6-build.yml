@@ -1,0 +1,56 @@
+name: gta6-build
+# Builds one approved GTA 6 video end to end (voice, footage, tagging, edit, render,
+# thumbnail) and pushes the result to the `gta6-renders` branch for review.
+# The MP4 is split into <95 MB parts (GitHub's file limit); rejoin with `cat final.mp4.part* > final.mp4`.
+on:
+  workflow_dispatch:
+    inputs:
+      video: {description: "Video folder under gta6/content/hi", default: "2026-11-23-gta-6-paisa-kaise-kamaye"}
+      channel: {description: "hi or en", default: "hi"}
+  push:
+    branches: ["gta6/**"]
+    paths: ["gta6/**", ".github/workflows/gta6-build.yml"]
+concurrency: { group: gta6-build, cancel-in-progress: true }
+permissions: { contents: write }
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    env:
+      VIDEO: ${{ github.event.inputs.video || '2026-11-23-gta-6-paisa-kaise-kamaye' }}
+      CH: ${{ github.event.inputs.channel || 'hi' }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12", cache: pip, cache-dependency-path: gta6/requirements.txt }
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-dejavu-core
+      - run: pip install -q -r gta6/requirements.txt "yt-dlp[default]"
+      - name: Font (Inter Bold, free)
+        run: |
+          mkdir -p gta6/assets/fonts
+          curl -fsSL -o /tmp/inter.zip https://github.com/rsms/inter/releases/download/v4.1/Inter-4.1.zip \
+            && unzip -o -j -q /tmp/inter.zip "extras/ttf/Inter-Bold.ttf" -d gta6/assets/fonts || echo "Inter download failed; DejaVu fallback"
+      - name: Build
+        working-directory: gta6
+        run: |
+          set -o pipefail
+          python -m pipeline -c "$CH" build "$VIDEO" 2>&1 | tee build.log
+      - name: Collect output
+        if: always()
+        run: |
+          D="gta6/content/$CH/$VIDEO"; O=/tmp/out; mkdir -p $O
+          cp gta6/build.log $O/ || true
+          for f in script.md script.json sources.json edl.json timing.json captions.srt metadata.json thumbnail.jpg status.json; do cp "$D/$f" $O/ 2>/dev/null || true; done
+          if [ -f "$D/final.mp4" ]; then
+            ffprobe -v error -show_entries format=duration,size -of compact "$D/final.mp4" | tee $O/final-info.txt
+            ffmpeg -v error -y -i "$D/final.mp4" -vf "fps=1/20,scale=320:-1,tile=6x5:padding=6:color=white" -frames:v 1 $O/contact.png
+            split -b 95m -d "$D/final.mp4" $O/final.mp4.part
+            echo "Rendered: $(cat $O/final-info.txt)" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "No final.mp4; see build.log" >> $GITHUB_STEP_SUMMARY
+          fi
+          cd $O && git init -q -b gta6-renders && git config user.name "render-bot" && git config user.email "render-bot@users.noreply.github.com"
+          git add . && git commit -qm "GTA6 build $VIDEO from ${GITHUB_SHA::7}"
+          git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" gta6-renders

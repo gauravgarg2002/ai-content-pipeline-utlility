@@ -1,0 +1,37 @@
+{
+  "channel": "hi",
+  "channel_name": "GTA 6 Hindi",
+  "language": "Hinglish (Hindi written in Roman script, mixed with English game terms)",
+  "audience": "Indian gamers, 16-30",
+  "tts_voice": "hi-IN-MadhurNeural",
+  "tts_rate": "+6%",
+  "tts_script": "devanagari",
+  "caption_language": "hi-Latn",
+  "video_language": "hi",
+  "words_per_minute": 150,
+  "relevance_language": "hi",
+  "excluded_formats": [],
+  "youtube_search_queries": [
+    "GTA 6",
+    "GTA 6 hidden details",
+    "GTA 6 hindi",
+    "GTA 6 how to",
+    "GTA 6 money"
+  ],
+  "affiliate_disclosure": "Kuch links affiliate hain: aap kharido to humein chhota commission milta hai, aapko extra cost nahi.",
+  "affiliate_links": [
+    {
+      "label": "GTA 6 (PS5)",
+      "url": ""
+    },
+    {
+      "label": "PS5 console",
+      "url": ""
+    },
+    {
+      "label": "DualSense controller",
+      "url": ""
+    }
+  ],
+  "publish_time_utc": "13:00"
+}

@@ -1,0 +1,11 @@
+.env
+.secrets/
+.venv/
+cache/
+content/*/work/
+content/*/*.mp4
+content/*/*.wav
+content/*/*.mp3
+__pycache__/
+state/
+logs/
