@@ -82,7 +82,7 @@ const Phone: React.FC<SceneP> = ({p, d, first}) => {
   return (<Svg><g opacity={s}>
     <rect x={x} y={y} width={w} height={h} rx={70} fill="#0E1528" stroke="#3A4870" strokeWidth={8} />
     <rect x={x + 180} y={y + 24} width={120} height={30} rx={15} fill="#1F2A48" />
-    {seq.map((label, i) => { const ss = i <= step ? useSpringAt(Math.round((i / seq.length) * d * 0.8), first && i === 0) : 0;
+    {seq.map((label, i) => { const sp = useSpringAt(Math.round((i / seq.length) * d * 0.8), first && i === 0); const ss = i <= step ? sp : 0;
       const yy = y + 130 + i * 260;
       return (<g key={i} opacity={ss} transform={`translate(0 ${(1 - ss) * 40})`}>
         <rect x={x + 40} y={yy} width={w - 80} height={220} rx={36} fill={i === seq.length - 1 && i === step ? '#173B3A' : '#1A2440'} stroke={i === step ? C.accent : '#2E3A5E'} strokeWidth={4} />

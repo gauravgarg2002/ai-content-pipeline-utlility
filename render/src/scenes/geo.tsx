@@ -56,7 +56,7 @@ export const GeoScene: React.FC<SceneP> = ({p, d, first}) => {
           return <path d={path({type: 'LineString', coordinates: pts} as any) || ''} fill="none" stroke={C.accent} strokeWidth={4} strokeDasharray="16 10" opacity={s} />; })() : null}
         {(p.circles || []).map((c: any, i: number) => { const s0 = at(d, c.at, i); const s = first && s0 === 0 ? 1 : interpolate(f, [s0, s0 + 25], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
           const r = ((c.radiusKm || 1000) / 6371) * (180 / Math.PI) * s;
-          return <path key={i} d={path(geoCircle().center(c.center).radius(Math.max(r, 0.01)).precision(1)()) || ''} fill="rgba(255,181,71,0.16)" stroke={C.accent} strokeWidth={5} />; })}
+          return <path key={i} d={path(geoCircle().center(c.center).radius(Math.max(r, 0.01)).precision(1)()) || ''} fill="rgba(255,181,71,0.05)" stroke={C.accent} strokeWidth={7} strokeDasharray="18 10" />; })}
         {(p.lines || []).map((ln: any, i: number) => { const s0 = at(d, ln.at, i); const s = interpolate(f, [s0, s0 + 30], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
           const coords = (ln.coords || ln.places.map((n: string) => place(n))) as [number, number][];
           const dpath = ln.straight ? `M${coords.map((c) => P(c).join(',')).join('L')}` : path({type: 'LineString', coordinates: coords} as any) || '';

@@ -70,7 +70,8 @@
         "pins": [
           {
             "place": "French Polynesia",
-            "label": "French Polynesia"
+            "label": "French Polynesia",
+            "dx": 90
           },
           {
             "place": "Guadeloupe",
@@ -102,7 +103,8 @@
           },
           {
             "place": "New Caledonia",
-            "label": "New Caledonia"
+            "label": "New Caledonia",
+            "dx": -90
           },
           {
             "place": "Wallis and Futuna",
@@ -122,13 +124,22 @@
       "startMs": 14090,
       "endMs": 19055,
       "props": {
-        "view": "world",
+        "view": [
+          30,
+          -60,
+          230,
+          40
+        ],
         "pins": [
           {
-            "place": "Tahiti"
+            "place": "Tahiti",
+            "label": "Tahiti",
+            "dx": -60
           },
           {
-            "place": "Reunion"
+            "place": "Reunion",
+            "label": "Réunion",
+            "dx": 60
           }
         ],
         "lines": [

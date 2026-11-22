@@ -18,6 +18,7 @@ def atmos(scene=None, seq=None): return ("atmos", {"scene": scene or seq[0][0], 
 FR_TERR = ["French Polynesia", "Guadeloupe", "Martinique", "French Guiana", "Saint Pierre and Miquelon", "Reunion", "Mayotte",
            "Kerguelen", "New Caledonia", "Wallis and Futuna", "Marquesas"]
 LABELLED = {"French Polynesia", "Reunion", "New Caledonia", "French Guiana"}
+LABEL_DX = {"French Polynesia": {"dx": 90}, "New Caledonia": {"dx": -90}}
 CIRCLE = {"center": [99.63, 21.65], "radiusKm": 3300}
 ASIA_HEAT = ["India", "China", "Bangladesh", "Pakistan", "Indonesia", "Vietnam", "Philippines", "Myanmar", "Thailand", "Nepal"]
 WIDE = [-85, -40, 75, 84]
@@ -37,8 +38,8 @@ BOARDS = {
         number([["Russia", 11], ["USA", 11]]),
         number([["France", 12]], accent=True),
         geo(view="world", fills=[{"name": "France", "label": "France"}],
-            pins=[{"place": n, "label": n if n in LABELLED else ""} for n in FR_TERR]),
-        geo(view="world", pins=[{"place": "Tahiti"}, {"place": "Reunion"}], lines=[{"places": ["Tahiti", "Reunion"], "at": 0.15}]),
+            pins=[{"place": n, "label": n if n in LABELLED else "", **LABEL_DX.get(n, {})} for n in FR_TERR]),
+        geo(view=[30, -60, 230, 40], pins=[{"place": "Tahiti", "label": "Tahiti", "dx": -60}, {"place": "Reunion", "label": "Réunion", "dx": 60}], lines=[{"places": ["Tahiti", "Reunion"], "at": 0.15}]),
         geo(view="world", fills=[{"name": "France", "label": "France"}], pins=[{"place": "Adelie Land", "label": "Adélie Land", "dy": 50}]),
         ("clocks", {"left": ["Paris", "00:00"], "right": ["Tahiti", "13:00"]}),
     ],
