@@ -1,12 +1,13 @@
 name: render-week
 # Voices and renders every video for a week, then publishes MP4s, contact
-# sheets and first frames to the `renders` branch under week1/.
+# sheets and first frames to the `renders-week1` branch (kept separate from
+# `renders`, which another session uses).
 on:
   workflow_dispatch:
   push:
     branches: ["phase1/**"]
     paths: ["render/**", "tools/render/**", "config/voices.json", "content/**/scenes.json", ".github/workflows/render-week.yml"]
-concurrency: { group: render-week, cancel-in-progress: true }
+concurrency: { group: "render-week-${{ github.ref }}", cancel-in-progress: true }
 permissions: { contents: write }
 
 env:
@@ -148,6 +149,6 @@ jobs:
         run: |
           cd /tmp/week1 && ls -la
           mkdir -p /tmp/r && cp -r /tmp/week1 /tmp/r/week1 && cd /tmp/r
-          git init -q -b renders && git config user.name "render-bot" && git config user.email "render-bot@users.noreply.github.com"
+          git init -q -b renders-week1 && git config user.name "render-bot" && git config user.email "render-bot@users.noreply.github.com"
           git add . && git commit -qm "Week 1 renders from ${GITHUB_SHA::7}"
-          git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" renders
+          git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" renders-week1
