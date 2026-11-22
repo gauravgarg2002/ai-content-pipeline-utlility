@@ -12,8 +12,9 @@
       "props": {
         "base": "world",
         "highlight": [
-          "RUS"
+          "Russia"
         ],
+        "color": "second",
         "then": "strike"
       }
     },
@@ -61,17 +62,73 @@
       "props": {
         "base": "world",
         "pins": [
-          "French Polynesia",
-          "Guadeloupe",
-          "Martinique",
-          "French Guiana",
-          "Saint Pierre and Miquelon",
-          "Reunion",
-          "Mayotte",
-          "Kerguelen",
-          "New Caledonia",
-          "Wallis and Futuna",
-          "Marquesas"
+          {
+            "name": "Paris",
+            "label": "+1",
+            "dy": -28
+          },
+          {
+            "name": "Tahiti",
+            "label": "−10",
+            "dx": 34,
+            "dy": 44
+          },
+          {
+            "name": "Marquesas",
+            "label": "−9:30",
+            "dx": 10,
+            "dy": -26
+          },
+          {
+            "name": "Gambier",
+            "label": "−9",
+            "dx": 30,
+            "dy": 44
+          },
+          {
+            "name": "Clipperton",
+            "label": "−8",
+            "dy": -26
+          },
+          {
+            "name": "Guadeloupe",
+            "label": "−4",
+            "dy": -26
+          },
+          {
+            "name": "French Guiana",
+            "label": "−3",
+            "dy": 46
+          },
+          {
+            "name": "Mayotte",
+            "label": "+3",
+            "dx": -34,
+            "dy": -14
+          },
+          {
+            "name": "Reunion",
+            "label": "+4",
+            "dx": 40,
+            "dy": 10
+          },
+          {
+            "name": "Kerguelen",
+            "label": "+5",
+            "dy": 46
+          },
+          {
+            "name": "New Caledonia",
+            "label": "+11",
+            "dx": -30,
+            "dy": -26
+          },
+          {
+            "name": "Wallis and Futuna",
+            "label": "+12",
+            "dx": -34,
+            "dy": 46
+          }
         ]
       }
     },
@@ -84,7 +141,8 @@
       "props": {
         "from": "French Polynesia",
         "to": "Reunion",
-        "draw_route": true
+        "draw_route": true,
+        "caption": "Pacific → Indian Ocean"
       }
     },
     {
@@ -97,7 +155,9 @@
         "base": "world",
         "highlight": [
           "Adelie Land"
-        ]
+        ],
+        "color": "accent",
+        "label": "Adélie Land"
       }
     },
     {

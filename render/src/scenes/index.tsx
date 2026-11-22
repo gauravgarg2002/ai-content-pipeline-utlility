@@ -3,6 +3,7 @@ import {interpolate, spring, useCurrentFrame, useVideoConfig, Easing} from 'remo
 import {geoCircle, geoGraticule10} from 'd3-geo';
 import {C, colorFor, fonts, useColor} from '../theme';
 import {ATLANTIC, geoCentroid, land, mercatorFor, pathFor, shape, trueSize} from '../geo';
+import {CameraPan, CountUp, SplitClock, WorldHighlight} from './world';
 
 export type SceneP = {p: any; onScreen: string | null; d: number; first: boolean};
 
@@ -124,5 +125,7 @@ export const Fallback: React.FC<SceneP> = (a) => <KineticText {...a} p={{text: a
 
 export const SCENES: Record<string, React.FC<SceneP>> = {
   comparison_split: ComparisonSplit, bar_compare: BarCompare, kinetic_text: KineticText,
-  shape_pack: ShapePack, grid_stretch: GridStretch, drag_shape: DragShape, map_highlight: MercatorHighlight,
+  shape_pack: ShapePack, grid_stretch: GridStretch, drag_shape: DragShape,
+  map_highlight: (a) => (a.p.base === 'world' ? <WorldHighlight {...a} /> : <MercatorHighlight {...a} />),
+  camera_pan: CameraPan, count_up: CountUp, split_clock: SplitClock,
 };

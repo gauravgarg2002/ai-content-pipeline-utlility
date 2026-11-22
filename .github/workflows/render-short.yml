@@ -4,7 +4,7 @@ name: render-short
 on:
   workflow_dispatch:
     inputs:
-      video: {description: "Video folder", default: "content/a-maps-data/2026-11-20-greenland-vs-africa-14x"}
+      video: {description: "Video folder", default: "content/a-maps-data/2026-11-20-france-most-time-zones"}
   push:
     branches: ["phase1/**"]
     paths: ["render/**", "tools/render/**", ".github/workflows/render-short.yml"]
@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 40
     env:
-      VIDEO: ${{ github.event.inputs.video || 'content/a-maps-data/2026-11-20-greenland-vs-africa-14x' }}
+      VIDEO: ${{ github.event.inputs.video || 'content/a-maps-data/2026-11-20-france-most-time-zones' }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
