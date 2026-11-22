@@ -8,6 +8,8 @@ def main(args):
     vdir = video_dir(args.video)
     require(vdir, "approved_script", "Script")
     cfg = load_config()
+    if cfg.get("footage_mode") == "official":  # all footage from one owner (Rockstar): per-creator spread rules relaxed
+        cfg.update(cfg.get("official_rules", {}))
     s = read_json(vdir / "script.json")
     timing = read_json(vdir / "timing.json")
     catalog = read_json(vdir / "work" / "catalog.json")

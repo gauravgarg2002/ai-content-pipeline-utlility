@@ -58,7 +58,7 @@ def main(args):
     base = best_frame(vdir, edl, read_json(vdir / "work" / "catalog.json"), cfg["crop_keep"])
     make_thumbnail(base, s["thumbnail_text"], vdir / "thumbnail.jpg", font(cfg))
     used = {e["src"] for e in edl}
-    credits = [f"- {x['channel']}: {x['url']}" for x in read_json(vdir / "sources.json") if x["id"] in used]
+    credits = list(dict.fromkeys(f"- {x['channel']}: {x['url']}" for x in read_json(vdir / "sources.json") if x["id"] in used))
     links = [f"- {l['label']}: {l['url']}" for l in cfg.get("affiliate_links", []) if l.get("url")]
     aff = ["Links:", *links, cfg["affiliate_disclosure"], ""] if links else []
     desc = "\n".join([s["description_summary"], "", *aff, "Chapters:", *chapters(s["beats"], timing), "",

@@ -22,10 +22,76 @@ def download(vid):
     return path
 
 
+def fetch(url, path):
+    """Plain HTTP download (official Rockstar CDN files)."""
+    import requests
+    if path.exists() and path.stat().st_size > 0:
+        return path
+    path.parent.mkdir(parents=True, exist_ok=True)
+    log(f"Downloading {url}")
+    with requests.get(url, stream=True, timeout=120, headers={"User-Agent": "Mozilla/5.0"}) as r:
+        r.raise_for_status()
+        tmp = path.with_suffix(path.suffix + ".part")
+        with open(tmp, "wb") as f:
+            for chunk in r.iter_content(1 << 20):
+                f.write(chunk)
+        tmp.rename(path)
+    return path
+
+
+def stills_video(zip_url, n, secs):
+    """Official screenshots -> one video of slow-panning stills (one scene per still)."""
+    import zipfile
+    out = CACHE / "sources" / "rockstar_screens.mp4"
+    if out.exists():
+        return out
+    z = fetch(zip_url, CACHE / "downloads" / "screens.zip")
+    d = CACHE / "screens"
+    d.mkdir(parents=True, exist_ok=True)
+    with zipfile.ZipFile(z) as zf:
+        names = sorted(x for x in zf.namelist() if x.lower().endswith((".jpg", ".jpeg", ".png")))
+        step = max(1, len(names) // n)
+        names = names[::step][:n]
+        for i, nm in enumerate(names):
+            (d / f"{i:03}.jpg").write_bytes(zf.read(nm))
+    clips = []
+    fr = int(secs * 30)
+    for i, img in enumerate(sorted(d.glob("*.jpg"))):
+        c = d / f"{i:03}.mp4"
+        zoom = "1+0.12*on/%d" % fr if i % 2 == 0 else "1.12-0.12*on/%d" % fr
+        if not c.exists():
+            run(["ffmpeg", "-y", "-loop", "1", "-i", str(img), "-vf",
+                 f"scale=2560:1440:force_original_aspect_ratio=increase,crop=2560:1440,"
+                 f"zoompan=z='{zoom}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1280x720:fps=30",
+                 "-frames:v", str(fr), "-c:v", "libx264", "-preset", "veryfast", "-pix_fmt", "yuv420p", str(c)])
+        clips.append(c)
+    lst = d / "list.txt"
+    lst.write_text("".join(f"file '{c.resolve()}'\n" for c in clips))
+    run(["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", str(lst), "-c", "copy", str(out)])
+    return out
+
+
+def official(vdir, cfg):
+    picked = []
+    for src in cfg["official_sources"]:
+        path = fetch(src["url"], CACHE / "sources" / f"{src['id']}.mp4")
+        picked.append({**src, "url": src.get("page", src["url"]), "download": src["url"],
+                       "channel": "Rockstar Games", "path": str(path)})
+    st = cfg.get("official_stills")
+    if st:
+        path = stills_video(st["zip"], st["count"], st["seconds"])
+        picked.append({"id": "rockstar_screens", "title": "Official GTA VI screenshots", "channel": "Rockstar Games",
+                       "url": st["page"], "path": str(path)})
+    write_json(vdir / "sources.json", picked)
+    print(f"{len(picked)} official Rockstar sources. Next: python -m pipeline -c {channel()} index {vdir.name}")
+
+
 def main(args):
     vdir = video_dir(args.video)
     require(vdir, "approved_script", "Script")
     cfg = load_config()
+    if cfg.get("footage_mode") == "official":  # Rockstar CDN; no YouTube requests at all
+        return official(vdir, cfg)
     s = read_json(vdir / "script.json")
     blocked = {c.lower() for c in cfg["blocked_source_channels"]}
     picked, channels = [], set()

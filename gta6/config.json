@@ -58,5 +58,49 @@
   "ytdlp_cookies_browser": "",
   "research_mode": "gemini",
   "_research_note": "gemini = Gemini watches source videos itself (no YouTube requests from this Mac); captions = yt-dlp captions (can hit YouTube 429)",
-  "max_scenes_per_source": 60
+  "max_scenes_per_source": 80,
+  "footage_mode": "official",
+  "official_sources": [
+    {
+      "id": "gtavi_extended_look",
+      "title": "Grand Theft Auto VI: An Extended Look",
+      "url": "https://media-rockstargames-com.akamaized.net/VI/downloads/videos/GTAVI_An_Extended_Look/GTAVI_An_Extended_Look.mp4",
+      "page": "https://www.rockstargames.com/VI/media/videos"
+    },
+    {
+      "id": "gtavi_launch_trailer",
+      "title": "Grand Theft Auto VI Launch Trailer",
+      "url": "https://media-rockstargames-com.akamaized.net/VI/downloads/videos/GTAVI_Launch_Trailer/GTAVI_Launch_Trailer.mp4",
+      "page": "https://www.rockstargames.com/VI/media/videos"
+    },
+    {
+      "id": "gtavi_trailer_2",
+      "title": "Grand Theft Auto VI Trailer 2",
+      "url": "https://media-rockstargames-com.akamaized.net/VI/downloads/videos/GTAVI_Trailer_2/GTAVI_Trailer_2.mp4",
+      "page": "https://www.rockstargames.com/VI/media/videos"
+    },
+    {
+      "id": "gtavi_trailer_1",
+      "title": "Grand Theft Auto VI Trailer 1",
+      "url": "https://media-rockstargames-com.akamaized.net/VI/downloads/videos/GTAVI_Trailer_1/GTAVI_Trailer_1.mp4",
+      "page": "https://www.rockstargames.com/VI/media/videos"
+    },
+    {
+      "id": "gtavi_out_now",
+      "title": "Grand Theft Auto VI: Out Now",
+      "url": "https://media-rockstargames-com.akamaized.net/VI/downloads/videos/GTAVI_Out_Now/GTAVI_Out_Now.mp4",
+      "page": "https://www.rockstargames.com/VI/media/videos"
+    }
+  ],
+  "official_stills": {
+    "zip": "https://media-rockstargames-com.akamaized.net/VI/downloads/screenshots/GTAVI_Screenshots.zip",
+    "count": 60,
+    "seconds": 6,
+    "page": "https://www.rockstargames.com/VI/media/screenshots"
+  },
+  "official_rules": {
+    "min_sources": 3,
+    "max_source_share": 0.55
+  },
+  "_footage_note": "official = Rockstar's own trailers, Extended Look and screenshots from rockstargames.com (no YouTube). youtube = creator gameplay via yt-dlp (needs a home connection)."
 }
