@@ -38,9 +38,14 @@ jobs:
       - run: pip install -q -r tools/smoke/requirements-kokoro.txt
       - name: Voice
         env: { HF_TOKEN: "${{ secrets.HF_TOKEN }}" }
-        run: for v in $KOKORO_VIDEOS; do python tools/render/prepare.py "$v"; done
+        run: |
+          mkdir -p logs; set -o pipefail
+          for v in $KOKORO_VIDEOS; do python tools/render/prepare.py "$v" 2>&1 | tee -a logs/voice-kokoro.log; done
       - uses: actions/upload-artifact@v4
         with: { name: inputs-kokoro, path: render/public/, retention-days: 7 }
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with: { name: log-voice-kokoro, path: logs/, retention-days: 7, if-no-files-found: ignore }
 
   voice-gemini:
     runs-on: ubuntu-latest
@@ -56,9 +61,8 @@ jobs:
       - name: Voice (one request at a time, free-tier safe)
         env: { GEMINI_API_KEY: "${{ secrets.GEMINI_API_KEY }}" }
         run: |
-          failed=0
-          for v in $GEMINI_VIDEOS; do python tools/render/prepare.py "$v" || { echo "::warning::voice failed for $v"; failed=1; }; done
-          echo "failed=$failed" >> $GITHUB_ENV
+          mkdir -p logs; set -o pipefail
+          for v in $GEMINI_VIDEOS; do python tools/render/prepare.py "$v" 2>&1 | tee -a logs/voice-gemini.log || echo "voice failed for $v" | tee -a logs/voice-gemini.log; done
       - name: Save voice cache
         if: always()
         uses: actions/cache/save@v4
@@ -66,6 +70,9 @@ jobs:
       - uses: actions/upload-artifact@v4
         if: always()
         with: { name: inputs-gemini, path: render/public/, retention-days: 7, if-no-files-found: ignore }
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with: { name: log-voice-gemini, path: logs/, retention-days: 7, if-no-files-found: ignore }
 
   render:
     needs: [voice-kokoro, voice-gemini]
@@ -112,9 +119,11 @@ jobs:
       - name: Render
         if: env.ok == '1'
         working-directory: render
-        run: npx remotion render src/index.ts Short "out/$ID.mp4" --props="public/$ID/props.json" --crf=22 --concurrency=4 --timeout=120000
+        run: |
+          mkdir -p out; set -o pipefail
+          npx remotion render src/index.ts Short "out/$ID.mp4" --props="public/$ID/props.json" --crf=22 --concurrency=4 --timeout=120000 2>&1 | tail -c 20000 | tee "out/$ID-render.log"
       - name: Contact sheet
-        if: env.ok == '1'
+        if: env.ok == '1' && hashFiles(format('render/out/{0}.mp4', env.ID)) != ''
         run: |
           cd render/out
           D=$(ffprobe -v error -show_entries format=duration -of csv=p=0 "$ID.mp4")
@@ -123,8 +132,8 @@ jobs:
           ffmpeg -v error -y -i "$ID.mp4" -frames:v 1 -q:v 3 "$ID-frame0.jpg"
           echo "**$ID**: ${D}s" >> $GITHUB_STEP_SUMMARY
       - uses: actions/upload-artifact@v4
-        if: env.ok == '1'
-        with: { name: "video-${{ env.ID }}", path: render/out/, retention-days: 14 }
+        if: always() && env.ok == '1'
+        with: { name: "video-${{ env.ID }}", path: render/out/, retention-days: 14, if-no-files-found: ignore }
 
   publish:
     needs: render
@@ -133,10 +142,12 @@ jobs:
     steps:
       - uses: actions/download-artifact@v4
         with: { pattern: "video-*", path: /tmp/week1, merge-multiple: true }
+      - uses: actions/download-artifact@v4
+        with: { pattern: "log-*", path: /tmp/week1/logs, merge-multiple: true }
       - name: Push to renders branch
         run: |
           cd /tmp/week1 && ls -la
-          mkdir -p /tmp/r/week1 && cp /tmp/week1/* /tmp/r/week1/ && cd /tmp/r
+          mkdir -p /tmp/r && cp -r /tmp/week1 /tmp/r/week1 && cd /tmp/r
           git init -q -b renders && git config user.name "render-bot" && git config user.email "render-bot@users.noreply.github.com"
           git add . && git commit -qm "Week 1 renders from ${GITHUB_SHA::7}"
           git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" renders
