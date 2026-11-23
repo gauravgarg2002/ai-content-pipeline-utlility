@@ -4,6 +4,8 @@ name: render-week
 # `renders`, which another session uses).
 on:
   workflow_dispatch:
+    inputs:
+      only: { description: "Space-separated content paths to (re)make; empty = all", default: "" }
   push:
     branches: ["phase1/**"]
     paths: ["render/**", "tools/render/**", "config/voices.json", "content/**/scenes.json", ".github/workflows/render-week.yml"]
@@ -11,6 +13,7 @@ concurrency: { group: "render-week-${{ github.ref }}", cancel-in-progress: true 
 permissions: { contents: write }
 
 env:
+  ONLY: "${{ inputs.only }}"
   KOKORO_VIDEOS: >-
     content/a-maps-data/2026-11-20-greenland-vs-africa-14x
     content/a-maps-data/2026-11-20-france-most-time-zones
@@ -41,7 +44,7 @@ jobs:
         env: { HF_TOKEN: "${{ secrets.HF_TOKEN }}" }
         run: |
           mkdir -p logs; set -o pipefail
-          for v in $KOKORO_VIDEOS; do python tools/render/prepare.py "$v" 2>&1 | tee -a logs/voice-kokoro.log; done
+          for v in $KOKORO_VIDEOS; do [ -n "$ONLY" ] && [[ " $ONLY " != *" $v "* ]] && continue; python tools/render/prepare.py "$v" 2>&1 | tee -a logs/voice-kokoro.log; done
       - uses: actions/upload-artifact@v4
         with: { name: inputs-kokoro, path: render/public/, retention-days: 7 }
       - uses: actions/upload-artifact@v4
@@ -64,6 +67,7 @@ jobs:
         run: |
           mkdir -p logs; set -o pipefail
           for v in $GEMINI_VIDEOS; do
+            [ -n "$ONLY" ] && [[ " $ONLY " != *" $v "* ]] && continue; 
             python tools/render/prepare.py "$v" 2>&1 | tee -a logs/voice-gemini.log; rc=${PIPESTATUS[0]}
             if [ $rc -eq 76 ]; then echo "daily Gemini limit reached; stopping before $v" | tee -a logs/voice-gemini.log; break; fi
             [ $rc -ne 0 ] && echo "voice failed for $v ($rc)" | tee -a logs/voice-gemini.log
@@ -108,6 +112,7 @@ jobs:
       - name: Check inputs
         run: |
           ID=$(basename "${{ matrix.video }}"); echo "ID=$ID" >> $GITHUB_ENV
+          if [ -n "$ONLY" ] && [[ " $ONLY " != *" content/${{ matrix.video }} "* ]]; then echo "ok=0" >> $GITHUB_ENV; exit 0; fi
           if [ -f "render/public/$ID/props.json" ]; then echo "ok=1" >> $GITHUB_ENV; else echo "::warning::no voiced input for $ID, skipping"; echo "ok=0" >> $GITHUB_ENV; fi
       - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
         if: env.ok == '1'
@@ -153,6 +158,7 @@ jobs:
         run: |
           cd /tmp/week1 && ls -la
           mkdir -p /tmp/r && cp -r /tmp/week1 /tmp/r/week1 && cd /tmp/r
-          git init -q -b renders-week1 && git config user.name "render-bot" && git config user.email "render-bot@users.noreply.github.com"
+          B=${{ inputs.only && 'renders-week1-extra' || 'renders-week1' }}
+          git init -q -b $B && git config user.name "render-bot" && git config user.email "render-bot@users.noreply.github.com"
           git add . && git commit -qm "Week 1 renders from ${GITHUB_SHA::7}"
-          git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" renders-week1
+          git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" $B
