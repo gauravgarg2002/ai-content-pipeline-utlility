@@ -1,0 +1,782 @@
+{
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "scenes": [
+    {
+      "id": "s01",
+      "type": "geo",
+      "beatId": "b01",
+      "startMs": 0,
+      "endMs": 9196,
+      "props": {
+        "view": "world",
+        "projection": "equal_earth",
+        "meridian": 0
+      }
+    },
+    {
+      "id": "s02",
+      "type": "kinetic",
+      "beatId": "b02",
+      "startMs": 9196,
+      "endMs": 17238,
+      "props": {
+        "text": "DRAWN BY COMMITTEES"
+      }
+    },
+    {
+      "id": "s03",
+      "type": "cards",
+      "beatId": "b03",
+      "startMs": 17238,
+      "endMs": 27203,
+      "props": {
+        "cells": [
+          "Whole hours",
+          ":30 offsets",
+          ":45 offsets"
+        ]
+      }
+    },
+    {
+      "id": "s04",
+      "type": "number",
+      "beatId": "b04",
+      "startMs": 27203,
+      "endMs": 37937,
+      "props": {
+        "items": [
+          [
+            "railroad time standards, 1883",
+            56
+          ]
+        ]
+      }
+    },
+    {
+      "id": "s05",
+      "type": "clocks",
+      "beatId": "b05",
+      "startMs": 37937,
+      "endMs": 50210,
+      "props": {
+        "left": [
+          "Local noon",
+          "12:00"
+        ],
+        "right": [
+          "Railroad noon",
+          "12:00"
+        ]
+      }
+    },
+    {
+      "id": "s06",
+      "type": "timeline",
+      "beatId": "b06",
+      "startMs": 50210,
+      "endMs": 60944,
+      "props": {
+        "events": [
+          [
+            1883,
+            "Day of Two Noons"
+          ],
+          [
+            1884,
+            "Greenwich chosen as zero"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "s07",
+      "type": "kinetic",
+      "beatId": "b07",
+      "startMs": 60944,
+      "endMs": 68601,
+      "props": {
+        "text": "SET BY GOVERNMENTS"
+      }
+    },
+    {
+      "id": "s08",
+      "type": "geo",
+      "beatId": "b08",
+      "startMs": 68601,
+      "endMs": 77412,
+      "props": {
+        "view": [
+          70,
+          16,
+          137,
+          54
+        ],
+        "fills": [
+          {
+            "name": "China"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s09",
+      "type": "geo",
+      "beatId": "b09",
+      "startMs": 77412,
+      "endMs": 84300,
+      "props": {
+        "view": [
+          70,
+          16,
+          137,
+          54
+        ],
+        "fills": [
+          {
+            "name": "China",
+            "label": false
+          }
+        ],
+        "pins": [
+          {
+            "place": "Beijing"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s10",
+      "type": "timeline",
+      "beatId": "b10",
+      "startMs": 84300,
+      "endMs": 90419,
+      "props": {
+        "events": [
+          [
+            1918,
+            "5 zones proposed"
+          ],
+          [
+            1949,
+            "One zone: Beijing Time"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "s11",
+      "type": "clocks",
+      "beatId": "b11",
+      "startMs": 90419,
+      "endMs": 99230,
+      "props": {
+        "left": [
+          "Beijing",
+          "12:00"
+        ],
+        "right": [
+          "Kashgar",
+          "15:10"
+        ]
+      }
+    },
+    {
+      "id": "s12",
+      "type": "clocks",
+      "beatId": "b12",
+      "startMs": 99230,
+      "endMs": 112272,
+      "props": {
+        "left": [
+          "Beijing Time",
+          "10:00"
+        ],
+        "right": [
+          "Xinjiang Time",
+          "08:00"
+        ]
+      }
+    },
+    {
+      "id": "s13",
+      "type": "geo",
+      "beatId": "b13",
+      "startMs": 112272,
+      "endMs": 116468,
+      "props": {
+        "view": [
+          70,
+          16,
+          137,
+          54
+        ],
+        "fills": [
+          {
+            "name": "China",
+            "label": false
+          }
+        ],
+        "pins": [
+          {
+            "place": "Beijing"
+          },
+          {
+            "place": "Kashgar"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s14",
+      "type": "geo",
+      "beatId": "b14",
+      "startMs": 116468,
+      "endMs": 122202,
+      "props": {
+        "view": [
+          66,
+          6,
+          98,
+          36
+        ],
+        "fills": [
+          {
+            "name": "India"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s15",
+      "type": "geo",
+      "beatId": "b15",
+      "startMs": 122202,
+      "endMs": 136013,
+      "props": {
+        "view": [
+          66,
+          6,
+          98,
+          36
+        ],
+        "fills": [
+          {
+            "name": "India",
+            "label": false
+          }
+        ],
+        "meridian": 82.5,
+        "pins": [
+          {
+            "place": "Mirzapur"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s16",
+      "type": "geo",
+      "beatId": "b16",
+      "startMs": 136013,
+      "endMs": 146363,
+      "props": {
+        "view": [
+          66,
+          6,
+          98,
+          36
+        ],
+        "fills": [
+          {
+            "name": "India",
+            "label": false
+          }
+        ],
+        "pins": [
+          {
+            "place": "Guwahati",
+            "label": "Assam"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s17",
+      "type": "cards",
+      "beatId": "b17",
+      "startMs": 146363,
+      "endMs": 159020,
+      "props": {
+        "cells": [
+          [
+            "Tea Garden Time",
+            "UTC+6:30, informal"
+          ],
+          [
+            "CSIR-NPL, 2018",
+            "Proposed IST-II"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "s18",
+      "type": "kinetic",
+      "beatId": "b18",
+      "startMs": 159020,
+      "endMs": 165908,
+      "props": {
+        "text": "ONE CLOCK · ONE COUNTRY?"
+      }
+    },
+    {
+      "id": "s19",
+      "type": "geo",
+      "beatId": "b19",
+      "startMs": 165908,
+      "endMs": 175488,
+      "props": {
+        "view": [
+          78,
+          24,
+          92,
+          32
+        ],
+        "fills": [
+          {
+            "name": "Nepal"
+          },
+          {
+            "name": "India",
+            "label": false,
+            "color": "#2A3350"
+          }
+        ],
+        "pins": [
+          {
+            "place": "Kathmandu"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s20",
+      "type": "timeline",
+      "beatId": "b20",
+      "startMs": 175488,
+      "endMs": 185453,
+      "props": {
+        "events": [
+          [
+            1920,
+            "Adopts Indian time"
+          ],
+          [
+            1986,
+            "+15 minutes"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "s21",
+      "type": "cards",
+      "beatId": "b21",
+      "startMs": 185453,
+      "endMs": 195418,
+      "props": {
+        "cells": [
+          [
+            "Nepal",
+            "UTC+5:45"
+          ],
+          [
+            "Chatham Islands",
+            "UTC+12:45"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "s22",
+      "type": "geo",
+      "beatId": "b22",
+      "startMs": 195418,
+      "endMs": 206537,
+      "props": {
+        "view": [
+          -12,
+          34,
+          26,
+          58
+        ],
+        "fills": [
+          {
+            "name": "Spain"
+          },
+          {
+            "name": "Poland",
+            "at": 0.4
+          }
+        ],
+        "pins": [
+          {
+            "place": "Madrid"
+          },
+          {
+            "place": "London"
+          },
+          {
+            "place": "Warsaw"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s23",
+      "type": "clocks",
+      "beatId": "b23",
+      "startMs": 206537,
+      "endMs": 216117,
+      "props": {
+        "left": [
+          "Before",
+          "23:00"
+        ],
+        "right": [
+          "After",
+          "00:00"
+        ]
+      }
+    },
+    {
+      "id": "s24",
+      "type": "cards",
+      "beatId": "b24",
+      "startMs": 216117,
+      "endMs": 229159,
+      "props": {
+        "cells": [
+          [
+            "Popular story",
+            "Matching Germany"
+          ],
+          [
+            "Historian's view",
+            "Matching Europe"
+          ]
+        ],
+        "stamp": "NEVER REVERSED"
+      }
+    },
+    {
+      "id": "s25",
+      "type": "clocks",
+      "beatId": "b25",
+      "startMs": 229159,
+      "endMs": 237585,
+      "props": {
+        "left": [
+          "Galicia sunrise",
+          "09:00"
+        ],
+        "right": [
+          "London sunrise",
+          "08:00"
+        ]
+      }
+    },
+    {
+      "id": "s26",
+      "type": "geo",
+      "beatId": "b26",
+      "startMs": 237585,
+      "endMs": 247550,
+      "props": {
+        "view": [
+          118,
+          32,
+          134,
+          44
+        ],
+        "fills": [
+          {
+            "name": "North Korea"
+          },
+          {
+            "name": "South Korea",
+            "at": 0.5
+          }
+        ],
+        "pins": [
+          {
+            "place": "Pyongyang"
+          },
+          {
+            "place": "Seoul"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s27",
+      "type": "clocks",
+      "beatId": "b27",
+      "startMs": 247550,
+      "endMs": 257515,
+      "props": {
+        "left": [
+          "Pyongyang",
+          "11:30"
+        ],
+        "right": [
+          "Seoul",
+          "12:00"
+        ]
+      }
+    },
+    {
+      "id": "s28",
+      "type": "timeline",
+      "beatId": "b28",
+      "startMs": 257515,
+      "endMs": 269018,
+      "props": {
+        "events": [
+          [
+            2015,
+            "Pyongyang Time"
+          ],
+          [
+            2018,
+            "Back to Seoul's time"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "s29",
+      "type": "geo",
+      "beatId": "b29",
+      "startMs": 269018,
+      "endMs": 277444,
+      "props": {
+        "view": [
+          160,
+          -20,
+          215,
+          12
+        ],
+        "pins": [
+          {
+            "place": "Tarawa"
+          },
+          {
+            "place": "Kiritimati"
+          }
+        ],
+        "meridian": 180
+      }
+    },
+    {
+      "id": "s30",
+      "type": "geo",
+      "beatId": "b30",
+      "startMs": 277444,
+      "endMs": 287794,
+      "props": {
+        "view": [
+          160,
+          -20,
+          215,
+          12
+        ],
+        "meridian": 180,
+        "pins": [
+          {
+            "place": "Tarawa",
+            "label": "Tuesday"
+          },
+          {
+            "place": "Kiritimati",
+            "label": "Monday"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s31",
+      "type": "geo",
+      "beatId": "b31",
+      "startMs": 287794,
+      "endMs": 301220,
+      "props": {
+        "view": [
+          160,
+          -20,
+          215,
+          12
+        ],
+        "lines": [
+          {
+            "coords": [
+              [
+                180,
+                12
+              ],
+              [
+                180,
+                5
+              ],
+              [
+                210,
+                5
+              ],
+              [
+                210,
+                -12
+              ],
+              [
+                180,
+                -12
+              ],
+              [
+                180,
+                -20
+              ]
+            ],
+            "at": 0.1
+          }
+        ],
+        "pins": [
+          {
+            "place": "Tarawa",
+            "label": ""
+          },
+          {
+            "place": "Kiritimati",
+            "label": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": "s32",
+      "type": "clocks",
+      "beatId": "b32",
+      "startMs": 301220,
+      "endMs": 308877,
+      "props": {
+        "left": [
+          "London",
+          "10:00"
+        ],
+        "right": [
+          "Kiritimati",
+          "00:00"
+        ]
+      }
+    },
+    {
+      "id": "s33",
+      "type": "timeline",
+      "beatId": "b33",
+      "startMs": 308877,
+      "endMs": 318457,
+      "props": {
+        "events": [
+          [
+            1995,
+            "Kiribati moves the line"
+          ],
+          [
+            2011,
+            "Samoa skips 30 Dec"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "s34",
+      "type": "kinetic",
+      "beatId": "b34",
+      "startMs": 318457,
+      "endMs": 328037,
+      "props": {
+        "text": "NO TREATY"
+      }
+    },
+    {
+      "id": "s35",
+      "type": "cards",
+      "beatId": "b35",
+      "startMs": 328037,
+      "endMs": 333002,
+      "props": {
+        "cells": [
+          [
+            "China",
+            "One clock for unity"
+          ],
+          [
+            "India",
+            "One clock, debated"
+          ],
+          [
+            "Nepal",
+            "Own 15 minutes"
+          ],
+          [
+            "Spain",
+            "Provisional since 1940"
+          ],
+          [
+            "North Korea",
+            "Clocks as diplomacy"
+          ],
+          [
+            "Kiribati",
+            "Moved the line"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "s36",
+      "type": "geo",
+      "beatId": "b36",
+      "startMs": 333002,
+      "endMs": 341428,
+      "props": {
+        "view": "world",
+        "projection": "equal_earth",
+        "fills": [
+          {
+            "name": "China"
+          },
+          {
+            "name": "India"
+          },
+          {
+            "name": "Nepal"
+          },
+          {
+            "name": "Spain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s37",
+      "type": "kinetic",
+      "beatId": "b37",
+      "startMs": 341428,
+      "endMs": 346008,
+      "props": {
+        "text": "WHICH ONE SURPRISED YOU?"
+      }
+    }
+  ]
+}

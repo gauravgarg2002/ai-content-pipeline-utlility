@@ -1,0 +1,52 @@
+{
+  "checkedOn": "2026-11-30",
+  "checkedBy": "Claude (manual fact gate, week 2)",
+  "beats": [
+    {
+      "id": "b01",
+      "verdict": "no-claim",
+      "evidence": "Framing, opinion, instruction or story; no factual claim."
+    },
+    {
+      "id": "b02",
+      "verdict": "supported",
+      "evidence": "Russia's total area is about 17.1 million km².",
+      "source": "https://en.wikipedia.org/wiki/Geography_of_Russia"
+    },
+    {
+      "id": "b03",
+      "verdict": "supported",
+      "evidence": "Before New Horizons, Pluto's surface area was estimated at about 16.6 million km².",
+      "source": "https://commonplacefacts.com/2019/05/23/pluto-vs-russia-surface-area/"
+    },
+    {
+      "id": "b04",
+      "verdict": "supported",
+      "evidence": "NASA's New Horizons mission corrected the estimate of Pluto's size.",
+      "source": "https://www.rbth.com/science-and-tech/330704-is-pluto-smaller-than-russia"
+    },
+    {
+      "id": "b05",
+      "verdict": "supported",
+      "evidence": "Pluto's surface area is about 17.74 million km².",
+      "source": "https://www.csiro.au/en/news/All/Articles/2026/Moon-Facts"
+    },
+    {
+      "id": "b06",
+      "verdict": "supported",
+      "evidence": "17.74M minus 17.10M is about 0.64M km²; Spain is about 0.5M km². [computed from the cited figures]",
+      "source": "https://www.csiro.au/en/news/All/Articles/2026/Moon-Facts"
+    },
+    {
+      "id": "b07",
+      "verdict": "supported",
+      "evidence": "Russia spans about 9,000 km east to west; Pluto is about 2,377 km across.",
+      "source": "https://www.csiro.au/en/news/All/Articles/2026/Moon-Facts"
+    },
+    {
+      "id": "b08",
+      "verdict": "no-claim",
+      "evidence": "Framing, opinion, instruction or story; no factual claim."
+    }
+  ]
+}

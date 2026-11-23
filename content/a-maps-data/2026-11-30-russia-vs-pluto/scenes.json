@@ -1,0 +1,148 @@
+{
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "scenes": [
+    {
+      "id": "s01",
+      "type": "geo",
+      "beatId": "b01",
+      "startMs": 0,
+      "endMs": 3811,
+      "props": {
+        "view": "world",
+        "fills": [
+          {
+            "name": "Russia"
+          }
+        ],
+        "strike": "Russia",
+        "strikeAt": 0.7
+      }
+    },
+    {
+      "id": "s02",
+      "type": "number",
+      "beatId": "b02",
+      "startMs": 3811,
+      "endMs": 7622,
+      "props": {
+        "items": [
+          [
+            "million km² · Russia",
+            17.1
+          ]
+        ]
+      }
+    },
+    {
+      "id": "s03",
+      "type": "bars",
+      "beatId": "b03",
+      "startMs": 7622,
+      "endMs": 13741,
+      "props": {
+        "bars": [
+          [
+            "Pluto (old)",
+            16.6
+          ],
+          [
+            "Russia",
+            17.1
+          ]
+        ],
+        "unit": "M km²"
+      }
+    },
+    {
+      "id": "s04",
+      "type": "timeline",
+      "beatId": "b04",
+      "startMs": 13741,
+      "endMs": 19475,
+      "props": {
+        "events": [
+          [
+            2006,
+            "Launch"
+          ],
+          [
+            2015,
+            "Pluto flyby"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "s05",
+      "type": "bars",
+      "beatId": "b05",
+      "startMs": 19475,
+      "endMs": 23286,
+      "props": {
+        "bars": [
+          [
+            "Pluto (2015)",
+            17.7
+          ],
+          [
+            "Russia",
+            17.1
+          ]
+        ],
+        "unit": "M km²"
+      }
+    },
+    {
+      "id": "s06",
+      "type": "geo",
+      "beatId": "b06",
+      "startMs": 23286,
+      "endMs": 29405,
+      "props": {
+        "view": [
+          -12,
+          34,
+          6,
+          45
+        ],
+        "fills": [
+          {
+            "name": "Spain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s07",
+      "type": "bars",
+      "beatId": "b07",
+      "startMs": 29405,
+      "endMs": 38601,
+      "props": {
+        "bars": [
+          [
+            "Russia (E–W)",
+            9000
+          ],
+          [
+            "Pluto (diameter)",
+            2377
+          ]
+        ],
+        "unit": "km"
+      }
+    },
+    {
+      "id": "s08",
+      "type": "kinetic",
+      "beatId": "b08",
+      "startMs": 38601,
+      "endMs": 42027,
+      "props": {
+        "text": "ALMOST A TIE"
+      }
+    }
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "scenes": [
+    {
+      "id": "s01",
+      "type": "atmos",
+      "beatId": "b01",
+      "startMs": 0,
+      "endMs": 37168,
+      "props": {
+        "scene": "tower_night",
+        "time": "3:33"
+      }
+    },
+    {
+      "id": "s02",
+      "type": "atmos",
+      "beatId": "b02",
+      "startMs": 37168,
+      "endMs": 72063,
+      "props": {
+        "scene": "phone_clock",
+        "sequence": [
+          [
+            "phone_clock",
+            0
+          ],
+          [
+            "lift_doors_open_empty",
+            0.45
+          ]
+        ],
+        "time": "3:33"
+      }
+    },
+    {
+      "id": "s03",
+      "type": "atmos",
+      "beatId": "b03",
+      "startMs": 72063,
+      "endMs": 101049,
+      "props": {
+        "scene": "lift_display_down",
+        "sequence": [
+          [
+            "lift_display_down",
+            0
+          ]
+        ],
+        "time": "3:33"
+      }
+    },
+    {
+      "id": "s04",
+      "type": "atmos",
+      "beatId": "b04",
+      "startMs": 101049,
+      "endMs": 148671,
+      "props": {
+        "scene": "guard_cabin",
+        "time": "3:33"
+      }
+    },
+    {
+      "id": "s05",
+      "type": "atmos",
+      "beatId": "b05",
+      "startMs": 148671,
+      "endMs": 192657,
+      "props": {
+        "scene": "lift_display_up",
+        "sequence": [
+          [
+            "lift_display_up",
+            0
+          ],
+          [
+            "lift_mirror_fog_nine",
+            0.55
+          ]
+        ],
+        "time": "3:33"
+      }
+    },
+    {
+      "id": "s06",
+      "type": "atmos",
+      "beatId": "b06",
+      "startMs": 192657,
+      "endMs": 258916,
+      "props": {
+        "scene": "lift_panel_nine_lit",
+        "sequence": [
+          [
+            "lift_panel_nine_lit",
+            0
+          ],
+          [
+            "lift_inside_day",
+            0.35
+          ]
+        ],
+        "time": "3:33"
+      }
+    },
+    {
+      "id": "s07",
+      "type": "atmos",
+      "beatId": "b07",
+      "startMs": 258916,
+      "endMs": 288811,
+      "props": {
+        "scene": "abandoned_stairwell_torch",
+        "time": "3:33"
+      }
+    },
+    {
+      "id": "s08",
+      "type": "atmos",
+      "beatId": "b08",
+      "startMs": 288811,
+      "endMs": 321433,
+      "props": {
+        "scene": "corridor_light_under_door",
+        "time": "3:33"
+      }
+    },
+    {
+      "id": "s09",
+      "type": "atmos",
+      "beatId": "b09",
+      "startMs": 321433,
+      "endMs": 359510,
+      "props": {
+        "scene": "empty_dusty_room",
+        "sequence": [
+          [
+            "empty_dusty_room",
+            0
+          ],
+          [
+            "intercom_1204",
+            0.55
+          ]
+        ],
+        "time": "3:33"
+      }
+    },
+    {
+      "id": "s10",
+      "type": "atmos",
+      "beatId": "b10",
+      "startMs": 359510,
+      "endMs": 389405,
+      "props": {
+        "scene": "intercom_1204",
+        "time": "3:33"
+      }
+    },
+    {
+      "id": "s11",
+      "type": "atmos",
+      "beatId": "b11",
+      "startMs": 389405,
+      "endMs": 436118,
+      "props": {
+        "scene": "lift_doors_open_empty",
+        "sequence": [
+          [
+            "lift_doors_open_empty",
+            0
+          ],
+          [
+            "lift_mirror_figure_behind",
+            0.5
+          ]
+        ],
+        "time": "3:33"
+      }
+    },
+    {
+      "id": "s12",
+      "type": "atmos",
+      "beatId": "b12",
+      "startMs": 436118,
+      "endMs": 459195,
+      "props": {
+        "scene": "black",
+        "sequence": [
+          [
+            "black",
+            0
+          ],
+          [
+            "room_plain",
+            0.5
+          ]
+        ],
+        "time": "3:33"
+      }
+    },
+    {
+      "id": "s13",
+      "type": "atmos",
+      "beatId": "b13",
+      "startMs": 459195,
+      "endMs": 496817,
+      "props": {
+        "scene": "guard_register",
+        "time": "3:33"
+      }
+    },
+    {
+      "id": "s14",
+      "type": "atmos",
+      "beatId": "b14",
+      "startMs": 496817,
+      "endMs": 518530,
+      "props": {
+        "scene": "tower_night",
+        "sequence": [
+          [
+            "tower_night",
+            0
+          ],
+          [
+            "black",
+            0.85
+          ]
+        ],
+        "time": "3:33"
+      }
+    }
+  ]
+}

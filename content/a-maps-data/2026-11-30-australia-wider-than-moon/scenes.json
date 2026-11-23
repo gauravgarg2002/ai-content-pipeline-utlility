@@ -1,0 +1,158 @@
+{
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "scenes": [
+    {
+      "id": "s01",
+      "type": "geo",
+      "beatId": "b01",
+      "startMs": 0,
+      "endMs": 2657,
+      "props": {
+        "view": [
+          108,
+          -46,
+          158,
+          -8
+        ],
+        "fills": [
+          {
+            "name": "Australia",
+            "label": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "s02",
+      "type": "number",
+      "beatId": "b02",
+      "startMs": 2657,
+      "endMs": 8007,
+      "props": {
+        "items": [
+          [
+            "km · Moon's diameter",
+            3474
+          ]
+        ]
+      }
+    },
+    {
+      "id": "s03",
+      "type": "geo",
+      "beatId": "b03",
+      "startMs": 8007,
+      "endMs": 13741,
+      "props": {
+        "view": [
+          108,
+          -46,
+          158,
+          -8
+        ],
+        "fills": [
+          {
+            "name": "Australia",
+            "label": false
+          }
+        ],
+        "measure": {
+          "a": "Perth",
+          "b": "Brisbane",
+          "label": "3,606 km"
+        },
+        "pins": [
+          {
+            "place": "Perth"
+          },
+          {
+            "place": "Brisbane"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s04",
+      "type": "bars",
+      "beatId": "b04",
+      "startMs": 13741,
+      "endMs": 18321,
+      "props": {
+        "bars": [
+          [
+            "Australia",
+            4000
+          ],
+          [
+            "Moon",
+            3474
+          ]
+        ],
+        "unit": "km"
+      }
+    },
+    {
+      "id": "s05",
+      "type": "geo",
+      "beatId": "b05",
+      "startMs": 18321,
+      "endMs": 23671,
+      "props": {
+        "view": [
+          108,
+          -46,
+          158,
+          -8
+        ],
+        "fills": [
+          {
+            "name": "Australia",
+            "label": false
+          }
+        ],
+        "circles": [
+          {
+            "center": [
+              134,
+              -25.5
+            ],
+            "radiusKm": 1737,
+            "at": 0.1
+          }
+        ]
+      }
+    },
+    {
+      "id": "s06",
+      "type": "bars",
+      "beatId": "b06",
+      "startMs": 23671,
+      "endMs": 34405,
+      "props": {
+        "bars": [
+          [
+            "Moon",
+            37.94
+          ],
+          [
+            "Australia",
+            7.69
+          ]
+        ],
+        "unit": "M km²"
+      }
+    },
+    {
+      "id": "s07",
+      "type": "kinetic",
+      "beatId": "b07",
+      "startMs": 34405,
+      "endMs": 37062,
+      "props": {
+        "text": "WIDER · NOT BIGGER"
+      }
+    }
+  ]
+}

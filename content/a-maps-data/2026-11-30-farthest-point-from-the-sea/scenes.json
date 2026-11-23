@@ -1,0 +1,200 @@
+{
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "scenes": [
+    {
+      "id": "s01",
+      "type": "geo",
+      "beatId": "b01",
+      "startMs": 0,
+      "endMs": 4196,
+      "props": {
+        "view": [
+          40,
+          18,
+          130,
+          62
+        ],
+        "pins": [
+          {
+            "coords": [
+              88.14,
+              45.28
+            ],
+            "label": "Here"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s02",
+      "type": "geo",
+      "beatId": "b02",
+      "startMs": 4196,
+      "endMs": 9546,
+      "props": {
+        "view": [
+          40,
+          18,
+          130,
+          62
+        ],
+        "fills": [
+          {
+            "name": "China"
+          },
+          {
+            "name": "Kazakhstan"
+          },
+          {
+            "name": "Mongolia"
+          }
+        ],
+        "pins": [
+          {
+            "coords": [
+              88.14,
+              45.28
+            ],
+            "label": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": "s03",
+      "type": "geo",
+      "beatId": "b03",
+      "startMs": 9546,
+      "endMs": 18357,
+      "props": {
+        "view": [
+          20,
+          0,
+          150,
+          72
+        ],
+        "circles": [
+          {
+            "center": [
+              88.14,
+              45.28
+            ],
+            "radiusKm": 2510,
+            "at": 0.05
+          }
+        ],
+        "pins": [
+          {
+            "coords": [
+              88.14,
+              45.28
+            ],
+            "label": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": "s04",
+      "type": "geo",
+      "beatId": "b04",
+      "startMs": 18357,
+      "endMs": 22168,
+      "props": {
+        "view": [
+          -12,
+          40,
+          45,
+          62
+        ],
+        "measure": {
+          "a": "London",
+          "b": "Moscow",
+          "label": "~2,500 km"
+        },
+        "pins": [
+          {
+            "place": "London"
+          },
+          {
+            "place": "Moscow"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s05",
+      "type": "geo",
+      "beatId": "b05",
+      "startMs": 22168,
+      "endMs": 33671,
+      "props": {
+        "view": [
+          55,
+          40,
+          95,
+          75
+        ],
+        "pins": [
+          {
+            "coords": [
+              73.5,
+              69.0
+            ],
+            "label": "Gulf of Ob"
+          },
+          {
+            "coords": [
+              88.14,
+              45.28
+            ],
+            "label": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": "s06",
+      "type": "geo",
+      "beatId": "b06",
+      "startMs": 33671,
+      "endMs": 38636,
+      "props": {
+        "view": [
+          75,
+          38,
+          95,
+          50
+        ],
+        "pins": [
+          {
+            "coords": [
+              82.19,
+              44.29
+            ],
+            "label": "2,510 km"
+          },
+          {
+            "coords": [
+              88.14,
+              45.28
+            ],
+            "label": "2,514 km"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s07",
+      "type": "kinetic",
+      "beatId": "b07",
+      "startMs": 38636,
+      "endMs": 42832,
+      "props": {
+        "text": "PACK A LUNCH"
+      }
+    }
+  ]
+}

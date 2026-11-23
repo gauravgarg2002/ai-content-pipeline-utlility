@@ -1,0 +1,58 @@
+{
+  "hook": "Australia is wider than the Moon.",
+  "beats": [
+    {
+      "id": "b01",
+      "narration": "Australia is wider than the Moon.",
+      "onScreen": "AUSTRALIA vs MOON"
+    },
+    {
+      "id": "b02",
+      "narration": "The Moon is about three thousand four hundred and seventy four kilometres across.",
+      "onScreen": "MOON",
+      "claim": "The Moon is about 3,474 km across.",
+      "sourceUrl": "https://www.csiro.au/en/news/All/Articles/2026/Moon-Facts"
+    },
+    {
+      "id": "b03",
+      "narration": "Perth to Brisbane, in a straight line, is about three thousand six hundred kilometres.",
+      "onScreen": "PERTH → BRISBANE",
+      "claim": "Perth to Brisbane is 3,606 km as the crow flies.",
+      "sourceUrl": "https://www.csiro.au/en/news/All/Articles/2026/Moon-Facts"
+    },
+    {
+      "id": "b04",
+      "narration": "Measure the widest point, and Australia is close to four thousand.",
+      "onScreen": "~4,000 km",
+      "claim": "Australia is almost 4,000 km wide east to west.",
+      "sourceUrl": "https://www.snopes.com/fact-check/australia-wider-than-earths-moon/"
+    },
+    {
+      "id": "b05",
+      "narration": "So if you laid the Moon over Australia, it wouldn't reach both coasts.",
+      "onScreen": null
+    },
+    {
+      "id": "b06",
+      "narration": "But don't call the Moon small. It's a ball, not a disc. Its surface is about thirty eight million square kilometres. Australia is about seven point seven.",
+      "onScreen": "AREA",
+      "claim": "The Moon's surface is about 37.94 million km²; Australia is about 7.69 million km².",
+      "sourceUrl": "https://www.csiro.au/en/news/All/Articles/2026/Moon-Facts"
+    },
+    {
+      "id": "b07",
+      "narration": "Wider? Yes. Bigger? Not even close.",
+      "onScreen": null
+    }
+  ],
+  "title": "Australia is wider than the Moon",
+  "description": "Perth to Brisbane is about 3,606 km. The Moon is about 3,474 km across. But the Moon's surface is five times bigger.",
+  "tags": [
+    "geography",
+    "Australia",
+    "Moon",
+    "space",
+    "maps",
+    "shorts"
+  ]
+}

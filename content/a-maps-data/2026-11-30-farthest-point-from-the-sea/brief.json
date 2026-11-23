@@ -1,0 +1,15 @@
+{
+  "id": "2026-11-30-farthest-point-from-the-sea",
+  "channel": "a-maps-data",
+  "topic": "The point on land farthest from any ocean",
+  "angle": "A circle you can't escape, and the Gulf of Ob plot twist",
+  "cluster": "extremes",
+  "hookPattern": "superlative",
+  "lengthBucket": "25-55s",
+  "format": "short",
+  "sources": [
+    "https://inaccessibility.net/?p=1169",
+    "https://openpolar.no/Record/ftzenodo:oai:zenodo.org:840337",
+    "https://www.atlasandboots.com/poles-of-inaccessibility-middle-nowhere/"
+  ]
+}

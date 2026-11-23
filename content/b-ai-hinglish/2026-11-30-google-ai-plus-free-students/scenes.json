@@ -1,0 +1,106 @@
+{
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "scenes": [
+    {
+      "id": "s01",
+      "type": "kinetic",
+      "beatId": "b01",
+      "startMs": 0,
+      "endMs": 8042,
+      "props": {
+        "text": "31 DEC TAK"
+      }
+    },
+    {
+      "id": "s02",
+      "type": "timeline",
+      "beatId": "b02",
+      "startMs": 8042,
+      "endMs": 13776,
+      "props": {
+        "events": [
+          [
+            2026,
+            "Redeem by 31 Dec"
+          ],
+          [
+            2027,
+            "Free saal chalega"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "s03",
+      "type": "cards",
+      "beatId": "b03",
+      "startMs": 13776,
+      "endMs": 20664,
+      "props": {
+        "cells": [
+          "2× limits",
+          "400 GB storage",
+          "Gemini Omni",
+          "Unlimited uploads"
+        ]
+      }
+    },
+    {
+      "id": "s04",
+      "type": "cards",
+      "beatId": "b04",
+      "startMs": 20664,
+      "endMs": 30629,
+      "props": {
+        "cells": [
+          "18+",
+          "College student",
+          "SheerID verify"
+        ]
+      }
+    },
+    {
+      "id": "s05",
+      "type": "ui",
+      "beatId": "b05",
+      "startMs": 30629,
+      "endMs": 37132,
+      "props": {
+        "kind": "settings",
+        "path_steps": [
+          "one.google.com",
+          "Student offer",
+          "Verify"
+        ],
+        "state": "on"
+      }
+    },
+    {
+      "id": "s06",
+      "type": "number",
+      "beatId": "b06",
+      "startMs": 37132,
+      "endMs": 45943,
+      "props": {
+        "items": [
+          [
+            "₹ per month · after 1 year",
+            399
+          ]
+        ]
+      }
+    },
+    {
+      "id": "s07",
+      "type": "kinetic",
+      "beatId": "b07",
+      "startMs": 45943,
+      "endMs": 50139,
+      "props": {
+        "text": "GROUP MEIN BHEJO"
+      }
+    }
+  ]
+}

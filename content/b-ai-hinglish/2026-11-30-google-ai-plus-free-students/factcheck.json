@@ -1,0 +1,46 @@
+{
+  "checkedOn": "2026-11-30",
+  "checkedBy": "Claude (manual fact gate, week 2)",
+  "beats": [
+    {
+      "id": "b01",
+      "verdict": "no-claim",
+      "evidence": "Framing, opinion, instruction or story; no factual claim."
+    },
+    {
+      "id": "b02",
+      "verdict": "supported",
+      "evidence": "Google's India student page: 'Redeem until 31 December 2026'.",
+      "source": "https://gemini.google/in/students/"
+    },
+    {
+      "id": "b03",
+      "verdict": "supported",
+      "evidence": "Includes 2x usage limits, 400 GB storage, Gemini Omni, unlimited uploads for Study Notebooks, Visuals and Live.",
+      "source": "https://gemini.google/in/students/"
+    },
+    {
+      "id": "b04",
+      "verdict": "supported",
+      "evidence": "Eligible university students aged 18+, verified via SheerID with college email or a document.",
+      "source": "https://bestai.in/guides/free-ai-offers-india"
+    },
+    {
+      "id": "b05",
+      "verdict": "supported",
+      "evidence": "Use a personal Gmail with a payment method; college-issued accounts aren't eligible.",
+      "source": "https://bestai.in/guides/free-ai-offers-india"
+    },
+    {
+      "id": "b06",
+      "verdict": "supported",
+      "evidence": "After the trial, ₹399/month is charged automatically unless you cancel.",
+      "source": "https://gemini.google/in/students/"
+    },
+    {
+      "id": "b07",
+      "verdict": "no-claim",
+      "evidence": "Framing, opinion, instruction or story; no factual claim."
+    }
+  ]
+}

@@ -1,11 +1,12 @@
 name: render-week
-# Voices and renders every video for a week, then publishes MP4s, contact
-# sheets and first frames to the `renders-week1` branch (kept separate from
-# `renders`, which another session uses).
+# Voices and renders every video of one week (content/*/<WEEK>-*), then
+# publishes MP4s, contact sheets and logs to the `renders-<WEEK>` branch
+# (`renders-<WEEK>-extra` when only a subset is remade).
 on:
   workflow_dispatch:
     inputs:
-      only: { description: "Space-separated content paths to (re)make; empty = all", default: "" }
+      week: { description: "Content date prefix, e.g. 2026-11-30; empty = DEFAULT_WEEK", default: "" }
+      only: { description: "Space-separated content paths to (re)make; empty = all of the week", default: "" }
   push:
     branches: ["phase1/**"]
     paths: ["render/**", "tools/render/**", "config/voices.json", "content/**/scenes.json", ".github/workflows/render-week.yml"]
@@ -13,25 +14,34 @@ concurrency: { group: "render-week-${{ github.ref }}", cancel-in-progress: true 
 permissions: { contents: write }
 
 env:
+  WEEK: "${{ inputs.week || '2026-11-30' }}"
   ONLY: "${{ inputs.only }}"
-  KOKORO_VIDEOS: >-
-    content/a-maps-data/2026-11-20-greenland-vs-africa-14x
-    content/a-maps-data/2026-11-20-france-most-time-zones
-    content/a-maps-data/2026-11-20-canada-coastline-27-years
-    content/a-maps-data/2026-11-20-half-of-humanity-one-circle
-    content/a-maps-data/2026-11-20-alaska-easternmost-state
-    content/a-maps-data/2026-11-20-why-every-map-is-wrong
-    content/c-pilot-epics-en/2026-11-20-mahabharata-family-tree
-  GEMINI_VIDEOS: >-
-    content/b-ai-hinglish/2026-11-20-chatgpt-free-2026-catch
-    content/b-ai-hinglish/2026-11-20-chatgpt-training-setting-off
-    content/b-ai-hinglish/2026-11-20-deepmind-free-56-hour-course
-    content/b-ai-hinglish/2026-11-20-gemini-books-your-ride-india
-    content/b-ai-hinglish/2026-11-20-gemini-live-bhojpuri
-    content/c-pilot-horror-hi/2026-11-20-saamne-wali-khidki
 
 jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.p.outputs.matrix }}
+      kokoro: ${{ steps.p.outputs.kokoro }}
+      gemini: ${{ steps.p.outputs.gemini }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: p
+        run: |
+          python3 - <<'PY' >> "$GITHUB_OUTPUT"
+          import glob, json, os
+          week, only = os.environ["WEEK"], os.environ.get("ONLY", "").split()
+          dirs = sorted(d.rstrip("/") for d in glob.glob(f"content/*/{week}-*/"))
+          if only: dirs = [d for d in dirs if d in only]
+          gem = {"b-ai-hinglish", "c-pilot-horror-hi"}
+          k = [d for d in dirs if d.split("/")[1] not in gem]; g = [d for d in dirs if d.split("/")[1] in gem]
+          print("matrix=" + json.dumps({"video": [d[len("content/"):] for d in dirs] or ["none"]}))
+          print("kokoro=" + " ".join(k)); print("gemini=" + " ".join(g))
+          PY
+          cat "$GITHUB_OUTPUT"
+
   voice-kokoro:
+    needs: plan
     runs-on: ubuntu-latest
     timeout-minutes: 40
     steps:
@@ -44,7 +54,7 @@ jobs:
         env: { HF_TOKEN: "${{ secrets.HF_TOKEN }}" }
         run: |
           mkdir -p logs; set -o pipefail
-          for v in $KOKORO_VIDEOS; do [ -n "$ONLY" ] && [[ " $ONLY " != *" $v "* ]] && continue; python tools/render/prepare.py "$v" 2>&1 | tee -a logs/voice-kokoro.log; done
+          for v in ${{ needs.plan.outputs.kokoro }}; do python tools/render/prepare.py "$v" 2>&1 | tee -a logs/voice-kokoro.log; done
       - uses: actions/upload-artifact@v4
         with: { name: inputs-kokoro, path: render/public/, retention-days: 7 }
       - uses: actions/upload-artifact@v4
@@ -52,6 +62,7 @@ jobs:
         with: { name: log-voice-kokoro, path: logs/, retention-days: 7, if-no-files-found: ignore }
 
   voice-gemini:
+    needs: plan
     runs-on: ubuntu-latest
     timeout-minutes: 60
     steps:
@@ -66,8 +77,7 @@ jobs:
         env: { GEMINI_API_KEY: "${{ secrets.GEMINI_API_KEY }}" }
         run: |
           mkdir -p logs; set -o pipefail
-          for v in $GEMINI_VIDEOS; do
-            [ -n "$ONLY" ] && [[ " $ONLY " != *" $v "* ]] && continue; 
+          for v in ${{ needs.plan.outputs.gemini }}; do
             python tools/render/prepare.py "$v" 2>&1 | tee -a logs/voice-gemini.log; rc=${PIPESTATUS[0]}
             if [ $rc -eq 76 ]; then echo "daily Gemini limit reached; stopping before $v" | tee -a logs/voice-gemini.log; break; fi
             [ $rc -ne 0 ] && echo "voice failed for $v ($rc)" | tee -a logs/voice-gemini.log
@@ -84,27 +94,13 @@ jobs:
         with: { name: log-voice-gemini, path: logs/, retention-days: 7, if-no-files-found: ignore }
 
   render:
-    needs: [voice-kokoro, voice-gemini]
+    needs: [plan, voice-kokoro, voice-gemini]
     if: always()
     runs-on: ubuntu-latest
     timeout-minutes: 90
     strategy:
       fail-fast: false
-      matrix:
-        video:
-          - a-maps-data/2026-11-20-greenland-vs-africa-14x
-          - a-maps-data/2026-11-20-france-most-time-zones
-          - a-maps-data/2026-11-20-canada-coastline-27-years
-          - a-maps-data/2026-11-20-half-of-humanity-one-circle
-          - a-maps-data/2026-11-20-alaska-easternmost-state
-          - a-maps-data/2026-11-20-why-every-map-is-wrong
-          - b-ai-hinglish/2026-11-20-chatgpt-free-2026-catch
-          - b-ai-hinglish/2026-11-20-chatgpt-training-setting-off
-          - b-ai-hinglish/2026-11-20-deepmind-free-56-hour-course
-          - b-ai-hinglish/2026-11-20-gemini-books-your-ride-india
-          - b-ai-hinglish/2026-11-20-gemini-live-bhojpuri
-          - c-pilot-epics-en/2026-11-20-mahabharata-family-tree
-          - c-pilot-horror-hi/2026-11-20-saamne-wali-khidki
+      matrix: ${{ fromJSON(needs.plan.outputs.matrix) }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/download-artifact@v4
@@ -112,7 +108,6 @@ jobs:
       - name: Check inputs
         run: |
           ID=$(basename "${{ matrix.video }}"); echo "ID=$ID" >> $GITHUB_ENV
-          if [ -n "$ONLY" ] && [[ " $ONLY " != *" content/${{ matrix.video }} "* ]]; then echo "ok=0" >> $GITHUB_ENV; exit 0; fi
           if [ -f "render/public/$ID/props.json" ]; then echo "ok=1" >> $GITHUB_ENV; else echo "::warning::no voiced input for $ID, skipping"; echo "ok=0" >> $GITHUB_ENV; fi
       - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
         if: env.ok == '1'
@@ -157,8 +152,8 @@ jobs:
       - name: Push to renders branch
         run: |
           cd /tmp/week1 && ls -la
-          mkdir -p /tmp/r && cp -r /tmp/week1 /tmp/r/week1 && cd /tmp/r
-          B=${{ inputs.only && 'renders-week1-extra' || 'renders-week1' }}
+          mkdir -p /tmp/r && cp -r /tmp/week1 /tmp/r/week && cd /tmp/r
+          B=renders-$WEEK${{ inputs.only && '-extra' || '' }}; [ "$WEEK" = 2026-11-20 ] && B=${B/renders-2026-11-20/renders-week1}
           git init -q -b $B && git config user.name "render-bot" && git config user.email "render-bot@users.noreply.github.com"
           git add . && git commit -qm "Week 1 renders from ${GITHUB_SHA::7}"
           git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" $B

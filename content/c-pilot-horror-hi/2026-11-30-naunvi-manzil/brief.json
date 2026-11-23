@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-30-naunvi-manzil",
+  "channel": "c-pilot-horror-hi",
+  "topic": "Original horror story: the lift that stops at the ninth floor",
+  "angle": "Modern high-rise, a 3:33 am lift, a guard's register that counts one person too many",
+  "cluster": "urban-high-rise",
+  "hookPattern": "warning",
+  "lengthBucket": "600-900s",
+  "format": "long",
+  "sources": [],
+  "storyMeta": {
+    "setting": "half-empty new housing tower",
+    "narrator": "first-person young man",
+    "structure": "three nights + guard's register",
+    "ending": "register reveal, instruction to the viewer"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "2026-11-30-chatgpt-live-dictation",
+  "channel": "b-ai-hinglish",
+  "topic": "ChatGPT Live Dictation: no 10-minute limit",
+  "angle": "A small update that changes how you type",
+  "cluster": "new-features",
+  "hookPattern": "how-to",
+  "lengthBucket": "25-55s",
+  "format": "short",
+  "sources": [
+    "https://releasebot.io/updates/openai/chatgpt"
+  ],
+  "publishBy": "2027-01-31"
+}

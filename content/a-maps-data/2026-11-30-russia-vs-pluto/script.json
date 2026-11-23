@@ -1,0 +1,67 @@
+{
+  "hook": "You've heard Russia is bigger than Pluto. It isn't.",
+  "beats": [
+    {
+      "id": "b01",
+      "narration": "You've heard Russia is bigger than Pluto. It isn't.",
+      "onScreen": "RUSSIA > PLUTO?"
+    },
+    {
+      "id": "b02",
+      "narration": "Russia covers about seventeen point one million square kilometres.",
+      "onScreen": "RUSSIA",
+      "claim": "Russia's total area is about 17.1 million km².",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Geography_of_Russia"
+    },
+    {
+      "id": "b03",
+      "narration": "Older estimates put Pluto's surface lower, around sixteen point six million. So the fact stuck.",
+      "onScreen": "OLD ESTIMATE",
+      "claim": "Before New Horizons, Pluto's surface area was estimated at about 16.6 million km².",
+      "sourceUrl": "https://commonplacefacts.com/2019/05/23/pluto-vs-russia-surface-area/"
+    },
+    {
+      "id": "b04",
+      "narration": "Then in twenty fifteen, NASA's New Horizons flew past Pluto and measured it properly.",
+      "onScreen": "NEW HORIZONS · 2015",
+      "claim": "NASA's New Horizons mission corrected the estimate of Pluto's size.",
+      "sourceUrl": "https://www.rbth.com/science-and-tech/330704-is-pluto-smaller-than-russia"
+    },
+    {
+      "id": "b05",
+      "narration": "New number: about seventeen point seven million square kilometres.",
+      "onScreen": "PLUTO",
+      "claim": "Pluto's surface area is about 17.74 million km².",
+      "sourceUrl": "https://www.csiro.au/en/news/All/Articles/2026/Moon-Facts"
+    },
+    {
+      "id": "b06",
+      "narration": "Pluto wins by over six hundred thousand square kilometres. That's more than all of Spain.",
+      "onScreen": "+600,000 km²",
+      "claim": "17.74M minus 17.10M is about 0.64M km²; Spain is about 0.5M km².",
+      "sourceUrl": "https://www.csiro.au/en/news/All/Articles/2026/Moon-Facts"
+    },
+    {
+      "id": "b07",
+      "narration": "But Russia is still wider. About nine thousand kilometres east to west. Pluto is only two thousand three hundred and seventy seven across.",
+      "onScreen": "WIDTH",
+      "claim": "Russia spans about 9,000 km east to west; Pluto is about 2,377 km across.",
+      "sourceUrl": "https://www.csiro.au/en/news/All/Articles/2026/Moon-Facts"
+    },
+    {
+      "id": "b08",
+      "narration": "Wider country. Bigger dwarf planet. Almost a tie.",
+      "onScreen": null
+    }
+  ],
+  "title": "Russia is NOT bigger than Pluto",
+  "description": "The famous fact was true with old estimates. Then New Horizons measured Pluto in 2015.",
+  "tags": [
+    "geography",
+    "Russia",
+    "Pluto",
+    "space",
+    "maps",
+    "shorts"
+  ]
+}

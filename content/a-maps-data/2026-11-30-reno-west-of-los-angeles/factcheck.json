@@ -1,0 +1,45 @@
+{
+  "checkedOn": "2026-11-30",
+  "checkedBy": "Claude (manual fact gate, week 2)",
+  "beats": [
+    {
+      "id": "b01",
+      "verdict": "no-claim",
+      "evidence": "Framing, opinion, instruction or story; no factual claim."
+    },
+    {
+      "id": "b02",
+      "verdict": "supported",
+      "evidence": "Los Angeles is at about 118.24°W.",
+      "source": "https://quizzclub.com/trivia/which-of-these-u-s-cities-is-farthest-west1ae9abecdb974155ba8a8b6f470601ed/answer/3218776"
+    },
+    {
+      "id": "b03",
+      "verdict": "supported",
+      "evidence": "Reno is at 119.81°W.",
+      "source": "https://www.geodatos.net/en/coordinates/united-states/reno"
+    },
+    {
+      "id": "b04",
+      "verdict": "no-claim",
+      "evidence": "Framing, opinion, instruction or story; no factual claim."
+    },
+    {
+      "id": "b05",
+      "verdict": "supported",
+      "evidence": "San Diego is at about 117.16°W, east of Reno.",
+      "source": "https://quizzclub.com/trivia/which-of-these-u-s-cities-is-farthest-west1ae9abecdb974155ba8a8b6f470601ed/answer/3218776"
+    },
+    {
+      "id": "b06",
+      "verdict": "supported",
+      "evidence": "Six state capitals lie west of Los Angeles, including Carson City.",
+      "source": "https://thenevadaindependent.com/article/are-there-6-state-capitals-west-of-los-angeles"
+    },
+    {
+      "id": "b07",
+      "verdict": "no-claim",
+      "evidence": "Framing, opinion, instruction or story; no factual claim."
+    }
+  ]
+}

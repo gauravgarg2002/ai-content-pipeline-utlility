@@ -1,0 +1,15 @@
+{
+  "id": "2026-11-30-reno-west-of-los-angeles",
+  "channel": "a-maps-data",
+  "topic": "Reno, Nevada is further west than Los Angeles",
+  "angle": "The California coast slants, so 'west coast' isn't the westmost",
+  "cluster": "borders-and-time",
+  "hookPattern": "contradiction",
+  "lengthBucket": "25-55s",
+  "format": "short",
+  "sources": [
+    "https://quizzclub.com/trivia/which-of-these-u-s-cities-is-farthest-west1ae9abecdb974155ba8a8b6f470601ed/answer/3218776",
+    "https://thenevadaindependent.com/article/are-there-6-state-capitals-west-of-los-angeles",
+    "https://www.geodatos.net/en/coordinates/united-states/reno"
+  ]
+}

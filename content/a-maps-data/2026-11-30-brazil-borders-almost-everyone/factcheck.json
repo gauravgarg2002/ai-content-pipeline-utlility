@@ -1,0 +1,46 @@
+{
+  "checkedOn": "2026-11-30",
+  "checkedBy": "Claude (manual fact gate, week 2)",
+  "beats": [
+    {
+      "id": "b01",
+      "verdict": "no-claim",
+      "evidence": "Framing, opinion, instruction or story; no factual claim."
+    },
+    {
+      "id": "b02",
+      "verdict": "supported",
+      "evidence": "Brazil borders nine South American countries and French Guiana.",
+      "source": "https://en.wikipedia.org/wiki/Borders_of_Brazil"
+    },
+    {
+      "id": "b03",
+      "verdict": "supported",
+      "evidence": "Brazil borders every South American country except Chile and Ecuador.",
+      "source": "https://www.britannica.com/place/Brazil"
+    },
+    {
+      "id": "b04",
+      "verdict": "supported",
+      "evidence": "Brazil's land borders total 16,885 km.",
+      "source": "https://en.wikipedia.org/wiki/Borders_of_Brazil"
+    },
+    {
+      "id": "b05",
+      "verdict": "supported",
+      "evidence": "Brazil has the world's third-longest land border, behind China and Russia.",
+      "source": "https://en.wikipedia.org/wiki/Borders_of_Brazil"
+    },
+    {
+      "id": "b06",
+      "verdict": "supported",
+      "evidence": "The Brazil–France border is 730 km, France's longest; Spain is second at 623 km.",
+      "source": "https://en.wikipedia.org/wiki/Brazil%E2%80%93France_border"
+    },
+    {
+      "id": "b07",
+      "verdict": "no-claim",
+      "evidence": "Framing, opinion, instruction or story; no factual claim."
+    }
+  ]
+}

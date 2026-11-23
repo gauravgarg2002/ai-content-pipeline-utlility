@@ -96,10 +96,10 @@ const Room: React.FC<{v: string}> = ({v}) => {
   </>);
 };
 
-const PhoneClock: React.FC = () => (
+const PhoneClock: React.FC<{time?: string}> = ({time = '2:10'}) => (
   <><rect width={W0} height={H0} fill="#03050A" />
     <rect x={760} y={170} width={400} height={760} rx={60} fill="#0D1220" stroke="#2A3350" strokeWidth={6} />
-    <text x={960} y={560} textAnchor="middle" fontFamily="Space Grotesk, sans-serif" fontWeight={700} fontSize={150} fill="#DDE3F0">2:10</text>
+    <text x={960} y={560} textAnchor="middle" fontFamily="Space Grotesk, sans-serif" fontWeight={700} fontSize={150} fill="#DDE3F0">{time}</text>
     <text x={960} y={630} textAnchor="middle" fontFamily="Inter, sans-serif" fontWeight={700} fontSize={36} fill="#7E89A6">AM</text></>
 );
 
@@ -157,12 +157,112 @@ const Mirror: React.FC<{d: number}> = ({d}) => {
     </Window></g></>);
 };
 
+
+// ---- episode 2: high-rise tower and lift ---------------------------------------
+const Tower: React.FC = () => {
+  const f = useCurrentFrame();
+  const lit = new Set([3, 17, 26, 41, 52]);
+  return (<><defs><linearGradient id="sky2" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stopColor="#03050B" /><stop offset="100%" stopColor="#111829" /></linearGradient></defs>
+    <rect width={W0} height={H0} fill="url(#sky2)" />
+    <rect x={180} y={420} width={300} height={660} fill="#0B0F18" /><rect x={1460} y={360} width={320} height={720} fill="#0B0F18" />
+    <rect x={720} y={60} width={480} height={1020} fill="#121826" stroke="#1B2232" strokeWidth={6} />
+    {Array.from({length: 13}, (_, r) => Array.from({length: 4}, (_, c) => { const i = r * 4 + c; const y = 100 + r * 74; const x = 760 + c * 108;
+      const nine = r === 4 && c === 2; const on = lit.has(i) || (nine && Math.floor(f / 18) % 5 === 0);
+      return <rect key={i} x={x} y={y} width={78} height={46} fill={on ? H.warm : '#090C13'} opacity={on ? (nine ? 0.9 : 0.6) : 1} />; }))}
+    <Rain o={0.12} /></>);
+};
+
+const LiftFrame: React.FC<{children?: React.ReactNode; num?: string; numO?: number}> = ({children, num, numO = 1}) => (
+  <><rect width={W0} height={H0} fill="#07090F" /><rect x={0} y={880} width={W0} height={200} fill="#0D111A" />
+    <rect x={620} y={150} width={680} height={740} fill="#1A1F2A" stroke="#2A3142" strokeWidth={16} />
+    {children}
+    <rect x={880} y={70} width={160} height={64} rx={8} fill="#0A0505" stroke="#2A1A1A" strokeWidth={4} />
+    {num !== undefined ? <text x={960} y={120} textAnchor="middle" fontFamily="Space Grotesk, monospace" fontWeight={700} fontSize={52} fill="#FF3B30" opacity={numO}>{num}</text> : null}
+    <rect x={1340} y={470} width={50} height={90} rx={10} fill="#141924" /><circle cx={1365} cy={515} r={14} fill="#2A3142" /></>
+);
+
+const LiftDoors: React.FC<{open: boolean; d: number; seq?: number[]}> = ({open, d, seq}) => {
+  const f = useCurrentFrame();
+  const o = open ? interpolate(f, [8, 30, d - 30, d - 8], [0, 1, 1, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'}) : 0;
+  const idx = seq ? Math.min(seq.length - 1, Math.floor((f / Math.max(d * 0.6, 1)) * seq.length)) : 0;
+  const num = seq ? String(seq[idx]) : '12';
+  const gap = 320 * o;
+  return (<LiftFrame num={num} numO={seq && idx === seq.length - 1 ? 0.6 + 0.4 * Math.sin(f / 6) : 1}>
+    {o > 0 ? <><rect x={640} y={170} width={640} height={700} fill="#E8C98A" opacity={0.85} /><rect x={760} y={200} width={400} height={560} fill="#B8C0CC" opacity={0.35} /></> : null}
+    <rect x={640} y={170} width={320 - gap} height={700} fill="#4A5262" /><rect x={960 + gap} y={170} width={320 - gap} height={700} fill="#4A5262" />
+    <line x1={960} y1={170} x2={960} y2={870} stroke="#2A3142" strokeWidth={o > 0 ? 0 : 4} />
+  </LiftFrame>);
+};
+
+// Inside the lift: back-wall mirror, side panel.
+const LiftInside: React.FC<{mode: string; d: number}> = ({mode, d}) => {
+  const f = useCurrentFrame();
+  const day = mode === 'day';
+  const fog = mode === 'fog';
+  const behind = mode === 'behind';
+  const s = interpolate(f, [d * 0.15, d * 0.4], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
+  return (<><rect width={W0} height={H0} fill={day ? '#2A2F38' : '#1A1712'} />
+    <rect x={0} y={0} width={W0} height={H0} fill="#E8C98A" opacity={day ? 0.05 : 0.12 * flicker(f, 'lift')} />
+    <rect x={560} y={140} width={800} height={760} fill="#0E1118" stroke="#6B7280" strokeWidth={10} />
+    <rect x={560} y={140} width={800} height={760} fill="#9AA3B8" opacity={0.12} />
+    {!day ? <g fill={H.fig}><rect x={820} y={560} width={280} height={340} rx={60} /><circle cx={960} cy={480} r={78} /></g> : null}
+    {behind ? <g fill="#020202" opacity={s}><circle cx={1080} cy={420} r={58} /><path d="M1040,440 C1030,520 1040,600 1050,700 L1130,700 C1140,600 1150,520 1120,440 Z" />
+      <path d="M1036,420 Q1020,380 1030,350" stroke="#020202" strokeWidth={12} fill="none" /></g> : null}
+    {fog ? <><ellipse cx={960} cy={420} rx={300} ry={220} fill="#C9CCD3" opacity={0.35 * s} />
+      <text x={960} y={470} textAnchor="middle" fontFamily="Inter, sans-serif" fontWeight={700} fontSize={170} fill="#0E1118" opacity={0.8 * s}>9</text></> : null}
+    <rect x={1420} y={340} width={130} height={420} rx={14} fill="#3A404C" />
+    {Array.from({length: 12}, (_, i) => { const n = 12 - i; const lit = (mode === 'panel' && n === 9 && f % 30 < 22) || (behind && n === 12);
+      return <g key={n}><circle cx={1460 + (i % 2) * 50} cy={380 + Math.floor(i / 2) * 62} r={20} fill={lit ? '#F2B35A' : '#20252E'} />
+        <text x={1460 + (i % 2) * 50} y={388 + Math.floor(i / 2) * 62} textAnchor="middle" fontFamily="Inter" fontSize={20} fontWeight={700} fill={lit ? '#2A1A05' : '#6B7280'}>{n}</text></g>; })}
+  </>);
+};
+
+const Corridor: React.FC = () => {
+  const f = useCurrentFrame(); const fl = flicker(f, 'door');
+  return (<><rect width={W0} height={H0} fill="#04050A" />
+    <polygon points="0,0 1920,0 1160,380 760,380" fill="#090C13" /><polygon points="0,1080 1920,1080 1160,700 760,700" fill="#0C0F16" />
+    <polygon points="0,0 760,380 760,700 0,1080" fill="#0B0E15" /><polygon points="1920,0 1160,380 1160,700 1920,1080" fill="#0B0E15" />
+    {[[180, 'l'], [460, 'l'], [1460, 'r'], [1740, 'r']].map(([x, side]: any, i) => <rect key={i} x={side === 'l' ? x - 60 : x - 60} y={260 + i * 0} width={90} height={500} fill="#11151F" opacity={0.9} transform={`skewY(${side === 'l' ? 12 : -12})`} />)}
+    <rect x={880} y={430} width={160} height={270} fill="#141924" stroke="#1E2433" strokeWidth={6} />
+    <text x={960} y={470} textAnchor="middle" fontFamily="Inter" fontSize={22} fontWeight={700} fill="#4A5262">904</text>
+    <rect x={880} y={692} width={160} height={8} fill={H.warm} opacity={0.9 * fl} />
+    <polygon points={`880,700 1040,700 1110,780 810,780`} fill={H.warm} opacity={0.12 * fl} /></>);
+};
+
+const Intercom: React.FC = () => {
+  const f = useCurrentFrame(); const blink = Math.floor(f / 12) % 2 === 0;
+  return (<><rect width={W0} height={H0} fill="#0B0E15" /><rect x={0} y={0} width={W0} height={H0} fill="#E8C98A" opacity={0.05} />
+    <rect x={760} y={200} width={400} height={640} rx={30} fill="#D9DCE2" opacity={0.9} />
+    <rect x={810} y={260} width={300} height={150} rx={10} fill="#06140B" />
+    <text x={960} y={315} textAnchor="middle" fontFamily="Space Grotesk, monospace" fontSize={30} fontWeight={700} fill="#3BE37A" opacity={0.7}>CALL</text>
+    <text x={960} y={385} textAnchor="middle" fontFamily="Space Grotesk, monospace" fontSize={64} fontWeight={700} fill="#3BE37A" opacity={blink ? 1 : 0.35}>1204</text>
+    <rect x={820} y={450} width={120} height={330} rx={50} fill="#2A2F38" />
+    {Array.from({length: 9}, (_, i) => <circle key={i} cx={1000 + (i % 3) * 40} cy={500 + Math.floor(i / 3) * 50} r={14} fill="#9AA3B8" />)}</>);
+};
+
+const Guard: React.FC<{register?: boolean}> = ({register}) => {
+  const f = useCurrentFrame(); const fl = flicker(f, 'lamp');
+  return (<><rect width={W0} height={H0} fill="#06080D" />
+    <defs><radialGradient id="lamp2" cx="50%" cy="40%" r="50%"><stop offset="0%" stopColor="#FFE2A8" stopOpacity={0.55 * fl} /><stop offset="100%" stopColor="#FFE2A8" stopOpacity={0} /></radialGradient></defs>
+    <ellipse cx={960} cy={620} rx={700} ry={420} fill="url(#lamp2)" />
+    <rect x={300} y={720} width={1320} height={60} fill="#1E1812" /><rect x={340} y={780} width={1240} height={300} fill="#120E0A" />
+    <path d="M1300,720 L1360,520 L1440,520" stroke="#2A2A2A" strokeWidth={14} fill="none" /><path d="M1400,500 L1500,500 L1470,560 L1430,560 Z" fill="#3A3A3A" />
+    <g transform={register ? 'translate(560 420) scale(1.5)' : 'translate(640 600)'}>
+      <rect x={0} y={0} width={520} height={register ? 240 : 120} fill="#E9E4D6" />
+      <line x1={260} y1={0} x2={260} y2={register ? 240 : 120} stroke="#B9B2A2" strokeWidth={3} />
+      {Array.from({length: register ? 8 : 4}, (_, i) => <line key={i} x1={16} y1={24 + i * 28} x2={500} y2={24 + i * 28} stroke="#C9C2B2" strokeWidth={2} />)}
+      {register ? <><text x={22} y={190} fontFamily="Noto Sans Devanagari, Inter" fontSize={19} fill="#1A2A5A">3:33 · लिफ़्ट 12 → 9 · एक व्यक्ति</text>
+        <text x={22} y={218} fontFamily="Noto Sans Devanagari, Inter" fontSize={19} fontWeight={700} fill="#7A1010"
+          opacity={interpolate(f, [40, 70], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'})}>3:41 · लिफ़्ट 9 → 12 · दो व्यक्ति</text></> : null}
+    </g></>);
+};
+
 const Black: React.FC = () => <rect width={W0} height={H0} fill="#000" />;
 
 const MAP: Record<string, (p: any) => React.ReactNode> = {
   narrow_lane_night: () => <Lane state="off" pose="none" />,
   room_interior_fan: () => <Room v="fan" />,
-  phone_clock: () => <PhoneClock />,
+  phone_clock: (p) => <PhoneClock time={p.time} />,
   opposite_window_silhouette_combing: () => <Lane state="on" pose="comb" />,
   morning_shop_shutter: () => <Shop />,
   opposite_window_silhouette_wave: () => <Lane state="on" pose="wave" />,
@@ -177,6 +277,18 @@ const MAP: Record<string, (p: any) => React.ReactNode> = {
   room_plain: () => <Room v="lit" />,
   opposite_window_shows_narrator_with_figure_behind: (p) => <Mirror d={p.d} />,
   black: () => <Black />,
+  tower_night: () => <Tower />,
+  lift_doors_open_empty: (p) => <LiftDoors open d={p.d} />,
+  lift_display_down: (p) => <LiftDoors open={false} d={p.d} seq={[12, 11, 10, 9]} />,
+  lift_display_up: (p) => <LiftDoors open={false} d={p.d} seq={[9, 10, 11, 12]} />,
+  lift_mirror_fog_nine: (p) => <LiftInside mode="fog" d={p.d} />,
+  lift_panel_nine_lit: (p) => <LiftInside mode="panel" d={p.d} />,
+  lift_inside_day: (p) => <LiftInside mode="day" d={p.d} />,
+  lift_mirror_figure_behind: (p) => <LiftInside mode="behind" d={p.d} />,
+  corridor_light_under_door: () => <Corridor />,
+  intercom_1204: () => <Intercom />,
+  guard_cabin: () => <Guard />,
+  guard_register: () => <Guard register />,
 };
 
 // p.sequence: [[sceneName, startFraction], ...] switches scenes inside one beat.

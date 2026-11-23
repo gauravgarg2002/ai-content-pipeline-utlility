@@ -1,0 +1,58 @@
+{
+  "hook": "Reno, Nevada, is further west than Los Angeles.",
+  "beats": [
+    {
+      "id": "b01",
+      "narration": "Reno, Nevada, is further west than Los Angeles.",
+      "onScreen": "WHICH IS FURTHER WEST?"
+    },
+    {
+      "id": "b02",
+      "narration": "Los Angeles sits at about one hundred eighteen point two degrees west.",
+      "onScreen": "LA · 118.2°W",
+      "claim": "Los Angeles is at about 118.24°W.",
+      "sourceUrl": "https://quizzclub.com/trivia/which-of-these-u-s-cities-is-farthest-west1ae9abecdb974155ba8a8b6f470601ed/answer/3218776"
+    },
+    {
+      "id": "b03",
+      "narration": "Reno is at one hundred nineteen point eight. A full degree and a half further west.",
+      "onScreen": "RENO · 119.8°W",
+      "claim": "Reno is at 119.81°W.",
+      "sourceUrl": "https://www.geodatos.net/en/coordinates/united-states/reno"
+    },
+    {
+      "id": "b04",
+      "narration": "Because California's coast doesn't run north to south. It slants south-east.",
+      "onScreen": null
+    },
+    {
+      "id": "b05",
+      "narration": "Go far enough down the coast, and even San Diego ends up east of Reno.",
+      "onScreen": "SAN DIEGO · 117.2°W",
+      "claim": "San Diego is at about 117.16°W, east of Reno.",
+      "sourceUrl": "https://quizzclub.com/trivia/which-of-these-u-s-cities-is-farthest-west1ae9abecdb974155ba8a8b6f470601ed/answer/3218776"
+    },
+    {
+      "id": "b06",
+      "narration": "Six US state capitals are west of Los Angeles. Including Nevada's own, Carson City.",
+      "onScreen": "6 CAPITALS",
+      "claim": "Six state capitals lie west of Los Angeles, including Carson City.",
+      "sourceUrl": "https://thenevadaindependent.com/article/are-there-6-state-capitals-west-of-los-angeles"
+    },
+    {
+      "id": "b07",
+      "narration": "The West Coast isn't always the westmost.",
+      "onScreen": null
+    }
+  ],
+  "title": "Reno is further WEST than Los Angeles",
+  "description": "Los Angeles sits at about 118.2°W. Reno, Nevada, is at 119.8°W. The coast slants.",
+  "tags": [
+    "geography",
+    "maps",
+    "Los Angeles",
+    "Reno",
+    "USA",
+    "shorts"
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "scenes": [
+    {
+      "id": "s01",
+      "type": "geo",
+      "beatId": "b01",
+      "startMs": 0,
+      "endMs": 6119,
+      "props": {
+        "view": [
+          -86,
+          -57,
+          -32,
+          14
+        ],
+        "fills": [
+          {
+            "name": "Brazil"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s02",
+      "type": "geo",
+      "beatId": "b02",
+      "startMs": 6119,
+      "endMs": 11853,
+      "props": {
+        "view": [
+          -86,
+          -57,
+          -32,
+          14
+        ],
+        "fills": [
+          {
+            "name": "Brazil",
+            "label": false
+          }
+        ],
+        "heat": [
+          "Argentina",
+          "Bolivia",
+          "Colombia",
+          "Guyana",
+          "Paraguay",
+          "Peru",
+          "Suriname",
+          "Uruguay",
+          "Venezuela"
+        ],
+        "pins": [
+          {
+            "place": "French Guiana",
+            "label": "French Guiana (France)",
+            "dx": 120
+          }
+        ]
+      }
+    },
+    {
+      "id": "s03",
+      "type": "geo",
+      "beatId": "b03",
+      "startMs": 11853,
+      "endMs": 15279,
+      "props": {
+        "view": [
+          -86,
+          -57,
+          -32,
+          14
+        ],
+        "fills": [
+          {
+            "name": "Brazil",
+            "label": false
+          },
+          {
+            "name": "Chile"
+          },
+          {
+            "name": "Ecuador",
+            "at": 0.3
+          }
+        ]
+      }
+    },
+    {
+      "id": "s04",
+      "type": "number",
+      "beatId": "b04",
+      "startMs": 15279,
+      "endMs": 21013,
+      "props": {
+        "items": [
+          [
+            "km of land border",
+            16885
+          ]
+        ]
+      }
+    },
+    {
+      "id": "s05",
+      "type": "cards",
+      "beatId": "b05",
+      "startMs": 21013,
+      "endMs": 24439,
+      "props": {
+        "cells": [
+          "China",
+          "Russia",
+          "Brazil"
+        ]
+      }
+    },
+    {
+      "id": "s06",
+      "type": "geo",
+      "beatId": "b06",
+      "startMs": 24439,
+      "endMs": 32481,
+      "props": {
+        "view": [
+          -62,
+          -2,
+          -48,
+          8
+        ],
+        "fills": [
+          {
+            "name": "Brazil",
+            "label": false
+          }
+        ],
+        "pins": [
+          {
+            "place": "French Guiana",
+            "label": "730 km"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s07",
+      "type": "kinetic",
+      "beatId": "b07",
+      "startMs": 32481,
+      "endMs": 34369,
+      "props": {
+        "text": "CHILE · ECUADOR"
+      }
+    }
+  ]
+}

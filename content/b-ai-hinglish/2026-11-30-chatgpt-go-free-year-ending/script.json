@@ -1,0 +1,59 @@
+{
+  "hook": "Free ChatGPT Go liya tha? To dhyaan do. Ab paisa kat sakta hai.",
+  "beats": [
+    {
+      "id": "b01",
+      "narration": "Free ChatGPT Go liya tha? To dhyaan do. Ab paisa kat sakta hai.",
+      "onScreen": "₹399 ALERT"
+    },
+    {
+      "id": "b02",
+      "narration": "India mein free Go ka offer chaar November twenty twenty five se shuru hua tha, ek saal ke liye. To pehle free saal chaar November twenty twenty six se khatam hone lage hain.",
+      "onScreen": "FREE SAAL · KHATAM",
+      "claim": "Sign-ups opened 4 Nov 2025 with a 12-month free period; the earliest free years end 4 Nov 2026.",
+      "sourceUrl": "https://swapbiswas.com/blog/chatgpt-go-free-india/"
+    },
+    {
+      "id": "b03",
+      "narration": "Cancel nahi kiya, to plan paid monthly ho jaata hai. Web pe teen sau ninyaanve rupaye mahina.",
+      "onScreen": "₹399 / MAHINA",
+      "claim": "Unless cancelled, it continues as a paid monthly subscription; web price ₹399/month incl. GST.",
+      "sourceUrl": "https://swapbiswas.com/blog/chatgpt-go-free-india/"
+    },
+    {
+      "id": "b04",
+      "narration": "Cancel karna hai? chatgpt dot com pe Settings, phir Billing, phir Cancel plan.",
+      "onScreen": "SETTINGS → BILLING → CANCEL",
+      "claim": "On chatgpt.com: Settings, Billing, Cancel plan.",
+      "sourceUrl": "https://help.openai.com/en/articles/7232927-canceling-your-chatgpt-subscription"
+    },
+    {
+      "id": "b05",
+      "narration": "Play Store se liya tha, to Play Store ke Subscriptions mein jaake cancel karo. App delete karne se cancel nahi hota.",
+      "onScreen": "APP DELETE ≠ CANCEL",
+      "claim": "Cancel on the platform where you paid; uninstalling the app does not cancel.",
+      "sourceUrl": "https://swapbiswas.com/blog/chatgpt-go-free-india/"
+    },
+    {
+      "id": "b06",
+      "narration": "UPI se pay kiya tha? UPI app mein AutoPay mandate bhi revoke kar do. Aur billing date se kam se kam ek din pehle cancel karo.",
+      "onScreen": "UPI AUTOPAY → REVOKE",
+      "claim": "Revoke the UPI AutoPay mandate; cancel at least 24 hours before the next billing date.",
+      "sourceUrl": "https://swapbiswas.com/blog/chatgpt-go-free-india/"
+    },
+    {
+      "id": "b07",
+      "narration": "Roz ke text ke liye free plan bhi kaafi hai. Share karo us dost ke saath jisne Go liya tha.",
+      "onScreen": null
+    }
+  ],
+  "title": "Free ChatGPT Go khatam ho raha hai. ₹399 katne se pehle ye karo",
+  "description": "India mein ChatGPT Go ka free saal 4 Nov 2026 se khatam hona shuru hua. Cancel nahi kiya to ₹399/month renew. Cancel steps aur UPI AutoPay tip. Apna billing page zaroor check karein.",
+  "tags": [
+    "ChatGPT",
+    "ChatGPT Go",
+    "OpenAI",
+    "money tips",
+    "Hinglish"
+  ]
+}

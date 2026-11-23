@@ -1,0 +1,175 @@
+{
+  "checkedOn": "2026-11-30",
+  "checkedBy": "Claude (manual fact gate, week 2)",
+  "beats": [
+    {
+      "id": "b01",
+      "verdict": "no-claim",
+      "evidence": "Framing, opinion, instruction or story; no factual claim."
+    },
+    {
+      "id": "b02",
+      "verdict": "supported",
+      "evidence": "Valmiki names many of these places but does not give modern map locations.",
+      "source": "https://hindutone.com/temples/ramayana-places-in-india-trail/"
+    },
+    {
+      "id": "b03",
+      "verdict": "supported",
+      "evidence": "Dasharatha, king of Kosala, had three wives; he decided to crown Rama.",
+      "source": "https://en.wikipedia.org/wiki/Exile_of_Rama"
+    },
+    {
+      "id": "b04",
+      "verdict": "supported",
+      "evidence": "Kaikeyi received two boons after saving Dasharatha in battle; Manthara persuaded her to use them.",
+      "source": "https://www.wisdomlib.org/hinduism/book/the-ramayana-of-valmiki/d/doc423965.html"
+    },
+    {
+      "id": "b05",
+      "verdict": "supported",
+      "evidence": "Kaikeyi asked for Bharata's installation and Rama's exile to the Dandaka forest for fourteen years.",
+      "source": "https://www.wisdomlib.org/hinduism/book/the-ramayana-of-valmiki/d/doc423965.html"
+    },
+    {
+      "id": "b06",
+      "verdict": "supported",
+      "evidence": "Rama is exiled with Sita and Lakshmana for 14 years.",
+      "source": "https://en.wikipedia.org/wiki/Exile_of_Rama"
+    },
+    {
+      "id": "b07",
+      "verdict": "supported",
+      "evidence": "Shringverpur on the Ganga is where Guha met Rama.",
+      "source": "https://hindutone.com/temples/ramayana-places-in-india-trail/"
+    },
+    {
+      "id": "b08",
+      "verdict": "no-claim",
+      "evidence": "Framing, opinion, instruction or story; no factual claim."
+    },
+    {
+      "id": "b09",
+      "verdict": "supported",
+      "evidence": "Chitrakoot was the first forest home.",
+      "source": "https://hindutone.com/temples/ramayana-places-in-india-trail/"
+    },
+    {
+      "id": "b10",
+      "verdict": "supported",
+      "evidence": "After Rama's departure Dasharatha dies of grief; Bharata goes to bring Rama back.",
+      "source": "https://en.wikipedia.org/wiki/Exile_of_Rama"
+    },
+    {
+      "id": "b11",
+      "verdict": "supported",
+      "evidence": "Rama refuses to return before the exile ends.",
+      "source": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga107/ayodhya_107_prose.htm"
+    },
+    {
+      "id": "b12",
+      "verdict": "supported",
+      "evidence": "Chhattisgarh's Ram Van Gaman circuit includes Jagdalpur in Bastar.",
+      "source": "https://en.wikipedia.org/wiki/Ram_Van_Gaman_Path"
+    },
+    {
+      "id": "b13",
+      "verdict": "supported",
+      "evidence": "Panchavati at Nashik on the Godavari; the name means five banyan trees.",
+      "source": "https://hindutone.com/temples/ramayana-places-in-india-trail/"
+    },
+    {
+      "id": "b14",
+      "verdict": "supported",
+      "evidence": "Surpanakha, Ravana's sister, is spurned and mutilated by Lakshmana, setting up the abduction.",
+      "source": "https://en.wikipedia.org/wiki/Ramayana"
+    },
+    {
+      "id": "b15",
+      "verdict": "supported",
+      "evidence": "Panchavati is where Sita was carried off.",
+      "source": "https://hindutone.com/temples/ramayana-places-in-india-trail/"
+    },
+    {
+      "id": "b16",
+      "verdict": "supported",
+      "evidence": "Lepakshi is linked with Jatayu.",
+      "source": "https://hindutone.com/temples/ramayana-places-in-india-trail/"
+    },
+    {
+      "id": "b17",
+      "verdict": "supported",
+      "evidence": "Kishkindha is often identified with the region around the Tungabhadra near Hampi.",
+      "source": "https://www.outlooktraveller.com/amp/story/experiences/heritage/ram-navami-footsteps-of-ram-sita-and-lakshman"
+    },
+    {
+      "id": "b18",
+      "verdict": "supported",
+      "evidence": "Shabari directs Rama to Sugriva.",
+      "source": "https://en.wikipedia.org/wiki/Ramayana"
+    },
+    {
+      "id": "b19",
+      "verdict": "supported",
+      "evidence": "Rama kills Vali and restores Sugriva, who sends search parties for Sita.",
+      "source": "https://en.wikipedia.org/wiki/Ramayana"
+    },
+    {
+      "id": "b20",
+      "verdict": "no-claim",
+      "evidence": "Framing, opinion, instruction or story; no factual claim."
+    },
+    {
+      "id": "b21",
+      "verdict": "supported",
+      "evidence": "Hanuman's tail is set on fire and he burns Lanka.",
+      "source": "https://en.wikipedia.org/wiki/Ramayana"
+    },
+    {
+      "id": "b22",
+      "verdict": "supported",
+      "evidence": "Vibhishana, Ravana's brother, defects to Rama.",
+      "source": "https://en.wikipedia.org/wiki/Ramayana"
+    },
+    {
+      "id": "b23",
+      "verdict": "supported",
+      "evidence": "Rameswaram is where the army crossed to Lanka.",
+      "source": "https://hindutone.com/temples/ramayana-places-in-india-trail/"
+    },
+    {
+      "id": "b24",
+      "verdict": "supported",
+      "evidence": "Adam's Bridge / Ram Setu is a 48 km chain of limestone shoals between Rameswaram (Pamban) Island and Mannar Island.",
+      "source": "https://www.esa.int/ESA_Multimedia/Images/2024/06/Earth_from_Space_Adam_s_Bridge"
+    },
+    {
+      "id": "b25",
+      "verdict": "supported",
+      "evidence": "Adam's Bridge is described as natural limestone shoals; geological evidence suggests a former land connection.",
+      "source": "https://en.wikipedia.org/wiki/Adam%27s_Bridge"
+    },
+    {
+      "id": "b26",
+      "verdict": "no-claim",
+      "evidence": "Framing, opinion, instruction or story; no factual claim."
+    },
+    {
+      "id": "b27",
+      "verdict": "supported",
+      "evidence": "Great-circle sum of Ayodhya→Shringverpur→Prayagraj→Chitrakoot→Jagdalpur→Nashik→Lepakshi→Hampi→Rameswaram ≈ 3,583 km. [computed from the cited figures]",
+      "source": "https://hindutone.com/temples/ramayana-places-in-india-trail/"
+    },
+    {
+      "id": "b28",
+      "verdict": "supported",
+      "evidence": "A total of 248 places in India and Sri Lanka have been identified on the Ram Van Gaman Path.",
+      "source": "https://en.wikipedia.org/wiki/Ram_Van_Gaman_Path"
+    },
+    {
+      "id": "b29",
+      "verdict": "no-claim",
+      "evidence": "Framing, opinion, instruction or story; no factual claim."
+    }
+  ]
+}

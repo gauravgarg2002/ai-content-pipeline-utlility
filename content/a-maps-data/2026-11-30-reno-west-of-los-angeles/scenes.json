@@ -1,0 +1,175 @@
+{
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "scenes": [
+    {
+      "id": "s01",
+      "type": "geo",
+      "beatId": "b01",
+      "startMs": 0,
+      "endMs": 3426,
+      "props": {
+        "view": [
+          -125.5,
+          31.5,
+          -112,
+          43
+        ],
+        "fills": [
+          {
+            "name": "USA (48 states)",
+            "label": false
+          }
+        ],
+        "pins": [
+          {
+            "place": "Reno"
+          },
+          {
+            "place": "Los Angeles",
+            "label": "Los Angeles",
+            "dy": 40
+          }
+        ]
+      }
+    },
+    {
+      "id": "s02",
+      "type": "geo",
+      "beatId": "b02",
+      "startMs": 3426,
+      "endMs": 8391,
+      "props": {
+        "view": [
+          -125.5,
+          31.5,
+          -112,
+          43
+        ],
+        "meridian": -118.24,
+        "pins": [
+          {
+            "place": "Los Angeles",
+            "dy": 40
+          }
+        ]
+      }
+    },
+    {
+      "id": "s03",
+      "type": "geo",
+      "beatId": "b03",
+      "startMs": 8391,
+      "endMs": 14894,
+      "props": {
+        "view": [
+          -125.5,
+          31.5,
+          -112,
+          43
+        ],
+        "meridian": -118.24,
+        "pins": [
+          {
+            "place": "Los Angeles",
+            "dy": 40
+          },
+          {
+            "place": "Reno",
+            "color": "#3DD6C6"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s04",
+      "type": "geo",
+      "beatId": "b04",
+      "startMs": 14894,
+      "endMs": 19474,
+      "props": {
+        "view": [
+          -125.5,
+          31.5,
+          -112,
+          43
+        ],
+        "lines": [
+          {
+            "places": [
+              "San Francisco",
+              "Los Angeles",
+              "San Diego"
+            ],
+            "straight": true,
+            "at": 0.1
+          }
+        ],
+        "pins": [
+          {
+            "place": "San Francisco"
+          },
+          {
+            "place": "Los Angeles",
+            "dy": 40
+          },
+          {
+            "place": "San Diego",
+            "dy": 40
+          }
+        ]
+      }
+    },
+    {
+      "id": "s05",
+      "type": "geo",
+      "beatId": "b05",
+      "startMs": 19474,
+      "endMs": 25593,
+      "props": {
+        "view": [
+          -125.5,
+          31.5,
+          -112,
+          43
+        ],
+        "meridian": -119.81,
+        "pins": [
+          {
+            "place": "Reno"
+          },
+          {
+            "place": "San Diego",
+            "dy": 40
+          }
+        ]
+      }
+    },
+    {
+      "id": "s06",
+      "type": "number",
+      "beatId": "b06",
+      "startMs": 25593,
+      "endMs": 31327,
+      "props": {
+        "items": [
+          [
+            "state capitals west of LA",
+            6
+          ]
+        ]
+      }
+    },
+    {
+      "id": "s07",
+      "type": "kinetic",
+      "beatId": "b07",
+      "startMs": 31327,
+      "endMs": 34369,
+      "props": {
+        "text": "WEST ISN'T WHERE YOU THINK"
+      }
+    }
+  ]
+}

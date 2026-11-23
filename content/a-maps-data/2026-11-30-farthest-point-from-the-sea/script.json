@@ -1,0 +1,59 @@
+{
+  "hook": "This is the farthest you can get from the sea.",
+  "beats": [
+    {
+      "id": "b01",
+      "narration": "This is the farthest you can get from the sea.",
+      "onScreen": "FARTHEST FROM ANY OCEAN"
+    },
+    {
+      "id": "b02",
+      "narration": "It's in Xinjiang, in north-western China, near the borders with Kazakhstan and Mongolia.",
+      "onScreen": "XINJIANG, CHINA",
+      "claim": "The Eurasian pole of inaccessibility is in Xinjiang, north-western China.",
+      "sourceUrl": "https://www.atlasandboots.com/poles-of-inaccessibility-middle-nowhere/"
+    },
+    {
+      "id": "b03",
+      "narration": "Draw a circle around it with a radius of two and a half thousand kilometres, and you still don't touch the ocean.",
+      "onScreen": "~2,510 km",
+      "claim": "The two candidate points are about 2,510 and 2,514 km from the sea.",
+      "sourceUrl": "https://openpolar.no/Record/ftzenodo:oai:zenodo.org:840337"
+    },
+    {
+      "id": "b04",
+      "narration": "That's roughly London to Moscow, with nothing but land.",
+      "onScreen": "≈ LONDON → MOSCOW",
+      "claim": "London (51.51N, 0.13W) to Moscow (55.76N, 37.62E) great-circle distance is about 2,500 km.",
+      "sourceUrl": "https://inaccessibility.net/?p=1169"
+    },
+    {
+      "id": "b05",
+      "narration": "The old answer said two thousand six hundred and forty five kilometres. Then researchers counted the Gulf of Ob, a Siberian inlet that reaches about a thousand kilometres inland.",
+      "onScreen": "GULF OF OB",
+      "claim": "Older figure 2,645 km; the 2007 revision accounted for the Gulf of Ob, which reaches about 1,000 km inland.",
+      "sourceUrl": "https://www.atlasandboots.com/poles-of-inaccessibility-middle-nowhere/"
+    },
+    {
+      "id": "b06",
+      "narration": "Now there are two points, almost tied, within the margin of error.",
+      "onScreen": "2 POINTS",
+      "claim": "EPIA1 ~2,510 km and EPIA2 ~2,514 km from the ocean, margins ±10 and ±7 km.",
+      "sourceUrl": "https://inaccessibility.net/?p=1169"
+    },
+    {
+      "id": "b07",
+      "narration": "Want the beach from here? Pack a lunch. Pack several.",
+      "onScreen": null
+    }
+  ],
+  "title": "The farthest you can get from the sea",
+  "description": "The Eurasian pole of inaccessibility, in Xinjiang, China: about 2,510 km from the nearest ocean.",
+  "tags": [
+    "geography",
+    "maps",
+    "China",
+    "pole of inaccessibility",
+    "shorts"
+  ]
+}

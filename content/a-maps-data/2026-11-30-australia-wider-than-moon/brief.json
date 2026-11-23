@@ -1,0 +1,14 @@
+{
+  "id": "2026-11-30-australia-wider-than-moon",
+  "channel": "a-maps-data",
+  "topic": "Australia is wider than the Moon",
+  "angle": "True for width, wildly false for area",
+  "cluster": "scale-comparisons",
+  "hookPattern": "surprising-number",
+  "lengthBucket": "25-55s",
+  "format": "short",
+  "sources": [
+    "https://www.csiro.au/en/news/All/Articles/2026/Moon-Facts",
+    "https://www.snopes.com/fact-check/australia-wider-than-earths-moon/"
+  ]
+}

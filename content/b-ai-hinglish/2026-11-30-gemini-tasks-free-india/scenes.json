@@ -1,0 +1,98 @@
+{
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "scenes": [
+    {
+      "id": "s01",
+      "type": "kinetic",
+      "beatId": "b01",
+      "startMs": 0,
+      "endMs": 5350,
+      "props": {
+        "text": "TASKS · FREE"
+      }
+    },
+    {
+      "id": "s02",
+      "type": "cards",
+      "beatId": "b02",
+      "startMs": 5350,
+      "endMs": 12238,
+      "props": {
+        "cells": [
+          "India",
+          "US",
+          "Canada",
+          "Australia",
+          "Japan",
+          "Korea"
+        ]
+      }
+    },
+    {
+      "id": "s03",
+      "type": "ui",
+      "beatId": "b03",
+      "startMs": 12238,
+      "endMs": 18741,
+      "props": {
+        "kind": "phone",
+        "sequence": [
+          "Task diya",
+          "Gemini kaam kar raha hai",
+          "Ready"
+        ]
+      }
+    },
+    {
+      "id": "s04",
+      "type": "cards",
+      "beatId": "b04",
+      "startMs": 18741,
+      "endMs": 25244,
+      "props": {
+        "cells": [
+          "Morning briefing",
+          "Trip itinerary",
+          "Research"
+        ]
+      }
+    },
+    {
+      "id": "s05",
+      "type": "ui",
+      "beatId": "b05",
+      "startMs": 25244,
+      "endMs": 30209,
+      "props": {
+        "kind": "toggle",
+        "state": "on"
+      }
+    },
+    {
+      "id": "s06",
+      "type": "cards",
+      "beatId": "b06",
+      "startMs": 30209,
+      "endMs": 41712,
+      "props": {
+        "cells": [
+          "Shopping",
+          "Business calls"
+        ],
+        "stamp": "US ONLY"
+      }
+    },
+    {
+      "id": "s07",
+      "type": "kinetic",
+      "beatId": "b07",
+      "startMs": 41712,
+      "endMs": 45908,
+      "props": {
+        "text": "TASKS · MILA?"
+      }
+    }
+  ]
+}

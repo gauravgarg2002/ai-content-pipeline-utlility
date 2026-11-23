@@ -1,0 +1,46 @@
+{
+  "checkedOn": "2026-11-30",
+  "checkedBy": "Claude (manual fact gate, week 2)",
+  "beats": [
+    {
+      "id": "b01",
+      "verdict": "no-claim",
+      "evidence": "Framing, opinion, instruction or story; no factual claim."
+    },
+    {
+      "id": "b02",
+      "verdict": "supported",
+      "evidence": "Applications open in India on 30 November 2026 (PTI, via Digit).",
+      "source": "https://www.digit.in/news/general/openai-is-giving-chatgpt-plus-worth-rs-23998-for-free-in-india-check-if-you-are-eligible.html"
+    },
+    {
+      "id": "b03",
+      "verdict": "supported",
+      "evidence": "Applicant must be research faculty or postdoc who published research in the last three years.",
+      "source": "https://www.digit.in/news/general/openai-is-giving-chatgpt-plus-worth-rs-23998-for-free-in-india-check-if-you-are-eligible.html"
+    },
+    {
+      "id": "b04",
+      "verdict": "supported",
+      "evidence": "Eligible fields: Biological Sciences, Chemistry and Materials, Computer Science, Earth and Planetary Sciences, Engineering, Mathematics and Physics.",
+      "source": "https://www.digit.in/news/general/openai-is-giving-chatgpt-plus-worth-rs-23998-for-free-in-india-check-if-you-are-eligible.html"
+    },
+    {
+      "id": "b05",
+      "verdict": "supported",
+      "evidence": "Each grant covers one researcher and two collaborators.",
+      "source": "https://www.digit.in/news/general/openai-is-giving-chatgpt-plus-worth-rs-23998-for-free-in-india-check-if-you-are-eligible.html"
+    },
+    {
+      "id": "b06",
+      "verdict": "supported",
+      "evidence": "OpenAI will award 50,000 new grants, first-come, first-served.",
+      "source": "https://www.digit.in/news/general/openai-is-giving-chatgpt-plus-worth-rs-23998-for-free-in-india-check-if-you-are-eligible.html"
+    },
+    {
+      "id": "b07",
+      "verdict": "no-claim",
+      "evidence": "Framing, opinion, instruction or story; no factual claim."
+    }
+  ]
+}

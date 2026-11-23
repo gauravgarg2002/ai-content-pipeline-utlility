@@ -1,0 +1,102 @@
+{
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "scenes": [
+    {
+      "id": "s01",
+      "type": "kinetic",
+      "beatId": "b01",
+      "startMs": 0,
+      "endMs": 5350,
+      "props": {
+        "text": "₹399 ALERT"
+      }
+    },
+    {
+      "id": "s02",
+      "type": "timeline",
+      "beatId": "b02",
+      "startMs": 5350,
+      "endMs": 18392,
+      "props": {
+        "events": [
+          [
+            2025,
+            "Free Go shuru (4 Nov)"
+          ],
+          [
+            2026,
+            "Free saal khatam (4 Nov se)"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "s03",
+      "type": "number",
+      "beatId": "b03",
+      "startMs": 18392,
+      "endMs": 25280,
+      "props": {
+        "items": [
+          [
+            "₹ per month · Go",
+            399
+          ]
+        ]
+      }
+    },
+    {
+      "id": "s04",
+      "type": "ui",
+      "beatId": "b04",
+      "startMs": 25280,
+      "endMs": 30630,
+      "props": {
+        "kind": "settings",
+        "path_steps": [
+          "Settings",
+          "Billing",
+          "Cancel plan"
+        ],
+        "state": "on"
+      }
+    },
+    {
+      "id": "s05",
+      "type": "cards",
+      "beatId": "b05",
+      "startMs": 30630,
+      "endMs": 39056,
+      "props": {
+        "cells": [
+          "Play Store → Subscriptions",
+          "App Store → Subscriptions"
+        ],
+        "stamp": "APP DELETE ≠ CANCEL"
+      }
+    },
+    {
+      "id": "s06",
+      "type": "ui",
+      "beatId": "b06",
+      "startMs": 39056,
+      "endMs": 49406,
+      "props": {
+        "kind": "toggle",
+        "state": "off"
+      }
+    },
+    {
+      "id": "s07",
+      "type": "kinetic",
+      "beatId": "b07",
+      "startMs": 49406,
+      "endMs": 57448,
+      "props": {
+        "text": "SHARE KARO"
+      }
+    }
+  ]
+}

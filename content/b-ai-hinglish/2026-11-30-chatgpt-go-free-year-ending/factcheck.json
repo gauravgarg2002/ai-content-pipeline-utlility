@@ -1,0 +1,46 @@
+{
+  "checkedOn": "2026-11-30",
+  "checkedBy": "Claude (manual fact gate, week 2)",
+  "beats": [
+    {
+      "id": "b01",
+      "verdict": "no-claim",
+      "evidence": "Framing, opinion, instruction or story; no factual claim."
+    },
+    {
+      "id": "b02",
+      "verdict": "supported",
+      "evidence": "Sign-ups opened 4 Nov 2025 with a 12-month free period; the earliest free years end 4 Nov 2026.",
+      "source": "https://swapbiswas.com/blog/chatgpt-go-free-india/"
+    },
+    {
+      "id": "b03",
+      "verdict": "supported",
+      "evidence": "Unless cancelled, it continues as a paid monthly subscription; web price ₹399/month incl. GST.",
+      "source": "https://swapbiswas.com/blog/chatgpt-go-free-india/"
+    },
+    {
+      "id": "b04",
+      "verdict": "supported",
+      "evidence": "On chatgpt.com: Settings, Billing, Cancel plan.",
+      "source": "https://help.openai.com/en/articles/7232927-canceling-your-chatgpt-subscription"
+    },
+    {
+      "id": "b05",
+      "verdict": "supported",
+      "evidence": "Cancel on the platform where you paid; uninstalling the app does not cancel.",
+      "source": "https://swapbiswas.com/blog/chatgpt-go-free-india/"
+    },
+    {
+      "id": "b06",
+      "verdict": "supported",
+      "evidence": "Revoke the UPI AutoPay mandate; cancel at least 24 hours before the next billing date.",
+      "source": "https://swapbiswas.com/blog/chatgpt-go-free-india/"
+    },
+    {
+      "id": "b07",
+      "verdict": "no-claim",
+      "evidence": "Framing, opinion, instruction or story; no factual claim."
+    }
+  ]
+}

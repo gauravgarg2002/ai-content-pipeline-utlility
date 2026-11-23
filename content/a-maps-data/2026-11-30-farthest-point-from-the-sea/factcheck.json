@@ -1,0 +1,46 @@
+{
+  "checkedOn": "2026-11-30",
+  "checkedBy": "Claude (manual fact gate, week 2)",
+  "beats": [
+    {
+      "id": "b01",
+      "verdict": "no-claim",
+      "evidence": "Framing, opinion, instruction or story; no factual claim."
+    },
+    {
+      "id": "b02",
+      "verdict": "supported",
+      "evidence": "The Eurasian pole of inaccessibility is in Xinjiang, north-western China.",
+      "source": "https://www.atlasandboots.com/poles-of-inaccessibility-middle-nowhere/"
+    },
+    {
+      "id": "b03",
+      "verdict": "supported",
+      "evidence": "The two candidate points are about 2,510 and 2,514 km from the sea.",
+      "source": "https://openpolar.no/Record/ftzenodo:oai:zenodo.org:840337"
+    },
+    {
+      "id": "b04",
+      "verdict": "supported",
+      "evidence": "London (51.51N, 0.13W) to Moscow (55.76N, 37.62E) great-circle distance is about 2,500 km. [computed from the cited figures]",
+      "source": "https://inaccessibility.net/?p=1169"
+    },
+    {
+      "id": "b05",
+      "verdict": "supported",
+      "evidence": "Older figure 2,645 km; the 2007 revision accounted for the Gulf of Ob, which reaches about 1,000 km inland.",
+      "source": "https://www.atlasandboots.com/poles-of-inaccessibility-middle-nowhere/"
+    },
+    {
+      "id": "b06",
+      "verdict": "supported",
+      "evidence": "EPIA1 ~2,510 km and EPIA2 ~2,514 km from the ocean, margins ±10 and ±7 km.",
+      "source": "https://inaccessibility.net/?p=1169"
+    },
+    {
+      "id": "b07",
+      "verdict": "no-claim",
+      "evidence": "Framing, opinion, instruction or story; no factual claim."
+    }
+  ]
+}

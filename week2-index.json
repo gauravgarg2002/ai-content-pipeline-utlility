@@ -1,0 +1,210 @@
+[
+  {
+    "channel": "a-maps-data",
+    "id": "2026-11-30-russia-vs-pluto",
+    "title": "Russia is NOT bigger than Pluto",
+    "format": "short",
+    "seconds": 42.027,
+    "range": [
+      25,
+      55
+    ],
+    "hookWords": 7,
+    "beats": 8,
+    "claims": 6,
+    "words": 102,
+    "publishBy": null
+  },
+  {
+    "channel": "a-maps-data",
+    "id": "2026-11-30-reno-west-of-los-angeles",
+    "title": "Reno is further WEST than Los Angeles",
+    "format": "short",
+    "seconds": 34.369,
+    "range": [
+      25,
+      55
+    ],
+    "hookWords": 8,
+    "beats": 7,
+    "claims": 4,
+    "words": 83,
+    "publishBy": null
+  },
+  {
+    "channel": "a-maps-data",
+    "id": "2026-11-30-australia-wider-than-moon",
+    "title": "Australia is wider than the Moon",
+    "format": "short",
+    "seconds": 37.062,
+    "range": [
+      25,
+      55
+    ],
+    "hookWords": 6,
+    "beats": 7,
+    "claims": 4,
+    "words": 90,
+    "publishBy": null
+  },
+  {
+    "channel": "a-maps-data",
+    "id": "2026-11-30-brazil-borders-almost-everyone",
+    "title": "Brazil borders everyone… except these 2",
+    "format": "short",
+    "seconds": 34.369,
+    "range": [
+      25,
+      55
+    ],
+    "hookWords": 8,
+    "beats": 7,
+    "claims": 5,
+    "words": 83,
+    "publishBy": null
+  },
+  {
+    "channel": "a-maps-data",
+    "id": "2026-11-30-farthest-point-from-the-sea",
+    "title": "The farthest you can get from the sea",
+    "format": "short",
+    "seconds": 42.832,
+    "range": [
+      25,
+      55
+    ],
+    "hookWords": 10,
+    "beats": 7,
+    "claims": 5,
+    "words": 105,
+    "publishBy": null
+  },
+  {
+    "channel": "a-maps-data",
+    "id": "2026-11-30-time-zones-are-a-mess",
+    "title": "Time Zones Make No Sense. Here's the Map.",
+    "format": "long",
+    "seconds": 346.008,
+    "range": [
+      360,
+      540
+    ],
+    "hookWords": 6,
+    "beats": 37,
+    "claims": 28,
+    "words": 866,
+    "publishBy": null
+  },
+  {
+    "channel": "b-ai-hinglish",
+    "id": "2026-11-30-gemini-tasks-free-india",
+    "title": "Gemini ab aapka kaam background mein karega, free mein",
+    "format": "short",
+    "seconds": 45.908,
+    "range": [
+      25,
+      55
+    ],
+    "hookWords": 7,
+    "beats": 7,
+    "claims": 5,
+    "words": 113,
+    "publishBy": "2026-12-15"
+  },
+  {
+    "channel": "b-ai-hinglish",
+    "id": "2026-11-30-chatgpt-go-free-year-ending",
+    "title": "Free ChatGPT Go khatam ho raha hai. ₹399 katne se pehle ye karo",
+    "format": "short",
+    "seconds": 57.448,
+    "range": [
+      25,
+      55
+    ],
+    "hookWords": 5,
+    "beats": 7,
+    "claims": 5,
+    "words": 143,
+    "publishBy": "2026-12-31"
+  },
+  {
+    "channel": "b-ai-hinglish",
+    "id": "2026-11-30-google-ai-plus-free-students",
+    "title": "College students: Google AI Plus 1 saal free, 31 Dec tak",
+    "format": "short",
+    "seconds": 50.139,
+    "range": [
+      25,
+      55
+    ],
+    "hookWords": 3,
+    "beats": 7,
+    "claims": 5,
+    "words": 124,
+    "publishBy": "2026-12-20"
+  },
+  {
+    "channel": "b-ai-hinglish",
+    "id": "2026-11-30-chatgpt-plus-free-researchers",
+    "title": "ChatGPT Plus 12 mahine free, par sirf inke liye",
+    "format": "short",
+    "seconds": 39.37,
+    "range": [
+      25,
+      55
+    ],
+    "hookWords": 5,
+    "beats": 7,
+    "claims": 5,
+    "words": 96,
+    "publishBy": "2026-11-30"
+  },
+  {
+    "channel": "b-ai-hinglish",
+    "id": "2026-11-30-chatgpt-live-dictation",
+    "title": "ChatGPT mein bolo, likha hua turant dikhega. 10 min limit khatam",
+    "format": "short",
+    "seconds": 38.602,
+    "range": [
+      25,
+      55
+    ],
+    "hookWords": 3,
+    "beats": 7,
+    "claims": 4,
+    "words": 94,
+    "publishBy": "2027-01-31"
+  },
+  {
+    "channel": "c-pilot-horror-hi",
+    "id": "2026-11-30-naunvi-manzil",
+    "title": "नौवीं मंज़िल | रात 3:33 की लिफ़्ट | हिंदी हॉरर कहानी",
+    "format": "long",
+    "seconds": 518.53,
+    "range": [
+      600,
+      900
+    ],
+    "hookWords": 12,
+    "beats": 14,
+    "claims": 0,
+    "words": 1130,
+    "publishBy": null
+  },
+  {
+    "channel": "c-pilot-epics-en",
+    "id": "2026-11-30-rama-route-on-a-map",
+    "title": "Rama's 14-Year Exile on a Map | Ayodhya to Lanka, Explained",
+    "format": "long",
+    "seconds": 263.981,
+    "range": [
+      360,
+      600
+    ],
+    "hookWords": 6,
+    "beats": 29,
+    "claims": 24,
+    "words": 660,
+    "publishBy": null
+  }
+]

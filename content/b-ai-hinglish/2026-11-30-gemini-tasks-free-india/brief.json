@@ -1,0 +1,14 @@
+{
+  "id": "2026-11-30-gemini-tasks-free-india",
+  "channel": "b-ai-hinglish",
+  "topic": "Gemini Tasks now free in India",
+  "angle": "An AI that works in the background while you do something else",
+  "cluster": "new-features",
+  "hookPattern": "contradiction",
+  "lengthBucket": "25-55s",
+  "format": "short",
+  "sources": [
+    "https://gemini.google/release-notes/"
+  ],
+  "publishBy": "2026-12-15"
+}

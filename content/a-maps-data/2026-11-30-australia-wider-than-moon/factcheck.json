@@ -1,0 +1,45 @@
+{
+  "checkedOn": "2026-11-30",
+  "checkedBy": "Claude (manual fact gate, week 2)",
+  "beats": [
+    {
+      "id": "b01",
+      "verdict": "no-claim",
+      "evidence": "Framing, opinion, instruction or story; no factual claim."
+    },
+    {
+      "id": "b02",
+      "verdict": "supported",
+      "evidence": "The Moon is about 3,474 km across.",
+      "source": "https://www.csiro.au/en/news/All/Articles/2026/Moon-Facts"
+    },
+    {
+      "id": "b03",
+      "verdict": "supported",
+      "evidence": "Perth to Brisbane is 3,606 km as the crow flies.",
+      "source": "https://www.csiro.au/en/news/All/Articles/2026/Moon-Facts"
+    },
+    {
+      "id": "b04",
+      "verdict": "supported",
+      "evidence": "Australia is almost 4,000 km wide east to west.",
+      "source": "https://www.snopes.com/fact-check/australia-wider-than-earths-moon/"
+    },
+    {
+      "id": "b05",
+      "verdict": "no-claim",
+      "evidence": "Framing, opinion, instruction or story; no factual claim."
+    },
+    {
+      "id": "b06",
+      "verdict": "supported",
+      "evidence": "The Moon's surface is about 37.94 million km²; Australia is about 7.69 million km².",
+      "source": "https://www.csiro.au/en/news/All/Articles/2026/Moon-Facts"
+    },
+    {
+      "id": "b07",
+      "verdict": "no-claim",
+      "evidence": "Framing, opinion, instruction or story; no factual claim."
+    }
+  ]
+}

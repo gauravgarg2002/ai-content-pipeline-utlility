@@ -1,0 +1,258 @@
+{
+  "hook": "In theory, time zones are simple. The Earth turns fifteen degrees an hour, so you slice the planet into twenty four neat stripes.",
+  "beats": [
+    {
+      "id": "b01",
+      "narration": "In theory, time zones are simple. The Earth turns fifteen degrees an hour, so you slice the planet into twenty four neat stripes.",
+      "onScreen": "15° = 1 HOUR"
+    },
+    {
+      "id": "b02",
+      "narration": "In practice, the map of time zones looks like it was drawn by a committee. Because it was. Many committees.",
+      "onScreen": null
+    },
+    {
+      "id": "b03",
+      "narration": "Count the offsets actually in use today and you get far more than twenty four, including ones that end in thirty and forty five minutes.",
+      "onScreen": "MORE THAN 24",
+      "claim": "There are more distinct UTC offsets in use than 24, including half-hour and 45-minute offsets.",
+      "sourceUrl": "https://www.timeanddate.com/time/current-number-time-zones.html"
+    },
+    {
+      "id": "b04",
+      "narration": "It wasn't always like this. Before eighteen eighty three, every town set its clocks by its own noon. American railroads were juggling fifty six different time standards.",
+      "onScreen": "56 TIME STANDARDS",
+      "claim": "By 1883, railroads were using 56 different time standards.",
+      "sourceUrl": "https://abajournal.com/magazine/article/us-railroads-enact-standard-time-zones"
+    },
+    {
+      "id": "b05",
+      "narration": "So on the eighteenth of November eighteen eighty three, the railroads reset every clock at once. Some towns hit noon twice that day. People called it the Day of Two Noons.",
+      "onScreen": "THE DAY OF TWO NOONS",
+      "claim": "On 18 Nov 1883 railroad clocks were reset; the day was called the 'Day of Two Noons'.",
+      "sourceUrl": "https://blogs.loc.gov/law/2024/11/whose-time-is-it-anyway-a-brief-history-of-standardized-time-zones-in-the-united-states/"
+    },
+    {
+      "id": "b06",
+      "narration": "A year later, at a conference in Washington, delegates picked Greenwich, in London, as zero. The modern system was born. And almost immediately, countries started bending it.",
+      "onScreen": "GREENWICH = 0°",
+      "claim": "The 1884 International Meridian Conference in Washington recommended the Greenwich meridian.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/International_Meridian_Conference"
+    },
+    {
+      "id": "b07",
+      "narration": "Your clock isn't set by the Sun. It's set by a government. Here are six places where that shows.",
+      "onScreen": null
+    },
+    {
+      "id": "b08",
+      "narration": "Start with China. It's about as wide as the continental United States. The US uses four main time zones. China uses one.",
+      "onScreen": "CHINA · 1 ZONE",
+      "claim": "China officially uses a single time zone, UTC+8.",
+      "sourceUrl": "https://www.timeanddate.com/time/china/one-time-zone.html"
+    },
+    {
+      "id": "b09",
+      "narration": "Officially it's called China Standard Time. Inside China, it's called Beijing Time. Eight hours ahead of UTC.",
+      "onScreen": "UTC+8 · BEIJING TIME",
+      "claim": "China Standard Time is UTC+8, known in China as Beijing Time.",
+      "sourceUrl": "https://www.timeanddate.com/time/china/one-time-zone.html"
+    },
+    {
+      "id": "b10",
+      "narration": "Geographically, China spans about five time zones. Before nineteen forty nine, it officially used five.",
+      "onScreen": "5 → 1",
+      "claim": "China spans about five geographic zones; the 1949 government replaced five zones with one.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Time_in_China"
+    },
+    {
+      "id": "b11",
+      "narration": "The result: in Kashgar, in the far west, the Sun can reach its highest point at ten past three in the afternoon.",
+      "onScreen": "SOLAR NOON · 15:10",
+      "claim": "In Kashgar, solar noon can be as late as 15:10.",
+      "sourceUrl": "https://www.timeanddate.com/time/china/one-time-zone.html"
+    },
+    {
+      "id": "b12",
+      "narration": "So people in Xinjiang quietly run two clocks. Many use Xinjiang Time, two hours behind Beijing. Shops often open at ten and close at seven, Beijing Time. Which is eight to five locally.",
+      "onScreen": "TWO CLOCKS",
+      "claim": "Xinjiang Time is 2 hours behind Beijing; stores commonly open 10am–7pm Beijing Time, 8am–5pm local.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Time_in_China"
+    },
+    {
+      "id": "b13",
+      "narration": "One country. One official clock. Two ways of reading it.",
+      "onScreen": null
+    },
+    {
+      "id": "b14",
+      "narration": "Now India. Also one time zone. Five and a half hours ahead of UTC.",
+      "onScreen": "UTC+5:30",
+      "claim": "India uses one time zone, IST, UTC+5:30.",
+      "sourceUrl": "https://timeanddate.com/time/zone/india"
+    },
+    {
+      "id": "b15",
+      "narration": "Why the extra half hour? The country's reference line, eighty two and a half degrees east, runs near Mirzapur in Uttar Pradesh. Eighty two and a half divided by fifteen is five and a half.",
+      "onScreen": "82.5°E ÷ 15 = 5.5",
+      "claim": "IST is based on the 82.5°E meridian near Mirzapur.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Indian_Standard_Time"
+    },
+    {
+      "id": "b16",
+      "narration": "But India is wide too. In the north-east, summer sunrise can come around four thirty in the morning, and winter evenings go dark by about four.",
+      "onScreen": "NORTH-EAST",
+      "claim": "At Assam's eastern edge, summer light comes as early as 4:30 am and winter dark by around 4 pm.",
+      "sourceUrl": "https://science.thewire.in/?p=301084"
+    },
+    {
+      "id": "b17",
+      "narration": "Assam's tea gardens have long kept their own informal clock, one hour ahead. And in twenty eighteen, India's own timekeepers at the National Physical Laboratory proposed a second zone for the north-east.",
+      "onScreen": "IST-II · UTC+6:30?",
+      "claim": "Tea Garden Time is unofficially UTC+6:30; in 2018 CSIR-NPL proposed IST-II for the north-east, not yet legally formalised.",
+      "sourceUrl": "https://timeanddate.com/time/zone/india"
+    },
+    {
+      "id": "b18",
+      "narration": "It hasn't been adopted. The usual argument against it: one clock helps hold a big country together.",
+      "onScreen": null
+    },
+    {
+      "id": "b19",
+      "narration": "Then cross the border into Nepal, and the time jumps by fifteen minutes. Nepal is five hours and forty five minutes ahead of UTC.",
+      "onScreen": "UTC+5:45",
+      "claim": "Nepal is UTC+5:45.",
+      "sourceUrl": "https://timeanddate.com/time/time-zones-interesting.html"
+    },
+    {
+      "id": "b20",
+      "narration": "Nepal used India's time from nineteen twenty. In nineteen eighty six, it moved its clocks forward by fifteen minutes, closer to the Sun over Kathmandu.",
+      "onScreen": "1920 → 1986",
+      "claim": "Nepal adopted Indian Standard Time in 1920 and advanced its clocks by 15 minutes in 1986.",
+      "sourceUrl": "https://www.wikipedia.com/wiki/Nepal_Time"
+    },
+    {
+      "id": "b21",
+      "narration": "Nepal and New Zealand's Chatham Islands are the only places with forty five minute offsets in standard use. The Chathams sit at twelve forty five.",
+      "onScreen": ":45 CLUB",
+      "claim": "The Chatham Islands use UTC+12:45; Nepal UTC+5:45.",
+      "sourceUrl": "https://timeanddate.com/time/time-zones-interesting.html"
+    },
+    {
+      "id": "b22",
+      "narration": "Now Europe. Look at Spain. Madrid is almost directly south of London. Further west than Paris. Yet Spain shares a clock with Warsaw, not with London or Lisbon.",
+      "onScreen": "SPAIN · CET",
+      "claim": "Spain uses Central European Time though it lies much further west.",
+      "sourceUrl": "https://www.timeanddate.com/news/time/spain-time-zone-new.html"
+    },
+    {
+      "id": "b23",
+      "narration": "Spain used Greenwich time from nineteen oh one. Then on the night of sixteen March nineteen forty, clocks jumped from eleven straight to midnight.",
+      "onScreen": "16 MARCH 1940",
+      "claim": "Spain observed GMT from 1901; on 16 March 1940 at 23:00 GMT clocks moved to 00:00 CET.",
+      "sourceUrl": "https://www.timeanddate.com/news/time/spain-time-zone-new.html"
+    },
+    {
+      "id": "b24",
+      "narration": "The popular story says Franco did it to match Hitler's Germany. A retired astronomer from Spain's national observatory calls that a myth. Either way, the change was called provisional. It never went back.",
+      "onScreen": "“PROVISIONAL”",
+      "claim": "The Nazi-alignment story is disputed by former National Astronomical Observatory astronomer Pere Planesas; the change has remained since 1940.",
+      "sourceUrl": "https://www.euronews.com/2026/03/29/the-hoax-of-the-nazi-time-zone-in-spain-it-robs-us-of-sleep-but-aligns-us-with-europe"
+    },
+    {
+      "id": "b25",
+      "narration": "So in Galicia, in Spain's north-west, the winter sun doesn't rise until about nine. It's one reason Spain eats so late.",
+      "onScreen": "SUNRISE · 9:00",
+      "claim": "In Galicia the Sun doesn't rise until 9:00 in winter.",
+      "sourceUrl": "https://www.timeanddate.com/news/time/spain-time-zone-new.html"
+    },
+    {
+      "id": "b26",
+      "narration": "Sometimes a clock is a political statement. In August twenty fifteen, North Korea moved its clocks back half an hour and called it Pyongyang Time.",
+      "onScreen": "PYONGYANG TIME · UTC+8:30",
+      "claim": "North Korea switched from UTC+9 to UTC+8:30 (Pyongyang Time) on 15 Aug 2015.",
+      "sourceUrl": "https://www.timeanddate.com/news/time/north-korea-new-time-zone.html"
+    },
+    {
+      "id": "b27",
+      "narration": "The date marked seventy years since liberation from Japanese rule. Suddenly Pyongyang and Seoul, under two hundred kilometres apart, were thirty minutes out of sync.",
+      "onScreen": "30 MIN APART",
+      "claim": "The 2015 change marked the 70th anniversary of liberation from Japan; clocks were 30 minutes behind South Korea.",
+      "sourceUrl": "https://www.timeanddate.com/news/time/north-korea-new-time-zone.html"
+    },
+    {
+      "id": "b28",
+      "narration": "Then in twenty eighteen, after a summit between the two leaders, the North moved its clocks forward again to match the South. A gesture of unity, written in minutes.",
+      "onScreen": "2018 · BACK TO UTC+9",
+      "claim": "In May 2018 North Korea returned to UTC+9 to realign with South Korea, as a step toward unity.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Time_in_North_Korea"
+    },
+    {
+      "id": "b29",
+      "narration": "And finally, the country that deleted a day. Kiribati is a string of islands spread across the middle of the Pacific.",
+      "onScreen": "KIRIBATI"
+    },
+    {
+      "id": "b30",
+      "narration": "Until nineteen ninety five, the international date line ran straight through it. The east and the west of the same country were a full day apart.",
+      "onScreen": "SAME COUNTRY · 24 H APART",
+      "claim": "Before 1995, Kiribati's eastern and western islands had a 24-hour difference.",
+      "sourceUrl": "https://webspace.science.uu.nl/~gent0113/idl/idl_recent.htm"
+    },
+    {
+      "id": "b31",
+      "narration": "So the president moved the line. From the first of January nineteen ninety five, the date line bent east around the whole country. The eastern islands skipped New Year's Eve nineteen ninety four entirely.",
+      "onScreen": "31 DEC 1994 · SKIPPED",
+      "claim": "Kiribati moved the date line from 1 Jan 1995; eastern islands skipped 31 Dec 1994.",
+      "sourceUrl": "https://www.iflscience.com/in-1994-december-31-was-wiped-from-existence-in-kiribati-82086"
+    },
+    {
+      "id": "b32",
+      "narration": "That makes Kiritimati, Christmas Island, fourteen hours ahead of UTC. The first inhabited place to see every new year.",
+      "onScreen": "UTC+14",
+      "claim": "Kiritimati is UTC+14, the earliest time zone.",
+      "sourceUrl": "https://www.timeanddate.com/time/current-number-time-zones.html"
+    },
+    {
+      "id": "b33",
+      "narration": "In twenty eleven, Samoa did the same thing in reverse, jumping from Thursday the twenty ninth of December straight to Saturday the thirty first.",
+      "onScreen": "SAMOA · 2011",
+      "claim": "Samoa went from Thursday 29 Dec 2011 to Saturday 31 Dec 2011.",
+      "sourceUrl": "https://earthsky.org/?p=117271"
+    },
+    {
+      "id": "b34",
+      "narration": "And here's the thing most people don't know. The date line isn't set by any treaty. Countries simply choose which side to be on.",
+      "onScreen": "NO TREATY",
+      "claim": "The International Date Line is not set by international law or treaty.",
+      "sourceUrl": "https://csmonitor.com/1999/1201/p1s4.html"
+    },
+    {
+      "id": "b35",
+      "narration": "That's the real rule of time zones. The Sun suggests. Governments decide.",
+      "onScreen": null
+    },
+    {
+      "id": "b36",
+      "narration": "So next time your phone switches time as you cross a border, it's not reading the Sun. It's reading a law.",
+      "onScreen": null
+    },
+    {
+      "id": "b37",
+      "narration": "Which of these surprised you most? Tell me in the comments.",
+      "onScreen": null
+    }
+  ],
+  "title": "Time Zones Make No Sense. Here's the Map.",
+  "description": "China uses one clock for five geographic zones. India is half an hour off. Nepal adds 15 minutes. Spain is on the 'wrong' time, and Kiribati deleted a day. A map tour of how politics, not the Sun, sets your clock.",
+  "tags": [
+    "time zones",
+    "geography",
+    "maps",
+    "China",
+    "India",
+    "Nepal",
+    "Spain",
+    "Kiribati"
+  ]
+}

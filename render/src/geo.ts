@@ -20,6 +20,9 @@ const IDS: Record<string, number> = {
   Greenland: 304, USA: 840, China: 156, India: 356, Russia: 643, RUS: 643, Australia: 36, 'Saudi Arabia': 682,
   'DR Congo': 180, Canada: 124, Brazil: 76, France: 250, Japan: 392, JPN: 392, GBR: 826, 'United Kingdom': 826, IND: 356,
   Bangladesh: 50, Pakistan: 586, Indonesia: 360, Vietnam: 704, Philippines: 608, Myanmar: 104, Thailand: 764, Nepal: 524,
+  'North Korea': 408, 'South Korea': 410, Spain: 724, Poland: 616, Kazakhstan: 398, Mongolia: 496, Chile: 152, Ecuador: 218,
+  Argentina: 32, Bolivia: 68, Colombia: 170, Guyana: 328, Paraguay: 600, Peru: 604, Suriname: 740, Uruguay: 858, Venezuela: 862,
+  'Sri Lanka': 144,
 };
 const GROUPS: Record<string, Set<number>> = {Africa: AFRICA, Europe: EUROPE, 'North America': NORTH_AMERICA, 'South America': SOUTH_AMERICA};
 
@@ -33,6 +36,14 @@ export const PLACES: Record<string, [number, number]> = {
   Tokyo: [139.69, 35.68], Maine: [-69.0, 45.3], 'Aleutian Islands': [-175, 52], Semisopochnoi: [179.77, 51.96],
   Amatignak: [-179.15, 51.27], Lisbon: [-9.14, 38.72], Salvador: [-38.5, -12.97], Milan: [9.19, 45.46],
   Montreal: [-73.57, 45.5], Oslo: [10.75, 59.91], Anchorage: [-149.9, 61.22],
+  // week 2
+  Reno: [-119.81, 39.53], 'Los Angeles': [-118.24, 34.05], 'San Diego': [-117.16, 32.72], 'San Francisco': [-122.42, 37.77],
+  Perth: [115.86, -31.95], Brisbane: [153.03, -27.47], London: [-0.13, 51.51], Moscow: [37.62, 55.76], Kashgar: [75.99, 39.47],
+  Mirzapur: [82.57, 25.15], Guwahati: [91.74, 26.14], Kathmandu: [85.32, 27.71], Madrid: [-3.7, 40.42], Warsaw: [21.01, 52.23],
+  Tarawa: [173.0, 1.45], Kiritimati: [-157.4, 1.87], Pyongyang: [125.75, 39.03], Seoul: [126.98, 37.57],
+  Ayodhya: [82.2, 26.8], Shringverpur: [81.64, 25.58], Prayagraj: [81.85, 25.44], Chitrakoot: [80.87, 25.2],
+  Dandakaranya: [82.03, 19.08], Panchavati: [73.79, 20.01], Lepakshi: [77.6, 13.81], Kishkindha: [76.46, 15.33],
+  Rameswaram: [79.31, 9.29], Dhanushkodi: [79.42, 9.15], Talaimannar: [79.73, 9.08], 'Sri Lanka': [80.7, 7.6],
 };
 
 export const land: any = topojson.feature(topo, topo.objects.land);

@@ -1,0 +1,219 @@
+{
+  "checkedOn": "2026-11-30",
+  "checkedBy": "Claude (manual fact gate, week 2)",
+  "beats": [
+    {
+      "id": "b01",
+      "verdict": "no-claim",
+      "evidence": "Framing, opinion, instruction or story; no factual claim."
+    },
+    {
+      "id": "b02",
+      "verdict": "no-claim",
+      "evidence": "Framing, opinion, instruction or story; no factual claim."
+    },
+    {
+      "id": "b03",
+      "verdict": "supported",
+      "evidence": "There are more distinct UTC offsets in use than 24, including half-hour and 45-minute offsets.",
+      "source": "https://www.timeanddate.com/time/current-number-time-zones.html"
+    },
+    {
+      "id": "b04",
+      "verdict": "supported",
+      "evidence": "By 1883, railroads were using 56 different time standards.",
+      "source": "https://abajournal.com/magazine/article/us-railroads-enact-standard-time-zones"
+    },
+    {
+      "id": "b05",
+      "verdict": "supported",
+      "evidence": "On 18 Nov 1883 railroad clocks were reset; the day was called the 'Day of Two Noons'.",
+      "source": "https://blogs.loc.gov/law/2024/11/whose-time-is-it-anyway-a-brief-history-of-standardized-time-zones-in-the-united-states/"
+    },
+    {
+      "id": "b06",
+      "verdict": "supported",
+      "evidence": "The 1884 International Meridian Conference in Washington recommended the Greenwich meridian.",
+      "source": "https://en.wikipedia.org/wiki/International_Meridian_Conference"
+    },
+    {
+      "id": "b07",
+      "verdict": "no-claim",
+      "evidence": "Framing, opinion, instruction or story; no factual claim."
+    },
+    {
+      "id": "b08",
+      "verdict": "supported",
+      "evidence": "China officially uses a single time zone, UTC+8.",
+      "source": "https://www.timeanddate.com/time/china/one-time-zone.html"
+    },
+    {
+      "id": "b09",
+      "verdict": "supported",
+      "evidence": "China Standard Time is UTC+8, known in China as Beijing Time.",
+      "source": "https://www.timeanddate.com/time/china/one-time-zone.html"
+    },
+    {
+      "id": "b10",
+      "verdict": "supported",
+      "evidence": "China spans about five geographic zones; the 1949 government replaced five zones with one.",
+      "source": "https://en.wikipedia.org/wiki/Time_in_China"
+    },
+    {
+      "id": "b11",
+      "verdict": "supported",
+      "evidence": "In Kashgar, solar noon can be as late as 15:10.",
+      "source": "https://www.timeanddate.com/time/china/one-time-zone.html"
+    },
+    {
+      "id": "b12",
+      "verdict": "supported",
+      "evidence": "Xinjiang Time is 2 hours behind Beijing; stores commonly open 10am–7pm Beijing Time, 8am–5pm local.",
+      "source": "https://en.wikipedia.org/wiki/Time_in_China"
+    },
+    {
+      "id": "b13",
+      "verdict": "no-claim",
+      "evidence": "Framing, opinion, instruction or story; no factual claim."
+    },
+    {
+      "id": "b14",
+      "verdict": "supported",
+      "evidence": "India uses one time zone, IST, UTC+5:30.",
+      "source": "https://timeanddate.com/time/zone/india"
+    },
+    {
+      "id": "b15",
+      "verdict": "supported",
+      "evidence": "IST is based on the 82.5°E meridian near Mirzapur. [computed from the cited figures]",
+      "source": "https://en.wikipedia.org/wiki/Indian_Standard_Time"
+    },
+    {
+      "id": "b16",
+      "verdict": "supported",
+      "evidence": "At Assam's eastern edge, summer light comes as early as 4:30 am and winter dark by around 4 pm.",
+      "source": "https://science.thewire.in/?p=301084"
+    },
+    {
+      "id": "b17",
+      "verdict": "supported",
+      "evidence": "Tea Garden Time is unofficially UTC+6:30; in 2018 CSIR-NPL proposed IST-II for the north-east, not yet legally formalised.",
+      "source": "https://timeanddate.com/time/zone/india"
+    },
+    {
+      "id": "b18",
+      "verdict": "no-claim",
+      "evidence": "Framing, opinion, instruction or story; no factual claim."
+    },
+    {
+      "id": "b19",
+      "verdict": "supported",
+      "evidence": "Nepal is UTC+5:45.",
+      "source": "https://timeanddate.com/time/time-zones-interesting.html"
+    },
+    {
+      "id": "b20",
+      "verdict": "supported",
+      "evidence": "Nepal adopted Indian Standard Time in 1920 and advanced its clocks by 15 minutes in 1986.",
+      "source": "https://www.wikipedia.com/wiki/Nepal_Time"
+    },
+    {
+      "id": "b21",
+      "verdict": "supported",
+      "evidence": "The Chatham Islands use UTC+12:45; Nepal UTC+5:45.",
+      "source": "https://timeanddate.com/time/time-zones-interesting.html"
+    },
+    {
+      "id": "b22",
+      "verdict": "supported",
+      "evidence": "Spain uses Central European Time though it lies much further west.",
+      "source": "https://www.timeanddate.com/news/time/spain-time-zone-new.html"
+    },
+    {
+      "id": "b23",
+      "verdict": "supported",
+      "evidence": "Spain observed GMT from 1901; on 16 March 1940 at 23:00 GMT clocks moved to 00:00 CET.",
+      "source": "https://www.timeanddate.com/news/time/spain-time-zone-new.html"
+    },
+    {
+      "id": "b24",
+      "verdict": "supported",
+      "evidence": "The Nazi-alignment story is disputed by former National Astronomical Observatory astronomer Pere Planesas; the change has remained since 1940.",
+      "source": "https://www.euronews.com/2026/03/29/the-hoax-of-the-nazi-time-zone-in-spain-it-robs-us-of-sleep-but-aligns-us-with-europe"
+    },
+    {
+      "id": "b25",
+      "verdict": "supported",
+      "evidence": "In Galicia the Sun doesn't rise until 9:00 in winter.",
+      "source": "https://www.timeanddate.com/news/time/spain-time-zone-new.html"
+    },
+    {
+      "id": "b26",
+      "verdict": "supported",
+      "evidence": "North Korea switched from UTC+9 to UTC+8:30 (Pyongyang Time) on 15 Aug 2015.",
+      "source": "https://www.timeanddate.com/news/time/north-korea-new-time-zone.html"
+    },
+    {
+      "id": "b27",
+      "verdict": "supported",
+      "evidence": "The 2015 change marked the 70th anniversary of liberation from Japan; clocks were 30 minutes behind South Korea.",
+      "source": "https://www.timeanddate.com/news/time/north-korea-new-time-zone.html"
+    },
+    {
+      "id": "b28",
+      "verdict": "supported",
+      "evidence": "In May 2018 North Korea returned to UTC+9 to realign with South Korea, as a step toward unity.",
+      "source": "https://en.wikipedia.org/wiki/Time_in_North_Korea"
+    },
+    {
+      "id": "b29",
+      "verdict": "no-claim",
+      "evidence": "Framing, opinion, instruction or story; no factual claim."
+    },
+    {
+      "id": "b30",
+      "verdict": "supported",
+      "evidence": "Before 1995, Kiribati's eastern and western islands had a 24-hour difference.",
+      "source": "https://webspace.science.uu.nl/~gent0113/idl/idl_recent.htm"
+    },
+    {
+      "id": "b31",
+      "verdict": "supported",
+      "evidence": "Kiribati moved the date line from 1 Jan 1995; eastern islands skipped 31 Dec 1994.",
+      "source": "https://www.iflscience.com/in-1994-december-31-was-wiped-from-existence-in-kiribati-82086"
+    },
+    {
+      "id": "b32",
+      "verdict": "supported",
+      "evidence": "Kiritimati is UTC+14, the earliest time zone.",
+      "source": "https://www.timeanddate.com/time/current-number-time-zones.html"
+    },
+    {
+      "id": "b33",
+      "verdict": "supported",
+      "evidence": "Samoa went from Thursday 29 Dec 2011 to Saturday 31 Dec 2011.",
+      "source": "https://earthsky.org/?p=117271"
+    },
+    {
+      "id": "b34",
+      "verdict": "supported",
+      "evidence": "The International Date Line is not set by international law or treaty.",
+      "source": "https://csmonitor.com/1999/1201/p1s4.html"
+    },
+    {
+      "id": "b35",
+      "verdict": "no-claim",
+      "evidence": "Framing, opinion, instruction or story; no factual claim."
+    },
+    {
+      "id": "b36",
+      "verdict": "no-claim",
+      "evidence": "Framing, opinion, instruction or story; no factual claim."
+    },
+    {
+      "id": "b37",
+      "verdict": "no-claim",
+      "evidence": "Framing, opinion, instruction or story; no factual claim."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "2026-11-30-russia-vs-pluto",
+  "channel": "a-maps-data",
+  "topic": "Is Russia bigger than Pluto?",
+  "angle": "A viral fact that New Horizons quietly flipped",
+  "cluster": "scale-comparisons",
+  "hookPattern": "contradiction",
+  "lengthBucket": "25-55s",
+  "format": "short",
+  "sources": [
+    "https://commonplacefacts.com/2019/05/23/pluto-vs-russia-surface-area/",
+    "https://en.wikipedia.org/wiki/Geography_of_Russia",
+    "https://www.csiro.au/en/news/All/Articles/2026/Moon-Facts",
+    "https://www.rbth.com/science-and-tech/330704-is-pluto-smaller-than-russia"
+  ]
+}

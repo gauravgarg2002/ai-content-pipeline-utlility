@@ -1,0 +1,1269 @@
+{
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "scenes": [
+    {
+      "id": "s01",
+      "type": "geo",
+      "beatId": "b01",
+      "startMs": 0,
+      "endMs": 9580,
+      "props": {
+        "view": [
+          66,
+          5,
+          92,
+          31
+        ],
+        "fills": [
+          {
+            "name": "India",
+            "label": false,
+            "color": "#1E2740"
+          },
+          {
+            "name": "Sri Lanka",
+            "label": false,
+            "color": "#1E2740"
+          }
+        ],
+        "pins": [
+          {
+            "place": "Ayodhya",
+            "label": "Ayodhya",
+            "at": 0
+          },
+          {
+            "place": "Shringverpur",
+            "label": "Shringverpur",
+            "at": 0
+          },
+          {
+            "place": "Prayagraj",
+            "label": "Prayagraj",
+            "at": 0
+          },
+          {
+            "place": "Chitrakoot",
+            "label": "Chitrakoot",
+            "at": 0
+          },
+          {
+            "place": "Dandakaranya",
+            "label": "Dandakaranya",
+            "at": 0
+          },
+          {
+            "place": "Panchavati",
+            "label": "Panchavati",
+            "at": 0
+          },
+          {
+            "place": "Lepakshi",
+            "label": "Lepakshi",
+            "at": 0
+          },
+          {
+            "place": "Kishkindha",
+            "label": "Kishkindha",
+            "at": 0
+          },
+          {
+            "place": "Rameswaram",
+            "label": "Rameswaram",
+            "at": 0
+          }
+        ],
+        "lines": [
+          {
+            "places": [
+              "Ayodhya",
+              "Shringverpur",
+              "Prayagraj",
+              "Chitrakoot",
+              "Dandakaranya",
+              "Panchavati",
+              "Lepakshi",
+              "Kishkindha",
+              "Rameswaram"
+            ],
+            "at": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "s02",
+      "type": "cards",
+      "beatId": "b02",
+      "startMs": 9580,
+      "endMs": 20699,
+      "props": {
+        "cells": [
+          [
+            "Valmiki",
+            "Names the places"
+          ],
+          [
+            "Tradition",
+            "Links them to modern sites"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "s03",
+      "type": "geo",
+      "beatId": "b03",
+      "startMs": 20699,
+      "endMs": 32202,
+      "props": {
+        "view": [
+          78,
+          22,
+          88,
+          30
+        ],
+        "fills": [
+          {
+            "name": "India",
+            "label": false,
+            "color": "#1E2740"
+          },
+          {
+            "name": "Sri Lanka",
+            "label": false,
+            "color": "#1E2740"
+          }
+        ],
+        "pins": [
+          {
+            "place": "Ayodhya",
+            "label": "Ayodhya",
+            "at": 0
+          }
+        ],
+        "lines": []
+      }
+    },
+    {
+      "id": "s04",
+      "type": "cards",
+      "beatId": "b04",
+      "startMs": 32202,
+      "endMs": 42936,
+      "props": {
+        "cells": [
+          "Boon 1",
+          "Boon 2"
+        ]
+      }
+    },
+    {
+      "id": "s05",
+      "type": "cards",
+      "beatId": "b05",
+      "startMs": 42936,
+      "endMs": 51362,
+      "props": {
+        "cells": [
+          [
+            "Boon 1",
+            "Bharata is crowned"
+          ],
+          [
+            "Boon 2",
+            "Rama: 14 years in exile"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "s06",
+      "type": "kinetic",
+      "beatId": "b06",
+      "startMs": 51362,
+      "endMs": 59788,
+      "props": {
+        "text": "A KING'S WORD"
+      }
+    },
+    {
+      "id": "s07",
+      "type": "geo",
+      "beatId": "b07",
+      "startMs": 59788,
+      "endMs": 65907,
+      "props": {
+        "view": [
+          78,
+          22,
+          88,
+          30
+        ],
+        "fills": [
+          {
+            "name": "India",
+            "label": false,
+            "color": "#1E2740"
+          },
+          {
+            "name": "Sri Lanka",
+            "label": false,
+            "color": "#1E2740"
+          }
+        ],
+        "pins": [
+          {
+            "place": "Ayodhya",
+            "label": "Ayodhya",
+            "at": 0
+          },
+          {
+            "place": "Shringverpur",
+            "label": "Shringverpur",
+            "at": 0.15
+          }
+        ],
+        "lines": [
+          {
+            "places": [
+              "Ayodhya",
+              "Shringverpur"
+            ],
+            "at": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "s08",
+      "type": "geo",
+      "beatId": "b08",
+      "startMs": 65907,
+      "endMs": 72026,
+      "props": {
+        "view": [
+          78,
+          22,
+          88,
+          30
+        ],
+        "fills": [
+          {
+            "name": "India",
+            "label": false,
+            "color": "#1E2740"
+          },
+          {
+            "name": "Sri Lanka",
+            "label": false,
+            "color": "#1E2740"
+          }
+        ],
+        "pins": [
+          {
+            "place": "Ayodhya",
+            "label": "Ayodhya",
+            "at": 0
+          },
+          {
+            "place": "Shringverpur",
+            "label": "Shringverpur",
+            "at": 0
+          },
+          {
+            "place": "Prayagraj",
+            "label": "Prayagraj",
+            "at": 0.15
+          }
+        ],
+        "lines": [
+          {
+            "places": [
+              "Ayodhya",
+              "Shringverpur",
+              "Prayagraj"
+            ],
+            "at": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "s09",
+      "type": "geo",
+      "beatId": "b09",
+      "startMs": 72026,
+      "endMs": 75452,
+      "props": {
+        "view": [
+          76,
+          20,
+          88,
+          30
+        ],
+        "fills": [
+          {
+            "name": "India",
+            "label": false,
+            "color": "#1E2740"
+          },
+          {
+            "name": "Sri Lanka",
+            "label": false,
+            "color": "#1E2740"
+          }
+        ],
+        "pins": [
+          {
+            "place": "Ayodhya",
+            "label": "Ayodhya",
+            "at": 0
+          },
+          {
+            "place": "Shringverpur",
+            "label": "Shringverpur",
+            "at": 0
+          },
+          {
+            "place": "Prayagraj",
+            "label": "Prayagraj",
+            "at": 0
+          },
+          {
+            "place": "Chitrakoot",
+            "label": "Chitrakoot",
+            "at": 0.15
+          }
+        ],
+        "lines": [
+          {
+            "places": [
+              "Ayodhya",
+              "Shringverpur",
+              "Prayagraj",
+              "Chitrakoot"
+            ],
+            "at": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "s10",
+      "type": "geo",
+      "beatId": "b10",
+      "startMs": 75452,
+      "endMs": 84263,
+      "props": {
+        "view": [
+          76,
+          20,
+          88,
+          30
+        ],
+        "fills": [
+          {
+            "name": "India",
+            "label": false,
+            "color": "#1E2740"
+          },
+          {
+            "name": "Sri Lanka",
+            "label": false,
+            "color": "#1E2740"
+          }
+        ],
+        "pins": [
+          {
+            "place": "Ayodhya",
+            "label": "Ayodhya",
+            "at": 0
+          },
+          {
+            "place": "Shringverpur",
+            "label": "Shringverpur",
+            "at": 0
+          },
+          {
+            "place": "Prayagraj",
+            "label": "Prayagraj",
+            "at": 0
+          },
+          {
+            "place": "Chitrakoot",
+            "label": "Chitrakoot",
+            "at": 0
+          }
+        ],
+        "lines": [
+          {
+            "places": [
+              "Ayodhya",
+              "Shringverpur",
+              "Prayagraj",
+              "Chitrakoot"
+            ],
+            "at": 0
+          },
+          {
+            "places": [
+              "Ayodhya",
+              "Chitrakoot"
+            ],
+            "color": "#3DD6C6",
+            "at": 0.2
+          }
+        ]
+      }
+    },
+    {
+      "id": "s11",
+      "type": "kinetic",
+      "beatId": "b11",
+      "startMs": 84263,
+      "endMs": 93074,
+      "props": {
+        "text": "THE SANDALS ON THE THRONE"
+      }
+    },
+    {
+      "id": "s12",
+      "type": "geo",
+      "beatId": "b12",
+      "startMs": 93074,
+      "endMs": 102270,
+      "props": {
+        "view": [
+          66,
+          5,
+          92,
+          31
+        ],
+        "fills": [
+          {
+            "name": "India",
+            "label": false,
+            "color": "#1E2740"
+          },
+          {
+            "name": "Sri Lanka",
+            "label": false,
+            "color": "#1E2740"
+          }
+        ],
+        "pins": [
+          {
+            "place": "Ayodhya",
+            "label": "Ayodhya",
+            "at": 0
+          },
+          {
+            "place": "Shringverpur",
+            "label": "Shringverpur",
+            "at": 0
+          },
+          {
+            "place": "Prayagraj",
+            "label": "Prayagraj",
+            "at": 0
+          },
+          {
+            "place": "Chitrakoot",
+            "label": "Chitrakoot",
+            "at": 0
+          },
+          {
+            "place": "Dandakaranya",
+            "label": "Dandakaranya",
+            "at": 0.15
+          }
+        ],
+        "lines": [
+          {
+            "places": [
+              "Ayodhya",
+              "Shringverpur",
+              "Prayagraj",
+              "Chitrakoot",
+              "Dandakaranya"
+            ],
+            "at": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "s13",
+      "type": "geo",
+      "beatId": "b13",
+      "startMs": 102270,
+      "endMs": 110696,
+      "props": {
+        "view": [
+          66,
+          5,
+          92,
+          31
+        ],
+        "fills": [
+          {
+            "name": "India",
+            "label": false,
+            "color": "#1E2740"
+          },
+          {
+            "name": "Sri Lanka",
+            "label": false,
+            "color": "#1E2740"
+          }
+        ],
+        "pins": [
+          {
+            "place": "Ayodhya",
+            "label": "Ayodhya",
+            "at": 0
+          },
+          {
+            "place": "Shringverpur",
+            "label": "Shringverpur",
+            "at": 0
+          },
+          {
+            "place": "Prayagraj",
+            "label": "Prayagraj",
+            "at": 0
+          },
+          {
+            "place": "Chitrakoot",
+            "label": "Chitrakoot",
+            "at": 0
+          },
+          {
+            "place": "Dandakaranya",
+            "label": "Dandakaranya",
+            "at": 0
+          },
+          {
+            "place": "Panchavati",
+            "label": "Panchavati",
+            "at": 0.15
+          }
+        ],
+        "lines": [
+          {
+            "places": [
+              "Ayodhya",
+              "Shringverpur",
+              "Prayagraj",
+              "Chitrakoot",
+              "Dandakaranya",
+              "Panchavati"
+            ],
+            "at": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "s14",
+      "type": "kinetic",
+      "beatId": "b14",
+      "startMs": 110696,
+      "endMs": 119507,
+      "props": {
+        "text": "SURPANAKHA"
+      }
+    },
+    {
+      "id": "s15",
+      "type": "kinetic",
+      "beatId": "b15",
+      "startMs": 119507,
+      "endMs": 126395,
+      "props": {
+        "text": "THE GOLDEN DEER"
+      }
+    },
+    {
+      "id": "s16",
+      "type": "geo",
+      "beatId": "b16",
+      "startMs": 126395,
+      "endMs": 134437,
+      "props": {
+        "view": [
+          66,
+          5,
+          92,
+          31
+        ],
+        "fills": [
+          {
+            "name": "India",
+            "label": false,
+            "color": "#1E2740"
+          },
+          {
+            "name": "Sri Lanka",
+            "label": false,
+            "color": "#1E2740"
+          }
+        ],
+        "pins": [
+          {
+            "place": "Ayodhya",
+            "label": "Ayodhya",
+            "at": 0
+          },
+          {
+            "place": "Shringverpur",
+            "label": "Shringverpur",
+            "at": 0
+          },
+          {
+            "place": "Prayagraj",
+            "label": "Prayagraj",
+            "at": 0
+          },
+          {
+            "place": "Chitrakoot",
+            "label": "Chitrakoot",
+            "at": 0
+          },
+          {
+            "place": "Dandakaranya",
+            "label": "Dandakaranya",
+            "at": 0
+          },
+          {
+            "place": "Panchavati",
+            "label": "Panchavati",
+            "at": 0
+          },
+          {
+            "place": "Lepakshi",
+            "label": "Lepakshi",
+            "at": 0.15
+          }
+        ],
+        "lines": [
+          {
+            "places": [
+              "Ayodhya",
+              "Shringverpur",
+              "Prayagraj",
+              "Chitrakoot",
+              "Dandakaranya",
+              "Panchavati",
+              "Lepakshi"
+            ],
+            "at": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "s17",
+      "type": "geo",
+      "beatId": "b17",
+      "startMs": 134437,
+      "endMs": 143633,
+      "props": {
+        "view": [
+          66,
+          5,
+          92,
+          31
+        ],
+        "fills": [
+          {
+            "name": "India",
+            "label": false,
+            "color": "#1E2740"
+          },
+          {
+            "name": "Sri Lanka",
+            "label": false,
+            "color": "#1E2740"
+          }
+        ],
+        "pins": [
+          {
+            "place": "Ayodhya",
+            "label": "Ayodhya",
+            "at": 0
+          },
+          {
+            "place": "Shringverpur",
+            "label": "Shringverpur",
+            "at": 0
+          },
+          {
+            "place": "Prayagraj",
+            "label": "Prayagraj",
+            "at": 0
+          },
+          {
+            "place": "Chitrakoot",
+            "label": "Chitrakoot",
+            "at": 0
+          },
+          {
+            "place": "Dandakaranya",
+            "label": "Dandakaranya",
+            "at": 0
+          },
+          {
+            "place": "Panchavati",
+            "label": "Panchavati",
+            "at": 0
+          },
+          {
+            "place": "Lepakshi",
+            "label": "Lepakshi",
+            "at": 0
+          },
+          {
+            "place": "Kishkindha",
+            "label": "Kishkindha",
+            "at": 0.15
+          }
+        ],
+        "lines": [
+          {
+            "places": [
+              "Ayodhya",
+              "Shringverpur",
+              "Prayagraj",
+              "Chitrakoot",
+              "Dandakaranya",
+              "Panchavati",
+              "Lepakshi",
+              "Kishkindha"
+            ],
+            "at": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "s18",
+      "type": "kinetic",
+      "beatId": "b18",
+      "startMs": 143633,
+      "endMs": 153213,
+      "props": {
+        "text": "SHABARI'S WAIT"
+      }
+    },
+    {
+      "id": "s19",
+      "type": "cards",
+      "beatId": "b19",
+      "startMs": 153213,
+      "endMs": 165486,
+      "props": {
+        "cells": [
+          [
+            "Vali",
+            "The usurping brother"
+          ],
+          [
+            "Sugriva",
+            "Rama's ally"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "s20",
+      "type": "geo",
+      "beatId": "b20",
+      "startMs": 165486,
+      "endMs": 173912,
+      "props": {
+        "view": [
+          70,
+          4,
+          88,
+          22
+        ],
+        "fills": [
+          {
+            "name": "India",
+            "label": false,
+            "color": "#1E2740"
+          },
+          {
+            "name": "Sri Lanka",
+            "label": false,
+            "color": "#1E2740"
+          }
+        ],
+        "pins": [
+          {
+            "place": "Ayodhya",
+            "label": "Ayodhya",
+            "at": 0
+          },
+          {
+            "place": "Shringverpur",
+            "label": "Shringverpur",
+            "at": 0
+          },
+          {
+            "place": "Prayagraj",
+            "label": "Prayagraj",
+            "at": 0
+          },
+          {
+            "place": "Chitrakoot",
+            "label": "Chitrakoot",
+            "at": 0
+          },
+          {
+            "place": "Dandakaranya",
+            "label": "Dandakaranya",
+            "at": 0
+          },
+          {
+            "place": "Panchavati",
+            "label": "Panchavati",
+            "at": 0
+          },
+          {
+            "place": "Lepakshi",
+            "label": "Lepakshi",
+            "at": 0
+          },
+          {
+            "place": "Kishkindha",
+            "label": "Kishkindha",
+            "at": 0
+          }
+        ],
+        "lines": [
+          {
+            "places": [
+              "Ayodhya",
+              "Shringverpur",
+              "Prayagraj",
+              "Chitrakoot",
+              "Dandakaranya",
+              "Panchavati",
+              "Lepakshi",
+              "Kishkindha"
+            ],
+            "at": 0
+          },
+          {
+            "places": [
+              "Kishkindha",
+              "Sri Lanka"
+            ],
+            "color": "#3DD6C6",
+            "at": 0.25
+          }
+        ]
+      }
+    },
+    {
+      "id": "s21",
+      "type": "kinetic",
+      "beatId": "b21",
+      "startMs": 173912,
+      "endMs": 182338,
+      "props": {
+        "text": "LANKA BURNS"
+      }
+    },
+    {
+      "id": "s22",
+      "type": "cards",
+      "beatId": "b22",
+      "startMs": 182338,
+      "endMs": 190380,
+      "props": {
+        "cells": [
+          [
+            "Ravana",
+            "Refuses"
+          ],
+          [
+            "Vibhishana",
+            "Joins Rama"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "s23",
+      "type": "geo",
+      "beatId": "b23",
+      "startMs": 190380,
+      "endMs": 195730,
+      "props": {
+        "view": [
+          70,
+          4,
+          88,
+          22
+        ],
+        "fills": [
+          {
+            "name": "India",
+            "label": false,
+            "color": "#1E2740"
+          },
+          {
+            "name": "Sri Lanka",
+            "label": false,
+            "color": "#1E2740"
+          }
+        ],
+        "pins": [
+          {
+            "place": "Ayodhya",
+            "label": "Ayodhya",
+            "at": 0
+          },
+          {
+            "place": "Shringverpur",
+            "label": "Shringverpur",
+            "at": 0
+          },
+          {
+            "place": "Prayagraj",
+            "label": "Prayagraj",
+            "at": 0
+          },
+          {
+            "place": "Chitrakoot",
+            "label": "Chitrakoot",
+            "at": 0
+          },
+          {
+            "place": "Dandakaranya",
+            "label": "Dandakaranya",
+            "at": 0
+          },
+          {
+            "place": "Panchavati",
+            "label": "Panchavati",
+            "at": 0
+          },
+          {
+            "place": "Lepakshi",
+            "label": "Lepakshi",
+            "at": 0
+          },
+          {
+            "place": "Kishkindha",
+            "label": "Kishkindha",
+            "at": 0
+          },
+          {
+            "place": "Rameswaram",
+            "label": "Rameswaram",
+            "at": 0.15
+          }
+        ],
+        "lines": [
+          {
+            "places": [
+              "Ayodhya",
+              "Shringverpur",
+              "Prayagraj",
+              "Chitrakoot",
+              "Dandakaranya",
+              "Panchavati",
+              "Lepakshi",
+              "Kishkindha",
+              "Rameswaram"
+            ],
+            "at": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "s24",
+      "type": "geo",
+      "beatId": "b24",
+      "startMs": 195730,
+      "endMs": 210310,
+      "props": {
+        "view": [
+          78.8,
+          8.6,
+          80.3,
+          9.7
+        ],
+        "pins": [
+          {
+            "place": "Dhanushkodi"
+          },
+          {
+            "place": "Talaimannar",
+            "label": "Mannar Island"
+          }
+        ],
+        "lines": [
+          {
+            "places": [
+              "Dhanushkodi",
+              "Talaimannar"
+            ],
+            "at": 0.15
+          }
+        ]
+      }
+    },
+    {
+      "id": "s25",
+      "type": "cards",
+      "beatId": "b25",
+      "startMs": 210310,
+      "endMs": 222967,
+      "props": {
+        "cells": [
+          [
+            "Geology",
+            "Natural limestone shoals"
+          ],
+          [
+            "Faith",
+            "Rama's Setu"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "s26",
+      "type": "geo",
+      "beatId": "b26",
+      "startMs": 222967,
+      "endMs": 231778,
+      "props": {
+        "view": [
+          66,
+          5,
+          92,
+          31
+        ],
+        "fills": [
+          {
+            "name": "India",
+            "label": false,
+            "color": "#1E2740"
+          },
+          {
+            "name": "Sri Lanka",
+            "label": false,
+            "color": "#1E2740"
+          }
+        ],
+        "pins": [
+          {
+            "place": "Ayodhya",
+            "label": "Ayodhya",
+            "at": 0
+          },
+          {
+            "place": "Shringverpur",
+            "label": "Shringverpur",
+            "at": 0
+          },
+          {
+            "place": "Prayagraj",
+            "label": "Prayagraj",
+            "at": 0
+          },
+          {
+            "place": "Chitrakoot",
+            "label": "Chitrakoot",
+            "at": 0
+          },
+          {
+            "place": "Dandakaranya",
+            "label": "Dandakaranya",
+            "at": 0
+          },
+          {
+            "place": "Panchavati",
+            "label": "Panchavati",
+            "at": 0
+          },
+          {
+            "place": "Lepakshi",
+            "label": "Lepakshi",
+            "at": 0
+          },
+          {
+            "place": "Kishkindha",
+            "label": "Kishkindha",
+            "at": 0
+          },
+          {
+            "place": "Rameswaram",
+            "label": "Rameswaram",
+            "at": 0
+          }
+        ],
+        "lines": [
+          {
+            "places": [
+              "Ayodhya",
+              "Shringverpur",
+              "Prayagraj",
+              "Chitrakoot",
+              "Dandakaranya",
+              "Panchavati",
+              "Lepakshi",
+              "Kishkindha",
+              "Rameswaram"
+            ],
+            "at": 0
+          },
+          {
+            "coords": [
+              [
+                79.9,
+                7.5
+              ],
+              [
+                82.2,
+                26.8
+              ]
+            ],
+            "color": "#3DD6C6",
+            "at": 0.3
+          }
+        ]
+      }
+    },
+    {
+      "id": "s27",
+      "type": "number",
+      "beatId": "b27",
+      "startMs": 231778,
+      "endMs": 242897,
+      "props": {
+        "items": [
+          [
+            "km, straight lines between stops",
+            3583
+          ]
+        ]
+      }
+    },
+    {
+      "id": "s28",
+      "type": "number",
+      "beatId": "b28",
+      "startMs": 242897,
+      "endMs": 254785,
+      "props": {
+        "items": [
+          [
+            "places identified on the route",
+            248
+          ]
+        ]
+      }
+    },
+    {
+      "id": "s29",
+      "type": "geo",
+      "beatId": "b29",
+      "startMs": 254785,
+      "endMs": 263981,
+      "props": {
+        "view": [
+          66,
+          5,
+          92,
+          31
+        ],
+        "fills": [
+          {
+            "name": "India",
+            "label": false,
+            "color": "#1E2740"
+          },
+          {
+            "name": "Sri Lanka",
+            "label": false,
+            "color": "#1E2740"
+          }
+        ],
+        "pins": [
+          {
+            "place": "Ayodhya",
+            "label": "Ayodhya",
+            "at": 0
+          },
+          {
+            "place": "Shringverpur",
+            "label": "Shringverpur",
+            "at": 0
+          },
+          {
+            "place": "Prayagraj",
+            "label": "Prayagraj",
+            "at": 0
+          },
+          {
+            "place": "Chitrakoot",
+            "label": "Chitrakoot",
+            "at": 0
+          },
+          {
+            "place": "Dandakaranya",
+            "label": "Dandakaranya",
+            "at": 0
+          },
+          {
+            "place": "Panchavati",
+            "label": "Panchavati",
+            "at": 0
+          },
+          {
+            "place": "Lepakshi",
+            "label": "Lepakshi",
+            "at": 0
+          },
+          {
+            "place": "Kishkindha",
+            "label": "Kishkindha",
+            "at": 0
+          },
+          {
+            "place": "Rameswaram",
+            "label": "Rameswaram",
+            "at": 0
+          }
+        ],
+        "lines": [
+          {
+            "places": [
+              "Ayodhya",
+              "Shringverpur",
+              "Prayagraj",
+              "Chitrakoot",
+              "Dandakaranya",
+              "Panchavati",
+              "Lepakshi",
+              "Kishkindha",
+              "Rameswaram"
+            ],
+            "at": 0
+          }
+        ]
+      }
+    }
+  ]
+}

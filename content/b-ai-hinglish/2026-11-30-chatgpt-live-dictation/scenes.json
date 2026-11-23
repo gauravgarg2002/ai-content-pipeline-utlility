@@ -1,0 +1,98 @@
+{
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "scenes": [
+    {
+      "id": "s01",
+      "type": "ui",
+      "beatId": "b01",
+      "startMs": 0,
+      "endMs": 5350,
+      "props": {
+        "kind": "chat",
+        "app": "ChatGPT",
+        "highlight": "composer"
+      }
+    },
+    {
+      "id": "s02",
+      "type": "ui",
+      "beatId": "b02",
+      "startMs": 5350,
+      "endMs": 12623,
+      "props": {
+        "kind": "phone",
+        "sequence": [
+          "Mic dabao",
+          "Bolo",
+          "Text live"
+        ]
+      }
+    },
+    {
+      "id": "s03",
+      "type": "cards",
+      "beatId": "b03",
+      "startMs": 12623,
+      "endMs": 17973,
+      "props": {
+        "cells": [
+          "10-minute limit"
+        ],
+        "cross_out_after": 0
+      }
+    },
+    {
+      "id": "s04",
+      "type": "ui",
+      "beatId": "b04",
+      "startMs": 17973,
+      "endMs": 24861,
+      "props": {
+        "kind": "devices",
+        "devices": [
+          "iPhone",
+          "Android",
+          "Web",
+          "Desktop"
+        ]
+      }
+    },
+    {
+      "id": "s05",
+      "type": "ui",
+      "beatId": "b05",
+      "startMs": 24861,
+      "endMs": 29441,
+      "props": {
+        "kind": "toggle",
+        "state": "on"
+      }
+    },
+    {
+      "id": "s06",
+      "type": "cards",
+      "beatId": "b06",
+      "startMs": 29441,
+      "endMs": 35560,
+      "props": {
+        "cells": [
+          "Lambe message",
+          "Notes",
+          "Email draft"
+        ]
+      }
+    },
+    {
+      "id": "s07",
+      "type": "kinetic",
+      "beatId": "b07",
+      "startMs": 35560,
+      "endMs": 38602,
+      "props": {
+        "text": "AAYA KYA?"
+      }
+    }
+  ]
+}

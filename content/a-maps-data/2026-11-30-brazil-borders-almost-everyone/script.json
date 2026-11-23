@@ -1,0 +1,60 @@
+{
+  "hook": "Brazil borders almost every country in South America. Can you name the two it doesn't?",
+  "beats": [
+    {
+      "id": "b01",
+      "narration": "Brazil borders almost every country in South America. Can you name the two it doesn't?",
+      "onScreen": "WHICH 2?"
+    },
+    {
+      "id": "b02",
+      "narration": "It has ten neighbours. Nine countries, plus French Guiana, which is part of France.",
+      "onScreen": "10 NEIGHBOURS",
+      "claim": "Brazil borders nine South American countries and French Guiana.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Borders_of_Brazil"
+    },
+    {
+      "id": "b03",
+      "narration": "The two it never touches: Chile and Ecuador.",
+      "onScreen": "CHILE · ECUADOR",
+      "claim": "Brazil borders every South American country except Chile and Ecuador.",
+      "sourceUrl": "https://www.britannica.com/place/Brazil"
+    },
+    {
+      "id": "b04",
+      "narration": "All together, its land border runs sixteen thousand eight hundred and eighty five kilometres.",
+      "onScreen": "LAND BORDER",
+      "claim": "Brazil's land borders total 16,885 km.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Borders_of_Brazil"
+    },
+    {
+      "id": "b05",
+      "narration": "Only China and Russia have longer land borders.",
+      "onScreen": "#3 ON EARTH",
+      "claim": "Brazil has the world's third-longest land border, behind China and Russia.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Borders_of_Brazil"
+    },
+    {
+      "id": "b06",
+      "narration": "And here's the twist. France's longest border isn't in Europe. It's this one, with Brazil. Seven hundred and thirty kilometres.",
+      "onScreen": "FRANCE'S LONGEST BORDER",
+      "claim": "The Brazil–France border is 730 km, France's longest; Spain is second at 623 km.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Brazil%E2%80%93France_border"
+    },
+    {
+      "id": "b07",
+      "narration": "Did you get both?",
+      "onScreen": null
+    }
+  ],
+  "title": "Brazil borders everyone… except these 2",
+  "description": "Brazil touches every South American country except Chile and Ecuador. And its border with France is France's longest.",
+  "tags": [
+    "geography",
+    "Brazil",
+    "South America",
+    "borders",
+    "maps",
+    "shorts"
+  ]
+}

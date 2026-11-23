@@ -1,0 +1,46 @@
+{
+  "checkedOn": "2026-11-30",
+  "checkedBy": "Claude (manual fact gate, week 2)",
+  "beats": [
+    {
+      "id": "b01",
+      "verdict": "no-claim",
+      "evidence": "Framing, opinion, instruction or story; no factual claim."
+    },
+    {
+      "id": "b02",
+      "verdict": "supported",
+      "evidence": "Tasks in Gemini is rolling out free in the US, India, Canada, Australia, Japan and Korea (17 Nov 2026).",
+      "source": "https://gemini.google/release-notes/"
+    },
+    {
+      "id": "b03",
+      "verdict": "supported",
+      "evidence": "Tasks works in the background and notifies you when results are ready.",
+      "source": "https://gemini.google/release-notes/"
+    },
+    {
+      "id": "b04",
+      "verdict": "supported",
+      "evidence": "Examples: daily morning briefings across email and calendar, trip itineraries, automated research.",
+      "source": "https://gemini.google/release-notes/"
+    },
+    {
+      "id": "b05",
+      "verdict": "supported",
+      "evidence": "Tasks handles recurring routines.",
+      "source": "https://gemini.google/release-notes/"
+    },
+    {
+      "id": "b06",
+      "verdict": "supported",
+      "evidence": "Google Pay checkout in Tasks and texting/emailing Gemini roll out to U.S. users; availability arrives in stages.",
+      "source": "https://gemini.google/release-notes/"
+    },
+    {
+      "id": "b07",
+      "verdict": "no-claim",
+      "evidence": "Framing, opinion, instruction or story; no factual claim."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "2026-11-30-time-zones-are-a-mess",
+  "channel": "a-maps-data",
+  "topic": "Why the world's time zones make no sense",
+  "angle": "Time zones are political, not geographic: six case studies on the map",
+  "cluster": "borders-and-time",
+  "hookPattern": "contradiction",
+  "lengthBucket": "360-540s",
+  "format": "long",
+  "sources": [
+    "https://abajournal.com/magazine/article/us-railroads-enact-standard-time-zones",
+    "https://blogs.loc.gov/law/2024/11/whose-time-is-it-anyway-a-brief-history-of-standardized-time-zones-in-the-united-states/",
+    "https://csmonitor.com/1999/1201/p1s4.html",
+    "https://earthsky.org/?p=117271",
+    "https://en.wikipedia.org/wiki/Indian_Standard_Time",
+    "https://en.wikipedia.org/wiki/International_Meridian_Conference",
+    "https://en.wikipedia.org/wiki/Time_in_China",
+    "https://en.wikipedia.org/wiki/Time_in_North_Korea",
+    "https://science.thewire.in/?p=301084",
+    "https://timeanddate.com/time/time-zones-interesting.html",
+    "https://timeanddate.com/time/zone/india",
+    "https://webspace.science.uu.nl/~gent0113/idl/idl_recent.htm",
+    "https://www.euronews.com/2026/03/29/the-hoax-of-the-nazi-time-zone-in-spain-it-robs-us-of-sleep-but-aligns-us-with-europe",
+    "https://www.iflscience.com/in-1994-december-31-was-wiped-from-existence-in-kiribati-82086",
+    "https://www.timeanddate.com/news/time/north-korea-new-time-zone.html",
+    "https://www.timeanddate.com/news/time/spain-time-zone-new.html",
+    "https://www.timeanddate.com/time/china/one-time-zone.html",
+    "https://www.timeanddate.com/time/current-number-time-zones.html",
+    "https://www.wikipedia.com/wiki/Nepal_Time"
+  ],
+  "chapters": [
+    "0:00 One clock, five zones",
+    "China",
+    "India and Nepal",
+    "Spain",
+    "Kiribati",
+    "The lesson"
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "scenes": [
+    {
+      "id": "s01",
+      "type": "kinetic",
+      "beatId": "b01",
+      "startMs": 0,
+      "endMs": 4580,
+      "props": {
+        "text": "12 MAHINE FREE*"
+      }
+    },
+    {
+      "id": "s02",
+      "type": "timeline",
+      "beatId": "b02",
+      "startMs": 4580,
+      "endMs": 11468,
+      "props": {
+        "events": [
+          [
+            2026,
+            "Applications: 30 Nov (India)"
+          ],
+          [
+            2027,
+            "12 mahine Plus"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "s03",
+      "type": "cards",
+      "beatId": "b03",
+      "startMs": 11468,
+      "endMs": 18741,
+      "props": {
+        "cells": [
+          "Research faculty",
+          "Postdoc",
+          "Published in last 3 yrs"
+        ]
+      }
+    },
+    {
+      "id": "s04",
+      "type": "cards",
+      "beatId": "b04",
+      "startMs": 18741,
+      "endMs": 25244,
+      "props": {
+        "cells": [
+          "Biology",
+          "Chemistry",
+          "CS",
+          "Earth Sci",
+          "Engineering",
+          "Maths/Physics"
+        ]
+      }
+    },
+    {
+      "id": "s05",
+      "type": "number",
+      "beatId": "b05",
+      "startMs": 25244,
+      "endMs": 29440,
+      "props": {
+        "items": [
+          [
+            "seats per grant",
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "id": "s06",
+      "type": "number",
+      "beatId": "b06",
+      "startMs": 29440,
+      "endMs": 34405,
+      "props": {
+        "items": [
+          [
+            "new grants · first come",
+            50000
+          ]
+        ]
+      }
+    },
+    {
+      "id": "s07",
+      "type": "kinetic",
+      "beatId": "b07",
+      "startMs": 34405,
+      "endMs": 39370,
+      "props": {
+        "text": "PROFESSOR KO BHEJO"
+      }
+    }
+  ]
+}

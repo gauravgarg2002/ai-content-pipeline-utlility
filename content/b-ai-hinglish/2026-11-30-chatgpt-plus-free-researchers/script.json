@@ -1,0 +1,59 @@
+{
+  "hook": "ChatGPT Plus barah mahine free. Par har kisi ke liye nahi.",
+  "beats": [
+    {
+      "id": "b01",
+      "narration": "ChatGPT Plus barah mahine free. Par har kisi ke liye nahi.",
+      "onScreen": "PLUS · 12 MAHINE FREE*"
+    },
+    {
+      "id": "b02",
+      "narration": "OpenAI ka program hai, ChatGPT for Academic Researchers. India mein applications thirty November se khul rahi hain.",
+      "onScreen": "30 NOV SE",
+      "claim": "Applications open in India on 30 November 2026 (PTI, via Digit).",
+      "sourceUrl": "https://www.digit.in/news/general/openai-is-giving-chatgpt-plus-worth-rs-23998-for-free-in-india-check-if-you-are-eligible.html"
+    },
+    {
+      "id": "b03",
+      "narration": "Kaun apply kar sakta hai? Research faculty ya postdoc, jinhone pichhle teen saal mein research publish ki ho.",
+      "onScreen": "FACULTY · POSTDOC",
+      "claim": "Applicant must be research faculty or postdoc who published research in the last three years.",
+      "sourceUrl": "https://www.digit.in/news/general/openai-is-giving-chatgpt-plus-worth-rs-23998-for-free-in-india-check-if-you-are-eligible.html"
+    },
+    {
+      "id": "b04",
+      "narration": "Sirf chhe fields: Biology, Chemistry aur Materials, Computer Science, Earth Sciences, Engineering, aur Maths aur Physics.",
+      "onScreen": "6 FIELDS",
+      "claim": "Eligible fields: Biological Sciences, Chemistry and Materials, Computer Science, Earth and Planetary Sciences, Engineering, Mathematics and Physics.",
+      "sourceUrl": "https://www.digit.in/news/general/openai-is-giving-chatgpt-plus-worth-rs-23998-for-free-in-india-check-if-you-are-eligible.html"
+    },
+    {
+      "id": "b05",
+      "narration": "Ek grant mein teen log: ek researcher aur do collaborators.",
+      "onScreen": "1 + 2",
+      "claim": "Each grant covers one researcher and two collaborators.",
+      "sourceUrl": "https://www.digit.in/news/general/openai-is-giving-chatgpt-plus-worth-rs-23998-for-free-in-india-check-if-you-are-eligible.html"
+    },
+    {
+      "id": "b06",
+      "narration": "Total pachaas hazaar naye grants, first come first served. To jaldi karna.",
+      "onScreen": "50,000 GRANTS",
+      "claim": "OpenAI will award 50,000 new grants, first-come, first-served.",
+      "sourceUrl": "https://www.digit.in/news/general/openai-is-giving-chatgpt-plus-worth-rs-23998-for-free-in-india-check-if-you-are-eligible.html"
+    },
+    {
+      "id": "b07",
+      "narration": "Kisi professor ya PhD dost ko jaante ho? Ye video unhe bhejo.",
+      "onScreen": null
+    }
+  ],
+  "title": "ChatGPT Plus 12 mahine free, par sirf inke liye",
+  "description": "OpenAI ka 'ChatGPT for Academic Researchers': research faculty aur postdocs ke liye 12 mahine Plus free, ek grant mein 1 researcher + 2 collaborators. India mein applications 30 Nov 2026 se (PTI ke mutabik). First-come, first-served.",
+  "tags": [
+    "ChatGPT Plus",
+    "OpenAI",
+    "researchers",
+    "PhD",
+    "Hinglish"
+  ]
+}

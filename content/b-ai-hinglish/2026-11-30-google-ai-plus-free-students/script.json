@@ -1,0 +1,59 @@
+{
+  "hook": "College mein ho? Google ka AI Plus plan ek saal free mil raha hai. Par sirf thirty one December tak.",
+  "beats": [
+    {
+      "id": "b01",
+      "narration": "College mein ho? Google ka AI Plus plan ek saal free mil raha hai. Par sirf thirty one December tak.",
+      "onScreen": "1 SAAL FREE · 31 DEC"
+    },
+    {
+      "id": "b02",
+      "narration": "Google ka page saaf likhta hai: redeem until thirty one December twenty twenty six.",
+      "onScreen": "REDEEM BY 31.12.2026",
+      "claim": "Google's India student page: 'Redeem until 31 December 2026'.",
+      "sourceUrl": "https://gemini.google/in/students/"
+    },
+    {
+      "id": "b03",
+      "narration": "Kya milega? Double usage limit, chaar sau GB storage, aur Study Notebooks aur Live mein unlimited uploads.",
+      "onScreen": "2X · 400 GB · UNLIMITED UPLOADS",
+      "claim": "Includes 2x usage limits, 400 GB storage, Gemini Omni, unlimited uploads for Study Notebooks, Visuals and Live.",
+      "sourceUrl": "https://gemini.google/in/students/"
+    },
+    {
+      "id": "b04",
+      "narration": "Shart: aap eighteen plus hone chahiye aur college ya university mein padh rahe ho. Verification SheerID se hoti hai, college email ya fee receipt se.",
+      "onScreen": "18+ · COLLEGE · SHEERID",
+      "claim": "Eligible university students aged 18+, verified via SheerID with college email or a document.",
+      "sourceUrl": "https://bestai.in/guides/free-ai-offers-india"
+    },
+    {
+      "id": "b05",
+      "narration": "Apna personal Gmail use karo, college wala account nahi chalega. Aur payment method add karna padega.",
+      "onScreen": "PERSONAL GMAIL ✓",
+      "claim": "Use a personal Gmail with a payment method; college-issued accounts aren't eligible.",
+      "sourceUrl": "https://bestai.in/guides/free-ai-offers-india"
+    },
+    {
+      "id": "b06",
+      "narration": "Dhyaan rahe: saal khatam hote hi teen sau ninyaanve rupaye mahina lagega, jab tak cancel na karo. Calendar mein reminder laga lo.",
+      "onScreen": "BAAD MEIN ₹399/MAHINA",
+      "claim": "After the trial, ₹399/month is charged automatically unless you cancel.",
+      "sourceUrl": "https://gemini.google/in/students/"
+    },
+    {
+      "id": "b07",
+      "narration": "Apne college group mein bhejo. Kisi ka saal bach jaayega.",
+      "onScreen": null
+    }
+  ],
+  "title": "College students: Google AI Plus 1 saal free, 31 Dec tak",
+  "description": "Google AI Plus student plan: 1 saal free, 18+ college students, redeem by 31 Dec 2026. Uske baad ₹399/month jab tak cancel na karo. Source: gemini.google/in/students.",
+  "tags": [
+    "Gemini",
+    "Google AI Plus",
+    "students",
+    "free AI",
+    "Hinglish"
+  ]
+}

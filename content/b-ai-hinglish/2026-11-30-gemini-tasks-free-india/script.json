@@ -1,0 +1,59 @@
+{
+  "hook": "Gemini ab aapka kaam background mein karega. Aur India mein ye free hai.",
+  "beats": [
+    {
+      "id": "b01",
+      "narration": "Gemini ab aapka kaam background mein karega. Aur India mein ye free hai.",
+      "onScreen": "GEMINI TASKS · FREE"
+    },
+    {
+      "id": "b02",
+      "narration": "Google ne seventeen November ko Tasks free kar diya. India, US, Canada, Australia, Japan aur Korea mein.",
+      "onScreen": "6 COUNTRIES",
+      "claim": "Tasks in Gemini is rolling out free in the US, India, Canada, Australia, Japan and Korea (17 Nov 2026).",
+      "sourceUrl": "https://gemini.google/release-notes/"
+    },
+    {
+      "id": "b03",
+      "narration": "Matlab aap kaam batao, Gemini peeche lag jaata hai, aur ready hone pe notification bhejta hai.",
+      "onScreen": "BOLO → BHOOL JAO → NOTIFICATION",
+      "claim": "Tasks works in the background and notifies you when results are ready.",
+      "sourceUrl": "https://gemini.google/release-notes/"
+    },
+    {
+      "id": "b04",
+      "narration": "Jaise roz subah email aur calendar ka briefing. Trip ka itinerary. Ya kisi topic pe research.",
+      "onScreen": "BRIEFING · TRIP · RESEARCH",
+      "claim": "Examples: daily morning briefings across email and calendar, trip itineraries, automated research.",
+      "sourceUrl": "https://gemini.google/release-notes/"
+    },
+    {
+      "id": "b05",
+      "narration": "Ek baar bolo, roz chalega. Recurring routine bhi set ho jaata hai.",
+      "onScreen": "ROZ AUTOMATIC",
+      "claim": "Tasks handles recurring routines.",
+      "sourceUrl": "https://gemini.google/release-notes/"
+    },
+    {
+      "id": "b06",
+      "narration": "Par shopping aur business ko call karne wale features abhi sirf US mein hain. Aur har account pe ek saath nahi aayega, dheere dheere roll out ho raha hai.",
+      "onScreen": "SHOPPING · CALLS = US ONLY",
+      "claim": "Google Pay checkout in Tasks and texting/emailing Gemini roll out to U.S. users; availability arrives in stages.",
+      "sourceUrl": "https://gemini.google/release-notes/"
+    },
+    {
+      "id": "b07",
+      "narration": "Gemini app kholo aur Tasks dhoondo. Mila? Comment mein batao.",
+      "onScreen": "APKO MILA?"
+    }
+  ],
+  "title": "Gemini ab aapka kaam background mein karega, free mein",
+  "description": "17 Nov 2026 se Gemini Tasks India mein free users ke liye roll out ho raha hai: morning briefing, trip plan, research. Source: Google Gemini release notes.",
+  "tags": [
+    "Gemini",
+    "Google",
+    "AI tools",
+    "free AI",
+    "Hinglish"
+  ]
+}

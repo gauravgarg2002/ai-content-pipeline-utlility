@@ -1,0 +1,57 @@
+{
+  "hook": "Typing band karo. ChatGPT mein ab bolo, aur likha hua saath saath dikhega.",
+  "beats": [
+    {
+      "id": "b01",
+      "narration": "Typing band karo. ChatGPT mein ab bolo, aur likha hua saath saath dikhega.",
+      "onScreen": "BOLO → TEXT"
+    },
+    {
+      "id": "b02",
+      "narration": "OpenAI ne eighteen November ko Live Dictation launch kiya. Aap bolte jaate ho, text turant aata jaata hai.",
+      "onScreen": "LIVE DICTATION",
+      "claim": "Live Dictation transcribes speech as you talk (18 Nov 2026).",
+      "sourceUrl": "https://releasebot.io/updates/openai/chatgpt"
+    },
+    {
+      "id": "b03",
+      "narration": "Pehle das minute ki recording limit thi. Ab wo hata di gayi hai.",
+      "onScreen": "10 MIN LIMIT ✗",
+      "claim": "The 10-minute recording limit has been removed.",
+      "sourceUrl": "https://releasebot.io/updates/openai/chatgpt"
+    },
+    {
+      "id": "b04",
+      "narration": "Ye sab plans pe hai, free wale pe bhi. iPhone, Android, web aur desktop app, sab jagah.",
+      "onScreen": "SAB PLANS · SAB DEVICES",
+      "claim": "Available on all ChatGPT plans on iOS, Android, web and desktop, rolling out globally.",
+      "sourceUrl": "https://releasebot.io/updates/openai/chatgpt"
+    },
+    {
+      "id": "b05",
+      "narration": "Waveform pe tap karo to text chhupa ya dikha sakte ho.",
+      "onScreen": "TAP WAVEFORM",
+      "claim": "Tap or click the waveform to show or hide the text.",
+      "sourceUrl": "https://releasebot.io/updates/openai/chatgpt"
+    },
+    {
+      "id": "b06",
+      "narration": "Lambe message, notes ya email draft? Bol ke likho, phir ChatGPT se saaf karwa lo.",
+      "onScreen": "BOLO · SAAF KARWAO"
+    },
+    {
+      "id": "b07",
+      "narration": "Aapke phone pe aaya? Comment mein batao.",
+      "onScreen": null
+    }
+  ],
+  "title": "ChatGPT mein bolo, likha hua turant dikhega. 10 min limit khatam",
+  "description": "18 Nov 2026: ChatGPT Live Dictation sab plans pe, iOS, Android, web aur desktop. Bolte bolte text dikhta hai, aur 10 minute ki recording limit hata di gayi. Source: OpenAI release notes (Releasebot).",
+  "tags": [
+    "ChatGPT",
+    "voice typing",
+    "AI tools",
+    "productivity",
+    "Hinglish"
+  ]
+}
