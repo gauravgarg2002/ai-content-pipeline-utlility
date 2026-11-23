@@ -1,0 +1,73 @@
+[gta6] TTS beat 1/39
+[gta6] TTS failed (NoAudioReceived), retry 1
+[gta6] TTS failed (NoAudioReceived), retry 2
+[gta6] TTS failed (NoAudioReceived), retry 3
+[gta6] TTS beat 2/39
+[gta6] TTS beat 3/39
+[gta6] TTS beat 4/39
+[gta6] TTS failed (NoAudioReceived), retry 1
+[gta6] TTS failed (NoAudioReceived), retry 2
+[gta6] TTS failed (NoAudioReceived), retry 3
+[gta6] TTS beat 5/39
+[gta6] TTS beat 6/39
+[gta6] TTS failed (NoAudioReceived), retry 1
+[gta6] TTS beat 7/39
+[gta6] TTS beat 8/39
+[gta6] TTS beat 9/39
+[gta6] TTS failed (NoAudioReceived), retry 1
+[gta6] TTS beat 10/39
+[gta6] TTS beat 11/39
+[gta6] TTS beat 12/39
+[gta6] TTS beat 13/39
+[gta6] TTS beat 14/39
+[gta6] TTS beat 15/39
+[gta6] TTS beat 16/39
+[gta6] TTS beat 17/39
+[gta6] TTS beat 18/39
+[gta6] TTS beat 19/39
+[gta6] TTS beat 20/39
+[gta6] TTS beat 21/39
+[gta6] TTS beat 22/39
+[gta6] TTS beat 23/39
+[gta6] TTS beat 24/39
+[gta6] TTS beat 25/39
+[gta6] TTS beat 26/39
+[gta6] TTS beat 27/39
+[gta6] TTS beat 28/39
+[gta6] TTS beat 29/39
+[gta6] TTS beat 30/39
+[gta6] TTS failed (NoAudioReceived), retry 1
+[gta6] TTS failed (NoAudioReceived), retry 2
+[gta6] TTS beat 31/39
+[gta6] TTS failed (NoAudioReceived), retry 1
+[gta6] TTS beat 32/39
+[gta6] TTS beat 33/39
+[gta6] TTS beat 34/39
+[gta6] TTS beat 35/39
+[gta6] TTS beat 36/39
+[gta6] TTS beat 37/39
+[gta6] TTS beat 38/39
+[gta6] TTS beat 39/39
+Voice: 8.3 min. Next: python -m pipeline -c en source 2026-11-23-gta-6-money-guide
+6 official Rockstar sources. Next: python -m pipeline -c en index 2026-11-23-gta-6-money-guide
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/root        72G   41G   32G  57% /
+115 usable scenes of 194. Next: python -m pipeline -c en match 2026-11-23-gta-6-money-guide
+Re-cutting from edl.prev.json (no Gemini call)
+Source shares: rockstar_screens 48%, gtavi_extended_look 38%, gtavi_trailer_2 9%, gtavi_trailer_1 2%, gtavi_launch_trailer 2%
+111 segments. Next: python -m pipeline -c en assemble 2026-11-23-gta-6-money-guide
+[gta6] Rendering segment 1/111
+[gta6] Rendering segment 11/111
+[gta6] Rendering segment 21/111
+[gta6] Rendering segment 31/111
+[gta6] Rendering segment 41/111
+[gta6] Rendering segment 51/111
+[gta6] Rendering segment 61/111
+[gta6] Rendering segment 71/111
+[gta6] Rendering segment 81/111
+[gta6] Rendering segment 91/111
+[gta6] Rendering segment 101/111
+[gta6] Rendering segment 111/111
+[gta6] No music in assets/music; voice only
+Rendered final.mp4. Next: python -m pipeline -c en thumbnail 2026-11-23-gta-6-money-guide
+Thumbnail + metadata ready. Watch final.mp4, then: python -m pipeline -c en approve 2026-11-23-gta-6-money-guide final
