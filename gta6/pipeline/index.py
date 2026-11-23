@@ -55,7 +55,13 @@ def main(args):
     catalog = []
     for src in read_json(vdir / "sources.json"):
         catalog += scenes_for(src, cfg)
+    from PIL import Image, ImageStat
+    def bright(sc):  # mean luma of the scene's sample frame; very dark shots read badly on phones
+        try:
+            return ImageStat.Stat(Image.open(sc["frame"]).convert("L")).mean[0]
+        except Exception:
+            return 255
     usable = [s for s in catalog if s.get("desc") and not s.get("facecam") and not s.get("non_gameplay")
-              and (s.get("quality") or 0) >= 3]
+              and (s.get("quality") or 0) >= 3 and bright(s) >= cfg.get("min_scene_brightness", 40)]
     write_json(vdir / "work" / "catalog.json", usable)
     print(f"{len(usable)} usable scenes of {len(catalog)}. Next: python -m pipeline -c {channel()} match {vdir.name}")

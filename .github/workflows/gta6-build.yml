@@ -18,8 +18,8 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 120
     env:
-      VIDEO: ${{ github.event.inputs.video || '2026-11-23-gta-6-paisa-kaise-kamaye' }}
-      CH: ${{ github.event.inputs.channel || 'hi' }}
+      VIDEO: ${{ github.event.inputs.video || '2026-11-23-gta-6-money-guide' }}
+      CH: ${{ github.event.inputs.channel || 'en' }}
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
     steps:
       - name: Free disk space
@@ -36,6 +36,15 @@ jobs:
           mkdir -p gta6/assets/fonts
           curl -fsSL -o /tmp/inter.zip https://github.com/rsms/inter/releases/download/v4.1/Inter-4.1.zip \
             && unzip -o -j -q /tmp/inter.zip "extras/ttf/Inter-Bold.ttf" -d gta6/assets/fonts || echo "Inter download failed; DejaVu fallback"
+      - name: Footage cache (converted sources, scene tags)
+        uses: actions/cache@v4
+        with:
+          path: |
+            gta6/cache/sources
+            gta6/cache/scenes
+            gta6/cache/frames
+          key: gta6-official-${{ hashFiles('gta6/config.json') }}
+          restore-keys: gta6-official-
       - name: Voice
         working-directory: gta6
         run: set -o pipefail; python -m pipeline -c "$CH" voice "$VIDEO" 2>&1 | tee -a build.log

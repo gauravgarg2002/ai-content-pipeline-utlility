@@ -4,7 +4,7 @@
   "language": "English (simple, conversational, global audience)",
   "audience": "GTA fans worldwide, mainly US/UK, 16-30",
   "tts_voice": "en-US-AndrewNeural",
-  "tts_rate": "+4%",
+  "tts_rate": "+0%",
   "tts_script": "latin",
   "caption_language": "en",
   "video_language": "en",
