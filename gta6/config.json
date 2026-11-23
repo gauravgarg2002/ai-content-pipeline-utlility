@@ -103,6 +103,7 @@
   },
   "_footage_note": "official = Rockstar's own trailers, Extended Look and screenshots from rockstargames.com (no YouTube). youtube = creator gameplay via yt-dlp (needs a home connection).",
   "blocked_scenes": [
-    "gtavi_trailer_2_0015"
+    "gtavi_trailer_2_0015",
+    "rockstar_screens_0059"
   ]
 }

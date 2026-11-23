@@ -63,7 +63,8 @@ def main(args):
             return 255
     # advertiser-friendly: no title cards or intimate/sexual shots (Rockstar trailers have both)
     unsafe = ("intimate", "sex", "sexual", "making out", "kissing", "nude", "naked", "topless", "lingerie",
-              "strip club", "stripper", "suggestive", "in bed", "lying in bed", "bedroom scene", "twerk")
+              "strip club", "stripper", "suggestive", "in bed", "lying in bed", "bedroom scene", "twerk",
+              "rockstar games presents", "title card", "logo", "text reads", "text reading", "on-screen text", "credits")
     def safe(sc):
         text = (sc.get("desc", "") + " " + " ".join(sc.get("tags") or [])).lower()
         return not any(w in text for w in unsafe) and sc["id"] not in cfg.get("blocked_scenes", [])
