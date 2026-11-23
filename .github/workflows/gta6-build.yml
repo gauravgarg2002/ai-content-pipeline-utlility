@@ -10,7 +10,7 @@ on:
       channel: {description: "hi or en", default: "en"}
   push:
     branches: ["gta6/**"]
-    paths: ["gta6/build-queue.txt", ".github/workflows/gta6-build.yml"]
+    paths: ["gta6/build-queue.txt", "gta6/pipeline/**", "gta6/config.json", ".github/workflows/gta6-build.yml"]
 concurrency:
   group: gta6-build-${{ github.ref }}
   cancel-in-progress: true
