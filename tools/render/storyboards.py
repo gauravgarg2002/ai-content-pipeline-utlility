@@ -222,7 +222,7 @@ def tree_boards():
                              "labels": dict(labels), "subs": dict(subs)}))
     return out
 
-BOARDS["mahabharata-family-tree"] = tree_boards()
+# mahabharata-family-tree is now storyboarded in puppet_boards.py (shadow puppets)
 
 if __name__ == "__main__":
     for d in sorted(glob.glob("content/*/*/")):

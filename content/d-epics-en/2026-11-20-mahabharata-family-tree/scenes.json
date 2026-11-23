@@ -5,1668 +5,1094 @@
   "scenes": [
     {
       "id": "s01",
-      "type": "tree",
+      "type": "puppet",
       "beatId": "b01",
       "startMs": 0,
       "endMs": 14196,
       "props": {
-        "nodes": [
-          "Ganga",
-          "Shantanu",
-          "Satyavati",
-          "Parashara",
-          "Bhishma",
-          "Chitrangada",
-          "Vichitravirya",
-          "Ambika",
-          "Ambalika",
-          "Vyasa",
-          "Maid",
-          "Gandhari",
-          "Dhritarashtra",
-          "Vidura",
-          "Pandu",
-          "Kunti",
-          "Madri",
-          "Vasudeva",
-          "Duryodhana",
-          "Duhshala",
-          "Yuyutsu",
-          "Karna",
-          "Yudhishthira",
-          "Bhima",
-          "Arjuna",
-          "Nakula",
-          "Sahadeva",
-          "Krishna",
-          "Adhiratha",
-          "Radha",
-          "Draupadi"
-        ],
-        "new": [],
-        "highlight": [],
-        "deceased": [],
-        "groups": [
+        "bg": "kurukshetra",
+        "cast": [
           {
-            "label": "Kauravas · 100 sons",
-            "ids": [
-              "Duryodhana",
-              "Duhshala"
-            ]
+            "who": "Arjuna",
+            "x": 0.25,
+            "pose": "bow"
           },
           {
-            "label": "Pandavas",
-            "ids": [
-              "Yudhishthira",
-              "Bhima",
-              "Arjuna",
-              "Nakula",
-              "Sahadeva"
-            ],
-            "color": "#FFB547"
+            "who": "Bhima",
+            "x": 0.38,
+            "pose": "fight"
+          },
+          {
+            "who": "Duryodhana",
+            "x": 0.66,
+            "pose": "fight",
+            "facing": "left"
+          },
+          {
+            "who": "Bhishma",
+            "x": 0.8,
+            "pose": "bow",
+            "facing": "left"
           }
         ],
-        "labels": {
-          "Bhishma": "Bhishma"
-        },
-        "subs": {}
-      }
+        "label": "COUSINS AT WAR"
+      },
+      "onScreen": null
     },
     {
       "id": "s02",
-      "type": "kinetic",
+      "type": "puppet",
       "beatId": "b02",
       "startMs": 14196,
       "endMs": 29546,
       "props": {
-        "text": "VYASA · ADI PARVA · GANGULI"
-      }
+        "bg": "forest",
+        "cast": [
+          {
+            "who": "Vyasa",
+            "x": 0.5,
+            "pose": "bless",
+            "name": "Vyasa"
+          }
+        ],
+        "label": "VYASA'S MAHABHARATA"
+      },
+      "onScreen": null
     },
     {
       "id": "s03",
-      "type": "tree",
+      "type": "puppet",
       "beatId": "b03",
       "startMs": 29546,
       "endMs": 40280,
       "props": {
-        "nodes": [
-          "Shantanu",
-          "Ganga"
-        ],
-        "new": [
-          "Shantanu",
-          "Ganga"
-        ],
-        "highlight": [],
-        "deceased": [],
-        "groups": [
+        "bg": "river",
+        "cast": [
           {
-            "label": "Kauravas · 100 sons",
-            "ids": [
-              "Duryodhana",
-              "Duhshala"
-            ]
+            "who": "Shantanu",
+            "x": 0.35,
+            "pose": "namaste",
+            "name": "Shantanu"
           },
           {
-            "label": "Pandavas",
-            "ids": [
-              "Yudhishthira",
-              "Bhima",
-              "Arjuna",
-              "Nakula",
-              "Sahadeva"
-            ],
-            "color": "#FFB547"
+            "who": "Ganga",
+            "x": 0.65,
+            "pose": "bless",
+            "name": "Ganga",
+            "facing": "left",
+            "enter": "right",
+            "at": 0.3
           }
         ],
-        "labels": {},
-        "subs": {
-          "Shantanu": "king of Hastinapura",
-          "Ganga": "river goddess"
-        }
-      }
+        "label": "HASTINAPURA"
+      },
+      "onScreen": null
     },
     {
       "id": "s04",
-      "type": "tree",
+      "type": "puppet",
       "beatId": "b04",
       "startMs": 40280,
       "endMs": 54476,
       "props": {
-        "nodes": [
-          "Shantanu",
-          "Ganga",
-          "Bhishma"
-        ],
-        "new": [
-          "Bhishma"
-        ],
-        "highlight": [],
-        "deceased": [],
-        "groups": [
+        "bg": "river",
+        "cast": [
           {
-            "label": "Kauravas · 100 sons",
-            "ids": [
-              "Duryodhana",
-              "Duhshala"
-            ]
+            "who": "Shantanu",
+            "x": 0.3,
+            "pose": "point",
+            "name": "Shantanu"
           },
           {
-            "label": "Pandavas",
-            "ids": [
-              "Yudhishthira",
-              "Bhima",
-              "Arjuna",
-              "Nakula",
-              "Sahadeva"
-            ],
-            "color": "#FFB547"
+            "who": "Ganga",
+            "x": 0.62,
+            "pose": "carry",
+            "name": "Ganga",
+            "facing": "left"
+          },
+          {
+            "who": "Devavrata",
+            "x": 0.48,
+            "pose": "stand",
+            "name": "Devavrata",
+            "scale": 0.55,
+            "at": 0.75,
+            "enter": "drop"
           }
         ],
-        "labels": {
-          "Bhishma": "Devavrata"
-        },
-        "subs": {
-          "Shantanu": "king of Hastinapura",
-          "Ganga": "river goddess",
-          "Bhishma": "eighth son"
-        }
-      }
+        "label": "THE EIGHTH SON"
+      },
+      "onScreen": null
     },
     {
       "id": "s05",
-      "type": "tree",
+      "type": "puppet",
       "beatId": "b05",
       "startMs": 54476,
       "endMs": 64826,
       "props": {
-        "nodes": [
-          "Shantanu",
-          "Ganga",
-          "Bhishma",
-          "Satyavati"
-        ],
-        "new": [
-          "Satyavati"
-        ],
-        "highlight": [],
-        "deceased": [],
-        "groups": [
+        "bg": "river",
+        "cast": [
           {
-            "label": "Kauravas · 100 sons",
-            "ids": [
-              "Duryodhana",
-              "Duhshala"
-            ]
+            "who": "Shantanu",
+            "x": 0.28,
+            "pose": "namaste",
+            "name": "Shantanu"
           },
           {
-            "label": "Pandavas",
-            "ids": [
-              "Yudhishthira",
-              "Bhima",
-              "Arjuna",
-              "Nakula",
-              "Sahadeva"
-            ],
-            "color": "#FFB547"
+            "who": "Satyavati",
+            "x": 0.52,
+            "pose": "stand",
+            "name": "Satyavati",
+            "facing": "left",
+            "enter": "right",
+            "at": 0.15
+          },
+          {
+            "who": "Fisherman",
+            "x": 0.74,
+            "pose": "point",
+            "name": "Her father",
+            "facing": "left",
+            "at": 0.45
           }
-        ],
-        "labels": {
-          "Bhishma": "Devavrata"
-        },
-        "subs": {
-          "Shantanu": "king of Hastinapura",
-          "Ganga": "river goddess",
-          "Bhishma": "eighth son",
-          "Satyavati": "fisher chief's daughter"
-        }
-      }
+        ]
+      },
+      "onScreen": null
     },
     {
       "id": "s06",
-      "type": "tree",
+      "type": "puppet",
       "beatId": "b06",
       "startMs": 64826,
       "endMs": 87099,
       "props": {
-        "nodes": [
-          "Shantanu",
-          "Ganga",
-          "Bhishma",
-          "Satyavati"
-        ],
-        "new": [],
-        "highlight": [
-          "Bhishma"
-        ],
-        "deceased": [],
-        "groups": [
+        "bg": "palace",
+        "cast": [
           {
-            "label": "Kauravas · 100 sons",
-            "ids": [
-              "Duryodhana",
-              "Duhshala"
-            ]
+            "who": "Shantanu",
+            "x": 0.3,
+            "pose": "bless",
+            "name": "Shantanu"
           },
           {
-            "label": "Pandavas",
-            "ids": [
-              "Yudhishthira",
-              "Bhima",
-              "Arjuna",
-              "Nakula",
-              "Sahadeva"
-            ],
-            "color": "#FFB547"
+            "who": "Bhishma",
+            "x": 0.62,
+            "pose": "namaste",
+            "name": "Devavrata → Bhishma",
+            "facing": "left"
           }
         ],
-        "labels": {
-          "Bhishma": "Bhishma"
-        },
-        "subs": {
-          "Shantanu": "king of Hastinapura",
-          "Ganga": "river goddess",
-          "Bhishma": "vow of celibacy",
-          "Satyavati": "fisher chief's daughter"
-        }
-      }
+        "label": "THE TERRIBLE VOW"
+      },
+      "onScreen": null
     },
     {
       "id": "s07",
-      "type": "tree",
+      "type": "puppet",
       "beatId": "b07",
       "startMs": 87099,
       "endMs": 100525,
       "props": {
-        "nodes": [
-          "Shantanu",
-          "Ganga",
-          "Bhishma",
-          "Satyavati",
-          "Parashara",
-          "Vyasa"
-        ],
-        "new": [
-          "Parashara",
-          "Vyasa"
-        ],
-        "highlight": [
-          "Vyasa"
-        ],
-        "deceased": [],
-        "groups": [
+        "bg": "forest",
+        "cast": [
           {
-            "label": "Kauravas · 100 sons",
-            "ids": [
-              "Duryodhana",
-              "Duhshala"
-            ]
+            "who": "Parashara",
+            "x": 0.25,
+            "pose": "bless",
+            "name": "Parashara"
           },
           {
-            "label": "Pandavas",
-            "ids": [
-              "Yudhishthira",
-              "Bhima",
-              "Arjuna",
-              "Nakula",
-              "Sahadeva"
-            ],
-            "color": "#FFB547"
+            "who": "Satyavati",
+            "x": 0.45,
+            "pose": "stand",
+            "name": "Satyavati"
+          },
+          {
+            "who": "Vyasa",
+            "x": 0.72,
+            "pose": "bless",
+            "name": "Vyasa",
+            "facing": "left",
+            "enter": "right",
+            "at": 0.55
           }
         ],
-        "labels": {
-          "Bhishma": "Bhishma"
-        },
-        "subs": {
-          "Shantanu": "king of Hastinapura",
-          "Ganga": "river goddess",
-          "Bhishma": "vow of celibacy",
-          "Satyavati": "fisher chief's daughter",
-          "Vyasa": "sage"
-        }
-      }
+        "label": "REMEMBER VYASA"
+      },
+      "onScreen": null
     },
     {
       "id": "s08",
-      "type": "tree",
+      "type": "puppet",
       "beatId": "b08",
       "startMs": 100525,
       "endMs": 110105,
       "props": {
-        "nodes": [
-          "Shantanu",
-          "Ganga",
-          "Bhishma",
-          "Satyavati",
-          "Parashara",
-          "Vyasa",
-          "Chitrangada",
-          "Vichitravirya"
-        ],
-        "new": [
-          "Chitrangada",
-          "Vichitravirya"
-        ],
-        "highlight": [],
-        "deceased": [
-          "Chitrangada"
-        ],
-        "groups": [
+        "bg": "palace",
+        "cast": [
           {
-            "label": "Kauravas · 100 sons",
-            "ids": [
-              "Duryodhana",
-              "Duhshala"
-            ]
+            "who": "Shantanu",
+            "x": 0.22,
+            "pose": "bless",
+            "name": "Shantanu",
+            "exit": "left",
+            "exitAt": 0.3
           },
           {
-            "label": "Pandavas",
-            "ids": [
-              "Yudhishthira",
-              "Bhima",
-              "Arjuna",
-              "Nakula",
-              "Sahadeva"
-            ],
-            "color": "#FFB547"
+            "who": "Satyavati",
+            "x": 0.4,
+            "pose": "stand",
+            "name": "Satyavati"
+          },
+          {
+            "who": "Chitrangada",
+            "x": 0.6,
+            "pose": "fight",
+            "name": "Chitrangada",
+            "facing": "left",
+            "exit": "right",
+            "exitAt": 0.45
+          },
+          {
+            "who": "Vichitravirya",
+            "x": 0.78,
+            "pose": "stand",
+            "name": "Vichitravirya",
+            "facing": "left"
+          },
+          {
+            "who": "Bhishma",
+            "x": 0.95,
+            "pose": "bow",
+            "name": "Bhishma",
+            "facing": "left",
+            "enter": "right",
+            "at": 0.75
           }
-        ],
-        "labels": {
-          "Bhishma": "Bhishma"
-        },
-        "subs": {
-          "Shantanu": "king of Hastinapura",
-          "Ganga": "river goddess",
-          "Bhishma": "vow of celibacy",
-          "Satyavati": "fisher chief's daughter",
-          "Vyasa": "sage"
-        }
-      }
+        ]
+      },
+      "onScreen": null
     },
     {
       "id": "s09",
-      "type": "tree",
+      "type": "puppet",
       "beatId": "b09",
       "startMs": 110105,
       "endMs": 125070,
       "props": {
-        "nodes": [
-          "Shantanu",
-          "Ganga",
-          "Bhishma",
-          "Satyavati",
-          "Parashara",
-          "Vyasa",
-          "Chitrangada",
-          "Vichitravirya",
-          "Ambika",
-          "Ambalika"
-        ],
-        "new": [
-          "Ambika",
-          "Ambalika"
-        ],
-        "highlight": [],
-        "deceased": [
-          "Chitrangada"
-        ],
-        "groups": [
+        "bg": "court",
+        "cast": [
           {
-            "label": "Kauravas · 100 sons",
-            "ids": [
-              "Duryodhana",
-              "Duhshala"
-            ]
+            "who": "Bhishma",
+            "x": 0.22,
+            "pose": "bow",
+            "name": "Bhishma"
           },
           {
-            "label": "Pandavas",
-            "ids": [
-              "Yudhishthira",
-              "Bhima",
-              "Arjuna",
-              "Nakula",
-              "Sahadeva"
-            ],
-            "color": "#FFB547"
+            "who": "Amba",
+            "x": 0.48,
+            "pose": "plead",
+            "name": "Amba",
+            "facing": "left",
+            "exit": "right",
+            "exitAt": 0.55
+          },
+          {
+            "who": "Ambika",
+            "x": 0.64,
+            "pose": "stand",
+            "name": "Ambika",
+            "facing": "left"
+          },
+          {
+            "who": "Ambalika",
+            "x": 0.8,
+            "pose": "stand",
+            "name": "Ambalika",
+            "facing": "left"
           }
         ],
-        "labels": {
-          "Bhishma": "Bhishma"
-        },
-        "subs": {
-          "Shantanu": "king of Hastinapura",
-          "Ganga": "river goddess",
-          "Bhishma": "vow of celibacy",
-          "Satyavati": "fisher chief's daughter",
-          "Vyasa": "sage"
-        }
-      }
+        "label": "THE PRINCESSES OF KASHI"
+      },
+      "onScreen": null
     },
     {
       "id": "s10",
-      "type": "tree",
+      "type": "puppet",
       "beatId": "b10",
       "startMs": 125070,
       "endMs": 138112,
       "props": {
-        "nodes": [
-          "Shantanu",
-          "Ganga",
-          "Bhishma",
-          "Satyavati",
-          "Parashara",
-          "Vyasa",
-          "Chitrangada",
-          "Vichitravirya",
-          "Ambika",
-          "Ambalika"
-        ],
-        "new": [],
-        "highlight": [
-          "Vyasa"
-        ],
-        "deceased": [
-          "Chitrangada",
-          "Vichitravirya"
-        ],
-        "groups": [
+        "bg": "palace",
+        "cast": [
           {
-            "label": "Kauravas · 100 sons",
-            "ids": [
-              "Duryodhana",
-              "Duhshala"
-            ]
+            "who": "Vichitravirya",
+            "x": 0.7,
+            "pose": "sad",
+            "name": "Vichitravirya",
+            "facing": "left",
+            "exit": "right",
+            "exitAt": 0.2
           },
           {
-            "label": "Pandavas",
-            "ids": [
-              "Yudhishthira",
-              "Bhima",
-              "Arjuna",
-              "Nakula",
-              "Sahadeva"
-            ],
-            "color": "#FFB547"
+            "who": "Satyavati",
+            "x": 0.4,
+            "pose": "plead",
+            "name": "Satyavati",
+            "at": 0.3
+          },
+          {
+            "who": "Bhishma",
+            "x": 0.62,
+            "pose": "namaste",
+            "name": "Bhishma",
+            "facing": "left",
+            "at": 0.45
           }
         ],
-        "labels": {
-          "Bhishma": "Bhishma"
-        },
-        "subs": {
-          "Shantanu": "king of Hastinapura",
-          "Ganga": "river goddess",
-          "Bhishma": "vow of celibacy",
-          "Satyavati": "fisher chief's daughter",
-          "Vyasa": "sage"
-        }
-      }
+        "label": "NO HEIR"
+      },
+      "onScreen": null
     },
     {
       "id": "s11",
-      "type": "tree",
+      "type": "puppet",
       "beatId": "b11",
       "startMs": 138112,
       "endMs": 157692,
       "props": {
-        "nodes": [
-          "Shantanu",
-          "Ganga",
-          "Bhishma",
-          "Satyavati",
-          "Parashara",
-          "Vyasa",
-          "Chitrangada",
-          "Vichitravirya",
-          "Ambika",
-          "Ambalika",
-          "Maid",
-          "Dhritarashtra",
-          "Pandu",
-          "Vidura"
-        ],
-        "new": [
-          "Maid",
-          "Dhritarashtra",
-          "Pandu",
-          "Vidura"
-        ],
-        "highlight": [],
-        "deceased": [
-          "Chitrangada",
-          "Vichitravirya"
-        ],
-        "groups": [
+        "bg": "palace",
+        "cast": [
           {
-            "label": "Kauravas · 100 sons",
-            "ids": [
-              "Duryodhana",
-              "Duhshala"
-            ]
+            "who": "Ambika",
+            "x": 0.18,
+            "pose": "stand",
+            "name": "Ambika"
           },
           {
-            "label": "Pandavas",
-            "ids": [
-              "Yudhishthira",
-              "Bhima",
-              "Arjuna",
-              "Nakula",
-              "Sahadeva"
-            ],
-            "color": "#FFB547"
+            "who": "Vyasa",
+            "x": 0.38,
+            "pose": "bless",
+            "name": "Vyasa"
+          },
+          {
+            "who": "Ambalika",
+            "x": 0.58,
+            "pose": "stand",
+            "name": "Ambalika",
+            "facing": "left"
+          },
+          {
+            "who": "Dhritarashtra",
+            "x": 0.72,
+            "pose": "stand",
+            "name": "Dhritarashtra",
+            "scale": 0.55,
+            "at": 0.3,
+            "enter": "drop"
+          },
+          {
+            "who": "Pandu",
+            "x": 0.82,
+            "pose": "stand",
+            "name": "Pandu",
+            "scale": 0.55,
+            "at": 0.55,
+            "enter": "drop"
+          },
+          {
+            "who": "Vidura",
+            "x": 0.92,
+            "pose": "stand",
+            "name": "Vidura",
+            "scale": 0.55,
+            "at": 0.8,
+            "enter": "drop"
           }
-        ],
-        "labels": {
-          "Bhishma": "Bhishma"
-        },
-        "subs": {
-          "Shantanu": "king of Hastinapura",
-          "Ganga": "river goddess",
-          "Bhishma": "vow of celibacy",
-          "Satyavati": "fisher chief's daughter",
-          "Vyasa": "sage",
-          "Dhritarashtra": "born blind",
-          "Pandu": "born pale"
-        }
-      }
+        ]
+      },
+      "onScreen": null
     },
     {
       "id": "s12",
-      "type": "tree",
+      "type": "puppet",
       "beatId": "b12",
       "startMs": 157692,
       "endMs": 167272,
       "props": {
-        "nodes": [
-          "Shantanu",
-          "Ganga",
-          "Bhishma",
-          "Satyavati",
-          "Parashara",
-          "Vyasa",
-          "Chitrangada",
-          "Vichitravirya",
-          "Ambika",
-          "Ambalika",
-          "Maid",
-          "Dhritarashtra",
-          "Pandu",
-          "Vidura"
-        ],
-        "new": [],
-        "highlight": [
-          "Vyasa",
-          "Dhritarashtra",
-          "Pandu",
-          "Vidura"
-        ],
-        "deceased": [
-          "Chitrangada",
-          "Vichitravirya"
-        ],
-        "groups": [
+        "bg": "palace",
+        "cast": [
           {
-            "label": "Kauravas · 100 sons",
-            "ids": [
-              "Duryodhana",
-              "Duhshala"
-            ]
+            "who": "Vyasa",
+            "x": 0.5,
+            "pose": "bless",
+            "y": 230,
+            "scale": 0.8
           },
           {
-            "label": "Pandavas",
-            "ids": [
-              "Yudhishthira",
-              "Bhima",
-              "Arjuna",
-              "Nakula",
-              "Sahadeva"
-            ],
-            "color": "#FFB547"
+            "who": "Dhritarashtra",
+            "x": 0.28,
+            "pose": "stand",
+            "name": "Dhritarashtra"
+          },
+          {
+            "who": "Pandu",
+            "x": 0.5,
+            "pose": "stand",
+            "name": "Pandu"
+          },
+          {
+            "who": "Vidura",
+            "x": 0.72,
+            "pose": "stand",
+            "name": "Vidura",
+            "facing": "left"
           }
         ],
-        "labels": {
-          "Bhishma": "Bhishma"
-        },
-        "subs": {
-          "Shantanu": "king of Hastinapura",
-          "Ganga": "river goddess",
-          "Bhishma": "vow of celibacy",
-          "Satyavati": "fisher chief's daughter",
-          "Vyasa": "sage",
-          "Dhritarashtra": "born blind",
-          "Pandu": "born pale"
-        }
-      }
+        "label": "VYASA'S SONS"
+      },
+      "onScreen": null
     },
     {
       "id": "s13",
-      "type": "tree",
+      "type": "puppet",
       "beatId": "b13",
       "startMs": 167272,
       "endMs": 179545,
       "props": {
-        "nodes": [
-          "Shantanu",
-          "Ganga",
-          "Bhishma",
-          "Satyavati",
-          "Parashara",
-          "Vyasa",
-          "Chitrangada",
-          "Vichitravirya",
-          "Ambika",
-          "Ambalika",
-          "Maid",
-          "Dhritarashtra",
-          "Pandu",
-          "Vidura",
-          "Gandhari",
-          "Duryodhana",
-          "Duhshala"
-        ],
-        "new": [
-          "Gandhari",
-          "Duryodhana",
-          "Duhshala"
-        ],
-        "highlight": [],
-        "deceased": [
-          "Chitrangada",
-          "Vichitravirya"
-        ],
-        "groups": [
+        "bg": "court",
+        "cast": [
           {
-            "label": "Kauravas · 100 sons",
-            "ids": [
-              "Duryodhana",
-              "Duhshala"
-            ]
+            "who": "Pandu",
+            "x": 0.5,
+            "pose": "bless",
+            "name": "King Pandu"
           },
           {
-            "label": "Pandavas",
-            "ids": [
-              "Yudhishthira",
-              "Bhima",
-              "Arjuna",
-              "Nakula",
-              "Sahadeva"
-            ],
-            "color": "#FFB547"
+            "who": "Dhritarashtra",
+            "x": 0.22,
+            "pose": "stand",
+            "name": "Dhritarashtra"
+          },
+          {
+            "who": "Gandhari",
+            "x": 0.34,
+            "pose": "stand",
+            "name": "Gandhari",
+            "at": 0.3
+          },
+          {
+            "who": "Duryodhana",
+            "x": 0.78,
+            "pose": "fight",
+            "name": "Duryodhana",
+            "facing": "left",
+            "at": 0.6
           }
         ],
-        "labels": {
-          "Bhishma": "Bhishma"
-        },
-        "subs": {
-          "Shantanu": "king of Hastinapura",
-          "Ganga": "river goddess",
-          "Bhishma": "vow of celibacy",
-          "Satyavati": "fisher chief's daughter",
-          "Vyasa": "sage",
-          "Dhritarashtra": "born blind",
-          "Pandu": "born pale"
-        }
-      }
+        "label": "100 KAURAVAS",
+        "crowd": 50,
+        "crowdAt": 0.55
+      },
+      "onScreen": null
     },
     {
       "id": "s14",
-      "type": "tree",
+      "type": "puppet",
       "beatId": "b14",
       "startMs": 179545,
       "endMs": 200664,
       "props": {
-        "nodes": [
-          "Shantanu",
-          "Ganga",
-          "Bhishma",
-          "Satyavati",
-          "Parashara",
-          "Vyasa",
-          "Chitrangada",
-          "Vichitravirya",
-          "Ambika",
-          "Ambalika",
-          "Maid",
-          "Dhritarashtra",
-          "Pandu",
-          "Vidura",
-          "Gandhari",
-          "Duryodhana",
-          "Duhshala",
-          "Yuyutsu"
-        ],
-        "new": [
-          "Yuyutsu"
-        ],
-        "highlight": [
-          "Gandhari"
-        ],
-        "deceased": [
-          "Chitrangada",
-          "Vichitravirya"
-        ],
-        "groups": [
+        "bg": "court",
+        "cast": [
           {
-            "label": "Kauravas · 100 sons",
-            "ids": [
-              "Duryodhana",
-              "Duhshala"
-            ]
+            "who": "Gandhari",
+            "x": 0.35,
+            "pose": "sad",
+            "name": "Gandhari, blindfolded"
           },
           {
-            "label": "Pandavas",
-            "ids": [
-              "Yudhishthira",
-              "Bhima",
-              "Arjuna",
-              "Nakula",
-              "Sahadeva"
-            ],
-            "color": "#FFB547"
+            "who": "Dhritarashtra",
+            "x": 0.55,
+            "pose": "stand",
+            "name": "Dhritarashtra",
+            "facing": "left"
+          },
+          {
+            "who": "Yuyutsu",
+            "x": 0.78,
+            "pose": "stand",
+            "name": "Yuyutsu",
+            "facing": "left",
+            "at": 0.5,
+            "exit": "right",
+            "exitAt": 0.85
           }
-        ],
-        "labels": {
-          "Bhishma": "Bhishma"
-        },
-        "subs": {
-          "Shantanu": "king of Hastinapura",
-          "Ganga": "river goddess",
-          "Bhishma": "vow of celibacy",
-          "Satyavati": "fisher chief's daughter",
-          "Vyasa": "sage",
-          "Dhritarashtra": "born blind",
-          "Pandu": "born pale",
-          "Gandhari": "blindfolded",
-          "Yuyutsu": "son of a maid"
-        }
-      }
+        ]
+      },
+      "onScreen": null
     },
     {
       "id": "s15",
-      "type": "tree",
+      "type": "puppet",
       "beatId": "b15",
       "startMs": 200664,
       "endMs": 228706,
       "props": {
-        "nodes": [
-          "Shantanu",
-          "Ganga",
-          "Bhishma",
-          "Satyavati",
-          "Parashara",
-          "Vyasa",
-          "Chitrangada",
-          "Vichitravirya",
-          "Ambika",
-          "Ambalika",
-          "Maid",
-          "Dhritarashtra",
-          "Pandu",
-          "Vidura",
-          "Gandhari",
-          "Duryodhana",
-          "Duhshala",
-          "Yuyutsu",
-          "Kunti",
-          "Madri"
-        ],
-        "new": [
-          "Kunti",
-          "Madri"
-        ],
-        "highlight": [],
-        "deceased": [
-          "Chitrangada",
-          "Vichitravirya"
-        ],
-        "groups": [
+        "bg": "forest",
+        "cast": [
           {
-            "label": "Kauravas · 100 sons",
-            "ids": [
-              "Duryodhana",
-              "Duhshala"
-            ]
+            "who": "Pandu",
+            "x": 0.25,
+            "pose": "bow",
+            "name": "Pandu"
           },
           {
-            "label": "Pandavas",
-            "ids": [
-              "Yudhishthira",
-              "Bhima",
-              "Arjuna",
-              "Nakula",
-              "Sahadeva"
-            ],
-            "color": "#FFB547"
+            "who": "Deer",
+            "x": 0.62,
+            "pose": "stand",
+            "facing": "left",
+            "exit": "right",
+            "exitAt": 0.25
+          },
+          {
+            "who": "Kindama",
+            "x": 0.62,
+            "pose": "angry",
+            "name": "Sage Kindama",
+            "facing": "left",
+            "at": 0.28
+          },
+          {
+            "who": "Kunti",
+            "x": 0.86,
+            "pose": "stand",
+            "name": "Kunti",
+            "facing": "left",
+            "at": 0.72
           }
         ],
-        "labels": {
-          "Bhishma": "Bhishma"
-        },
-        "subs": {
-          "Shantanu": "king of Hastinapura",
-          "Ganga": "river goddess",
-          "Bhishma": "vow of celibacy",
-          "Satyavati": "fisher chief's daughter",
-          "Vyasa": "sage",
-          "Dhritarashtra": "born blind",
-          "Pandu": "cursed",
-          "Gandhari": "blindfolded",
-          "Yuyutsu": "son of a maid"
-        }
-      }
+        "label": "THE CURSE"
+      },
+      "onScreen": null
     },
     {
       "id": "s16",
-      "type": "tree",
+      "type": "puppet",
       "beatId": "b16",
       "startMs": 228706,
       "endMs": 245209,
       "props": {
-        "nodes": [
-          "Shantanu",
-          "Ganga",
-          "Bhishma",
-          "Satyavati",
-          "Parashara",
-          "Vyasa",
-          "Chitrangada",
-          "Vichitravirya",
-          "Ambika",
-          "Ambalika",
-          "Maid",
-          "Dhritarashtra",
-          "Pandu",
-          "Vidura",
-          "Gandhari",
-          "Duryodhana",
-          "Duhshala",
-          "Yuyutsu",
-          "Kunti",
-          "Madri",
-          "Yudhishthira",
-          "Bhima",
-          "Arjuna",
-          "Nakula",
-          "Sahadeva"
-        ],
-        "new": [
-          "Yudhishthira",
-          "Bhima",
-          "Arjuna",
-          "Nakula",
-          "Sahadeva"
-        ],
-        "highlight": [],
-        "deceased": [
-          "Chitrangada",
-          "Vichitravirya"
-        ],
-        "groups": [
+        "bg": "forest",
+        "cast": [
           {
-            "label": "Kauravas · 100 sons",
-            "ids": [
-              "Duryodhana",
-              "Duhshala"
-            ]
+            "who": "Kunti",
+            "x": 0.12,
+            "pose": "bless",
+            "name": "Kunti"
           },
           {
-            "label": "Pandavas",
-            "ids": [
-              "Yudhishthira",
-              "Bhima",
-              "Arjuna",
-              "Nakula",
-              "Sahadeva"
-            ],
-            "color": "#FFB547"
+            "who": "Madri",
+            "x": 0.24,
+            "pose": "stand",
+            "name": "Madri",
+            "at": 0.55
+          },
+          {
+            "who": "Yudhishthira",
+            "x": 0.4,
+            "pose": "stand",
+            "name": "Yudhishthira",
+            "scale": 0.55,
+            "at": 0.1,
+            "enter": "drop"
+          },
+          {
+            "who": "Bhima",
+            "x": 0.52,
+            "pose": "stand",
+            "name": "Bhima",
+            "scale": 0.55,
+            "at": 0.27,
+            "enter": "drop"
+          },
+          {
+            "who": "Arjuna",
+            "x": 0.64,
+            "pose": "stand",
+            "name": "Arjuna",
+            "scale": 0.55,
+            "at": 0.44000000000000006,
+            "enter": "drop"
+          },
+          {
+            "who": "Nakula",
+            "x": 0.76,
+            "pose": "stand",
+            "name": "Nakula",
+            "scale": 0.55,
+            "at": 0.61,
+            "enter": "drop"
+          },
+          {
+            "who": "Sahadeva",
+            "x": 0.88,
+            "pose": "stand",
+            "name": "Sahadeva",
+            "scale": 0.55,
+            "at": 0.78,
+            "enter": "drop"
           }
         ],
-        "labels": {
-          "Bhishma": "Bhishma"
-        },
-        "subs": {
-          "Shantanu": "king of Hastinapura",
-          "Ganga": "river goddess",
-          "Bhishma": "vow of celibacy",
-          "Satyavati": "fisher chief's daughter",
-          "Vyasa": "sage",
-          "Dhritarashtra": "born blind",
-          "Pandu": "cursed",
-          "Gandhari": "blindfolded",
-          "Yuyutsu": "son of a maid",
-          "Yudhishthira": "Dharma",
-          "Bhima": "Vayu",
-          "Arjuna": "Indra",
-          "Nakula": "Ashvins",
-          "Sahadeva": "Ashvins"
-        }
-      }
+        "label": "THE PANDAVAS"
+      },
+      "onScreen": null
     },
     {
       "id": "s17",
-      "type": "tree",
+      "type": "puppet",
       "beatId": "b17",
       "startMs": 245209,
       "endMs": 260559,
       "props": {
-        "nodes": [
-          "Shantanu",
-          "Ganga",
-          "Bhishma",
-          "Satyavati",
-          "Parashara",
-          "Vyasa",
-          "Chitrangada",
-          "Vichitravirya",
-          "Ambika",
-          "Ambalika",
-          "Maid",
-          "Dhritarashtra",
-          "Pandu",
-          "Vidura",
-          "Gandhari",
-          "Duryodhana",
-          "Duhshala",
-          "Yuyutsu",
-          "Kunti",
-          "Madri",
-          "Yudhishthira",
-          "Bhima",
-          "Arjuna",
-          "Nakula",
-          "Sahadeva"
-        ],
-        "new": [],
-        "highlight": [],
-        "deceased": [
-          "Chitrangada",
-          "Vichitravirya",
-          "Pandu",
-          "Madri"
-        ],
-        "groups": [
+        "bg": "fire",
+        "cast": [
           {
-            "label": "Kauravas · 100 sons",
-            "ids": [
-              "Duryodhana",
-              "Duhshala"
-            ]
+            "who": "Pandu",
+            "x": 0.3,
+            "pose": "sad",
+            "name": "Pandu",
+            "exit": "left",
+            "exitAt": 0.2
           },
           {
-            "label": "Pandavas",
-            "ids": [
-              "Yudhishthira",
-              "Bhima",
-              "Arjuna",
-              "Nakula",
-              "Sahadeva"
-            ],
-            "color": "#FFB547"
+            "who": "Madri",
+            "x": 0.45,
+            "pose": "sad",
+            "name": "Madri",
+            "exit": "left",
+            "exitAt": 0.45
+          },
+          {
+            "who": "Kunti",
+            "x": 0.62,
+            "pose": "walk",
+            "name": "Kunti",
+            "walk": true,
+            "at": 0.5
+          },
+          {
+            "who": "Yudhishthira",
+            "x": 0.72,
+            "pose": "stand",
+            "scale": 0.55,
+            "at": 0.55,
+            "walk": true
+          },
+          {
+            "who": "Bhima",
+            "x": 0.775,
+            "pose": "stand",
+            "scale": 0.55,
+            "at": 0.55,
+            "walk": true
+          },
+          {
+            "who": "Arjuna",
+            "x": 0.83,
+            "pose": "stand",
+            "scale": 0.55,
+            "at": 0.55,
+            "walk": true
+          },
+          {
+            "who": "Nakula",
+            "x": 0.885,
+            "pose": "stand",
+            "scale": 0.55,
+            "at": 0.55,
+            "walk": true
+          },
+          {
+            "who": "Sahadeva",
+            "x": 0.94,
+            "pose": "stand",
+            "scale": 0.55,
+            "at": 0.55,
+            "walk": true
           }
-        ],
-        "labels": {
-          "Bhishma": "Bhishma"
-        },
-        "subs": {
-          "Shantanu": "king of Hastinapura",
-          "Ganga": "river goddess",
-          "Bhishma": "vow of celibacy",
-          "Satyavati": "fisher chief's daughter",
-          "Vyasa": "sage",
-          "Dhritarashtra": "born blind",
-          "Pandu": "cursed",
-          "Gandhari": "blindfolded",
-          "Yuyutsu": "son of a maid",
-          "Yudhishthira": "Dharma",
-          "Bhima": "Vayu",
-          "Arjuna": "Indra",
-          "Nakula": "Ashvins",
-          "Sahadeva": "Ashvins"
-        }
-      }
+        ]
+      },
+      "onScreen": null
     },
     {
       "id": "s18",
-      "type": "tree",
+      "type": "puppet",
       "beatId": "b18",
       "startMs": 260559,
       "endMs": 280909,
       "props": {
-        "nodes": [
-          "Shantanu",
-          "Ganga",
-          "Bhishma",
-          "Satyavati",
-          "Parashara",
-          "Vyasa",
-          "Chitrangada",
-          "Vichitravirya",
-          "Ambika",
-          "Ambalika",
-          "Maid",
-          "Dhritarashtra",
-          "Pandu",
-          "Vidura",
-          "Gandhari",
-          "Duryodhana",
-          "Duhshala",
-          "Yuyutsu",
-          "Kunti",
-          "Madri",
-          "Yudhishthira",
-          "Bhima",
-          "Arjuna",
-          "Nakula",
-          "Sahadeva",
-          "Karna"
-        ],
-        "new": [
-          "Karna"
-        ],
-        "highlight": [
-          "Karna"
-        ],
-        "deceased": [
-          "Chitrangada",
-          "Vichitravirya",
-          "Pandu",
-          "Madri"
-        ],
-        "groups": [
+        "bg": "river",
+        "cast": [
           {
-            "label": "Kauravas · 100 sons",
-            "ids": [
-              "Duryodhana",
-              "Duhshala"
-            ]
+            "who": "Kunti",
+            "x": 0.35,
+            "pose": "sad",
+            "name": "Young Kunti"
           },
           {
-            "label": "Pandavas",
-            "ids": [
-              "Yudhishthira",
-              "Bhima",
-              "Arjuna",
-              "Nakula",
-              "Sahadeva"
-            ],
-            "color": "#FFB547"
+            "who": "Karna",
+            "x": 0.62,
+            "pose": "stand",
+            "name": "Karna",
+            "scale": 0.55,
+            "at": 0.5,
+            "exit": "right",
+            "exitAt": 0.85
           }
         ],
-        "labels": {
-          "Bhishma": "Bhishma"
-        },
-        "subs": {
-          "Shantanu": "king of Hastinapura",
-          "Ganga": "river goddess",
-          "Bhishma": "vow of celibacy",
-          "Satyavati": "fisher chief's daughter",
-          "Vyasa": "sage",
-          "Dhritarashtra": "born blind",
-          "Pandu": "cursed",
-          "Gandhari": "blindfolded",
-          "Yuyutsu": "son of a maid",
-          "Yudhishthira": "Dharma",
-          "Bhima": "Vayu",
-          "Arjuna": "Indra",
-          "Nakula": "Ashvins",
-          "Sahadeva": "Ashvins",
-          "Karna": "son of Surya"
-        }
-      }
+        "label": "THE FIRST SON",
+        "sun": true
+      },
+      "onScreen": null
     },
     {
       "id": "s19",
-      "type": "tree",
+      "type": "puppet",
       "beatId": "b19",
       "startMs": 280909,
       "endMs": 296259,
       "props": {
-        "nodes": [
-          "Shantanu",
-          "Ganga",
-          "Bhishma",
-          "Satyavati",
-          "Parashara",
-          "Vyasa",
-          "Chitrangada",
-          "Vichitravirya",
-          "Ambika",
-          "Ambalika",
-          "Maid",
-          "Dhritarashtra",
-          "Pandu",
-          "Vidura",
-          "Gandhari",
-          "Duryodhana",
-          "Duhshala",
-          "Yuyutsu",
-          "Kunti",
-          "Madri",
-          "Yudhishthira",
-          "Bhima",
-          "Arjuna",
-          "Nakula",
-          "Sahadeva",
-          "Karna",
-          "Adhiratha",
-          "Radha"
-        ],
-        "new": [
-          "Adhiratha",
-          "Radha"
-        ],
-        "highlight": [
-          "Karna"
-        ],
-        "deceased": [
-          "Chitrangada",
-          "Vichitravirya",
-          "Pandu",
-          "Madri"
-        ],
-        "groups": [
+        "bg": "palace",
+        "cast": [
           {
-            "label": "Kauravas · 100 sons",
-            "ids": [
-              "Duryodhana",
-              "Duhshala"
-            ]
+            "who": "Adhiratha",
+            "x": 0.15,
+            "pose": "stand",
+            "name": "Adhiratha",
+            "exit": "left",
+            "exitAt": 0.35
           },
           {
-            "label": "Pandavas",
-            "ids": [
-              "Yudhishthira",
-              "Bhima",
-              "Arjuna",
-              "Nakula",
-              "Sahadeva"
-            ],
-            "color": "#FFB547"
+            "who": "Radha",
+            "x": 0.28,
+            "pose": "bless",
+            "name": "Radha",
+            "exit": "left",
+            "exitAt": 0.35
+          },
+          {
+            "who": "Karna",
+            "x": 0.45,
+            "pose": "bow",
+            "name": "Karna (Radheya)"
+          },
+          {
+            "who": "Duryodhana",
+            "x": 0.68,
+            "pose": "give",
+            "name": "Duryodhana",
+            "facing": "left",
+            "at": 0.55
           }
         ],
-        "labels": {
-          "Bhishma": "Bhishma"
-        },
-        "subs": {
-          "Shantanu": "king of Hastinapura",
-          "Ganga": "river goddess",
-          "Bhishma": "vow of celibacy",
-          "Satyavati": "fisher chief's daughter",
-          "Vyasa": "sage",
-          "Dhritarashtra": "born blind",
-          "Pandu": "cursed",
-          "Gandhari": "blindfolded",
-          "Yuyutsu": "son of a maid",
-          "Yudhishthira": "Dharma",
-          "Bhima": "Vayu",
-          "Arjuna": "Indra",
-          "Nakula": "Ashvins",
-          "Sahadeva": "Ashvins",
-          "Karna": "son of Surya"
-        }
-      }
+        "label": "FRIENDS"
+      },
+      "onScreen": null
     },
     {
       "id": "s20",
-      "type": "tree",
+      "type": "puppet",
       "beatId": "b20",
       "startMs": 296259,
       "endMs": 305455,
       "props": {
-        "nodes": [
-          "Shantanu",
-          "Ganga",
-          "Bhishma",
-          "Satyavati",
-          "Parashara",
-          "Vyasa",
-          "Chitrangada",
-          "Vichitravirya",
-          "Ambika",
-          "Ambalika",
-          "Maid",
-          "Dhritarashtra",
-          "Pandu",
-          "Vidura",
-          "Gandhari",
-          "Duryodhana",
-          "Duhshala",
-          "Yuyutsu",
-          "Kunti",
-          "Madri",
-          "Yudhishthira",
-          "Bhima",
-          "Arjuna",
-          "Nakula",
-          "Sahadeva",
-          "Karna",
-          "Adhiratha",
-          "Radha",
-          "Vasudeva",
-          "Krishna"
-        ],
-        "new": [
-          "Vasudeva",
-          "Krishna"
-        ],
-        "highlight": [
-          "Krishna"
-        ],
-        "deceased": [
-          "Chitrangada",
-          "Vichitravirya",
-          "Pandu",
-          "Madri"
-        ],
-        "groups": [
+        "bg": "court",
+        "cast": [
           {
-            "label": "Kauravas · 100 sons",
-            "ids": [
-              "Duryodhana",
-              "Duhshala"
-            ]
+            "who": "Kunti",
+            "x": 0.25,
+            "pose": "stand",
+            "name": "Kunti"
           },
           {
-            "label": "Pandavas",
-            "ids": [
-              "Yudhishthira",
-              "Bhima",
-              "Arjuna",
-              "Nakula",
-              "Sahadeva"
-            ],
-            "color": "#FFB547"
+            "who": "Vasudeva",
+            "x": 0.45,
+            "pose": "stand",
+            "name": "Vasudeva (her brother)"
+          },
+          {
+            "who": "Krishna",
+            "x": 0.7,
+            "pose": "bless",
+            "name": "Krishna",
+            "facing": "left",
+            "at": 0.45
           }
         ],
-        "labels": {
-          "Bhishma": "Bhishma"
-        },
-        "subs": {
-          "Shantanu": "king of Hastinapura",
-          "Ganga": "river goddess",
-          "Bhishma": "vow of celibacy",
-          "Satyavati": "fisher chief's daughter",
-          "Vyasa": "sage",
-          "Dhritarashtra": "born blind",
-          "Pandu": "cursed",
-          "Gandhari": "blindfolded",
-          "Yuyutsu": "son of a maid",
-          "Yudhishthira": "Dharma",
-          "Bhima": "Vayu",
-          "Arjuna": "Indra",
-          "Nakula": "Ashvins",
-          "Sahadeva": "Ashvins",
-          "Karna": "son of Surya"
-        }
-      }
+        "label": "KRISHNA"
+      },
+      "onScreen": null
     },
     {
       "id": "s21",
-      "type": "tree",
+      "type": "puppet",
       "beatId": "b21",
       "startMs": 305455,
       "endMs": 319266,
       "props": {
-        "nodes": [
-          "Shantanu",
-          "Ganga",
-          "Bhishma",
-          "Satyavati",
-          "Parashara",
-          "Vyasa",
-          "Chitrangada",
-          "Vichitravirya",
-          "Ambika",
-          "Ambalika",
-          "Maid",
-          "Dhritarashtra",
-          "Pandu",
-          "Vidura",
-          "Gandhari",
-          "Duryodhana",
-          "Duhshala",
-          "Yuyutsu",
-          "Kunti",
-          "Madri",
-          "Yudhishthira",
-          "Bhima",
-          "Arjuna",
-          "Nakula",
-          "Sahadeva",
-          "Karna",
-          "Adhiratha",
-          "Radha",
-          "Vasudeva",
-          "Krishna",
-          "Draupadi"
-        ],
-        "new": [
-          "Draupadi"
-        ],
-        "highlight": [
-          "Draupadi"
-        ],
-        "deceased": [
-          "Chitrangada",
-          "Vichitravirya",
-          "Pandu",
-          "Madri"
-        ],
-        "groups": [
+        "bg": "court",
+        "cast": [
           {
-            "label": "Kauravas · 100 sons",
-            "ids": [
-              "Duryodhana",
-              "Duhshala"
-            ]
+            "who": "Drupada",
+            "x": 0.15,
+            "pose": "bless",
+            "name": "Drupada"
           },
           {
-            "label": "Pandavas",
-            "ids": [
-              "Yudhishthira",
-              "Bhima",
-              "Arjuna",
-              "Nakula",
-              "Sahadeva"
-            ],
-            "color": "#FFB547"
+            "who": "Arjuna",
+            "x": 0.38,
+            "pose": "bow",
+            "name": "Arjuna"
+          },
+          {
+            "who": "Draupadi",
+            "x": 0.56,
+            "pose": "namaste",
+            "name": "Draupadi",
+            "facing": "left",
+            "at": 0.3
+          },
+          {
+            "who": "Yudhishthira",
+            "x": 0.7,
+            "pose": "stand",
+            "scale": 0.85,
+            "facing": "left",
+            "at": 0.6
+          },
+          {
+            "who": "Bhima",
+            "x": 0.7799999999999999,
+            "pose": "stand",
+            "scale": 0.85,
+            "facing": "left",
+            "at": 0.6
+          },
+          {
+            "who": "Nakula",
+            "x": 0.86,
+            "pose": "stand",
+            "scale": 0.85,
+            "facing": "left",
+            "at": 0.6
+          },
+          {
+            "who": "Sahadeva",
+            "x": 0.94,
+            "pose": "stand",
+            "scale": 0.85,
+            "facing": "left",
+            "at": 0.6
           }
         ],
-        "labels": {
-          "Bhishma": "Bhishma"
-        },
-        "subs": {
-          "Shantanu": "king of Hastinapura",
-          "Ganga": "river goddess",
-          "Bhishma": "vow of celibacy",
-          "Satyavati": "fisher chief's daughter",
-          "Vyasa": "sage",
-          "Dhritarashtra": "born blind",
-          "Pandu": "cursed",
-          "Gandhari": "blindfolded",
-          "Yuyutsu": "son of a maid",
-          "Yudhishthira": "Dharma",
-          "Bhima": "Vayu",
-          "Arjuna": "Indra",
-          "Nakula": "Ashvins",
-          "Sahadeva": "Ashvins",
-          "Karna": "son of Surya"
-        }
-      }
+        "label": "DRAUPADI"
+      },
+      "onScreen": null
     },
     {
       "id": "s22",
-      "type": "tree",
+      "type": "puppet",
       "beatId": "b22",
       "startMs": 319266,
       "endMs": 337308,
       "props": {
-        "nodes": [
-          "Shantanu",
-          "Ganga",
-          "Bhishma",
-          "Satyavati",
-          "Parashara",
-          "Vyasa",
-          "Chitrangada",
-          "Vichitravirya",
-          "Ambika",
-          "Ambalika",
-          "Maid",
-          "Dhritarashtra",
-          "Pandu",
-          "Vidura",
-          "Gandhari",
-          "Duryodhana",
-          "Duhshala",
-          "Yuyutsu",
-          "Kunti",
-          "Madri",
-          "Yudhishthira",
-          "Bhima",
-          "Arjuna",
-          "Nakula",
-          "Sahadeva",
-          "Karna",
-          "Adhiratha",
-          "Radha",
-          "Vasudeva",
-          "Krishna",
-          "Draupadi"
-        ],
-        "new": [],
-        "highlight": [
-          "Bhishma",
-          "Karna"
-        ],
-        "deceased": [
-          "Chitrangada",
-          "Vichitravirya",
-          "Pandu",
-          "Madri"
-        ],
-        "groups": [
+        "bg": "kurukshetra",
+        "cast": [
           {
-            "label": "Kauravas · 100 sons",
-            "ids": [
-              "Duryodhana",
-              "Duhshala"
-            ]
+            "who": "Krishna",
+            "x": 0.08,
+            "pose": "stand",
+            "scale": 0.85
           },
           {
-            "label": "Pandavas",
-            "ids": [
-              "Yudhishthira",
-              "Bhima",
-              "Arjuna",
-              "Nakula",
-              "Sahadeva"
-            ],
-            "color": "#FFB547"
+            "who": "Yudhishthira",
+            "x": 0.16,
+            "pose": "stand",
+            "name": "Yudhishthira",
+            "scale": 0.8
+          },
+          {
+            "who": "Bhima",
+            "x": 0.235,
+            "pose": "stand",
+            "name": "Bhima",
+            "scale": 0.8
+          },
+          {
+            "who": "Arjuna",
+            "x": 0.31,
+            "pose": "stand",
+            "name": "Arjuna",
+            "scale": 0.8
+          },
+          {
+            "who": "Nakula",
+            "x": 0.385,
+            "pose": "stand",
+            "name": "Nakula",
+            "scale": 0.8
+          },
+          {
+            "who": "Sahadeva",
+            "x": 0.45999999999999996,
+            "pose": "stand",
+            "name": "Sahadeva",
+            "scale": 0.8
+          },
+          {
+            "who": "Karna",
+            "x": 0.62,
+            "pose": "bow",
+            "name": "Karna",
+            "facing": "left",
+            "scale": 0.85
+          },
+          {
+            "who": "Duryodhana",
+            "x": 0.76,
+            "pose": "fight",
+            "name": "Duryodhana",
+            "facing": "left",
+            "scale": 0.85
+          },
+          {
+            "who": "Bhishma",
+            "x": 0.9,
+            "pose": "bow",
+            "name": "Bhishma",
+            "facing": "left",
+            "scale": 0.85
           }
         ],
-        "labels": {
-          "Bhishma": "Bhishma"
-        },
-        "subs": {
-          "Shantanu": "king of Hastinapura",
-          "Ganga": "river goddess",
-          "Bhishma": "vow of celibacy",
-          "Satyavati": "fisher chief's daughter",
-          "Vyasa": "sage",
-          "Dhritarashtra": "born blind",
-          "Pandu": "cursed",
-          "Gandhari": "blindfolded",
-          "Yuyutsu": "son of a maid",
-          "Yudhishthira": "Dharma",
-          "Bhima": "Vayu",
-          "Arjuna": "Indra",
-          "Nakula": "Ashvins",
-          "Sahadeva": "Ashvins",
-          "Karna": "son of Surya"
-        }
-      }
+        "label": "ONE FAMILY"
+      },
+      "onScreen": null
     },
     {
       "id": "s23",
-      "type": "tree",
+      "type": "puppet",
       "beatId": "b23",
       "startMs": 337308,
       "endMs": 348811,
       "props": {
-        "nodes": [
-          "Shantanu",
-          "Ganga",
-          "Bhishma",
-          "Satyavati",
-          "Parashara",
-          "Vyasa",
-          "Chitrangada",
-          "Vichitravirya",
-          "Ambika",
-          "Ambalika",
-          "Maid",
-          "Dhritarashtra",
-          "Pandu",
-          "Vidura",
-          "Gandhari",
-          "Duryodhana",
-          "Duhshala",
-          "Yuyutsu",
-          "Kunti",
-          "Madri",
-          "Yudhishthira",
-          "Bhima",
-          "Arjuna",
-          "Nakula",
-          "Sahadeva",
-          "Karna",
-          "Adhiratha",
-          "Radha",
-          "Vasudeva",
-          "Krishna",
-          "Draupadi"
-        ],
-        "new": [],
-        "highlight": [
-          "Vyasa"
-        ],
-        "deceased": [
-          "Chitrangada",
-          "Vichitravirya",
-          "Pandu",
-          "Madri"
-        ],
-        "groups": [
+        "bg": "palace",
+        "cast": [
           {
-            "label": "Kauravas · 100 sons",
-            "ids": [
-              "Duryodhana",
-              "Duhshala"
-            ]
+            "who": "Vyasa",
+            "x": 0.5,
+            "pose": "bless",
+            "y": 250
           },
           {
-            "label": "Pandavas",
-            "ids": [
-              "Yudhishthira",
-              "Bhima",
-              "Arjuna",
-              "Nakula",
-              "Sahadeva"
-            ],
-            "color": "#FFB547"
+            "who": "Yudhishthira",
+            "x": 0.1,
+            "pose": "stand",
+            "scale": 0.7
+          },
+          {
+            "who": "Bhima",
+            "x": 0.18,
+            "pose": "stand",
+            "scale": 0.7
+          },
+          {
+            "who": "Arjuna",
+            "x": 0.26,
+            "pose": "stand",
+            "scale": 0.7
+          },
+          {
+            "who": "Nakula",
+            "x": 0.33999999999999997,
+            "pose": "stand",
+            "scale": 0.7
+          },
+          {
+            "who": "Sahadeva",
+            "x": 0.42000000000000004,
+            "pose": "stand",
+            "scale": 0.7
+          },
+          {
+            "who": "Duryodhana",
+            "x": 0.72,
+            "pose": "stand",
+            "facing": "left",
+            "scale": 0.7
+          },
+          {
+            "who": "Dhritarashtra",
+            "x": 0.82,
+            "pose": "stand",
+            "facing": "left",
+            "scale": 0.7
+          },
+          {
+            "who": "Gandhari",
+            "x": 0.92,
+            "pose": "stand",
+            "facing": "left",
+            "scale": 0.7
           }
         ],
-        "labels": {
-          "Bhishma": "Bhishma"
-        },
-        "subs": {
-          "Shantanu": "king of Hastinapura",
-          "Ganga": "river goddess",
-          "Bhishma": "vow of celibacy",
-          "Satyavati": "fisher chief's daughter",
-          "Vyasa": "author",
-          "Dhritarashtra": "born blind",
-          "Pandu": "cursed",
-          "Gandhari": "blindfolded",
-          "Yuyutsu": "son of a maid",
-          "Yudhishthira": "Dharma",
-          "Bhima": "Vayu",
-          "Arjuna": "Indra",
-          "Nakula": "Ashvins",
-          "Sahadeva": "Ashvins",
-          "Karna": "son of Surya"
-        }
-      }
+        "label": "GRANDFATHER OF BOTH SIDES"
+      },
+      "onScreen": null
     },
     {
       "id": "s24",
-      "type": "tree",
+      "type": "puppet",
       "beatId": "b24",
       "startMs": 348811,
       "endMs": 360314,
       "props": {
-        "nodes": [
-          "Ganga",
-          "Shantanu",
-          "Satyavati",
-          "Parashara",
-          "Bhishma",
-          "Chitrangada",
-          "Vichitravirya",
-          "Ambika",
-          "Ambalika",
-          "Vyasa",
-          "Maid",
-          "Gandhari",
-          "Dhritarashtra",
-          "Vidura",
-          "Pandu",
-          "Kunti",
-          "Madri",
-          "Vasudeva",
-          "Duryodhana",
-          "Duhshala",
-          "Yuyutsu",
-          "Karna",
-          "Yudhishthira",
-          "Bhima",
-          "Arjuna",
-          "Nakula",
-          "Sahadeva",
-          "Krishna",
-          "Adhiratha",
-          "Radha",
-          "Draupadi"
-        ],
-        "new": [],
-        "highlight": [],
-        "deceased": [
-          "Chitrangada",
-          "Vichitravirya",
-          "Pandu",
-          "Madri"
-        ],
-        "groups": [
+        "bg": "kurukshetra",
+        "cast": [
           {
-            "label": "Kauravas · 100 sons",
-            "ids": [
-              "Duryodhana",
-              "Duhshala"
-            ]
+            "who": "Vyasa",
+            "x": 0.5,
+            "pose": "sad",
+            "y": 260,
+            "scale": 0.85
           },
           {
-            "label": "Pandavas",
-            "ids": [
-              "Yudhishthira",
-              "Bhima",
-              "Arjuna",
-              "Nakula",
-              "Sahadeva"
-            ],
-            "color": "#FFB547"
+            "who": "Arjuna",
+            "x": 0.2,
+            "pose": "bow"
+          },
+          {
+            "who": "Bhima",
+            "x": 0.32,
+            "pose": "fight"
+          },
+          {
+            "who": "Duryodhana",
+            "x": 0.7,
+            "pose": "fight",
+            "facing": "left"
+          },
+          {
+            "who": "Karna",
+            "x": 0.83,
+            "pose": "bow",
+            "facing": "left"
           }
         ],
-        "labels": {
-          "Bhishma": "Bhishma"
-        },
-        "subs": {
-          "Shantanu": "king of Hastinapura",
-          "Ganga": "river goddess",
-          "Bhishma": "vow of celibacy",
-          "Satyavati": "fisher chief's daughter",
-          "Vyasa": "author",
-          "Dhritarashtra": "born blind",
-          "Pandu": "cursed",
-          "Gandhari": "blindfolded",
-          "Yuyutsu": "son of a maid",
-          "Yudhishthira": "Dharma",
-          "Bhima": "Vayu",
-          "Arjuna": "Indra",
-          "Nakula": "Ashvins",
-          "Sahadeva": "Ashvins",
-          "Karna": "son of Surya"
-        }
-      }
+        "label": "KURUKSHETRA"
+      },
+      "onScreen": null
     }
   ]
 }

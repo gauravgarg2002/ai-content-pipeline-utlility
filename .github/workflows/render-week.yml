@@ -7,6 +7,7 @@ on:
     inputs:
       week: { description: "Content date prefix, e.g. 2026-11-30; empty = DEFAULT_WEEK", default: "" }
       only: { description: "Space-separated content paths to (re)make; empty = all of the week", default: "" }
+      thumbs_only: { description: "Only make thumbnails (skip video render)", default: "false" }
   push:
     branches: ["phase1/**"]
     paths: ["render/**", "!render/preview/**", "tools/render/**", "config/voices.json", "content/**/scenes.json", ".github/workflows/render-week.yml"]
@@ -122,11 +123,25 @@ jobs:
         working-directory: render
         run: npm install --no-audit --no-fund
       - name: Render
-        if: env.ok == '1'
+        if: env.ok == '1' && inputs.thumbs_only != 'true'
         working-directory: render
         run: |
           mkdir -p out; set -o pipefail
           npx remotion render src/index.ts Short "out/$ID.mp4" --props="public/$ID/props.json" --crf=22 --timeout=120000 2>&1 | tail -c 20000 | tee "out/$ID-render.log"
+      - name: Thumbnail
+        if: env.ok == '1' && hashFiles(format('content/{0}/thumb.json', matrix.video)) != ''
+        working-directory: render
+        run: |
+          mkdir -p out
+          python3 - <<PY
+          import json
+          p = json.load(open("public/$ID/props.json")); p["thumb"] = json.load(open("../content/${{ matrix.video }}/thumb.json"))
+          json.dump(p, open("public/$ID/thumb-props.json", "w"), ensure_ascii=False)
+          print("scale", 1280 / p["width"] if p["width"] > p["height"] else 1.0)
+          PY
+          W=$(python3 -c "import json;p=json.load(open('public/$ID/props.json'));print(p['width'])"); H=$(python3 -c "import json;p=json.load(open('public/$ID/props.json'));print(p['height'])")
+          SCALE=1; [ "$W" -gt "$H" ] && SCALE=0.6666667
+          npx remotion still src/index.ts Thumb "out/$ID-thumb.jpg" --props="public/$ID/thumb-props.json" --scale=$SCALE --image-format=jpeg --jpeg-quality=92 --timeout=120000 2>&1 | tail -c 3000
       - name: Contact sheet
         if: env.ok == '1' && hashFiles(format('render/out/{0}.mp4', env.ID)) != ''
         run: |
@@ -153,7 +168,7 @@ jobs:
         run: |
           cd /tmp/week1 && ls -la
           mkdir -p /tmp/r && cp -r /tmp/week1 /tmp/r/week && cd /tmp/r
-          B=renders-$WEEK${{ inputs.only && '-extra' || '' }}; [ "$WEEK" = 2026-11-20 ] && B=${B/renders-2026-11-20/renders-week1}
+          B=renders-$WEEK${{ inputs.thumbs_only == 'true' && '-thumbs' || '' }}${{ inputs.only && '-extra' || '' }}; [ "$WEEK" = 2026-11-20 ] && B=${B/renders-2026-11-20/renders-week1}
           git init -q -b $B && git config user.name "render-bot" && git config user.email "render-bot@users.noreply.github.com"
           git add . && git commit -qm "Week 1 renders from ${GITHUB_SHA::7}"
           git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" $B
