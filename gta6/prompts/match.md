@@ -12,4 +12,4 @@ Rules:
 - Never reuse a scene in two beats.
 - If nothing fits well, pick the closest general atmosphere footage.
 
-Return JSON: {"picks": [{"beat": 1, "scenes": ["scene_id", "..."]}]}
+Use the short scene ids exactly as given (S1, S2, ...). Return compact JSON with no extra fields: {"picks": [{"beat": 1, "scenes": ["S12", "S40"]}]}

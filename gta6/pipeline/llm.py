@@ -49,7 +49,7 @@ def gemini(prompt, images=None, as_json=True, temperature=0.7, retries=5):
         parts.append({"inline_data": {"mime_type": "image/jpeg",
                                       "data": base64.b64encode(img.read_bytes()).decode()}})
     body = {"contents": [{"role": "user", "parts": parts}],
-            "generationConfig": {"temperature": temperature}}
+            "generationConfig": {"temperature": temperature, "maxOutputTokens": 32768}}
     if as_json:
         body["generationConfig"]["responseMimeType"] = "application/json"
     models = cfg["vision_models"] if images else cfg["text_models"]
