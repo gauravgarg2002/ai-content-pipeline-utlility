@@ -44,7 +44,6 @@
   ],
   "_models_note": "Tried in order; when one hits its daily free quota (or is retired) the next is used. Each model has its own quota. Run `python -m pipeline models` to see exact IDs your key can use.",
   "channels_enabled": [
-    "hi",
     "en"
   ],
   "daily_script_hour": 7,

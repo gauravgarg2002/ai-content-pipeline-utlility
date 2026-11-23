@@ -8,7 +8,7 @@ STAGES_AFTER_SCRIPT = ["voice", "source", "index", "match", "assemble", "thumbna
 
 def main():
     p = argparse.ArgumentParser(prog="python -m pipeline")
-    p.add_argument("-c", "--channel", default="hi", help="hi = Hinglish channel, en = English channel")
+    p.add_argument("-c", "--channel", default="en", help="hi = Hinglish channel, en = English channel")
     sub = p.add_subparsers(dest="cmd", required=True)
     sub.add_parser("models", help="list Gemini model IDs your key can use")
     sub.add_parser("topics", help="trending topic ideas")
