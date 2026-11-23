@@ -61,7 +61,14 @@ def main(args):
             return ImageStat.Stat(Image.open(sc["frame"]).convert("L")).mean[0]
         except Exception:
             return 255
+    # advertiser-friendly: no title cards or intimate/sexual shots (Rockstar trailers have both)
+    unsafe = ("intimate", "sex", "sexual", "making out", "kissing", "nude", "naked", "topless", "lingerie",
+              "strip club", "stripper", "suggestive", "in bed", "lying in bed", "bedroom scene", "twerk")
+    def safe(sc):
+        text = (sc.get("desc", "") + " " + " ".join(sc.get("tags") or [])).lower()
+        return not any(w in text for w in unsafe) and sc["id"] not in cfg.get("blocked_scenes", [])
     usable = [s for s in catalog if s.get("desc") and not s.get("facecam") and not s.get("non_gameplay")
+              and not s.get("overlay") and safe(s)
               and (s.get("quality") or 0) >= 3 and bright(s) >= cfg.get("min_scene_brightness", 40)]
     write_json(vdir / "work" / "catalog.json", usable)
     print(f"{len(usable)} usable scenes of {len(catalog)}. Next: python -m pipeline -c {channel()} match {vdir.name}")

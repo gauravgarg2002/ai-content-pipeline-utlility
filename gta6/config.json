@@ -102,5 +102,8 @@
     "min_sources": 3,
     "max_source_share": 0.55
   },
-  "_footage_note": "official = Rockstar's own trailers, Extended Look and screenshots from rockstargames.com (no YouTube). youtube = creator gameplay via yt-dlp (needs a home connection)."
+  "_footage_note": "official = Rockstar's own trailers, Extended Look and screenshots from rockstargames.com (no YouTube). youtube = creator gameplay via yt-dlp (needs a home connection).",
+  "blocked_scenes": [
+    "gtavi_trailer_2_0015"
+  ]
 }
