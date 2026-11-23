@@ -38,7 +38,8 @@ export const Short: React.FC<ShortProps> = ({scenes, words, audio, captions, the
             <Camera d={sc.durationInFrames} first={i === 0}>
               <Scene p={sc.props || {}} onScreen={sc.onScreen} d={sc.durationInFrames} first={i === 0} />
             </Camera>
-            {sc.onScreen && sc.type !== 'kinetic' ? <OnScreen text={sc.onScreen} first={i === 0} /> : null}
+            {/* scenes that draw their own title (kinetic text, props.label) never get the overlay as well */}
+            {sc.onScreen && sc.type !== 'kinetic' && !(sc.props && sc.props.label) ? <OnScreen text={sc.onScreen} first={i === 0} /> : null}
           </Sequence>
         );
       })}

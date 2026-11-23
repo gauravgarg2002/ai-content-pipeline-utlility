@@ -160,7 +160,12 @@ audio = np.concatenate([audio, np.zeros(int(tail * SR), np.float32)]); total = l
 scenes = []
 for i, (beat, sc) in enumerate(zip(beats, board["scenes"])):
     start = bounds[i][0]; end = bounds[i + 1][0] if i + 1 < len(bounds) else total
-    scenes.append({"id": sc["id"], "type": sc["type"], "props": sc["props"], "onScreen": clean(beat.get("onScreen")),
+    # One title per frame: the storyboard's onScreen wins over the script's (None = no overlay),
+    # and a scene that draws its own title (props.label) never gets the overlay on top of it.
+    ons = sc["onScreen"] if "onScreen" in sc else beat.get("onScreen")
+    if (sc.get("props") or {}).get("label"):
+        ons = None
+    scenes.append({"id": sc["id"], "type": sc["type"], "props": sc["props"], "onScreen": clean(ons),
                    "from": frames(start), "durationInFrames": max(1, frames(end) - frames(start))})
 scenes[0]["durationInFrames"] += scenes[0]["from"]; scenes[0]["from"] = 0
 
