@@ -11,7 +11,9 @@ on:
   push:
     branches: ["gta6/**"]
     paths: ["gta6/build-queue.txt", ".github/workflows/gta6-build.yml"]
-concurrency: { group: gta6-build-${{ github.ref }}, cancel-in-progress: true }
+concurrency:
+  group: gta6-build-${{ github.ref }}
+  cancel-in-progress: true
 permissions: { contents: write }
 
 jobs:
