@@ -8,9 +8,9 @@ daily quota runs out, the script stops cleanly and says how far it got.
 import base64, json, os, re, sys, time, urllib.request, urllib.error, wave
 
 KEY = os.environ["GEMINI_API_KEY"]
-CFG = json.load(open("config/voices.json"))["c-pilot-horror-hi"]["primary"]
+CFG = json.load(open("config/voices.json"))["c-horror-hi"]["primary"]
 URL = f"https://generativelanguage.googleapis.com/v1beta/{CFG['model']}:generateContent"
-SCRIPT = "content/c-pilot-horror-hi/2026-11-20-saamne-wali-khidki/script.json"
+SCRIPT = "content/c-horror-hi/2026-11-20-saamne-wali-khidki/script.json"
 OUT = "renders/pilot/horror"; os.makedirs(OUT, exist_ok=True)
 MAX_WORDS, SPACING_S, RETRIES, BACKOFF_S = 320, 35, 4, 70
 

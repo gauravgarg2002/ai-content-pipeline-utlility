@@ -20,7 +20,7 @@ S = {
 
 # ---- C1: Hindi horror, episode 2 -----------------------------------------------
 HORROR = {
-    "channel": "c-pilot-horror-hi",
+    "channel": "c-horror-hi",
     "slug": "naunvi-manzil",
     "format": "long", "lang": "hi",
     "topic": "Original horror story: the lift that stops at the ninth floor",
@@ -77,7 +77,7 @@ def route_geo(upto, new=None, view=IND, lines=None, **kw):
                pins=pins, lines=lines, **kw)
 
 EPICS = {
-    "channel": "c-pilot-epics-en",
+    "channel": "d-epics-en",
     "slug": "rama-route-on-a-map",
     "format": "long", "lang": "en",
     "topic": "Rama's exile route from Ayodhya to Lanka, on a map",
@@ -174,5 +174,29 @@ EPICS = {
     ],
 }
 
-for _b in HORROR["beats"]:
-    _b["v"][1]["time"] = "3:33"
+# Scene changes anchored to phrases in the narration: word timings are spread
+# evenly inside a beat, so a phrase's character offset approximates its time.
+CUTS = [
+    [("tower_night", None), ("room_plain", "मुझे बारहवीं मंज़िल"), ("tower_night", "रात को बालकनी")],
+    [("room_interior_fan", None), ("phone_clock", "मैंने फ़ोन उठाया"), ("lift_doors_open_empty", "मेरा फ़्लैट लिफ़्ट"), ("lift_doors_closed", "फिर बंद हो गए")],
+    [("lift_display_down", None), ("room_interior_fan", "मैं देर तक")],
+    [("guard_cabin", None), ("tower_night", "नौवीं मंज़िल पर कोई नहीं"), ("guard_cabin", "फिर उन्होंने रजिस्टर")],
+    [("room_plain", None), ("phone_clock", "दूसरी रात"), ("lift_display_up", "तीन बजकर तैंतीस मिनट पर लाल"), ("lift_doors_open_empty", "डिंग।\n\nदरवाज़े"), ("lift_mirror_fog_nine", "लेकिन इस बार मैंने")],
+    [("lift_panel_nine_lit", None), ("lift_display_down", "लिफ़्ट नीचे चली गई"), ("lift_inside_day", "अगले दिन"), ("black", "लिफ़्ट में उस वक़्त")],
+    [("room_plain", None), ("phone_clock", "तीन बजकर बीस"), ("abandoned_stairwell_torch", "सीढ़ियाँ उतरने"), ("black", "नौवीं मंज़िल का एग्ज़िट")],
+    [("corridor_light_under_door", None)],
+    [("empty_dusty_room", None), ("intercom_1204", "दीवार पर एक इंटरकॉम")],
+    [("intercom_1204", None), ("black", "फिर एक आवाज़ आई")],
+    [("corridor_light_under_door", None), ("lift_doors_open_empty", "पीछे से आवाज़"), ("lift_display_up", "लिफ़्ट ऊपर चलने"), ("lift_mirror_figure_behind", "मैंने सामने वाले शीशे")],
+    [("black", None), ("lift_doors_open_empty", "दरवाज़े खुले"), ("room_plain", "अपने फ़्लैट में घुसा")],
+    [("guard_cabin", None), ("guard_register", "पिछली रात की आख़िरी")],
+    [("tower_night", None), ("black", "और अगर चढ़ ही")],
+]
+assert len(CUTS) == len(HORROR["beats"])
+for _b, cuts in zip(HORROR["beats"], CUTS):
+    t = _b["n"]; seq = []
+    for name, phrase in cuts:
+        if phrase is None: seq.append([name, 0]); continue
+        i = t.find(phrase); assert i >= 0, phrase
+        seq.append([name, round(i / len(t), 3)])
+    _b["v"] = ("atmos", {"scene": seq[0][0], "sequence": seq, "time": "3:20" if "तीन बजकर बीस" in t else "3:33"})

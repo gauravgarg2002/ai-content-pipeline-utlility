@@ -11,6 +11,20 @@
       "endMs": 37168,
       "props": {
         "scene": "tower_night",
+        "sequence": [
+          [
+            "tower_night",
+            0
+          ],
+          [
+            "room_plain",
+            0.657
+          ],
+          [
+            "tower_night",
+            0.775
+          ]
+        ],
         "time": "3:33"
       }
     },
@@ -21,15 +35,23 @@
       "startMs": 37168,
       "endMs": 72063,
       "props": {
-        "scene": "phone_clock",
+        "scene": "room_interior_fan",
         "sequence": [
           [
-            "phone_clock",
+            "room_interior_fan",
             0
           ],
           [
+            "phone_clock",
+            0.286
+          ],
+          [
             "lift_doors_open_empty",
-            0.45
+            0.411
+          ],
+          [
+            "lift_doors_closed",
+            0.964
           ]
         ],
         "time": "3:33"
@@ -47,6 +69,10 @@
           [
             "lift_display_down",
             0
+          ],
+          [
+            "room_interior_fan",
+            0.56
           ]
         ],
         "time": "3:33"
@@ -60,6 +86,20 @@
       "endMs": 148671,
       "props": {
         "scene": "guard_cabin",
+        "sequence": [
+          [
+            "guard_cabin",
+            0
+          ],
+          [
+            "tower_night",
+            0.621
+          ],
+          [
+            "guard_cabin",
+            0.817
+          ]
+        ],
         "time": "3:33"
       }
     },
@@ -70,15 +110,27 @@
       "startMs": 148671,
       "endMs": 192657,
       "props": {
-        "scene": "lift_display_up",
+        "scene": "room_plain",
         "sequence": [
           [
-            "lift_display_up",
+            "room_plain",
             0
           ],
           [
+            "phone_clock",
+            0.202
+          ],
+          [
+            "lift_display_up",
+            0.4
+          ],
+          [
+            "lift_doors_open_empty",
+            0.543
+          ],
+          [
             "lift_mirror_fog_nine",
-            0.55
+            0.619
           ]
         ],
         "time": "3:33"
@@ -98,8 +150,16 @@
             0
           ],
           [
+            "lift_display_down",
+            0.158
+          ],
+          [
             "lift_inside_day",
-            0.35
+            0.233
+          ],
+          [
+            "black",
+            0.942
           ]
         ],
         "time": "3:33"
@@ -112,8 +172,26 @@
       "startMs": 258916,
       "endMs": 288811,
       "props": {
-        "scene": "abandoned_stairwell_torch",
-        "time": "3:33"
+        "scene": "room_plain",
+        "sequence": [
+          [
+            "room_plain",
+            0
+          ],
+          [
+            "phone_clock",
+            0.283
+          ],
+          [
+            "abandoned_stairwell_torch",
+            0.419
+          ],
+          [
+            "black",
+            0.872
+          ]
+        ],
+        "time": "3:20"
       }
     },
     {
@@ -124,6 +202,12 @@
       "endMs": 321433,
       "props": {
         "scene": "corridor_light_under_door",
+        "sequence": [
+          [
+            "corridor_light_under_door",
+            0
+          ]
+        ],
         "time": "3:33"
       }
     },
@@ -142,7 +226,7 @@
           ],
           [
             "intercom_1204",
-            0.55
+            0.591
           ]
         ],
         "time": "3:33"
@@ -156,6 +240,16 @@
       "endMs": 389405,
       "props": {
         "scene": "intercom_1204",
+        "sequence": [
+          [
+            "intercom_1204",
+            0
+          ],
+          [
+            "black",
+            0.787
+          ]
+        ],
         "time": "3:33"
       }
     },
@@ -166,15 +260,23 @@
       "startMs": 389405,
       "endMs": 436118,
       "props": {
-        "scene": "lift_doors_open_empty",
+        "scene": "corridor_light_under_door",
         "sequence": [
           [
-            "lift_doors_open_empty",
+            "corridor_light_under_door",
             0
           ],
           [
+            "lift_doors_open_empty",
+            0.25
+          ],
+          [
+            "lift_display_up",
+            0.61
+          ],
+          [
             "lift_mirror_figure_behind",
-            0.5
+            0.653
           ]
         ],
         "time": "3:33"
@@ -194,8 +296,12 @@
             0
           ],
           [
+            "lift_doors_open_empty",
+            0.333
+          ],
+          [
             "room_plain",
-            0.5
+            0.469
           ]
         ],
         "time": "3:33"
@@ -208,7 +314,17 @@
       "startMs": 459195,
       "endMs": 496817,
       "props": {
-        "scene": "guard_register",
+        "scene": "guard_cabin",
+        "sequence": [
+          [
+            "guard_cabin",
+            0
+          ],
+          [
+            "guard_register",
+            0.369
+          ]
+        ],
         "time": "3:33"
       }
     },
@@ -227,7 +343,7 @@
           ],
           [
             "black",
-            0.85
+            0.803
           ]
         ],
         "time": "3:33"

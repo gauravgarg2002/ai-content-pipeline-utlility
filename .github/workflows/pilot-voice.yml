@@ -16,14 +16,14 @@ jobs:
       - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
       - name: Restore voiced chunks
         uses: actions/cache/restore@v4
-        with: { path: renders/pilot/horror, key: "horror-${{ hashFiles('content/c-pilot-horror-hi/**/script.json', 'config/voices.json', 'tools/pilot/voice_horror_gemini.py') }}-${{ github.run_id }}", restore-keys: "horror-${{ hashFiles('content/c-pilot-horror-hi/**/script.json', 'config/voices.json', 'tools/pilot/voice_horror_gemini.py') }}-" }
+        with: { path: renders/pilot/horror, key: "horror-${{ hashFiles('content/c-horror-hi/**/script.json', 'config/voices.json', 'tools/pilot/voice_horror_gemini.py') }}-${{ github.run_id }}", restore-keys: "horror-${{ hashFiles('content/c-horror-hi/**/script.json', 'config/voices.json', 'tools/pilot/voice_horror_gemini.py') }}-" }
       - name: Voice chunks
         env: { GEMINI_API_KEY: "${{ secrets.GEMINI_API_KEY }}" }
         run: python3 tools/pilot/voice_horror_gemini.py
       - name: Save voiced chunks
         if: always()
         uses: actions/cache/save@v4
-        with: { path: renders/pilot/horror, key: "horror-${{ hashFiles('content/c-pilot-horror-hi/**/script.json', 'config/voices.json', 'tools/pilot/voice_horror_gemini.py') }}-${{ github.run_id }}" }
+        with: { path: renders/pilot/horror, key: "horror-${{ hashFiles('content/c-horror-hi/**/script.json', 'config/voices.json', 'tools/pilot/voice_horror_gemini.py') }}-${{ github.run_id }}" }
       - name: Mix
         if: hashFiles('renders/pilot/horror/DONE') != ''
         run: bash tools/pilot/mix.sh renders/pilot/horror renders/pilot/horror-pilot-charon.mp3

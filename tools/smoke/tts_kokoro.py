@@ -7,7 +7,7 @@ import numpy as np, soundfile as sf
 from kokoro import KPipeline
 
 SR = 24000
-HORROR = "content/c-pilot-horror-hi/2026-11-20-saamne-wali-khidki/script.json"
+HORROR = "content/c-horror-hi/2026-11-20-saamne-wali-khidki/script.json"
 SENT_PAUSE, PARA_PAUSE = 0.25, 0.60  # 0.40/0.80 felt too long (20 Nov)
 
 def sentences(paragraph):

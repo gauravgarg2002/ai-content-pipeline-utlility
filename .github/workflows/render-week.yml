@@ -33,7 +33,7 @@ jobs:
           week, only = os.environ["WEEK"], os.environ.get("ONLY", "").split()
           dirs = sorted(d.rstrip("/") for d in glob.glob(f"content/*/{week}-*/"))
           if only: dirs = [d for d in dirs if d in only]
-          gem = {"b-ai-hinglish", "c-pilot-horror-hi"}
+          gem = {"b-ai-hinglish", "c-horror-hi"}
           k = [d for d in dirs if d.split("/")[1] not in gem]; g = [d for d in dirs if d.split("/")[1] in gem]
           print("matrix=" + json.dumps({"video": [d[len("content/"):] for d in dirs] or ["none"]}))
           print("kokoro=" + " ".join(k)); print("gemini=" + " ".join(g))

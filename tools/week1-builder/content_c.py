@@ -9,7 +9,7 @@ S = {
 }
 
 HORROR = {
-    "channel": "c-pilot-horror-hi",
+    "channel": "c-horror-hi",
     "slug": "saamne-wali-khidki",
     "format": "long",
     "lang": "hi",
@@ -54,7 +54,7 @@ HORROR = {
 }
 
 EPICS = {
-    "channel": "c-pilot-epics-en",
+    "channel": "d-epics-en",
     "slug": "mahabharata-family-tree",
     "format": "long",
     "lang": "en",

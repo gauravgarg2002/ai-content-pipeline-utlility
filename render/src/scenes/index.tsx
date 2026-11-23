@@ -5,6 +5,7 @@ import {BarsScene, CardsScene, ClocksScene, KineticScene, NumberScene, TimelineS
 import {UIScene} from './ui';
 import {DragShape, RulerScene, ShapePack, TreeScene, TrueSizeStack} from './special';
 import {AtmosScene} from './horror';
+import {PuppetScene} from './puppet';
 
 export type {SceneP};
 export const Fallback: React.FC<SceneP> = (a) => <KineticScene {...a} p={{text: a.onScreen || ''}} />;
@@ -12,5 +13,5 @@ export const Fallback: React.FC<SceneP> = (a) => <KineticScene {...a} p={{text: 
 export const SCENES: Record<string, React.FC<SceneP>> = {
   geo: GeoScene, number: NumberScene, bars: BarsScene, cards: CardsScene, kinetic: KineticScene, timeline: TimelineScene,
   clocks: ClocksScene, ui: UIScene, truesize: TrueSizeStack, pack: ShapePack, drag: DragShape, ruler: RulerScene,
-  tree: TreeScene, atmos: AtmosScene,
+  tree: TreeScene, atmos: AtmosScene, puppet: PuppetScene,
 };

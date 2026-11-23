@@ -1,6 +1,6 @@
 # सामने वाली खिड़की | रात 2:10 का राज़ | हिंदी हॉरर कहानी
 
-Channel: `c-pilot-horror-hi` · Format: long · Est. length: 10:24 (target 10:00 to 15:00)
+Channel: `c-horror-hi` · Format: long · Est. length: 10:24 (target 10:00 to 15:00)
 
 ## Script
 

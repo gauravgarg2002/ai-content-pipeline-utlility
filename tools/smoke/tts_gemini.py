@@ -5,7 +5,7 @@ import base64, json, os, re, sys, time, urllib.request, urllib.error, wave
 
 KEY = os.environ["GEMINI_API_KEY"]
 BASE = "https://generativelanguage.googleapis.com/v1beta"
-HORROR = "content/c-pilot-horror-hi/2026-11-20-saamne-wali-khidki/script.json"
+HORROR = "content/c-horror-hi/2026-11-20-saamne-wali-khidki/script.json"
 STYLE = ("Read this Hindi horror story aloud like a skilled late-night storyteller. "
          "Speak slowly and calmly, with a quiet, eerie tone. Pause briefly at every full stop (।) "
          "and longer between paragraphs. Do not rush.\n\n")

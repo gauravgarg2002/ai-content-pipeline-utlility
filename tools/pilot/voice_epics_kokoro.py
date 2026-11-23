@@ -3,8 +3,8 @@ import json, os, time
 import numpy as np, soundfile as sf
 from kokoro import KPipeline
 
-CFG = json.load(open("config/voices.json"))["c-pilot-epics-en"]["primary"]
-SCRIPT = "content/c-pilot-epics-en/2026-11-20-mahabharata-family-tree/script.json"
+CFG = json.load(open("config/voices.json"))["d-epics-en"]["primary"]
+SCRIPT = "content/d-epics-en/2026-11-20-mahabharata-family-tree/script.json"
 OUT = "renders/pilot/epics"; os.makedirs(OUT, exist_ok=True)
 SR = 24000
 pipe = KPipeline(lang_code=CFG["lang_code"])

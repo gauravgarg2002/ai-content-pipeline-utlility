@@ -1,6 +1,6 @@
 {
   "_note": "Voice choices from the 20 Nov 2026 tests. Charon picked for horror; Kokoro hm_omega (sentence split) is the Hindi backup. Channel B uses Gemini because Kokoro rushes Hindi.",
-  "c-pilot-horror-hi": {
+  "c-horror-hi": {
     "primary": {
       "engine": "gemini",
       "model": "models/gemini-3.8-flash-tts",
@@ -21,7 +21,7 @@
       "paragraph_pause_s": 0.6
     }
   },
-  "c-pilot-epics-en": {
+  "d-epics-en": {
     "primary": {
       "engine": "kokoro",
       "lang_code": "a",

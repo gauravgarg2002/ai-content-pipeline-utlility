@@ -1,0 +1,32 @@
+name: preview
+# Renders a props file from render/preview/ and publishes the MP4 and a contact
+# sheet to the `previews` branch, for checking new scene types quickly.
+on:
+  workflow_dispatch:
+    inputs:
+      props: { description: "File in render/preview/", default: "puppets.json" }
+  push:
+    branches: ["phase1/**"]
+    paths: ["render/preview/**", ".github/workflows/preview.yml"]
+permissions: { contents: write }
+jobs:
+  still:
+    runs-on: ubuntu-latest
+    env: { P: "${{ inputs.props || 'puppets.json' }}" }
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - working-directory: render
+        run: npm install --no-audit --no-fund
+      - working-directory: render
+        run: |
+          mkdir -p out; N=${P%.json}
+          npx remotion render src/index.ts Short "out/$N.mp4" --props="preview/$P" --crf=24 --timeout=120000 2>&1 | tail -c 8000 | tee "out/$N-render.log"
+          D=$(ffprobe -v error -show_entries format=duration -of csv=p=0 "out/$N.mp4"); STEP=$(python3 -c "print(max(0.5, $D/16))")
+          ffmpeg -v error -y -i "out/$N.mp4" -vf "fps=1/$STEP,scale=480:-1,tile=4x4:padding=6:color=white" -frames:v 1 "out/$N-contact.jpg"
+      - if: always()
+        run: |
+          cd render/out && git init -q -b previews && git config user.name render-bot && git config user.email render-bot@users.noreply.github.com
+          git add . && git commit -qm "preview $P" && git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" previews

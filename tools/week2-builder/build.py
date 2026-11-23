@@ -8,8 +8,8 @@ WPS = {"en": 2.6, "hi-Latn": 2.6, "hi": 2.2}  # narration words per second
 PAD_MS = 350
 TARGET = {  # seconds
     ("short", "a-maps-data"): (25, 55), ("short", "b-ai-hinglish"): (25, 55),
-    ("long", "a-maps-data"): (360, 540), ("long", "c-pilot-horror-hi"): (600, 900),
-    ("long", "c-pilot-epics-en"): (360, 600),
+    ("long", "a-maps-data"): (360, 540), ("long", "c-horror-hi"): (600, 900),
+    ("long", "d-epics-en"): (360, 600),
 }
 
 def words(t): return len(t.replace("\n", " ").split())

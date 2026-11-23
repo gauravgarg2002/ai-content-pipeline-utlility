@@ -1,6 +1,6 @@
 # नौवीं मंज़िल | रात 3:33 की लिफ़्ट | हिंदी हॉरर कहानी
 
-Channel: `c-pilot-horror-hi` · Format: long · Est. length: 8:38 (target 10:00 to 15:00)
+Channel: `c-horror-hi` · Format: long · Est. length: 8:38 (target 10:00 to 15:00)
 
 ## Script
 

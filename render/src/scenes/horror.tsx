@@ -1,5 +1,5 @@
 import React from 'react';
-import {interpolate, random, useCurrentFrame} from 'remotion';
+import {interpolate, random, Sequence, useCurrentFrame} from 'remotion';
 import {SceneP} from './common';
 
 // Atmosphere scenes for the Hindi horror channel. All shapes, no images.
@@ -278,6 +278,7 @@ const MAP: Record<string, (p: any) => React.ReactNode> = {
   opposite_window_shows_narrator_with_figure_behind: (p) => <Mirror d={p.d} />,
   black: () => <Black />,
   tower_night: () => <Tower />,
+  lift_doors_closed: (p) => <LiftDoors open={false} d={p.d} />,
   lift_doors_open_empty: (p) => <LiftDoors open d={p.d} />,
   lift_display_down: (p) => <LiftDoors open={false} d={p.d} seq={[12, 11, 10, 9]} />,
   lift_display_up: (p) => <LiftDoors open={false} d={p.d} seq={[9, 10, 11, 12]} />,
@@ -294,9 +295,15 @@ const MAP: Record<string, (p: any) => React.ReactNode> = {
 // p.sequence: [[sceneName, startFraction], ...] switches scenes inside one beat.
 export const AtmosScene: React.FC<SceneP> = ({p, d}) => {
   const f = useCurrentFrame();
-  let name = p.scene;
-  if (p.sequence) for (const [n, at] of p.sequence) if (f >= at * d) name = n;
-  const draw = MAP[name] || MAP.narrow_lane_night;
+  // Segments: each sub-scene gets its own local frame count and duration, so its
+  // animation starts when it appears, plus a short fade from black at each cut.
+  const seq: [string, number][] = p.sequence || [[p.scene, 0]];
+  const starts = seq.map(([, at]) => Math.round(at * d));
+  let i = 0; for (let j = 0; j < seq.length; j++) if (f >= starts[j]) i = j;
+  const from = starts[i], to = i + 1 < seq.length ? starts[i + 1] : d, len = Math.max(to - from, 1);
+  const draw = MAP[seq[i][0]] || MAP.narrow_lane_night;
+  const fade = i === 0 ? 0 : interpolate(f - from, [0, 8], [1, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
   return (<svg width={W0} height={H0} viewBox={`0 0 ${W0} ${H0}`} style={{position: 'absolute', inset: 0}}>
-    {draw({...p, d})}<Vignette /><Grain /></svg>);
+    <Sequence from={from} durationInFrames={len} layout="none">{draw({...p, d: len})}</Sequence>
+    <rect width={W0} height={H0} fill="#000" opacity={fade} /><Vignette /><Grain /></svg>);
 };

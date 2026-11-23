@@ -1,6 +1,6 @@
 # Rama's 14-Year Exile on a Map | Ayodhya to Lanka, Explained
 
-Channel: `c-pilot-epics-en` · Format: long · Est. length: 4:23 (target 6:00 to 10:00)
+Channel: `d-epics-en` · Format: long · Est. length: 4:23 (target 6:00 to 10:00)
 
 Version followed: Valmiki Ramayana (Ayodhya to Yuddha Kanda); modern locations are traditional identifications, not archaeological findings
 

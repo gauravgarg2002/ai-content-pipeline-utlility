@@ -8,8 +8,8 @@ WPS = {"en": 2.6, "hi-Latn": 2.6, "hi": 2.2}  # narration words per second
 PAD_MS = 350
 TARGET = {  # seconds
     ("short", "a-maps-data"): (25, 55), ("short", "b-ai-hinglish"): (25, 55),
-    ("long", "a-maps-data"): (360, 540), ("long", "c-pilot-horror-hi"): (600, 900),
-    ("long", "c-pilot-epics-en"): (360, 600),
+    ("long", "a-maps-data"): (360, 540), ("long", "c-horror-hi"): (600, 900),
+    ("long", "d-epics-en"): (360, 600),
 }
 
 def words(t): return len(t.replace("\n", " ").split())
@@ -75,8 +75,8 @@ if __name__ == "__main__":
     rows += [build(v, "b-ai-hinglish") for v in content_b.VIDEOS]
     for ep in (content_c.HORROR, content_c.EPICS):
         rows.append(build(ep, ep["channel"]))
-    os.makedirs(os.path.join(OUT, "channels", "c-pilot-epics-en"), exist_ok=True)
-    with open(os.path.join(OUT, "channels", "c-pilot-epics-en", "pronunciation.json"), "w", encoding="utf-8") as f:
+    os.makedirs(os.path.join(OUT, "channels", "d-epics-en"), exist_ok=True)
+    with open(os.path.join(OUT, "channels", "d-epics-en", "pronunciation.json"), "w", encoding="utf-8") as f:
         json.dump(content_c.EPICS["pronunciation"], f, ensure_ascii=False, indent=2)
     with open(os.path.join(OUT, "week1-index.json"), "w") as f:
         json.dump(rows, f, ensure_ascii=False, indent=2)

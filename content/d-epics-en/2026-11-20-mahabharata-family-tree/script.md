@@ -1,6 +1,6 @@
 # The Mahabharata Family Tree, Explained | Who Is Related to Whom
 
-Channel: `c-pilot-epics-en` · Format: long · Est. length: 6:00 (target 6:00 to 10:00)
+Channel: `d-epics-en` · Format: long · Est. length: 6:00 (target 6:00 to 10:00)
 
 Version followed: Vyasa's Mahabharata, Adi Parva, as in the K. M. Ganguli English translation (1883-1896)
 

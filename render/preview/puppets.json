@@ -1,0 +1,205 @@
+{
+ "id": "puppet-preview",
+ "channel": "d-epics-en",
+ "fps": 24,
+ "width": 1920,
+ "height": 1080,
+ "captions": false,
+ "theme": "epics",
+ "durationInFrames": 480,
+ "audio": "",
+ "words": [],
+ "scenes": [
+  {
+   "id": "s0",
+   "type": "puppet",
+   "props": {
+    "bg": "palace",
+    "cast": [
+     {
+      "who": "Dasharatha",
+      "x": 0.3,
+      "pose": "bless"
+     },
+     {
+      "who": "Rama",
+      "x": 0.68,
+      "pose": "namaste",
+      "facing": "left"
+     }
+    ],
+    "label": "AYODHYA"
+   },
+   "onScreen": null,
+   "from": 0,
+   "durationInFrames": 60
+  },
+  {
+   "id": "s1",
+   "type": "puppet",
+   "props": {
+    "bg": "court",
+    "cast": [
+     {
+      "who": "Manthara",
+      "x": 0.32,
+      "pose": "point"
+     },
+     {
+      "who": "Kaikeyi",
+      "x": 0.62,
+      "pose": "angry",
+      "facing": "left"
+     }
+    ]
+   },
+   "onScreen": null,
+   "from": 60,
+   "durationInFrames": 60
+  },
+  {
+   "id": "s2",
+   "type": "puppet",
+   "props": {
+    "bg": "forest",
+    "cast": [
+     {
+      "who": "Rama",
+      "x": 0.3,
+      "pose": "walk",
+      "walk": true
+     },
+     {
+      "who": "Sita",
+      "x": 0.48,
+      "pose": "stand"
+     },
+     {
+      "who": "Lakshmana",
+      "x": 0.66,
+      "pose": "bow"
+     }
+    ]
+   },
+   "onScreen": null,
+   "from": 120,
+   "durationInFrames": 60
+  },
+  {
+   "id": "s3",
+   "type": "puppet",
+   "props": {
+    "bg": "river",
+    "cast": [
+     {
+      "who": "Guha",
+      "x": 0.35,
+      "pose": "stand"
+     },
+     {
+      "who": "Rama",
+      "x": 0.65,
+      "pose": "bless",
+      "facing": "left",
+      "enter": "right"
+     }
+    ]
+   },
+   "onScreen": null,
+   "from": 180,
+   "durationInFrames": 60
+  },
+  {
+   "id": "s4",
+   "type": "puppet",
+   "props": {
+    "bg": "hut",
+    "cast": [
+     {
+      "who": "Deer",
+      "x": 0.6,
+      "enter": "right",
+      "facing": "left"
+     },
+     {
+      "who": "Sita",
+      "x": 0.3,
+      "pose": "point"
+     }
+    ]
+   },
+   "onScreen": null,
+   "from": 240,
+   "durationInFrames": 60
+  },
+  {
+   "id": "s5",
+   "type": "puppet",
+   "props": {
+    "bg": "sky",
+    "cast": [
+     {
+      "who": "Ravana",
+      "x": 0.55,
+      "pose": "fight"
+     },
+     {
+      "who": "Jatayu",
+      "x": 0.25,
+      "pose": "fly"
+     }
+    ]
+   },
+   "onScreen": null,
+   "from": 300,
+   "durationInFrames": 60
+  },
+  {
+   "id": "s6",
+   "type": "puppet",
+   "props": {
+    "bg": "mountains",
+    "cast": [
+     {
+      "who": "Hanuman",
+      "x": 0.3,
+      "pose": "namaste"
+     },
+     {
+      "who": "Sugriva",
+      "x": 0.5,
+      "pose": "stand"
+     },
+     {
+      "who": "Rama",
+      "x": 0.75,
+      "pose": "bless",
+      "facing": "left"
+     }
+    ]
+   },
+   "onScreen": null,
+   "from": 360,
+   "durationInFrames": 60
+  },
+  {
+   "id": "s7",
+   "type": "puppet",
+   "props": {
+    "bg": "lanka",
+    "cast": [
+     {
+      "who": "Hanuman",
+      "x": 0.5,
+      "pose": "fight",
+      "enter": "drop"
+     }
+    ],
+    "label": "LANKA"
+   },
+   "onScreen": null,
+   "from": 420,
+   "durationInFrames": 60
+  }
+ ]
+}
