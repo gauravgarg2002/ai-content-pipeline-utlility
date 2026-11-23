@@ -1,0 +1,70 @@
+[gta6] TTS beat 1/46
+[gta6] TTS beat 2/46
+[gta6] TTS beat 3/46
+[gta6] TTS beat 4/46
+[gta6] TTS beat 5/46
+[gta6] TTS beat 6/46
+[gta6] TTS beat 7/46
+[gta6] TTS beat 8/46
+[gta6] TTS beat 9/46
+[gta6] TTS beat 10/46
+[gta6] TTS beat 11/46
+[gta6] TTS beat 12/46
+[gta6] TTS beat 13/46
+[gta6] TTS beat 14/46
+[gta6] TTS beat 15/46
+[gta6] TTS beat 16/46
+[gta6] TTS beat 17/46
+[gta6] TTS beat 18/46
+[gta6] TTS beat 19/46
+[gta6] TTS beat 20/46
+[gta6] TTS beat 21/46
+[gta6] TTS beat 22/46
+[gta6] TTS beat 23/46
+[gta6] TTS beat 24/46
+[gta6] TTS beat 25/46
+[gta6] TTS beat 26/46
+[gta6] TTS beat 27/46
+[gta6] TTS beat 28/46
+[gta6] TTS beat 29/46
+[gta6] TTS beat 30/46
+[gta6] TTS beat 31/46
+[gta6] TTS beat 32/46
+[gta6] TTS beat 33/46
+[gta6] TTS beat 34/46
+[gta6] TTS beat 35/46
+[gta6] TTS beat 36/46
+[gta6] TTS beat 37/46
+[gta6] TTS beat 38/46
+[gta6] TTS beat 39/46
+[gta6] TTS beat 40/46
+[gta6] TTS beat 41/46
+[gta6] TTS beat 42/46
+[gta6] TTS beat 43/46
+[gta6] TTS beat 44/46
+[gta6] TTS beat 45/46
+[gta6] TTS beat 46/46
+Voice: 8.6 min. Next: python -m pipeline -c en source 2026-11-23-gta-6-characters-explained
+6 official Rockstar sources. Next: python -m pipeline -c en index 2026-11-23-gta-6-characters-explained
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/root        72G   41G   32G  57% /
+115 usable scenes of 194. Next: python -m pipeline -c en match 2026-11-23-gta-6-characters-explained
+Re-cutting from edl.prev.json (no Gemini call)
+Source shares: rockstar_screens 46%, gtavi_extended_look 38%, gtavi_trailer_2 12%, gtavi_trailer_1 2%, gtavi_launch_trailer 2%
+122 segments. Next: python -m pipeline -c en assemble 2026-11-23-gta-6-characters-explained
+[gta6] Rendering segment 1/122
+[gta6] Rendering segment 11/122
+[gta6] Rendering segment 21/122
+[gta6] Rendering segment 31/122
+[gta6] Rendering segment 41/122
+[gta6] Rendering segment 51/122
+[gta6] Rendering segment 61/122
+[gta6] Rendering segment 71/122
+[gta6] Rendering segment 81/122
+[gta6] Rendering segment 91/122
+[gta6] Rendering segment 101/122
+[gta6] Rendering segment 111/122
+[gta6] Rendering segment 121/122
+[gta6] No music in assets/music; voice only
+Rendered final.mp4. Next: python -m pipeline -c en thumbnail 2026-11-23-gta-6-characters-explained
+Thumbnail + metadata ready. Watch final.mp4, then: python -m pipeline -c en approve 2026-11-23-gta-6-characters-explained final

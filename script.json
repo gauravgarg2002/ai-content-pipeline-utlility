@@ -1,0 +1,589 @@
+{
+  "topic": "GTA 6 characters explained (spoiler-free)",
+  "format": "explainer",
+  "search_query": "GTA 6 characters",
+  "research": [
+    {
+      "n": 1,
+      "title": "GTA 6 characters and cast",
+      "channel": "Red Bull Gaming",
+      "url": "https://www.redbull.com/gb-en/gta-6-characters-cast"
+    },
+    {
+      "n": 2,
+      "title": "GTA 6's cast of characters revealed",
+      "channel": "VGC",
+      "url": "https://www.videogameschronicle.com/news/gta-6s-cast-of-characters-revealed/"
+    },
+    {
+      "n": 3,
+      "title": "15 GTA 6 Easter Eggs and Hidden Details",
+      "channel": "EarlyGame",
+      "url": "https://earlygame.com/guides/gaming/gta-6-easter-eggs-hidden-details"
+    },
+    {
+      "n": 4,
+      "title": "GTA 6 Characters",
+      "channel": "Beebom",
+      "url": "https://beebom.com/gta-6-characters/amp/"
+    },
+    {
+      "n": 5,
+      "title": "GTA 6 beginner's guide",
+      "channel": "Red Bull Gaming",
+      "url": "https://www.redbull.com/ie-en/gta-6-beginners-guide"
+    },
+    {
+      "n": 6,
+      "title": "GTA 6 Wanted Level Guide",
+      "channel": "AlcastHQ",
+      "url": "https://alcasthq.com/gta-6-wanted-level/"
+    },
+    {
+      "n": 7,
+      "title": "GTA 6 Best Cars",
+      "channel": "GamerBlurb",
+      "url": "https://gamerblurb.com/articles/gta-6-best-cars-top-vehicles-for-every-purpose"
+    },
+    {
+      "n": 8,
+      "title": "GTA 6 Map: Every Confirmed Location",
+      "channel": "AllThings.How",
+      "url": "https://allthings.how/gta-6-map-every-confirmed-location-in-the-state-of-leonida/"
+    },
+    {
+      "n": 9,
+      "title": "How to Make Money in GTA 6",
+      "channel": "AlcastHQ",
+      "url": "https://alcasthq.com/?p=87542"
+    }
+  ],
+  "title": "GTA 6 Characters Explained: Who's Who in Leonida (No Spoilers)",
+  "title_alternatives": [
+    "Every GTA 6 Character You Need to Know (Spoiler-Free)",
+    "GTA 6 Story Explained: Jason, Lucia and Everyone Around Them"
+  ],
+  "thumbnail_text": "WHO'S WHO?",
+  "description_summary": "A spoiler-free guide to the GTA 6 cast: Jason Duval and Lucia Caminos, plus Cal Hampton, Brian Heder, Boobie Ike, Dre'Quan Priest, Real Dimez, Raul Bautista and more. Who they are, how they connect, and the easter eggs hidden in their backstories.",
+  "tags": [
+    "gta 6",
+    "gta 6 characters",
+    "gta 6 story",
+    "gta 6 jason",
+    "gta 6 lucia",
+    "jason duval",
+    "lucia caminos",
+    "gta 6 cast",
+    "boobie ike",
+    "raul bautista",
+    "cal hampton",
+    "real dimez",
+    "gta 6 characters explained",
+    "gta 6 no spoilers",
+    "gta vi"
+  ],
+  "source_queries": [],
+  "beats": [
+    {
+      "id": 1,
+      "chapter": "",
+      "caption": "GTA 6 has the biggest cast Rockstar has ever built around a single story. So before you get lost in Leonida, here's who's who: the two leads, the people pulling their strings, and the details hidden in their backstories. And don't worry, this video is spoiler-free.",
+      "tts": "GTA 6 has the biggest cast Rockstar has ever built around a single story. So before you get lost in Leonida, here's who's who: the two leads, the people pulling their strings, and the details hidden in their backstories. And don't worry, this video is spoiler-free.",
+      "visual_need": "Jason and Lucia, close-up",
+      "onscreen": "NO SPOILERS",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 2,
+      "chapter": "",
+      "caption": "Everything here comes from Rockstar's official character material and the setup you see in the first hours. No story twists, no endings. Just who these people are and why they matter.",
+      "tts": "Everything here comes from Rockstar's official character material and the setup you see in the first hours. No story twists, no endings. Just who these people are and why they matter.",
+      "visual_need": "cast montage",
+      "onscreen": "WHO'S WHO",
+      "sources": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 3,
+      "chapter": "Lucia Caminos",
+      "caption": "Let's start with Lucia Caminos. She's one of the two playable leads, and the first Latina protagonist in the history of GTA.",
+      "tts": "Let's start with Lucia Caminos. She's one of the two playable leads, and the first Latina protagonist in the history of GTA.",
+      "visual_need": "Lucia close-up, determined look",
+      "onscreen": "LUCIA CAMINOS",
+      "sources": [
+        4
+      ]
+    },
+    {
+      "id": 4,
+      "chapter": "",
+      "caption": "Lucia's father trained her to fight from a young age. She ended up in Leonida Penitentiary after getting into trouble while defending her family, and she got out through a stroke of luck.",
+      "tts": "Lucia's father trained her to fight from a young age. She ended up in Leonida Penitentiary after getting into trouble while defending her family, and she got out through a stroke of luck.",
+      "visual_need": "prison exterior, Lucia walking out",
+      "onscreen": "TRAINED TO FIGHT",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 5,
+      "chapter": "",
+      "caption": "Now she's determined to turn her life around, and she's willing to bend the rules to take control of her future. Jason could be her route to a better life, or the thing that ruins it.",
+      "tts": "Now she's determined to turn her life around, and she's willing to bend the rules to take control of her future. Jason could be her route to a better life, or the thing that ruins it.",
+      "visual_need": "Lucia and Jason driving",
+      "onscreen": "BEND THE RULES",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 6,
+      "chapter": "",
+      "caption": "There's even a link to older games. Lucia's official Rockstar profile says her mother wanted a good life for her ever since their days in Liberty City, the setting of GTA 3 and GTA 4.",
+      "tts": "There's even a link to older games. Lucia's official Rockstar profile says her mother wanted a good life for her ever since their days in Liberty City, the setting of GTA 3 and GTA 4.",
+      "visual_need": "city skyline, Lucia thinking",
+      "onscreen": "LIBERTY CITY ROOTS",
+      "sources": [
+        3
+      ]
+    },
+    {
+      "id": 7,
+      "chapter": "",
+      "caption": "Leonida Penitentiary isn't just backstory, by the way. It's a real location on the map, so you can visit the place that shaped her.",
+      "tts": "Leonida Penitentiary isn't just backstory, by the way. It's a real location on the map, so you can visit the place that shaped her.",
+      "visual_need": "prison walls and watchtowers",
+      "onscreen": "THE PENITENTIARY IS ON THE MAP",
+      "sources": [
+        8
+      ]
+    },
+    {
+      "id": 8,
+      "chapter": "Jason Duval",
+      "caption": "The other lead is Jason Duval. He grew up around con artists and criminals, and he joined the US Army looking for a fresh start. He didn't find one.",
+      "tts": "The other lead is Jason Duval. He grew up around con artists and criminals, and he joined the US Army looking for a fresh start. He didn't find one.",
+      "visual_need": "Jason close-up",
+      "onscreen": "JASON DUVAL",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 9,
+      "chapter": "",
+      "caption": "After the army, he ended up working for drug smugglers in the Leonida Keys. What he really wants is a quiet life. And the story keeps asking whether Lucia is the best or the worst thing that ever happened to him.",
+      "tts": "After the army, he ended up working for drug smugglers in the Leonida Keys. What he really wants is a quiet life. And the story keeps asking whether Lucia is the best or the worst thing that ever happened to him.",
+      "visual_need": "Jason on a boat in the Keys",
+      "onscreen": "WANTS A QUIET LIFE",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 10,
+      "chapter": "",
+      "caption": "You'll get to know Jason's world fast. He lives in the Keys, there are old photos hidden under the floorboards in his bedroom that fill in his backstory, and he even has a pet snake named Dolores.",
+      "tts": "You'll get to know Jason's world fast. He lives in the Keys, there are old photos hidden under the floorboards in his bedroom that fill in his backstory, and he even has a pet snake named Dolores.",
+      "visual_need": "Jason's house, snake terrarium",
+      "onscreen": "MEET DOLORES",
+      "sources": [
+        5
+      ]
+    },
+    {
+      "id": 11,
+      "chapter": "",
+      "caption": "Jason's personal car at the start is a Vapid Ganado 70, a classic Ranchero-style pickup. It's not fast, but it says a lot about who he is: practical, a bit worn, and not trying to impress anyone.",
+      "tts": "Jason's personal car at the start is a Vapid Ganado 70, a classic Ranchero-style pickup. It's not fast, but it says a lot about who he is: practical, a bit worn, and not trying to impress anyone.",
+      "visual_need": "old pickup truck on a Keys road",
+      "onscreen": "GANADO '70",
+      "sources": [
+        7
+      ]
+    },
+    {
+      "id": 12,
+      "chapter": "",
+      "caption": "Together, Jason and Lucia are a Bonnie and Clyde-style duo. That's the heart of GTA 6: two people who might be good for each other, in a place that's terrible for both of them.",
+      "tts": "Together, Jason and Lucia are a Bonnie and Clyde-style duo. That's the heart of GTA 6: two people who might be good for each other, in a place that's terrible for both of them.",
+      "visual_need": "Jason and Lucia side by side",
+      "onscreen": "BONNIE & CLYDE",
+      "sources": [
+        4
+      ]
+    },
+    {
+      "id": 13,
+      "chapter": "Cal Hampton",
+      "caption": "Now the supporting cast, starting with Cal Hampton, Jason's friend. Rockstar's own line about him is: Cal is at the low tide of America and happy there.",
+      "tts": "Now the supporting cast, starting with Cal Hampton, Jason's friend. Rockstar's own line about him is: Cal is at the low tide of America and happy there.",
+      "visual_need": "laid-back friend on a porch",
+      "onscreen": "CAL HAMPTON",
+      "sources": [
+        2
+      ]
+    },
+    {
+      "id": 14,
+      "chapter": "",
+      "caption": "Cal prefers staying home, drinking beer and browsing the internet while listening in on Coast Guard communications. He believes the world is run by psychopaths and sees conspiracies everywhere. Jason has bigger plans, and Cal isn't sure he wants in.",
+      "tts": "Cal prefers staying home, drinking beer and browsing the internet while listening in on Coast Guard communications. He believes the world is run by psychopaths and sees conspiracies everywhere. Jason has bigger plans, and Cal isn't sure he wants in.",
+      "visual_need": "man with radio scanner, beer",
+      "onscreen": "CONSPIRACY GUY",
+      "sources": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 15,
+      "chapter": "Brian Heder",
+      "caption": "Then there's Brian Heder, a retired smuggler who still runs illegal operations from a marina and uses younger associates, like Jason, for the dangerous work.",
+      "tts": "Then there's Brian Heder, a retired smuggler who still runs illegal operations from a marina and uses younger associates, like Jason, for the dangerous work.",
+      "visual_need": "marina with boats",
+      "onscreen": "BRIAN HEDER",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 16,
+      "chapter": "",
+      "caption": "Brian worked the Florida coast during smuggling's most profitable era. His third wife, Lori, helps run the business. He looks laid-back, but Rockstar compares his business methods to a shark's.",
+      "tts": "Brian worked the Florida coast during smuggling's most profitable era. His third wife, Lori, helps run the business. He looks laid-back, but Rockstar compares his business methods to a shark's.",
+      "visual_need": "older man on a boat, sunglasses",
+      "onscreen": "LAID-BACK SHARK",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 17,
+      "chapter": "Boobie Ike",
+      "caption": "Next, Boobie Ike, described by Rockstar as a local Vice City legend. He's one of the rare few who turned street crime into a business that looks legitimate.",
+      "tts": "Next, Boobie Ike, described by Rockstar as a local Vice City legend. He's one of the rare few who turned street crime into a business that looks legitimate.",
+      "visual_need": "man in a nightclub office",
+      "onscreen": "BOOBIE IKE",
+      "sources": [
+        2,
+        1
+      ]
+    },
+    {
+      "id": 18,
+      "chapter": "",
+      "caption": "His drug money financed property, a recording studio, and the Jack of Hearts strip club. And he co-runs the record label Only Raw Records with our next character.",
+      "tts": "His drug money financed property, a recording studio, and the Jack of Hearts strip club. And he co-runs the record label Only Raw Records with our next character.",
+      "visual_need": "nightclub exterior at night",
+      "onscreen": "JACK OF HEARTS",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 19,
+      "chapter": "Dre'Quan Priest",
+      "caption": "Dre'Quan Priest. He sold drugs to get by, but he always wanted a career in music. Now he runs Only Raw Records with Boobie and hunts for new talent.",
+      "tts": "Dre'Quan Priest. He sold drugs to get by, but he always wanted a career in music. Now he runs Only Raw Records with Boobie and hunts for new talent.",
+      "visual_need": "music producer in a studio",
+      "onscreen": "DRE'QUAN PRIEST",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 20,
+      "chapter": "",
+      "caption": "He organises performances at the Jack of Hearts, and he even uses the club's dancers as a test audience for new tracks. His own songs never took off, but he has a real talent for spotting talent.",
+      "tts": "He organises performances at the Jack of Hearts, and he even uses the club's dancers as a test audience for new tracks. His own songs never took off, but he has a real talent for spotting talent.",
+      "visual_need": "studio session, club performance",
+      "onscreen": "SPOTS TALENT",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 21,
+      "chapter": "Real Dimez",
+      "caption": "That talent is Real Dimez, the rap duo of Bae-Luxe and Roxy. They've been friends since secondary school.",
+      "tts": "That talent is Real Dimez, the rap duo of Bae-Luxe and Roxy. They've been friends since secondary school.",
+      "visual_need": "two women in a recording booth",
+      "onscreen": "REAL DIMEZ",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 22,
+      "chapter": "",
+      "caption": "Before music, they extorted local drug dealers, and they used that experience in their tracks and their social media content. Their breakthrough single featured local rapper DWNPLY, and after five years of effort they signed to Only Raw.",
+      "tts": "Before music, they extorted local drug dealers, and they used that experience in their tracks and their social media content. Their breakthrough single featured local rapper DWNPLY, and after five years of effort they signed to Only Raw.",
+      "visual_need": "phone recording, social media",
+      "onscreen": "BAE-LUXE & ROXY",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 23,
+      "chapter": "",
+      "caption": "That makes the music business one of the threads tying this cast together: Boobie's money, Dre'Quan's ear, and Real Dimez's hunger. And all of it runs through the Jack of Hearts.",
+      "tts": "That makes the music business one of the threads tying this cast together: Boobie's money, Dre'Quan's ear, and Real Dimez's hunger. And all of it runs through the Jack of Hearts.",
+      "visual_need": "club neon sign",
+      "onscreen": "THE MUSIC THREAD",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 24,
+      "chapter": "Raul Bautista",
+      "caption": "And then there's Raul Bautista, a seasoned bank robber who recruits accomplices for big jobs. He's charming, cunning and drawn to high-risk work, and he turns down anything small-time.",
+      "tts": "And then there's Raul Bautista, a seasoned bank robber who recruits accomplices for big jobs. He's charming, cunning and drawn to high-risk work, and he turns down anything small-time.",
+      "visual_need": "man in white suit with duffel bag",
+      "onscreen": "RAUL BAUTISTA",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 25,
+      "chapter": "",
+      "caption": "Raul is the one who pushes Lucia toward more professional crime. In Rockstar's gameplay footage, he helps Jason and Lucia escape the police during a heist. If you're here for the big scores, he's your guy.",
+      "tts": "Raul is the one who pushes Lucia toward more professional crime. In Rockstar's gameplay footage, he helps Jason and Lucia escape the police during a heist. If you're here for the big scores, he's your guy.",
+      "visual_need": "heist getaway, police chase",
+      "onscreen": "THE BIG SCORES",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 26,
+      "chapter": "Other faces",
+      "caption": "A couple more names to know. Andrés de León is a high-profile VIP that Jason and Lucia get hired to protect. Rockstar hasn't shared much about him yet.",
+      "tts": "A couple more names to know. Andrés de León is a high-profile VIP that Jason and Lucia get hired to protect. Rockstar hasn't shared much about him yet.",
+      "visual_need": "VIP with bodyguards",
+      "onscreen": "ANDRÉS DE LEÓN",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 27,
+      "chapter": "",
+      "caption": "And Petra Navarro is the chief operating officer of Megamundo. She represents a completely different side of Vice City: corporate power instead of street crime.",
+      "tts": "And Petra Navarro is the chief operating officer of Megamundo. She represents a completely different side of Vice City: corporate power instead of street crime.",
+      "visual_need": "corporate tower, Megamundo",
+      "onscreen": "PETRA NAVARRO",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 28,
+      "chapter": "Contacts you'll meet",
+      "caption": "Beyond the main cast, you'll meet a set of contacts who matter for gameplay. In the Keys there's Kenton, who runs a scuba boat shop with a side business in underwater treasure diving.",
+      "tts": "Beyond the main cast, you'll meet a set of contacts who matter for gameplay. In the Keys there's Kenton, who runs a scuba boat shop with a side business in underwater treasure diving.",
+      "visual_need": "boat shop on the water",
+      "onscreen": "KENTON",
+      "sources": [
+        9
+      ]
+    },
+    {
+      "id": 29,
+      "chapter": "",
+      "caption": "And Jason's neighbour Shirley has requests for you early on. Small, but it's part of why the Keys are worth exploring before you head north.",
+      "tts": "And Jason's neighbour Shirley has requests for you early on. Small, but it's part of why the Keys are worth exploring before you head north.",
+      "visual_need": "quiet Keys neighbourhood",
+      "onscreen": "SHIRLEY",
+      "sources": [
+        5
+      ]
+    },
+    {
+      "id": 30,
+      "chapter": "",
+      "caption": "In Port Gellhorn there's Moses, who deals in stolen cars and is where you register cars to keep them. Later, in western Vice City, Randy hands out high-end car contracts.",
+      "tts": "In Port Gellhorn there's Moses, who deals in stolen cars and is where you register cars to keep them. Later, in western Vice City, Randy hands out high-end car contracts.",
+      "visual_need": "garage, supercar",
+      "onscreen": "MOSES · RANDY",
+      "sources": [
+        9
+      ]
+    },
+    {
+      "id": 31,
+      "chapter": "",
+      "caption": "And for loot, there are the fences. Yasmani in Little Cuba pays best for jewellery and marked bills, and Tyrone is the one for narcotics. None of them are main characters, but you'll see them constantly.",
+      "tts": "And for loot, there are the fences. Yasmani in Little Cuba pays best for jewellery and marked bills, and Tyrone is the one for narcotics. None of them are main characters, but you'll see them constantly.",
+      "visual_need": "Little Cuba street, handover",
+      "onscreen": "YASMANI · TYRONE",
+      "sources": [
+        5
+      ]
+    },
+    {
+      "id": 32,
+      "chapter": "",
+      "caption": "What's left unknown is the good stuff: how these lives collide, who betrays who, and where Jason and Lucia end up. That's exactly what we're not spoiling here.",
+      "tts": "What's left unknown is the good stuff: how these lives collide, who betrays who, and where Jason and Lucia end up. That's exactly what we're not spoiling here.",
+      "visual_need": "Jason and Lucia, ambiguous moment",
+      "onscreen": "THE REST? NO SPOILERS",
+      "sources": []
+    },
+    {
+      "id": 33,
+      "chapter": "How it connects",
+      "caption": "So how does it all fit? Jason comes from the smuggling world of the Keys, through Brian and Cal. Lucia comes out of prison looking for a way up, and Raul offers the professional kind.",
+      "tts": "So how does it all fit? Jason comes from the smuggling world of the Keys, through Brian and Cal. Lucia comes out of prison looking for a way up, and Raul offers the professional kind.",
+      "visual_need": "map of the Keys and Vice City",
+      "onscreen": "KEYS ↔ VICE CITY",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 34,
+      "chapter": "",
+      "caption": "Meanwhile Vice City's music and nightlife scene, Boobie, Dre'Quan and Real Dimez, sits at the centre of the city's money. And above all of them are the corporate players, like Petra Navarro.",
+      "tts": "Meanwhile Vice City's music and nightlife scene, Boobie, Dre'Quan and Real Dimez, sits at the centre of the city's money. And above all of them are the corporate players, like Petra Navarro.",
+      "visual_need": "city skyline, club, corporate tower",
+      "onscreen": "STREET → MUSIC → CORPORATE",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 35,
+      "chapter": "",
+      "caption": "That's the theme Rockstar keeps returning to: everyone in Leonida is trying to climb, and most of them are willing to cross a line to do it.",
+      "tts": "That's the theme Rockstar keeps returning to: everyone in Leonida is trying to climb, and most of them are willing to cross a line to do it.",
+      "visual_need": "montage of the cast",
+      "onscreen": "EVERYONE'S CLIMBING",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 36,
+      "chapter": "My picks",
+      "caption": "If you want my picks for who to watch: Raul, because every big heist in GTA history has needed someone reckless, and he's built for it. And Cal, because a conspiracy theorist listening to the Coast Guard always knows more than he should.",
+      "tts": "If you want my picks for who to watch: Raul, because every big heist in GTA history has needed someone reckless, and he's built for it. And Cal, because a conspiracy theorist listening to the Coast Guard always knows more than he should.",
+      "visual_need": "Raul with a duffel bag, Cal with radio",
+      "onscreen": "WATCH RAUL & CAL",
+      "sources": []
+    },
+    {
+      "id": 37,
+      "chapter": "",
+      "caption": "And keep an eye on Real Dimez. Characters built around fame and social media usually end up at the centre of Rockstar's sharpest satire, and Vice City is the perfect stage for it.",
+      "tts": "And keep an eye on Real Dimez. Characters built around fame and social media usually end up at the centre of Rockstar's sharpest satire, and Vice City is the perfect stage for it.",
+      "visual_need": "rap duo filming content",
+      "onscreen": "WATCH REAL DIMEZ",
+      "sources": []
+    },
+    {
+      "id": 38,
+      "chapter": "How it plays",
+      "caption": "One gameplay detail that connects to the characters: Jason and Lucia each have their own criminal profile, and the one you're not controlling behaves according to theirs.",
+      "tts": "One gameplay detail that connects to the characters: Jason and Lucia each have their own criminal profile, and the one you're not controlling behaves according to theirs.",
+      "visual_need": "Jason and Lucia in action",
+      "onscreen": "TWO PROFILES",
+      "sources": [
+        5
+      ]
+    },
+    {
+      "id": 39,
+      "chapter": "",
+      "caption": "So the way you play each of them shapes who they become. Keep Lucia professional and Jason violent, and you'll feel the difference in how they act around you.",
+      "tts": "So the way you play each of them shapes who they become. Keep Lucia professional and Jason violent, and you'll feel the difference in how they act around you.",
+      "visual_need": "calm vs violent scenes",
+      "onscreen": "YOU SHAPE THEM",
+      "sources": [
+        5
+      ]
+    },
+    {
+      "id": 40,
+      "chapter": "Playing as a duo",
+      "caption": "And this is where the duo really comes alive. For medium and high security robberies, you invite your partner from the map, and the two of them work the job together.",
+      "tts": "And this is where the duo really comes alive. For medium and high security robberies, you invite your partner from the map, and the two of them work the job together.",
+      "visual_need": "Jason and Lucia entering a store",
+      "onscreen": "INVITE YOUR PARTNER",
+      "sources": [
+        5
+      ]
+    },
+    {
+      "id": 41,
+      "chapter": "",
+      "caption": "Mid-job, you can pass stash bags from one to the other. Your partner sells the loot while you deal with the police. It turns the relationship into a real gameplay system, not just cutscenes.",
+      "tts": "Mid-job, you can pass stash bags from one to the other. Your partner sells the loot while you deal with the police. It turns the relationship into a real gameplay system, not just cutscenes.",
+      "visual_need": "handing over a bag, police chase",
+      "onscreen": "PASS THE BAG",
+      "sources": [
+        5
+      ]
+    },
+    {
+      "id": 42,
+      "chapter": "",
+      "caption": "Even training is shared. If both of them work out at the gym, both benefit, no matter who you're controlling.",
+      "tts": "Even training is shared. If both of them work out at the gym, both benefit, no matter who you're controlling.",
+      "visual_need": "both at a gym",
+      "onscreen": "TRAIN TOGETHER",
+      "sources": [
+        5
+      ]
+    },
+    {
+      "id": 43,
+      "chapter": "",
+      "caption": "But being a duo has a cost. The police track whether Jason and Lucia were seen together, and it shows up as its own icon. The fix is to split them up, which says a lot about the story's central tension.",
+      "tts": "But being a duo has a cost. The police track whether Jason and Lucia were seen together, and it shows up as its own icon. The fix is to split them up, which says a lot about the story's central tension.",
+      "visual_need": "police HUD, two characters splitting",
+      "onscreen": "SEEN TOGETHER = HEAT",
+      "sources": [
+        6
+      ]
+    },
+    {
+      "id": 44,
+      "chapter": "",
+      "caption": "And you can switch between them, which is also the fastest way to travel, since the one you're not using usually waits near your safehouse.",
+      "tts": "And you can switch between them, which is also the fastest way to travel, since the one you're not using usually waits near your safehouse.",
+      "visual_need": "character switch",
+      "onscreen": "SWITCH ANYTIME",
+      "sources": [
+        5
+      ]
+    },
+    {
+      "id": 45,
+      "chapter": "",
+      "caption": "Quick recap. Lucia, the fighter fresh out of prison. Jason, the ex-soldier who wants a quiet life. Cal the conspiracy theorist, Brian the smuggler, Boobie and Dre'Quan's record label, Real Dimez, and Raul the bank robber.",
+      "tts": "Quick recap. Lucia, the fighter fresh out of prison. Jason, the ex-soldier who wants a quiet life. Cal the conspiracy theorist, Brian the smuggler, Boobie and Dre'Quan's record label, Real Dimez, and Raul the bank robber.",
+      "visual_need": "cast recap montage",
+      "onscreen": "8 NAMES TO KNOW",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 46,
+      "chapter": "",
+      "caption": "Who's your favourite character so far? Tell me in the comments. And subscribe, because next up is the new police system and exactly how to escape it.",
+      "tts": "Who's your favourite character so far? Tell me in the comments. And subscribe, because next up is the new police system and exactly how to escape it.",
+      "visual_need": "Jason and Lucia at sunset",
+      "onscreen": "COMMENT BELOW",
+      "sources": []
+    }
+  ]
+}

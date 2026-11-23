@@ -1,0 +1,278 @@
+[
+  {
+    "beat": 1,
+    "start": 0.0,
+    "end": 17.208,
+    "video_dur": 17.458
+  },
+  {
+    "beat": 2,
+    "start": 17.458,
+    "end": 28.282,
+    "video_dur": 11.074
+  },
+  {
+    "beat": 3,
+    "start": 28.532,
+    "end": 36.74,
+    "video_dur": 8.458
+  },
+  {
+    "beat": 4,
+    "start": 36.99,
+    "end": 47.55,
+    "video_dur": 10.81
+  },
+  {
+    "beat": 5,
+    "start": 47.8,
+    "end": 58.384,
+    "video_dur": 10.834
+  },
+  {
+    "beat": 6,
+    "start": 58.634,
+    "end": 70.826,
+    "video_dur": 12.442
+  },
+  {
+    "beat": 7,
+    "start": 71.076,
+    "end": 79.284,
+    "video_dur": 8.458
+  },
+  {
+    "beat": 8,
+    "start": 79.534,
+    "end": 88.846,
+    "video_dur": 9.562
+  },
+  {
+    "beat": 9,
+    "start": 89.096,
+    "end": 101.792,
+    "video_dur": 12.946
+  },
+  {
+    "beat": 10,
+    "start": 102.042,
+    "end": 113.586,
+    "video_dur": 11.794
+  },
+  {
+    "beat": 11,
+    "start": 113.836,
+    "end": 127.396,
+    "video_dur": 13.81
+  },
+  {
+    "beat": 12,
+    "start": 127.646,
+    "end": 139.238,
+    "video_dur": 11.842
+  },
+  {
+    "beat": 13,
+    "start": 139.488,
+    "end": 149.424,
+    "video_dur": 10.186
+  },
+  {
+    "beat": 14,
+    "start": 149.674,
+    "end": 165.01,
+    "video_dur": 15.586
+  },
+  {
+    "beat": 15,
+    "start": 165.26,
+    "end": 175.196,
+    "video_dur": 10.186
+  },
+  {
+    "beat": 16,
+    "start": 175.446,
+    "end": 188.166,
+    "video_dur": 12.97
+  },
+  {
+    "beat": 17,
+    "start": 188.416,
+    "end": 197.896,
+    "video_dur": 9.73
+  },
+  {
+    "beat": 18,
+    "start": 198.146,
+    "end": 208.226,
+    "video_dur": 10.33
+  },
+  {
+    "beat": 19,
+    "start": 208.476,
+    "end": 218.124,
+    "video_dur": 9.898
+  },
+  {
+    "beat": 20,
+    "start": 218.374,
+    "end": 230.398,
+    "video_dur": 12.274
+  },
+  {
+    "beat": 21,
+    "start": 230.648,
+    "end": 237.512,
+    "video_dur": 7.114
+  },
+  {
+    "beat": 22,
+    "start": 237.762,
+    "end": 252.498,
+    "video_dur": 14.986
+  },
+  {
+    "beat": 23,
+    "start": 252.748,
+    "end": 263.212,
+    "video_dur": 10.714
+  },
+  {
+    "beat": 24,
+    "start": 263.462,
+    "end": 274.502,
+    "video_dur": 11.29
+  },
+  {
+    "beat": 25,
+    "start": 274.752,
+    "end": 287.256,
+    "video_dur": 12.754
+  },
+  {
+    "beat": 26,
+    "start": 287.506,
+    "end": 297.658,
+    "video_dur": 10.402
+  },
+  {
+    "beat": 27,
+    "start": 297.908,
+    "end": 307.772,
+    "video_dur": 10.114
+  },
+  {
+    "beat": 28,
+    "start": 308.022,
+    "end": 318.51,
+    "video_dur": 10.738
+  },
+  {
+    "beat": 29,
+    "start": 318.76,
+    "end": 327.088,
+    "video_dur": 8.578
+  },
+  {
+    "beat": 30,
+    "start": 327.338,
+    "end": 338.162,
+    "video_dur": 11.074
+  },
+  {
+    "beat": 31,
+    "start": 338.412,
+    "end": 350.844,
+    "video_dur": 12.682
+  },
+  {
+    "beat": 32,
+    "start": 351.094,
+    "end": 361.318,
+    "video_dur": 10.474
+  },
+  {
+    "beat": 33,
+    "start": 361.568,
+    "end": 373.232,
+    "video_dur": 11.914
+  },
+  {
+    "beat": 34,
+    "start": 373.482,
+    "end": 385.29,
+    "video_dur": 12.058
+  },
+  {
+    "beat": 35,
+    "start": 385.54,
+    "end": 393.772,
+    "video_dur": 8.482
+  },
+  {
+    "beat": 36,
+    "start": 394.022,
+    "end": 408.518,
+    "video_dur": 14.746
+  },
+  {
+    "beat": 37,
+    "start": 408.768,
+    "end": 420.336,
+    "video_dur": 11.818
+  },
+  {
+    "beat": 38,
+    "start": 420.586,
+    "end": 430.594,
+    "video_dur": 10.258
+  },
+  {
+    "beat": 39,
+    "start": 430.844,
+    "end": 439.148,
+    "video_dur": 8.554
+  },
+  {
+    "beat": 40,
+    "start": 439.398,
+    "end": 448.998,
+    "video_dur": 9.85
+  },
+  {
+    "beat": 41,
+    "start": 449.248,
+    "end": 460.816,
+    "video_dur": 11.818
+  },
+  {
+    "beat": 42,
+    "start": 461.066,
+    "end": 467.786,
+    "video_dur": 6.97
+  },
+  {
+    "beat": 43,
+    "start": 468.036,
+    "end": 480.708,
+    "video_dur": 12.922
+  },
+  {
+    "beat": 44,
+    "start": 480.958,
+    "end": 488.782,
+    "video_dur": 8.074
+  },
+  {
+    "beat": 45,
+    "start": 489.032,
+    "end": 504.8,
+    "video_dur": 16.018
+  },
+  {
+    "beat": 46,
+    "start": 505.05,
+    "end": 514.29,
+    "video_dur": 9.49
+  }
+]
