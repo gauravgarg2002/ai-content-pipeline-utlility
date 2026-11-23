@@ -21,6 +21,6 @@ export const RemotionRoot: React.FC = () => (<>
     component={Thumb}
     defaultProps={{...placeholder, thumb: {scene: 0, text: 'PREVIEW'}} as ThumbProps}
     fps={30} width={1080} height={1920} durationInFrames={1}
-    calculateMetadata={({props}) => ({durationInFrames: 1, fps: props.fps, width: props.width, height: props.height})}
+    calculateMetadata={({props}) => ({durationInFrames: props.durationInFrames, fps: props.fps, width: props.width, height: props.height})}
   />
 </>);

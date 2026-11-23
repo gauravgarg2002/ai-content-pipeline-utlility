@@ -1,5 +1,5 @@
 import React from 'react';
-import {AbsoluteFill, Freeze} from 'remotion';
+import {AbsoluteFill} from 'remotion';
 import {Short, ShortProps} from './Short';
 
 // Thumbnail: one frozen frame of the video itself, with a big text overlay.
@@ -20,20 +20,18 @@ const Line: React.FC<{s: string; hl: string}> = ({s, hl}) => (
 
 export const Thumb: React.FC<ThumbProps> = (props) => {
   const {thumb, scenes, width, height, channel} = props;
-  const sc = scenes[Math.min(thumb.scene, scenes.length - 1)] || scenes[0];
-  const frame = sc ? sc.from + Math.round((thumb.at ?? 0.6) * (sc.durationInFrames - 1)) : 0;
   const clean = {...props, captions: false, audio: '', words: [], scenes: scenes.map((s) => ({...s, onScreen: null}))};
   const st = STYLE[channel] || STYLE['a-maps-data'];
   const portrait = height > width;
   const lines = thumb.text.split('\n');
-  const fs = portrait ? (lines.length > 2 ? 122 : 140) : (lines.length > 2 ? 104 : 124);
+  const fs = portrait ? (lines.length > 2 ? 150 : 172) : (lines.length > 2 ? 112 : 134);
   return (
     <AbsoluteFill>
-      <Freeze frame={frame}><Short {...clean} /></Freeze>
+      <Short {...clean} />
       <AbsoluteFill style={{background: portrait
-        ? 'linear-gradient(180deg, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0) 45%)'
+        ? 'linear-gradient(180deg, rgba(0,0,0,0) 20%, rgba(0,0,0,0.5) 45%, rgba(0,0,0,0) 75%)'
         : 'linear-gradient(90deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0) 62%)'}} />
-      <div style={{position: 'absolute', left: portrait ? 60 : 70, right: portrait ? 60 : width * 0.42, top: portrait ? 150 : undefined,
+      <div style={{position: 'absolute', left: portrait ? 60 : 70, right: portrait ? 60 : width * 0.42, top: portrait ? 560 : undefined,
         bottom: portrait ? undefined : 90, fontFamily: st.font, fontWeight: 800, fontSize: fs, lineHeight: 1.04, color: st.fg,
         letterSpacing: -1, textTransform: channel === 'c-horror-hi' ? 'none' : 'uppercase',
         textShadow: '0 6px 0 rgba(0,0,0,0.55), 0 0 30px rgba(0,0,0,0.6)'}}>
