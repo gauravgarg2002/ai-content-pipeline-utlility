@@ -1,0 +1,1168 @@
+[
+  {
+    "beat": 1,
+    "scene": "gtavi_extended_look_0025",
+    "src": "gtavi_extended_look",
+    "start": 589.83,
+    "dur": 15.0,
+    "effect": "zoom_in",
+    "callout": "LEONIDA = FLORIDA"
+  },
+  {
+    "beat": 1,
+    "scene": "gtavi_trailer_1_0001",
+    "src": "gtavi_trailer_1",
+    "start": 2.67,
+    "dur": 0.682,
+    "effect": "zoom_out"
+  },
+  {
+    "beat": 2,
+    "scene": "gtavi_trailer_2_0002",
+    "src": "gtavi_trailer_2",
+    "start": 13.67,
+    "dur": 5.16,
+    "effect": "pan_left",
+    "callout": "6 REGIONS"
+  },
+  {
+    "beat": 2,
+    "scene": "rockstar_screens_0041",
+    "src": "rockstar_screens",
+    "start": 246.0,
+    "dur": 6.0,
+    "effect": "pan_right"
+  },
+  {
+    "beat": 2,
+    "scene": "gtavi_launch_trailer_0001",
+    "src": "gtavi_launch_trailer",
+    "start": 2.67,
+    "dur": 1.474,
+    "effect": "zoom_in"
+  },
+  {
+    "beat": 3,
+    "scene": "rockstar_screens_0040",
+    "src": "rockstar_screens",
+    "start": 240.0,
+    "dur": 6.0,
+    "effect": "zoom_out",
+    "callout": "≈ GTA IV + V + RDR2"
+  },
+  {
+    "beat": 3,
+    "scene": "gtavi_trailer_2_0022",
+    "src": "gtavi_trailer_2",
+    "start": 152.87,
+    "dur": 3.6,
+    "effect": "pan_left"
+  },
+  {
+    "beat": 3,
+    "scene": "gtavi_extended_look_0034",
+    "src": "gtavi_extended_look",
+    "start": 744.67,
+    "dur": 5.5,
+    "effect": "pan_right"
+  },
+  {
+    "beat": 3,
+    "scene": "gtavi_trailer_1_0002",
+    "src": "gtavi_trailer_1",
+    "start": 10.93,
+    "dur": 1.47,
+    "effect": "zoom_in"
+  },
+  {
+    "beat": 4,
+    "scene": "gtavi_trailer_2_0008",
+    "src": "gtavi_trailer_2",
+    "start": 41.6,
+    "dur": 3.67,
+    "effect": "zoom_out",
+    "callout": "10× THE INTERIORS"
+  },
+  {
+    "beat": 4,
+    "scene": "gtavi_trailer_2_0017",
+    "src": "gtavi_trailer_2",
+    "start": 92.0,
+    "dur": 2.3,
+    "effect": "pan_left"
+  },
+  {
+    "beat": 4,
+    "scene": "gtavi_launch_trailer_0002",
+    "src": "gtavi_launch_trailer",
+    "start": 6.97,
+    "dur": 2.128,
+    "effect": "pan_right"
+  },
+  {
+    "beat": 5,
+    "scene": "gtavi_extended_look_0035",
+    "src": "gtavi_extended_look",
+    "start": 780.17,
+    "dur": 9.73,
+    "effect": "zoom_in",
+    "callout": "~1.7× GTA V (COMMUNITY)"
+  },
+  {
+    "beat": 5,
+    "scene": "rockstar_screens_0010",
+    "src": "rockstar_screens",
+    "start": 60.0,
+    "dur": 6.0,
+    "effect": "zoom_out"
+  },
+  {
+    "beat": 5,
+    "scene": "gtavi_trailer_1_0003",
+    "src": "gtavi_trailer_1",
+    "start": 24.83,
+    "dur": 0.48,
+    "effect": "pan_left"
+  },
+  {
+    "beat": 6,
+    "scene": "gtavi_extended_look_0070",
+    "src": "gtavi_extended_look",
+    "start": 1418.43,
+    "dur": 8.94,
+    "effect": "pan_right",
+    "callout": "700+ INTERIORS"
+  },
+  {
+    "beat": 6,
+    "scene": "gtavi_trailer_1_0008",
+    "src": "gtavi_trailer_1",
+    "start": 70.27,
+    "dur": 2.56,
+    "effect": "zoom_in"
+  },
+  {
+    "beat": 6,
+    "scene": "gtavi_trailer_1_0009",
+    "src": "gtavi_trailer_1",
+    "start": 72.83,
+    "dur": 2.094,
+    "effect": "zoom_out"
+  },
+  {
+    "beat": 7,
+    "scene": "gtavi_extended_look_0045",
+    "src": "gtavi_extended_look",
+    "start": 976.6,
+    "dur": 13.018,
+    "effect": "pan_left",
+    "callout": "DARK BLUE = INTERIOR"
+  },
+  {
+    "beat": 8,
+    "scene": "rockstar_screens_0028",
+    "src": "rockstar_screens",
+    "start": 168.0,
+    "dur": 6.0,
+    "effect": "pan_right",
+    "callout": "VICE CITY = MIAMI"
+  },
+  {
+    "beat": 8,
+    "scene": "gtavi_launch_trailer_0003",
+    "src": "gtavi_launch_trailer",
+    "start": 11.9,
+    "dur": 2.3,
+    "effect": "zoom_in"
+  },
+  {
+    "beat": 8,
+    "scene": "gtavi_launch_trailer_0005",
+    "src": "gtavi_launch_trailer",
+    "start": 18.97,
+    "dur": 2.2,
+    "effect": "zoom_out"
+  },
+  {
+    "beat": 8,
+    "scene": "gtavi_launch_trailer_0008",
+    "src": "gtavi_launch_trailer",
+    "start": 48.9,
+    "dur": 0.982,
+    "effect": "pan_left"
+  },
+  {
+    "beat": 9,
+    "scene": "rockstar_screens_0036",
+    "src": "rockstar_screens",
+    "start": 216.0,
+    "dur": 6.0,
+    "effect": "pan_right",
+    "callout": "OCEAN VIEW HOTEL IS BACK"
+  },
+  {
+    "beat": 9,
+    "scene": "gtavi_trailer_1_0010",
+    "src": "gtavi_trailer_1",
+    "start": 76.5,
+    "dur": 2.07,
+    "effect": "zoom_in"
+  },
+  {
+    "beat": 9,
+    "scene": "gtavi_trailer_1_0005",
+    "src": "gtavi_trailer_1",
+    "start": 52.9,
+    "dur": 2.1,
+    "effect": "zoom_out"
+  },
+  {
+    "beat": 9,
+    "scene": "gtavi_trailer_2_0001",
+    "src": "gtavi_trailer_2",
+    "start": 11.47,
+    "dur": 2.2,
+    "effect": "pan_left"
+  },
+  {
+    "beat": 9,
+    "scene": "gtavi_trailer_2_0003",
+    "src": "gtavi_trailer_2",
+    "start": 20.47,
+    "dur": 2.8,
+    "effect": "pan_right"
+  },
+  {
+    "beat": 9,
+    "scene": "gtavi_trailer_2_0004",
+    "src": "gtavi_trailer_2",
+    "start": 23.27,
+    "dur": 3.032,
+    "effect": "zoom_in"
+  },
+  {
+    "beat": 10,
+    "scene": "gtavi_trailer_2_0007",
+    "src": "gtavi_trailer_2",
+    "start": 38.37,
+    "dur": 3.23,
+    "effect": "zoom_out",
+    "callout": "2002 → 2026"
+  },
+  {
+    "beat": 10,
+    "scene": "rockstar_screens_0022",
+    "src": "rockstar_screens",
+    "start": 132.0,
+    "dur": 6.0,
+    "effect": "pan_left"
+  },
+  {
+    "beat": 10,
+    "scene": "rockstar_screens_0025",
+    "src": "rockstar_screens",
+    "start": 150.0,
+    "dur": 5.876,
+    "effect": "pan_right"
+  },
+  {
+    "beat": 11,
+    "scene": "rockstar_screens_0027",
+    "src": "rockstar_screens",
+    "start": 162.0,
+    "dur": 6.0,
+    "effect": "zoom_in",
+    "callout": "OCEAN BEACH · SOUTH BEACH"
+  },
+  {
+    "beat": 11,
+    "scene": "rockstar_screens_0032",
+    "src": "rockstar_screens",
+    "start": 192.0,
+    "dur": 5.554,
+    "effect": "zoom_out"
+  },
+  {
+    "beat": 12,
+    "scene": "gtavi_extended_look_0015",
+    "src": "gtavi_extended_look",
+    "start": 364.9,
+    "dur": 4.4,
+    "effect": "pan_left",
+    "callout": "DOWNTOWN · LITTLE CUBA · STOCKYARD"
+  },
+  {
+    "beat": 12,
+    "scene": "gtavi_extended_look_0024",
+    "src": "gtavi_extended_look",
+    "start": 560.8,
+    "dur": 4.0,
+    "effect": "pan_right"
+  },
+  {
+    "beat": 12,
+    "scene": "rockstar_screens_0031",
+    "src": "rockstar_screens",
+    "start": 186.0,
+    "dur": 6.0,
+    "effect": "zoom_in"
+  },
+  {
+    "beat": 12,
+    "scene": "gtavi_trailer_2_0005",
+    "src": "gtavi_trailer_2",
+    "start": 27.33,
+    "dur": 1.546,
+    "effect": "zoom_out"
+  },
+  {
+    "beat": 13,
+    "scene": "gtavi_extended_look_0058",
+    "src": "gtavi_extended_look",
+    "start": 1156.03,
+    "dur": 4.9,
+    "effect": "pan_left",
+    "callout": "SKYDIVE FROM THE DECK"
+  },
+  {
+    "beat": 13,
+    "scene": "gtavi_extended_look_0059",
+    "src": "gtavi_extended_look",
+    "start": 1170.23,
+    "dur": 3.6,
+    "effect": "pan_right"
+  },
+  {
+    "beat": 13,
+    "scene": "gtavi_trailer_2_0006",
+    "src": "gtavi_trailer_2",
+    "start": 34.6,
+    "dur": 3.77,
+    "effect": "zoom_in"
+  },
+  {
+    "beat": 13,
+    "scene": "gtavi_trailer_2_0010",
+    "src": "gtavi_trailer_2",
+    "start": 49.83,
+    "dur": 0.988,
+    "effect": "zoom_out"
+  },
+  {
+    "beat": 14,
+    "scene": "gtavi_trailer_2_0011",
+    "src": "gtavi_trailer_2",
+    "start": 51.87,
+    "dur": 8.7,
+    "effect": "pan_left",
+    "callout": "LEONIDA PENITENTIARY"
+  },
+  {
+    "beat": 14,
+    "scene": "gtavi_trailer_2_0012",
+    "src": "gtavi_trailer_2",
+    "start": 60.57,
+    "dur": 1.222,
+    "effect": "pan_right"
+  },
+  {
+    "beat": 15,
+    "scene": "gtavi_extended_look_0028",
+    "src": "gtavi_extended_look",
+    "start": 639.3,
+    "dur": 2.9,
+    "effect": "zoom_in",
+    "callout": "EFFLUVIA · JACK OF HEARTS"
+  },
+  {
+    "beat": 15,
+    "scene": "gtavi_extended_look_0029",
+    "src": "gtavi_extended_look",
+    "start": 650.6,
+    "dur": 2.93,
+    "effect": "zoom_out"
+  },
+  {
+    "beat": 15,
+    "scene": "gtavi_trailer_2_0013",
+    "src": "gtavi_trailer_2",
+    "start": 63.1,
+    "dur": 3.1,
+    "effect": "pan_left"
+  },
+  {
+    "beat": 15,
+    "scene": "gtavi_trailer_2_0014",
+    "src": "gtavi_trailer_2",
+    "start": 66.2,
+    "dur": 3.47,
+    "effect": "pan_right"
+  },
+  {
+    "beat": 15,
+    "scene": "gtavi_trailer_2_0019",
+    "src": "gtavi_trailer_2",
+    "start": 129.37,
+    "dur": 0.738,
+    "effect": "zoom_in"
+  },
+  {
+    "beat": 16,
+    "scene": "gtavi_extended_look_0052",
+    "src": "gtavi_extended_look",
+    "start": 1069.97,
+    "dur": 10.03,
+    "effect": "zoom_out",
+    "callout": "VICTORY ARMS · ZEKE'S GADGETS"
+  },
+  {
+    "beat": 16,
+    "scene": "gtavi_trailer_2_0020",
+    "src": "gtavi_trailer_2",
+    "start": 134.4,
+    "dur": 1.044,
+    "effect": "pan_left"
+  },
+  {
+    "beat": 17,
+    "scene": "gtavi_extended_look_0050",
+    "src": "gtavi_extended_look",
+    "start": 1048.93,
+    "dur": 2.1,
+    "effect": "pan_right",
+    "callout": "LEONIDA KEYS = FLORIDA KEYS"
+  },
+  {
+    "beat": 17,
+    "scene": "rockstar_screens_0000",
+    "src": "rockstar_screens",
+    "start": 0.0,
+    "dur": 6.0,
+    "effect": "zoom_in"
+  },
+  {
+    "beat": 17,
+    "scene": "rockstar_screens_0002",
+    "src": "rockstar_screens",
+    "start": 12.0,
+    "dur": 2.974,
+    "effect": "zoom_out"
+  },
+  {
+    "beat": 18,
+    "scene": "gtavi_extended_look_0078",
+    "src": "gtavi_extended_look",
+    "start": 1558.0,
+    "dur": 2.27,
+    "effect": "pan_left",
+    "callout": "KEY LENTO"
+  },
+  {
+    "beat": 18,
+    "scene": "rockstar_screens_0003",
+    "src": "rockstar_screens",
+    "start": 18.0,
+    "dur": 6.0,
+    "effect": "pan_right"
+  },
+  {
+    "beat": 18,
+    "scene": "rockstar_screens_0004",
+    "src": "rockstar_screens",
+    "start": 24.0,
+    "dur": 1.916,
+    "effect": "zoom_in"
+  },
+  {
+    "beat": 19,
+    "scene": "rockstar_screens_0047",
+    "src": "rockstar_screens",
+    "start": 282.0,
+    "dur": 6.0,
+    "effect": "zoom_out",
+    "callout": "UNDERWATER AREAS"
+  },
+  {
+    "beat": 19,
+    "scene": "gtavi_extended_look_0019",
+    "src": "gtavi_extended_look",
+    "start": 452.6,
+    "dur": 3.418,
+    "effect": "pan_left"
+  },
+  {
+    "beat": 20,
+    "scene": "rockstar_screens_0045",
+    "src": "rockstar_screens",
+    "start": 270.0,
+    "dur": 6.0,
+    "effect": "pan_right",
+    "callout": "GRASSRIVERS = EVERGLADES"
+  },
+  {
+    "beat": 20,
+    "scene": "gtavi_extended_look_0048",
+    "src": "gtavi_extended_look",
+    "start": 1029.87,
+    "dur": 2.842,
+    "effect": "zoom_in"
+  },
+  {
+    "beat": 21,
+    "scene": "rockstar_screens_0013",
+    "src": "rockstar_screens",
+    "start": 78.0,
+    "dur": 6.0,
+    "effect": "zoom_out",
+    "callout": "GATORS EVERYWHERE"
+  },
+  {
+    "beat": 21,
+    "scene": "rockstar_screens_0011",
+    "src": "rockstar_screens",
+    "start": 66.0,
+    "dur": 5.578,
+    "effect": "pan_left"
+  },
+  {
+    "beat": 22,
+    "scene": "rockstar_screens_0057",
+    "src": "rockstar_screens",
+    "start": 342.0,
+    "dur": 6.0,
+    "effect": "pan_right",
+    "callout": "TAKE AN AIRBOAT"
+  },
+  {
+    "beat": 22,
+    "scene": "gtavi_extended_look_0021",
+    "src": "gtavi_extended_look",
+    "start": 481.53,
+    "dur": 2.04,
+    "effect": "zoom_in"
+  },
+  {
+    "beat": 22,
+    "scene": "gtavi_extended_look_0022",
+    "src": "gtavi_extended_look",
+    "start": 513.57,
+    "dur": 0.85,
+    "effect": "zoom_out"
+  },
+  {
+    "beat": 23,
+    "scene": "gtavi_extended_look_0053",
+    "src": "gtavi_extended_look",
+    "start": 1091.93,
+    "dur": 2.64,
+    "effect": "pan_left",
+    "callout": "PORT GELLHORN = PANAMA CITY BEACH"
+  },
+  {
+    "beat": 23,
+    "scene": "gtavi_extended_look_0055",
+    "src": "gtavi_extended_look",
+    "start": 1114.8,
+    "dur": 4.4,
+    "effect": "pan_right"
+  },
+  {
+    "beat": 23,
+    "scene": "gtavi_extended_look_0056",
+    "src": "gtavi_extended_look",
+    "start": 1127.53,
+    "dur": 2.74,
+    "effect": "zoom_in"
+  },
+  {
+    "beat": 23,
+    "scene": "gtavi_extended_look_0057",
+    "src": "gtavi_extended_look",
+    "start": 1143.7,
+    "dur": 2.278,
+    "effect": "zoom_out"
+  },
+  {
+    "beat": 24,
+    "scene": "rockstar_screens_0008",
+    "src": "rockstar_screens",
+    "start": 48.0,
+    "dur": 6.0,
+    "effect": "pan_left",
+    "callout": "FORGOTTEN COAST"
+  },
+  {
+    "beat": 24,
+    "scene": "gtavi_extended_look_0039",
+    "src": "gtavi_extended_look",
+    "start": 874.0,
+    "dur": 2.482,
+    "effect": "pan_right"
+  },
+  {
+    "beat": 25,
+    "scene": "rockstar_screens_0049",
+    "src": "rockstar_screens",
+    "start": 294.0,
+    "dur": 6.0,
+    "effect": "zoom_in",
+    "callout": "DIRT BIKE TERRITORY"
+  },
+  {
+    "beat": 25,
+    "scene": "rockstar_screens_0005",
+    "src": "rockstar_screens",
+    "start": 30.0,
+    "dur": 3.25,
+    "effect": "zoom_out"
+  },
+  {
+    "beat": 26,
+    "scene": "gtavi_extended_look_0010",
+    "src": "gtavi_extended_look",
+    "start": 239.37,
+    "dur": 3.06,
+    "effect": "pan_left",
+    "callout": "AMBROSIA = INDUSTRY"
+  },
+  {
+    "beat": 26,
+    "scene": "gtavi_extended_look_0011",
+    "src": "gtavi_extended_look",
+    "start": 266.33,
+    "dur": 8.83,
+    "effect": "pan_right"
+  },
+  {
+    "beat": 27,
+    "scene": "rockstar_screens_0007",
+    "src": "rockstar_screens",
+    "start": 42.0,
+    "dur": 6.0,
+    "effect": "zoom_in",
+    "callout": "LAKE LEONIDA"
+  },
+  {
+    "beat": 27,
+    "scene": "rockstar_screens_0009",
+    "src": "rockstar_screens",
+    "start": 54.0,
+    "dur": 3.538,
+    "effect": "zoom_out"
+  },
+  {
+    "beat": 28,
+    "scene": "rockstar_screens_0050",
+    "src": "rockstar_screens",
+    "start": 300.0,
+    "dur": 6.0,
+    "effect": "pan_left",
+    "callout": "MOUNT KALAGA NATIONAL PARK"
+  },
+  {
+    "beat": 28,
+    "scene": "rockstar_screens_0016",
+    "src": "rockstar_screens",
+    "start": 96.0,
+    "dur": 5.29,
+    "effect": "pan_right"
+  },
+  {
+    "beat": 29,
+    "scene": "gtavi_extended_look_0016",
+    "src": "gtavi_extended_look",
+    "start": 384.43,
+    "dur": 2.5,
+    "effect": "zoom_in",
+    "callout": "HUNT · FISH · KAYAK"
+  },
+  {
+    "beat": 29,
+    "scene": "gtavi_extended_look_0014",
+    "src": "gtavi_extended_look",
+    "start": 348.93,
+    "dur": 8.74,
+    "effect": "zoom_out"
+  },
+  {
+    "beat": 29,
+    "scene": "gtavi_extended_look_0017",
+    "src": "gtavi_extended_look",
+    "start": 402.6,
+    "dur": 0.506,
+    "effect": "pan_left"
+  },
+  {
+    "beat": 30,
+    "scene": "gtavi_extended_look_0018",
+    "src": "gtavi_extended_look",
+    "start": 433.03,
+    "dur": 12.14,
+    "effect": "pan_right",
+    "callout": "FISHING = PERMANENT FOCUS"
+  },
+  {
+    "beat": 30,
+    "scene": "gtavi_extended_look_0026",
+    "src": "gtavi_extended_look",
+    "start": 622.13,
+    "dur": 0.062,
+    "effect": "zoom_in"
+  },
+  {
+    "beat": 31,
+    "scene": "gtavi_extended_look_0038",
+    "src": "gtavi_extended_look",
+    "start": 840.07,
+    "dur": 13.93,
+    "effect": "zoom_out",
+    "callout": "VICE-DALE COUNTY"
+  },
+  {
+    "beat": 31,
+    "scene": "gtavi_extended_look_0043",
+    "src": "gtavi_extended_look",
+    "start": 923.8,
+    "dur": 0.888,
+    "effect": "pan_left"
+  },
+  {
+    "beat": 32,
+    "scene": "rockstar_screens_0012",
+    "src": "rockstar_screens",
+    "start": 72.0,
+    "dur": 6.0,
+    "effect": "pan_right",
+    "callout": "LEONARD · KELLY · MARIANA"
+  },
+  {
+    "beat": 32,
+    "scene": "rockstar_screens_0014",
+    "src": "rockstar_screens",
+    "start": 84.0,
+    "dur": 6.0,
+    "effect": "zoom_in"
+  },
+  {
+    "beat": 32,
+    "scene": "rockstar_screens_0015",
+    "src": "rockstar_screens",
+    "start": 90.0,
+    "dur": 1.834,
+    "effect": "zoom_out"
+  },
+  {
+    "beat": 33,
+    "scene": "rockstar_screens_0044",
+    "src": "rockstar_screens",
+    "start": 264.0,
+    "dur": 6.0,
+    "effect": "pan_left",
+    "callout": "GATORS · BOARS · BOBCATS"
+  },
+  {
+    "beat": 33,
+    "scene": "rockstar_screens_0048",
+    "src": "rockstar_screens",
+    "start": 288.0,
+    "dur": 6.0,
+    "effect": "pan_right"
+  },
+  {
+    "beat": 33,
+    "scene": "rockstar_screens_0017",
+    "src": "rockstar_screens",
+    "start": 102.0,
+    "dur": 2.458,
+    "effect": "zoom_in"
+  },
+  {
+    "beat": 34,
+    "scene": "rockstar_screens_0051",
+    "src": "rockstar_screens",
+    "start": 306.0,
+    "dur": 6.0,
+    "effect": "zoom_out",
+    "callout": "SOME OF IT BITES"
+  },
+  {
+    "beat": 34,
+    "scene": "gtavi_extended_look_0031",
+    "src": "gtavi_extended_look",
+    "start": 696.0,
+    "dur": 3.93,
+    "effect": "pan_left"
+  },
+  {
+    "beat": 34,
+    "scene": "gtavi_extended_look_0032",
+    "src": "gtavi_extended_look",
+    "start": 705.7,
+    "dur": 2.608,
+    "effect": "pan_right"
+  },
+  {
+    "beat": 35,
+    "scene": "gtavi_extended_look_0049",
+    "src": "gtavi_extended_look",
+    "start": 1038.7,
+    "dur": 3.5,
+    "effect": "zoom_in",
+    "callout": "FOCUS: FOLLOW TRACKS"
+  },
+  {
+    "beat": 35,
+    "scene": "gtavi_extended_look_0033",
+    "src": "gtavi_extended_look",
+    "start": 731.63,
+    "dur": 2.14,
+    "effect": "zoom_out"
+  },
+  {
+    "beat": 35,
+    "scene": "gtavi_extended_look_0042",
+    "src": "gtavi_extended_look",
+    "start": 905.33,
+    "dur": 1.594,
+    "effect": "pan_left"
+  },
+  {
+    "beat": 36,
+    "scene": "gtavi_extended_look_0046",
+    "src": "gtavi_extended_look",
+    "start": 1003.73,
+    "dur": 4.37,
+    "effect": "pan_right",
+    "callout": "TRAINS COVER IT ALL"
+  },
+  {
+    "beat": 36,
+    "scene": "gtavi_extended_look_0047",
+    "src": "gtavi_extended_look",
+    "start": 1013.2,
+    "dur": 4.0,
+    "effect": "zoom_in"
+  },
+  {
+    "beat": 36,
+    "scene": "rockstar_screens_0018",
+    "src": "rockstar_screens",
+    "start": 108.0,
+    "dur": 3.568,
+    "effect": "zoom_out"
+  },
+  {
+    "beat": 37,
+    "scene": "rockstar_screens_0019",
+    "src": "rockstar_screens",
+    "start": 114.0,
+    "dur": 6.0,
+    "effect": "pan_left",
+    "callout": "RYDEME +$100"
+  },
+  {
+    "beat": 37,
+    "scene": "rockstar_screens_0020",
+    "src": "rockstar_screens",
+    "start": 120.0,
+    "dur": 2.098,
+    "effect": "pan_right"
+  },
+  {
+    "beat": 38,
+    "scene": "rockstar_screens_0021",
+    "src": "rockstar_screens",
+    "start": 126.0,
+    "dur": 6.0,
+    "effect": "zoom_in",
+    "callout": "SWITCH = FASTEST"
+  },
+  {
+    "beat": 38,
+    "scene": "rockstar_screens_0023",
+    "src": "rockstar_screens",
+    "start": 138.0,
+    "dur": 4.162,
+    "effect": "zoom_out"
+  },
+  {
+    "beat": 39,
+    "scene": "rockstar_screens_0033",
+    "src": "rockstar_screens",
+    "start": 198.0,
+    "dur": 6.0,
+    "effect": "pan_left",
+    "callout": "UNCONFIRMED: LUMMOX COUNTY"
+  },
+  {
+    "beat": 39,
+    "scene": "rockstar_screens_0034",
+    "src": "rockstar_screens",
+    "start": 204.0,
+    "dur": 6.0,
+    "effect": "pan_right"
+  },
+  {
+    "beat": 39,
+    "scene": "rockstar_screens_0035",
+    "src": "rockstar_screens",
+    "start": 210.0,
+    "dur": 0.178,
+    "effect": "zoom_in"
+  },
+  {
+    "beat": 40,
+    "scene": "rockstar_screens_0042",
+    "src": "rockstar_screens",
+    "start": 252.0,
+    "dur": 6.0,
+    "effect": "zoom_out",
+    "callout": "GLORIANA = AN ISLAND"
+  },
+  {
+    "beat": 40,
+    "scene": "rockstar_screens_0046",
+    "src": "rockstar_screens",
+    "start": 276.0,
+    "dur": 6.0,
+    "effect": "pan_left"
+  },
+  {
+    "beat": 40,
+    "scene": "rockstar_screens_0039",
+    "src": "rockstar_screens",
+    "start": 234.0,
+    "dur": 2.458,
+    "effect": "pan_right"
+  },
+  {
+    "beat": 41,
+    "scene": "rockstar_screens_0043",
+    "src": "rockstar_screens",
+    "start": 258.0,
+    "dur": 6.0,
+    "effect": "zoom_in",
+    "callout": "RUMOURS ≠ FACTS"
+  },
+  {
+    "beat": 41,
+    "scene": "rockstar_screens_0052",
+    "src": "rockstar_screens",
+    "start": 312.0,
+    "dur": 5.002,
+    "effect": "zoom_out"
+  },
+  {
+    "beat": 42,
+    "scene": "rockstar_screens_0053",
+    "src": "rockstar_screens",
+    "start": 318.0,
+    "dur": 6.0,
+    "effect": "pan_left",
+    "callout": "#1 VICE CITY AT NIGHT"
+  },
+  {
+    "beat": 42,
+    "scene": "gtavi_extended_look_0021",
+    "src": "gtavi_extended_look",
+    "start": 481.53,
+    "dur": 2.04,
+    "effect": "pan_right",
+    "reused": true
+  },
+  {
+    "beat": 42,
+    "scene": "gtavi_extended_look_0022",
+    "src": "gtavi_extended_look",
+    "start": 513.57,
+    "dur": 4.21,
+    "effect": "zoom_in",
+    "reused": true
+  },
+  {
+    "beat": 43,
+    "scene": "gtavi_extended_look_0025",
+    "src": "gtavi_extended_look",
+    "start": 589.83,
+    "dur": 12.754,
+    "effect": "zoom_out",
+    "reused": true,
+    "callout": "#2 GRASSRIVERS · #3 KALAGA"
+  },
+  {
+    "beat": 44,
+    "scene": "gtavi_extended_look_0028",
+    "src": "gtavi_extended_look",
+    "start": 639.3,
+    "dur": 2.9,
+    "effect": "pan_left",
+    "reused": true,
+    "callout": "UNDERRATED: PORT GELLHORN"
+  },
+  {
+    "beat": 44,
+    "scene": "gtavi_extended_look_0029",
+    "src": "gtavi_extended_look",
+    "start": 650.6,
+    "dur": 2.93,
+    "effect": "pan_right",
+    "reused": true
+  },
+  {
+    "beat": 44,
+    "scene": "gtavi_extended_look_0050",
+    "src": "gtavi_extended_look",
+    "start": 1048.93,
+    "dur": 2.1,
+    "effect": "zoom_in",
+    "reused": true
+  },
+  {
+    "beat": 44,
+    "scene": "gtavi_extended_look_0052",
+    "src": "gtavi_extended_look",
+    "start": 1069.97,
+    "dur": 1.608,
+    "effect": "zoom_out",
+    "reused": true
+  },
+  {
+    "beat": 45,
+    "scene": "gtavi_extended_look_0053",
+    "src": "gtavi_extended_look",
+    "start": 1091.93,
+    "dur": 2.64,
+    "effect": "pan_left",
+    "reused": true,
+    "callout": "GO INSIDE"
+  },
+  {
+    "beat": 45,
+    "scene": "gtavi_extended_look_0055",
+    "src": "gtavi_extended_look",
+    "start": 1114.8,
+    "dur": 4.4,
+    "effect": "pan_right",
+    "reused": true
+  },
+  {
+    "beat": 45,
+    "scene": "gtavi_extended_look_0056",
+    "src": "gtavi_extended_look",
+    "start": 1127.53,
+    "dur": 2.018,
+    "effect": "zoom_in",
+    "reused": true
+  },
+  {
+    "beat": 46,
+    "scene": "gtavi_extended_look_0057",
+    "src": "gtavi_extended_look",
+    "start": 1143.7,
+    "dur": 3.63,
+    "effect": "zoom_out",
+    "reused": true,
+    "callout": "KEYS → CITY → SWAMP → PARK"
+  },
+  {
+    "beat": 46,
+    "scene": "gtavi_extended_look_0058",
+    "src": "gtavi_extended_look",
+    "start": 1156.03,
+    "dur": 4.9,
+    "effect": "pan_left",
+    "reused": true
+  },
+  {
+    "beat": 46,
+    "scene": "gtavi_extended_look_0059",
+    "src": "gtavi_extended_look",
+    "start": 1170.23,
+    "dur": 3.048,
+    "effect": "pan_right",
+    "reused": true
+  },
+  {
+    "beat": 47,
+    "scene": "gtavi_extended_look_0070",
+    "src": "gtavi_extended_look",
+    "start": 1418.43,
+    "dur": 8.94,
+    "effect": "zoom_in",
+    "reused": true,
+    "callout": "6 REGIONS · 700+ INTERIORS"
+  },
+  {
+    "beat": 47,
+    "scene": "gtavi_extended_look_0078",
+    "src": "gtavi_extended_look",
+    "start": 1558.0,
+    "dur": 2.27,
+    "effect": "zoom_out",
+    "reused": true
+  },
+  {
+    "beat": 47,
+    "scene": "gtavi_launch_trailer_0001",
+    "src": "gtavi_launch_trailer",
+    "start": 2.67,
+    "dur": 2.36,
+    "effect": "pan_left",
+    "reused": true
+  },
+  {
+    "beat": 47,
+    "scene": "gtavi_launch_trailer_0002",
+    "src": "gtavi_launch_trailer",
+    "start": 6.97,
+    "dur": 3.0,
+    "effect": "pan_right",
+    "reused": true
+  },
+  {
+    "beat": 47,
+    "scene": "gtavi_launch_trailer_0003",
+    "src": "gtavi_launch_trailer",
+    "start": 11.9,
+    "dur": 0.648,
+    "effect": "zoom_in",
+    "reused": true
+  },
+  {
+    "beat": 48,
+    "scene": "gtavi_launch_trailer_0005",
+    "src": "gtavi_launch_trailer",
+    "start": 18.97,
+    "dur": 2.2,
+    "effect": "zoom_out",
+    "reused": true,
+    "callout": "COMMENT BELOW"
+  },
+  {
+    "beat": 48,
+    "scene": "gtavi_launch_trailer_0008",
+    "src": "gtavi_launch_trailer",
+    "start": 48.9,
+    "dur": 2.47,
+    "effect": "pan_left",
+    "reused": true
+  },
+  {
+    "beat": 48,
+    "scene": "gtavi_trailer_2_0001",
+    "src": "gtavi_trailer_2",
+    "start": 11.47,
+    "dur": 2.2,
+    "effect": "pan_right",
+    "reused": true
+  },
+  {
+    "beat": 48,
+    "scene": "gtavi_trailer_2_0002",
+    "src": "gtavi_trailer_2",
+    "start": 13.67,
+    "dur": 2.548,
+    "effect": "zoom_in",
+    "reused": true
+  }
+]
