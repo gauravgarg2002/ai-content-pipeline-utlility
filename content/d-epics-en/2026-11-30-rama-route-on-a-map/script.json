@@ -9,28 +9,28 @@
     {
       "id": "b02",
       "narration": "One thing first. Valmiki names these places. He doesn't give map coordinates. The modern sites you'll see are traditional identifications, believed by pilgrims for centuries, not archaeological proof.",
-      "onScreen": "TRADITION, NOT GPS",
+      "onScreen": null,
       "claim": "Valmiki names many of these places but does not give modern map locations.",
       "sourceUrl": "https://hindutone.com/temples/ramayana-places-in-india-trail/"
     },
     {
       "id": "b03",
       "narration": "It starts in Ayodhya, capital of the kingdom of Kosala. King Dasharatha has three queens and four sons. Rama is the eldest, and the king decides to crown him.",
-      "onScreen": "AYODHYA",
+      "onScreen": null,
       "claim": "Dasharatha, king of Kosala, had three wives; he decided to crown Rama.",
       "sourceUrl": "https://en.wikipedia.org/wiki/Exile_of_Rama"
     },
     {
       "id": "b04",
       "narration": "But years earlier, Queen Kaikeyi had saved Dasharatha's life in battle, and he promised her two boons. A maid named Manthara convinces her to cash them in.",
-      "onScreen": "TWO BOONS",
+      "onScreen": null,
       "claim": "Kaikeyi received two boons after saving Dasharatha in battle; Manthara persuaded her to use them.",
       "sourceUrl": "https://www.wisdomlib.org/hinduism/book/the-ramayana-of-valmiki/d/doc423965.html"
     },
     {
       "id": "b05",
       "narration": "Boon one: her son Bharata gets the throne. Boon two: Rama goes into exile, in the Dandaka forest, for fourteen years.",
-      "onScreen": "14 YEARS",
+      "onScreen": null,
       "claim": "Kaikeyi asked for Bharata's installation and Rama's exile to the Dandaka forest for fourteen years.",
       "sourceUrl": "https://www.wisdomlib.org/hinduism/book/the-ramayana-of-valmiki/d/doc423965.html"
     },
@@ -44,19 +44,19 @@
     {
       "id": "b07",
       "narration": "Stop two. Shringverpur, on the Ganga. Here the boatman-king Guha ferries them across the river.",
-      "onScreen": "SHRINGVERPUR",
+      "onScreen": null,
       "claim": "Shringverpur on the Ganga is where Guha met Rama.",
       "sourceUrl": "https://hindutone.com/temples/ramayana-places-in-india-trail/"
     },
     {
       "id": "b08",
       "narration": "Then Prayagraj, where the Ganga and Yamuna meet, and the hermitage of the sage Bharadvaja.",
-      "onScreen": "PRAYAGRAJ"
+      "onScreen": null
     },
     {
       "id": "b09",
       "narration": "Stop four. Chitrakoot. Their first real forest home.",
-      "onScreen": "CHITRAKOOT",
+      "onScreen": null,
       "claim": "Chitrakoot was the first forest home.",
       "sourceUrl": "https://hindutone.com/temples/ramayana-places-in-india-trail/"
     },
@@ -70,7 +70,7 @@
     {
       "id": "b11",
       "narration": "Rama refuses. Fourteen years means fourteen years. So Bharata takes Rama's sandals, places them on the throne, and rules as a caretaker.",
-      "onScreen": "THE SANDALS",
+      "onScreen": null,
       "claim": "Rama refuses to return before the exile ends.",
       "sourceUrl": "https://sanskritdocuments.org/sites/valmikiramayan/ayodhya/sarga107/ayodhya_107_prose.htm"
     },
@@ -91,21 +91,21 @@
     {
       "id": "b14",
       "narration": "Here, Ravana's sister Surpanakha meets the brothers and is spurned. Lakshmana cuts off her nose, and she flies to Lanka for revenge.",
-      "onScreen": "SURPANAKHA",
+      "onScreen": null,
       "claim": "Surpanakha, Ravana's sister, is spurned and mutilated by Lakshmana, setting up the abduction.",
       "sourceUrl": "https://en.wikipedia.org/wiki/Ramayana"
     },
     {
       "id": "b15",
       "narration": "A golden deer appears. Rama chases it. Lakshmana follows. And Ravana, king of Lanka, carries Sita away.",
-      "onScreen": "SITA IS TAKEN",
+      "onScreen": null,
       "claim": "Panchavati is where Sita was carried off.",
       "sourceUrl": "https://hindutone.com/temples/ramayana-places-in-india-trail/"
     },
     {
       "id": "b16",
       "narration": "The old vulture Jatayu tries to stop him and falls. Tradition places that fight at Lepakshi, in today's Andhra Pradesh.",
-      "onScreen": "LEPAKSHI",
+      "onScreen": null,
       "claim": "Lepakshi is linked with Jatayu.",
       "sourceUrl": "https://hindutone.com/temples/ramayana-places-in-india-trail/"
     },
@@ -119,40 +119,40 @@
     {
       "id": "b18",
       "narration": "Earlier, deep in the forest, an old woman named Shabari, who had waited years for Rama, had welcomed them and pointed them toward Sugriva.",
-      "onScreen": "SHABARI",
+      "onScreen": null,
       "claim": "Shabari directs Rama to Sugriva.",
       "sourceUrl": "https://en.wikipedia.org/wiki/Ramayana"
     },
     {
       "id": "b19",
       "narration": "Sugriva is a monkey prince in hiding, driven out by his brother Vali. Rama kills Vali, and Sugriva becomes king. In return, he sends his search parties out in every direction.",
-      "onScreen": "SUGRIVA · VALI",
+      "onScreen": null,
       "claim": "Rama kills Vali and restores Sugriva, who sends search parties for Sita.",
       "sourceUrl": "https://en.wikipedia.org/wiki/Ramayana"
     },
     {
       "id": "b20",
       "narration": "Sugriva's minister Hanuman crosses the sea, finds Sita in Lanka, shows her Rama's ring, and brings back her jewel as proof.",
-      "onScreen": "HANUMAN"
+      "onScreen": null
     },
     {
       "id": "b21",
       "narration": "Before he leaves, Hanuman lets himself be captured. His tail is set on fire, and he uses it to burn Lanka.",
-      "onScreen": "LANKA BURNS",
+      "onScreen": null,
       "claim": "Hanuman's tail is set on fire and he burns Lanka.",
       "sourceUrl": "https://en.wikipedia.org/wiki/Ramayana"
     },
     {
       "id": "b22",
       "narration": "Ravana's own brother, Vibhishana, begs him to return Sita. Ravana throws him out, and Vibhishana crosses over to Rama's side.",
-      "onScreen": "VIBHISHANA",
+      "onScreen": null,
       "claim": "Vibhishana, Ravana's brother, defects to Rama.",
       "sourceUrl": "https://en.wikipedia.org/wiki/Ramayana"
     },
     {
       "id": "b23",
       "narration": "The army marches to the coast at Rameswaram, the last stop in India.",
-      "onScreen": "RAMESWARAM",
+      "onScreen": null,
       "claim": "Rameswaram is where the army crossed to Lanka.",
       "sourceUrl": "https://hindutone.com/temples/ramayana-places-in-india-trail/"
     },
@@ -185,7 +185,7 @@
     {
       "id": "b28",
       "narration": "Today, governments are turning this into a pilgrimage circuit, the Ram Van Gaman Path. Two hundred and forty eight places in India and Sri Lanka have been identified along it.",
-      "onScreen": "248 PLACES",
+      "onScreen": null,
       "claim": "A total of 248 places in India and Sri Lanka have been identified on the Ram Van Gaman Path.",
       "sourceUrl": "https://en.wikipedia.org/wiki/Ram_Van_Gaman_Path"
     },
@@ -195,7 +195,7 @@
       "onScreen": null
     }
   ],
-  "title": "Rama's 14-Year Exile on a Map | Ayodhya to Lanka, Explained",
+  "title": "Rama’s 14-Year Exile in Shadow Puppets | Ayodhya to Lanka on a Map",
   "description": "Ayodhya, Chitrakoot, Panchavati, Kishkindha, Rameswaram: the places tradition links to Rama's exile, plotted in order. Version followed: Valmiki Ramayana. Modern sites are traditional identifications; Valmiki gives no map coordinates.",
   "tags": [
     "Ramayana",

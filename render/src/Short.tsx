@@ -30,7 +30,7 @@ const Camera: React.FC<{d: number; children: React.ReactNode; first: boolean}> =
 
 export const Short: React.FC<ShortProps> = ({scenes, words, audio, captions, theme}) => (
   <ColorCtx.Provider value={buildColorMap(scenes)}>
-    <AbsoluteFill style={{background: theme === 'horror' ? '#000' : `radial-gradient(ellipse at 50% 45%, ${C.bgGlow} 0%, ${C.bg} 70%)`}}>
+    <AbsoluteFill style={{background: theme === 'horror' ? '#000' : theme === 'epics' ? 'radial-gradient(ellipse at 50% 45%, #F2CC8A 0%, #C98A42 55%, #5A2C0C 100%)' : `radial-gradient(ellipse at 50% 45%, ${C.bgGlow} 0%, ${C.bg} 70%)`}}>
       {scenes.map((sc, i) => {
         const Scene = SCENES[sc.type] || Fallback;
         return (

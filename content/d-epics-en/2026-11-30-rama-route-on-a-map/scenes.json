@@ -16,72 +16,70 @@
           92,
           31
         ],
-        "fills": [
-          {
-            "name": "India",
-            "label": false,
-            "color": "#1E2740"
-          },
-          {
-            "name": "Sri Lanka",
-            "label": false,
-            "color": "#1E2740"
-          }
-        ],
+        "fills": [],
         "pins": [
           {
             "place": "Ayodhya",
             "label": "Ayodhya",
             "size": 44,
-            "at": 0
+            "at": 0,
+            "labelColor": "#FFF3D6"
           },
           {
             "place": "Shringverpur",
             "label": "",
             "size": 44,
-            "at": 0
+            "at": 0,
+            "labelColor": "#FFF3D6"
           },
           {
             "place": "Prayagraj",
             "label": "",
             "size": 44,
-            "at": 0
+            "at": 0,
+            "labelColor": "#FFF3D6"
           },
           {
             "place": "Chitrakoot",
             "label": "Chitrakoot",
             "size": 44,
-            "at": 0
+            "at": 0,
+            "labelColor": "#FFF3D6"
           },
           {
             "place": "Dandakaranya",
             "label": "",
             "size": 44,
-            "at": 0
+            "at": 0,
+            "labelColor": "#FFF3D6"
           },
           {
             "place": "Panchavati",
             "label": "Panchavati",
             "size": 44,
-            "at": 0
+            "at": 0,
+            "labelColor": "#FFF3D6"
           },
           {
             "place": "Lepakshi",
             "label": "",
             "size": 44,
-            "at": 0
+            "at": 0,
+            "labelColor": "#FFF3D6"
           },
           {
             "place": "Kishkindha",
             "label": "Kishkindha",
             "size": 44,
-            "at": 0
+            "at": 0,
+            "labelColor": "#FFF3D6"
           },
           {
             "place": "Rameswaram",
             "label": "Rameswaram",
             "size": 44,
-            "at": 0
+            "at": 0,
+            "labelColor": "#FFF3D6"
           }
         ],
         "lines": [
@@ -99,357 +97,283 @@
             ],
             "at": 0
           }
-        ]
+        ],
+        "warm": true
       }
     },
     {
       "id": "s02",
-      "type": "cards",
+      "type": "puppet",
       "beatId": "b02",
       "startMs": 9580,
       "endMs": 20699,
       "props": {
-        "cells": [
-          [
-            "Valmiki",
-            "Names the places"
-          ],
-          [
-            "Tradition",
-            "Links them to modern sites"
-          ]
-        ]
+        "bg": "forest",
+        "cast": [
+          {
+            "who": "Sage",
+            "x": 0.5,
+            "pose": "bless"
+          }
+        ],
+        "label": "VALMIKI"
       }
     },
     {
       "id": "s03",
-      "type": "geo",
+      "type": "puppet",
       "beatId": "b03",
       "startMs": 20699,
       "endMs": 32202,
       "props": {
-        "view": [
-          78,
-          22,
-          88,
-          30
-        ],
-        "fills": [
+        "bg": "palace",
+        "cast": [
           {
-            "name": "India",
-            "label": false,
-            "color": "#1E2740"
+            "who": "Dasharatha",
+            "x": 0.3,
+            "pose": "bless"
           },
           {
-            "name": "Sri Lanka",
-            "label": false,
-            "color": "#1E2740"
+            "who": "Rama",
+            "x": 0.68,
+            "pose": "namaste",
+            "facing": "left",
+            "enter": "right",
+            "at": 0.35
           }
         ],
-        "pins": [
-          {
-            "place": "Ayodhya",
-            "label": "Ayodhya",
-            "size": 44,
-            "at": 0
-          }
-        ],
-        "lines": []
+        "label": "AYODHYA"
       }
     },
     {
       "id": "s04",
-      "type": "cards",
+      "type": "puppet",
       "beatId": "b04",
       "startMs": 32202,
       "endMs": 42936,
       "props": {
-        "cells": [
-          "Boon 1",
-          "Boon 2"
+        "bg": "court",
+        "cast": [
+          {
+            "who": "Dasharatha",
+            "x": 0.62,
+            "pose": "plead",
+            "facing": "left"
+          },
+          {
+            "who": "Kaikeyi",
+            "x": 0.38,
+            "pose": "stand"
+          },
+          {
+            "who": "Manthara",
+            "x": 0.15,
+            "pose": "point",
+            "enter": "left",
+            "at": 0.5
+          }
         ]
       }
     },
     {
       "id": "s05",
-      "type": "cards",
+      "type": "puppet",
       "beatId": "b05",
       "startMs": 42936,
       "endMs": 51362,
       "props": {
-        "cells": [
-          [
-            "Boon 1",
-            "Bharata is crowned"
-          ],
-          [
-            "Boon 2",
-            "Rama: 14 years in exile"
-          ]
-        ]
+        "bg": "court",
+        "cast": [
+          {
+            "who": "Kaikeyi",
+            "x": 0.36,
+            "pose": "angry"
+          },
+          {
+            "who": "Dasharatha",
+            "x": 0.66,
+            "pose": "sad",
+            "facing": "left"
+          }
+        ],
+        "label": "TWO BOONS"
       }
     },
     {
       "id": "s06",
-      "type": "kinetic",
+      "type": "puppet",
       "beatId": "b06",
       "startMs": 51362,
       "endMs": 59788,
       "props": {
-        "text": "A KING'S WORD"
+        "bg": "palace",
+        "cast": [
+          {
+            "who": "Rama",
+            "x": 0.5,
+            "pose": "namaste"
+          },
+          {
+            "who": "Sita",
+            "x": 0.3,
+            "pose": "stand",
+            "enter": "left",
+            "at": 0.45
+          },
+          {
+            "who": "Lakshmana",
+            "x": 0.72,
+            "pose": "bow",
+            "facing": "left",
+            "enter": "right",
+            "at": 0.6
+          }
+        ]
       }
     },
     {
       "id": "s07",
-      "type": "geo",
+      "type": "puppet",
       "beatId": "b07",
       "startMs": 59788,
       "endMs": 65907,
       "props": {
-        "view": [
-          78,
-          22,
-          88,
-          30
-        ],
-        "fills": [
+        "bg": "river",
+        "cast": [
           {
-            "name": "India",
-            "label": false,
-            "color": "#1E2740"
+            "who": "Guha",
+            "x": 0.32,
+            "pose": "stand"
           },
           {
-            "name": "Sri Lanka",
-            "label": false,
-            "color": "#1E2740"
-          }
-        ],
-        "pins": [
-          {
-            "place": "Ayodhya",
-            "label": "Ayodhya",
-            "size": 44,
-            "at": 0
+            "who": "Rama",
+            "x": 0.6,
+            "pose": "bless",
+            "facing": "left",
+            "enter": "right",
+            "walk": false
           },
           {
-            "place": "Shringverpur",
-            "label": "Shringverpur",
-            "size": 44,
-            "at": 0.15
+            "who": "Sita",
+            "x": 0.72,
+            "pose": "stand",
+            "facing": "left",
+            "enter": "right",
+            "at": 0.1
+          },
+          {
+            "who": "Lakshmana",
+            "x": 0.84,
+            "pose": "bow",
+            "facing": "left",
+            "enter": "right",
+            "at": 0.2
           }
         ],
-        "lines": [
-          {
-            "places": [
-              "Ayodhya",
-              "Shringverpur"
-            ],
-            "at": 0
-          }
-        ]
+        "label": "SHRINGVERPUR"
       }
     },
     {
       "id": "s08",
-      "type": "geo",
+      "type": "puppet",
       "beatId": "b08",
       "startMs": 65907,
       "endMs": 72026,
       "props": {
-        "view": [
-          78,
-          22,
-          88,
-          30
-        ],
-        "fills": [
+        "bg": "forest",
+        "cast": [
           {
-            "name": "India",
-            "label": false,
-            "color": "#1E2740"
+            "who": "Sage",
+            "x": 0.32,
+            "pose": "bless"
           },
           {
-            "name": "Sri Lanka",
-            "label": false,
-            "color": "#1E2740"
+            "who": "Rama",
+            "x": 0.66,
+            "pose": "namaste",
+            "facing": "left"
           }
         ],
-        "pins": [
-          {
-            "place": "Ayodhya",
-            "label": "Ayodhya",
-            "size": 44,
-            "at": 0
-          },
-          {
-            "place": "Shringverpur",
-            "label": "Shringverpur",
-            "size": 44,
-            "at": 0
-          },
-          {
-            "place": "Prayagraj",
-            "label": "Prayagraj",
-            "size": 44,
-            "at": 0.15
-          }
-        ],
-        "lines": [
-          {
-            "places": [
-              "Ayodhya",
-              "Shringverpur",
-              "Prayagraj"
-            ],
-            "at": 0
-          }
-        ]
+        "label": "PRAYAGRAJ"
       }
     },
     {
       "id": "s09",
-      "type": "geo",
+      "type": "puppet",
       "beatId": "b09",
       "startMs": 72026,
       "endMs": 75452,
       "props": {
-        "view": [
-          76,
-          20,
-          88,
-          30
-        ],
-        "fills": [
+        "bg": "hut",
+        "cast": [
           {
-            "name": "India",
-            "label": false,
-            "color": "#1E2740"
+            "who": "Rama",
+            "x": 0.28,
+            "pose": "stand"
           },
           {
-            "name": "Sri Lanka",
-            "label": false,
-            "color": "#1E2740"
+            "who": "Sita",
+            "x": 0.42,
+            "pose": "stand"
+          },
+          {
+            "who": "Lakshmana",
+            "x": 0.56,
+            "pose": "bow"
           }
         ],
-        "pins": [
-          {
-            "place": "Ayodhya",
-            "label": "Ayodhya",
-            "size": 44,
-            "at": 0
-          },
-          {
-            "place": "Shringverpur",
-            "label": "Shringverpur",
-            "size": 44,
-            "at": 0
-          },
-          {
-            "place": "Prayagraj",
-            "label": "Prayagraj",
-            "size": 44,
-            "at": 0
-          },
-          {
-            "place": "Chitrakoot",
-            "label": "Chitrakoot",
-            "size": 44,
-            "at": 0.15
-          }
-        ],
-        "lines": [
-          {
-            "places": [
-              "Ayodhya",
-              "Shringverpur",
-              "Prayagraj",
-              "Chitrakoot"
-            ],
-            "at": 0
-          }
-        ]
+        "label": "CHITRAKOOT"
       }
     },
     {
       "id": "s10",
-      "type": "geo",
+      "type": "puppet",
       "beatId": "b10",
       "startMs": 75452,
       "endMs": 84263,
       "props": {
-        "view": [
-          76,
-          20,
-          88,
-          30
-        ],
-        "fills": [
+        "bg": "palace",
+        "cast": [
           {
-            "name": "India",
-            "label": false,
-            "color": "#1E2740"
+            "who": "Dasharatha",
+            "x": 0.4,
+            "pose": "sad",
+            "exit": "left",
+            "exitAt": 0.3
           },
           {
-            "name": "Sri Lanka",
-            "label": false,
-            "color": "#1E2740"
-          }
-        ],
-        "pins": [
-          {
-            "place": "Ayodhya",
-            "label": "Ayodhya",
-            "size": 44,
-            "at": 0
-          },
-          {
-            "place": "Shringverpur",
-            "label": "Shringverpur",
-            "size": 44,
-            "at": 0
-          },
-          {
-            "place": "Prayagraj",
-            "label": "Prayagraj",
-            "size": 44,
-            "at": 0
-          },
-          {
-            "place": "Chitrakoot",
-            "label": "Chitrakoot",
-            "size": 44,
-            "at": 0
-          }
-        ],
-        "lines": [
-          {
-            "places": [
-              "Ayodhya",
-              "Shringverpur",
-              "Prayagraj",
-              "Chitrakoot"
-            ],
-            "at": 0
-          },
-          {
-            "places": [
-              "Ayodhya",
-              "Chitrakoot"
-            ],
-            "color": "#3DD6C6",
-            "at": 0.2
+            "who": "Bharata",
+            "x": 0.55,
+            "pose": "walk",
+            "walk": true,
+            "enter": "left",
+            "at": 0.5
           }
         ]
       }
     },
     {
       "id": "s11",
-      "type": "kinetic",
+      "type": "puppet",
       "beatId": "b11",
       "startMs": 84263,
       "endMs": 93074,
       "props": {
-        "text": "THE SANDALS ON THE THRONE"
+        "bg": "hut",
+        "cast": [
+          {
+            "who": "Bharata",
+            "x": 0.34,
+            "pose": "plead"
+          },
+          {
+            "who": "Rama",
+            "x": 0.64,
+            "pose": "give",
+            "facing": "left"
+          }
+        ],
+        "label": "THE SANDALS"
       }
     },
     {
@@ -465,48 +389,42 @@
           92,
           31
         ],
-        "fills": [
-          {
-            "name": "India",
-            "label": false,
-            "color": "#1E2740"
-          },
-          {
-            "name": "Sri Lanka",
-            "label": false,
-            "color": "#1E2740"
-          }
-        ],
+        "fills": [],
         "pins": [
           {
             "place": "Ayodhya",
             "label": "Ayodhya",
             "size": 44,
-            "at": 0
+            "at": 0,
+            "labelColor": "#FFF3D6"
           },
           {
             "place": "Shringverpur",
             "label": "",
             "size": 44,
-            "at": 0
+            "at": 0,
+            "labelColor": "#FFF3D6"
           },
           {
             "place": "Prayagraj",
             "label": "",
             "size": 44,
-            "at": 0
+            "at": 0,
+            "labelColor": "#FFF3D6"
           },
           {
             "place": "Chitrakoot",
             "label": "Chitrakoot",
             "size": 44,
-            "at": 0
+            "at": 0,
+            "labelColor": "#FFF3D6"
           },
           {
             "place": "Dandakaranya",
             "label": "Dandakaranya",
             "size": 44,
-            "at": 0.15
+            "at": 0.15,
+            "labelColor": "#FFF3D6"
           }
         ],
         "lines": [
@@ -520,7 +438,8 @@
             ],
             "at": 0
           }
-        ]
+        ],
+        "warm": true
       }
     },
     {
@@ -536,54 +455,49 @@
           92,
           31
         ],
-        "fills": [
-          {
-            "name": "India",
-            "label": false,
-            "color": "#1E2740"
-          },
-          {
-            "name": "Sri Lanka",
-            "label": false,
-            "color": "#1E2740"
-          }
-        ],
+        "fills": [],
         "pins": [
           {
             "place": "Ayodhya",
             "label": "Ayodhya",
             "size": 44,
-            "at": 0
+            "at": 0,
+            "labelColor": "#FFF3D6"
           },
           {
             "place": "Shringverpur",
             "label": "",
             "size": 44,
-            "at": 0
+            "at": 0,
+            "labelColor": "#FFF3D6"
           },
           {
             "place": "Prayagraj",
             "label": "",
             "size": 44,
-            "at": 0
+            "at": 0,
+            "labelColor": "#FFF3D6"
           },
           {
             "place": "Chitrakoot",
             "label": "Chitrakoot",
             "size": 44,
-            "at": 0
+            "at": 0,
+            "labelColor": "#FFF3D6"
           },
           {
             "place": "Dandakaranya",
             "label": "",
             "size": 44,
-            "at": 0
+            "at": 0,
+            "labelColor": "#FFF3D6"
           },
           {
             "place": "Panchavati",
             "label": "Panchavati",
             "size": 44,
-            "at": 0.15
+            "at": 0.15,
+            "labelColor": "#FFF3D6"
           }
         ],
         "lines": [
@@ -598,112 +512,98 @@
             ],
             "at": 0
           }
-        ]
+        ],
+        "warm": true
       }
     },
     {
       "id": "s14",
-      "type": "kinetic",
+      "type": "puppet",
       "beatId": "b14",
       "startMs": 110696,
       "endMs": 119507,
       "props": {
-        "text": "SURPANAKHA"
+        "bg": "forest",
+        "cast": [
+          {
+            "who": "Surpanakha",
+            "x": 0.68,
+            "pose": "point",
+            "facing": "left",
+            "enter": "right"
+          },
+          {
+            "who": "Rama",
+            "x": 0.3,
+            "pose": "stand"
+          },
+          {
+            "who": "Lakshmana",
+            "x": 0.45,
+            "pose": "angry",
+            "at": 0.0
+          }
+        ],
+        "label": "SURPANAKHA"
       }
     },
     {
       "id": "s15",
-      "type": "kinetic",
+      "type": "puppet",
       "beatId": "b15",
       "startMs": 119507,
       "endMs": 126395,
       "props": {
-        "text": "THE GOLDEN DEER"
+        "bg": "hut",
+        "cast": [
+          {
+            "who": "Sita",
+            "x": 0.25,
+            "pose": "point"
+          },
+          {
+            "who": "Deer",
+            "x": 0.62,
+            "pose": "stand",
+            "facing": "left",
+            "enter": "right",
+            "exit": "right",
+            "exitAt": 0.35
+          },
+          {
+            "who": "Ravana",
+            "x": 0.6,
+            "pose": "fight",
+            "facing": "left",
+            "enter": "right",
+            "at": 0.62
+          }
+        ]
       }
     },
     {
       "id": "s16",
-      "type": "geo",
+      "type": "puppet",
       "beatId": "b16",
       "startMs": 126395,
       "endMs": 134437,
       "props": {
-        "view": [
-          66,
-          5,
-          92,
-          31
-        ],
-        "fills": [
+        "bg": "sky",
+        "cast": [
           {
-            "name": "India",
-            "label": false,
-            "color": "#1E2740"
+            "who": "Jatayu",
+            "x": 0.3,
+            "pose": "fly",
+            "enter": "left"
           },
           {
-            "name": "Sri Lanka",
-            "label": false,
-            "color": "#1E2740"
+            "who": "Ravana",
+            "x": 0.62,
+            "pose": "fight",
+            "facing": "left"
           }
         ],
-        "pins": [
-          {
-            "place": "Ayodhya",
-            "label": "Ayodhya",
-            "size": 44,
-            "at": 0
-          },
-          {
-            "place": "Shringverpur",
-            "label": "",
-            "size": 44,
-            "at": 0
-          },
-          {
-            "place": "Prayagraj",
-            "label": "",
-            "size": 44,
-            "at": 0
-          },
-          {
-            "place": "Chitrakoot",
-            "label": "Chitrakoot",
-            "size": 44,
-            "at": 0
-          },
-          {
-            "place": "Dandakaranya",
-            "label": "",
-            "size": 44,
-            "at": 0
-          },
-          {
-            "place": "Panchavati",
-            "label": "Panchavati",
-            "size": 44,
-            "at": 0
-          },
-          {
-            "place": "Lepakshi",
-            "label": "Lepakshi",
-            "size": 44,
-            "at": 0.15
-          }
-        ],
-        "lines": [
-          {
-            "places": [
-              "Ayodhya",
-              "Shringverpur",
-              "Prayagraj",
-              "Chitrakoot",
-              "Dandakaranya",
-              "Panchavati",
-              "Lepakshi"
-            ],
-            "at": 0
-          }
-        ]
+        "label": "JATAYU"
       }
     },
     {
@@ -719,66 +619,63 @@
           92,
           31
         ],
-        "fills": [
-          {
-            "name": "India",
-            "label": false,
-            "color": "#1E2740"
-          },
-          {
-            "name": "Sri Lanka",
-            "label": false,
-            "color": "#1E2740"
-          }
-        ],
+        "fills": [],
         "pins": [
           {
             "place": "Ayodhya",
             "label": "Ayodhya",
             "size": 44,
-            "at": 0
+            "at": 0,
+            "labelColor": "#FFF3D6"
           },
           {
             "place": "Shringverpur",
             "label": "",
             "size": 44,
-            "at": 0
+            "at": 0,
+            "labelColor": "#FFF3D6"
           },
           {
             "place": "Prayagraj",
             "label": "",
             "size": 44,
-            "at": 0
+            "at": 0,
+            "labelColor": "#FFF3D6"
           },
           {
             "place": "Chitrakoot",
             "label": "Chitrakoot",
             "size": 44,
-            "at": 0
+            "at": 0,
+            "labelColor": "#FFF3D6"
           },
           {
             "place": "Dandakaranya",
             "label": "",
             "size": 44,
-            "at": 0
+            "at": 0,
+            "labelColor": "#FFF3D6"
           },
           {
             "place": "Panchavati",
             "label": "Panchavati",
             "size": 44,
-            "at": 0
+            "at": 0,
+            "labelColor": "#FFF3D6"
           },
           {
             "place": "Lepakshi",
             "label": "",
             "size": 44,
-            "at": 0
+            "at": 0,
+            "labelColor": "#FFF3D6"
           },
           {
             "place": "Kishkindha",
             "label": "Kishkindha",
             "size": 44,
-            "at": 0.15
+            "at": 0.15,
+            "labelColor": "#FFF3D6"
           }
         ],
         "lines": [
@@ -795,264 +692,166 @@
             ],
             "at": 0
           }
-        ]
+        ],
+        "warm": true
       }
     },
     {
       "id": "s18",
-      "type": "kinetic",
+      "type": "puppet",
       "beatId": "b18",
       "startMs": 143633,
       "endMs": 153213,
       "props": {
-        "text": "SHABARI'S WAIT"
+        "bg": "forest",
+        "cast": [
+          {
+            "who": "Shabari",
+            "x": 0.36,
+            "pose": "give"
+          },
+          {
+            "who": "Rama",
+            "x": 0.66,
+            "pose": "namaste",
+            "facing": "left"
+          }
+        ],
+        "label": "SHABARI"
       }
     },
     {
       "id": "s19",
-      "type": "cards",
+      "type": "puppet",
       "beatId": "b19",
       "startMs": 153213,
       "endMs": 165486,
       "props": {
-        "cells": [
-          [
-            "Vali",
-            "The usurping brother"
-          ],
-          [
-            "Sugriva",
-            "Rama's ally"
-          ]
-        ]
+        "bg": "mountains",
+        "cast": [
+          {
+            "who": "Vali",
+            "x": 0.66,
+            "pose": "fight",
+            "facing": "left",
+            "exit": "right",
+            "exitAt": 0.55
+          },
+          {
+            "who": "Sugriva",
+            "x": 0.34,
+            "pose": "fight"
+          },
+          {
+            "who": "Rama",
+            "x": 0.15,
+            "pose": "bow",
+            "at": 0.3
+          }
+        ],
+        "label": "KISHKINDHA"
       }
     },
     {
       "id": "s20",
-      "type": "geo",
+      "type": "puppet",
       "beatId": "b20",
       "startMs": 165486,
       "endMs": 173912,
       "props": {
-        "view": [
-          70,
-          4,
-          88,
-          22
-        ],
-        "fills": [
+        "bg": "lanka",
+        "cast": [
           {
-            "name": "India",
-            "label": false,
-            "color": "#1E2740"
+            "who": "Hanuman",
+            "x": 0.35,
+            "pose": "give",
+            "enter": "drop"
           },
           {
-            "name": "Sri Lanka",
-            "label": false,
-            "color": "#1E2740"
+            "who": "Sita",
+            "x": 0.65,
+            "pose": "sad",
+            "facing": "left"
           }
         ],
-        "pins": [
-          {
-            "place": "Ayodhya",
-            "label": "Ayodhya",
-            "size": 44,
-            "at": 0
-          },
-          {
-            "place": "Shringverpur",
-            "label": "Shringverpur",
-            "size": 44,
-            "at": 0
-          },
-          {
-            "place": "Prayagraj",
-            "label": "Prayagraj",
-            "size": 44,
-            "at": 0
-          },
-          {
-            "place": "Chitrakoot",
-            "label": "Chitrakoot",
-            "size": 44,
-            "at": 0
-          },
-          {
-            "place": "Dandakaranya",
-            "label": "Dandakaranya",
-            "size": 44,
-            "at": 0
-          },
-          {
-            "place": "Panchavati",
-            "label": "Panchavati",
-            "size": 44,
-            "at": 0
-          },
-          {
-            "place": "Lepakshi",
-            "label": "Lepakshi",
-            "size": 44,
-            "at": 0
-          },
-          {
-            "place": "Kishkindha",
-            "label": "Kishkindha",
-            "size": 44,
-            "at": 0
-          }
-        ],
-        "lines": [
-          {
-            "places": [
-              "Ayodhya",
-              "Shringverpur",
-              "Prayagraj",
-              "Chitrakoot",
-              "Dandakaranya",
-              "Panchavati",
-              "Lepakshi",
-              "Kishkindha"
-            ],
-            "at": 0
-          },
-          {
-            "places": [
-              "Kishkindha",
-              "Sri Lanka"
-            ],
-            "color": "#3DD6C6",
-            "at": 0.25
-          }
-        ]
+        "label": "LANKA"
       }
     },
     {
       "id": "s21",
-      "type": "kinetic",
+      "type": "puppet",
       "beatId": "b21",
       "startMs": 173912,
       "endMs": 182338,
       "props": {
-        "text": "LANKA BURNS"
+        "bg": "lanka",
+        "cast": [
+          {
+            "who": "Hanuman",
+            "x": 0.5,
+            "pose": "fight"
+          }
+        ],
+        "label": "LANKA BURNS"
       }
     },
     {
       "id": "s22",
-      "type": "cards",
+      "type": "puppet",
       "beatId": "b22",
       "startMs": 182338,
       "endMs": 190380,
       "props": {
-        "cells": [
-          [
-            "Ravana",
-            "Refuses"
-          ],
-          [
-            "Vibhishana",
-            "Joins Rama"
-          ]
-        ]
+        "bg": "court",
+        "cast": [
+          {
+            "who": "Ravana",
+            "x": 0.36,
+            "pose": "angry"
+          },
+          {
+            "who": "Vibhishana",
+            "x": 0.62,
+            "pose": "namaste",
+            "facing": "left",
+            "exit": "right",
+            "exitAt": 0.6
+          }
+        ],
+        "label": "VIBHISHANA"
       }
     },
     {
       "id": "s23",
-      "type": "geo",
+      "type": "puppet",
       "beatId": "b23",
       "startMs": 190380,
       "endMs": 195730,
       "props": {
-        "view": [
-          70,
-          4,
-          88,
-          22
-        ],
-        "fills": [
+        "bg": "sea",
+        "cast": [
           {
-            "name": "India",
-            "label": false,
-            "color": "#1E2740"
+            "who": "Rama",
+            "x": 0.3,
+            "pose": "bow"
           },
           {
-            "name": "Sri Lanka",
-            "label": false,
-            "color": "#1E2740"
+            "who": "Hanuman",
+            "x": 0.48,
+            "pose": "stand"
+          },
+          {
+            "who": "Sugriva",
+            "x": 0.62,
+            "pose": "stand"
+          },
+          {
+            "who": "Lakshmana",
+            "x": 0.76,
+            "pose": "bow"
           }
         ],
-        "pins": [
-          {
-            "place": "Ayodhya",
-            "label": "Ayodhya",
-            "size": 44,
-            "at": 0
-          },
-          {
-            "place": "Shringverpur",
-            "label": "Shringverpur",
-            "size": 44,
-            "at": 0
-          },
-          {
-            "place": "Prayagraj",
-            "label": "Prayagraj",
-            "size": 44,
-            "at": 0
-          },
-          {
-            "place": "Chitrakoot",
-            "label": "Chitrakoot",
-            "size": 44,
-            "at": 0
-          },
-          {
-            "place": "Dandakaranya",
-            "label": "Dandakaranya",
-            "size": 44,
-            "at": 0
-          },
-          {
-            "place": "Panchavati",
-            "label": "Panchavati",
-            "size": 44,
-            "at": 0
-          },
-          {
-            "place": "Lepakshi",
-            "label": "Lepakshi",
-            "size": 44,
-            "at": 0
-          },
-          {
-            "place": "Kishkindha",
-            "label": "Kishkindha",
-            "size": 44,
-            "at": 0
-          },
-          {
-            "place": "Rameswaram",
-            "label": "Rameswaram",
-            "size": 44,
-            "at": 0.15
-          }
-        ],
-        "lines": [
-          {
-            "places": [
-              "Ayodhya",
-              "Shringverpur",
-              "Prayagraj",
-              "Chitrakoot",
-              "Dandakaranya",
-              "Panchavati",
-              "Lepakshi",
-              "Kishkindha",
-              "Rameswaram"
-            ],
-            "at": 0
-          }
-        ]
+        "label": "RAMESWARAM"
       }
     },
     {
@@ -1070,11 +869,13 @@
         ],
         "pins": [
           {
-            "place": "Dhanushkodi"
+            "place": "Dhanushkodi",
+            "labelColor": "#FFF3D6"
           },
           {
             "place": "Talaimannar",
-            "label": "Mannar Island"
+            "label": "Mannar Island",
+            "labelColor": "#FFF3D6"
           }
         ],
         "lines": [
@@ -1085,34 +886,79 @@
             ],
             "at": 0.15
           }
-        ]
+        ],
+        "warm": true
       }
     },
     {
       "id": "s25",
-      "type": "cards",
+      "type": "puppet",
       "beatId": "b25",
       "startMs": 210310,
       "endMs": 222967,
       "props": {
-        "cells": [
-          [
-            "Geology",
-            "Natural limestone shoals"
-          ],
-          [
-            "Faith",
-            "Rama's Setu"
-          ]
-        ]
+        "bg": "sea",
+        "cast": [
+          {
+            "who": "Hanuman",
+            "x": 0.3,
+            "pose": "carry"
+          },
+          {
+            "who": "Sugriva",
+            "x": 0.5,
+            "pose": "carry"
+          },
+          {
+            "who": "Rama",
+            "x": 0.75,
+            "pose": "bless",
+            "facing": "left"
+          }
+        ],
+        "label": "RAM SETU"
       }
     },
     {
       "id": "s26",
-      "type": "geo",
+      "type": "puppet",
       "beatId": "b26",
       "startMs": 222967,
       "endMs": 231778,
+      "props": {
+        "bg": "lanka",
+        "cast": [
+          {
+            "who": "Rama",
+            "x": 0.3,
+            "pose": "bow"
+          },
+          {
+            "who": "Ravana",
+            "x": 0.7,
+            "pose": "fight",
+            "facing": "left",
+            "exit": "right",
+            "exitAt": 0.35
+          },
+          {
+            "who": "Sita",
+            "x": 0.66,
+            "pose": "namaste",
+            "facing": "left",
+            "enter": "right",
+            "at": 0.5
+          }
+        ],
+        "label": "VICTORY"
+      }
+    },
+    {
+      "id": "s27",
+      "type": "geo",
+      "beatId": "b27",
+      "startMs": 231778,
+      "endMs": 242897,
       "props": {
         "view": [
           66,
@@ -1120,72 +966,70 @@
           92,
           31
         ],
-        "fills": [
-          {
-            "name": "India",
-            "label": false,
-            "color": "#1E2740"
-          },
-          {
-            "name": "Sri Lanka",
-            "label": false,
-            "color": "#1E2740"
-          }
-        ],
+        "fills": [],
         "pins": [
           {
             "place": "Ayodhya",
             "label": "Ayodhya",
             "size": 44,
-            "at": 0
+            "at": 0,
+            "labelColor": "#FFF3D6"
           },
           {
             "place": "Shringverpur",
             "label": "",
             "size": 44,
-            "at": 0
+            "at": 0,
+            "labelColor": "#FFF3D6"
           },
           {
             "place": "Prayagraj",
             "label": "",
             "size": 44,
-            "at": 0
+            "at": 0,
+            "labelColor": "#FFF3D6"
           },
           {
             "place": "Chitrakoot",
             "label": "Chitrakoot",
             "size": 44,
-            "at": 0
+            "at": 0,
+            "labelColor": "#FFF3D6"
           },
           {
             "place": "Dandakaranya",
             "label": "",
             "size": 44,
-            "at": 0
+            "at": 0,
+            "labelColor": "#FFF3D6"
           },
           {
             "place": "Panchavati",
             "label": "Panchavati",
             "size": 44,
-            "at": 0
+            "at": 0,
+            "labelColor": "#FFF3D6"
           },
           {
             "place": "Lepakshi",
             "label": "",
             "size": 44,
-            "at": 0
+            "at": 0,
+            "labelColor": "#FFF3D6"
           },
           {
             "place": "Kishkindha",
             "label": "Kishkindha",
             "size": 44,
-            "at": 0
+            "at": 0,
+            "labelColor": "#FFF3D6"
           },
           {
             "place": "Rameswaram",
             "label": "Rameswaram",
             "size": 44,
-            "at": 0
+            "at": 0,
+            "labelColor": "#FFF3D6"
           }
         ],
         "lines": [
@@ -1214,139 +1058,77 @@
                 26.8
               ]
             ],
-            "color": "#3DD6C6",
-            "at": 0.3
+            "color": "#2E6FB0",
+            "at": 0.2
           }
-        ]
-      }
-    },
-    {
-      "id": "s27",
-      "type": "number",
-      "beatId": "b27",
-      "startMs": 231778,
-      "endMs": 242897,
-      "props": {
-        "items": [
-          [
-            "km, straight lines between stops",
-            3583
-          ]
-        ]
+        ],
+        "warm": true
       }
     },
     {
       "id": "s28",
-      "type": "number",
+      "type": "puppet",
       "beatId": "b28",
       "startMs": 242897,
       "endMs": 254785,
       "props": {
-        "items": [
-          [
-            "places identified on the route",
-            248
-          ]
-        ]
+        "bg": "palace",
+        "cast": [
+          {
+            "who": "Rama",
+            "x": 0.4,
+            "pose": "bless"
+          },
+          {
+            "who": "Sita",
+            "x": 0.55,
+            "pose": "stand"
+          },
+          {
+            "who": "Lakshmana",
+            "x": 0.7,
+            "pose": "bow"
+          },
+          {
+            "who": "Hanuman",
+            "x": 0.22,
+            "pose": "namaste"
+          }
+        ],
+        "label": "248 PLACES"
       }
     },
     {
       "id": "s29",
-      "type": "geo",
+      "type": "puppet",
       "beatId": "b29",
       "startMs": 254785,
       "endMs": 263981,
       "props": {
-        "view": [
-          66,
-          5,
-          92,
-          31
-        ],
-        "fills": [
+        "bg": "palace",
+        "cast": [
           {
-            "name": "India",
-            "label": false,
-            "color": "#1E2740"
+            "who": "Rama",
+            "x": 0.42,
+            "pose": "bless"
           },
           {
-            "name": "Sri Lanka",
-            "label": false,
-            "color": "#1E2740"
+            "who": "Sita",
+            "x": 0.56,
+            "pose": "stand"
+          },
+          {
+            "who": "Lakshmana",
+            "x": 0.7,
+            "pose": "bow"
+          },
+          {
+            "who": "Hanuman",
+            "x": 0.25,
+            "pose": "namaste"
           }
         ],
-        "pins": [
-          {
-            "place": "Ayodhya",
-            "label": "Ayodhya",
-            "size": 44,
-            "at": 0
-          },
-          {
-            "place": "Shringverpur",
-            "label": "",
-            "size": 44,
-            "at": 0
-          },
-          {
-            "place": "Prayagraj",
-            "label": "",
-            "size": 44,
-            "at": 0
-          },
-          {
-            "place": "Chitrakoot",
-            "label": "Chitrakoot",
-            "size": 44,
-            "at": 0
-          },
-          {
-            "place": "Dandakaranya",
-            "label": "",
-            "size": 44,
-            "at": 0
-          },
-          {
-            "place": "Panchavati",
-            "label": "Panchavati",
-            "size": 44,
-            "at": 0
-          },
-          {
-            "place": "Lepakshi",
-            "label": "",
-            "size": 44,
-            "at": 0
-          },
-          {
-            "place": "Kishkindha",
-            "label": "Kishkindha",
-            "size": 44,
-            "at": 0
-          },
-          {
-            "place": "Rameswaram",
-            "label": "Rameswaram",
-            "size": 44,
-            "at": 0
-          }
-        ],
-        "lines": [
-          {
-            "places": [
-              "Ayodhya",
-              "Shringverpur",
-              "Prayagraj",
-              "Chitrakoot",
-              "Dandakaranya",
-              "Panchavati",
-              "Lepakshi",
-              "Kishkindha",
-              "Rameswaram"
-            ],
-            "at": 0
-          }
-        ]
+        "label": "AYODHYA"
       }
     }
   ]

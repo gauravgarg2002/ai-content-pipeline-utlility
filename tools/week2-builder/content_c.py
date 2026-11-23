@@ -84,7 +84,7 @@ EPICS = {
     "angle": "Plot the places tradition ties to the exile, and the route crosses most of India",
     "cluster": "ramayana-basics", "hookPattern": "map-reveal",
     "versionFollowed": "Valmiki Ramayana (Ayodhya to Yuddha Kanda); modern locations are traditional identifications, not archaeological findings",
-    "title": "Rama's 14-Year Exile on a Map | Ayodhya to Lanka, Explained",
+    "title": "Rama’s 14-Year Exile in Shadow Puppets | Ayodhya to Lanka on a Map",
     "description": "Ayodhya, Chitrakoot, Panchavati, Kishkindha, Rameswaram: the places tradition links to Rama's exile, plotted in order. Version followed: Valmiki Ramayana. Modern sites are traditional identifications; Valmiki gives no map coordinates.",
     "tags": ["Ramayana", "Hindu mythology", "Rama", "map", "Ram Setu", "Indian history"],
     "beats": [
@@ -200,3 +200,54 @@ for _b, cuts in zip(HORROR["beats"], CUTS):
         i = t.find(phrase); assert i >= 0, phrase
         seq.append([name, round(i / len(t), 3)])
     _b["v"] = ("atmos", {"scene": seq[0][0], "sequence": seq, "time": "3:20" if "तीन बजकर बीस" in t else "3:33"})
+
+# ---- Shadow-puppet storyboard (channel D style, approved 23 Nov) ---------------
+def pup(bg, cast, label=None):
+    return ("puppet", {"bg": bg, "cast": cast, **({"label": label} if label else {})})
+
+def C_(who, x, pose="stand", **kw):
+    return {"who": who, "x": x, "pose": pose, **kw}
+
+def warm_route(upto, new=None, view=IND, extra_lines=None):
+    t, pr = route_geo(upto, new=new, view=view, lines=extra_lines)
+    pr = dict(pr, warm=True, fills=[])
+    pr["pins"] = [dict(pn, labelColor="#FFF3D6") for pn in pr["pins"]]
+    return (t, pr)
+
+PUPPET = [
+    warm_route(9),
+    pup("forest", [C_("Sage", 0.5, "bless")], "VALMIKI"),
+    pup("palace", [C_("Dasharatha", 0.3, "bless"), C_("Rama", 0.68, "namaste", facing="left", enter="right", at=0.35)], "AYODHYA"),
+    pup("court", [C_("Dasharatha", 0.62, "plead", facing="left"), C_("Kaikeyi", 0.38), C_("Manthara", 0.15, "point", enter="left", at=0.5)]),
+    pup("court", [C_("Kaikeyi", 0.36, "angry"), C_("Dasharatha", 0.66, "sad", facing="left")], "TWO BOONS"),
+    pup("palace", [C_("Rama", 0.5, "namaste"), C_("Sita", 0.3, enter="left", at=0.45), C_("Lakshmana", 0.72, "bow", facing="left", enter="right", at=0.6)]),
+    pup("river", [C_("Guha", 0.32, "stand"), C_("Rama", 0.6, "bless", facing="left", enter="right", walk=False), C_("Sita", 0.72, facing="left", enter="right", at=0.1), C_("Lakshmana", 0.84, "bow", facing="left", enter="right", at=0.2)], "SHRINGVERPUR"),
+    pup("forest", [C_("Sage", 0.32, "bless"), C_("Rama", 0.66, "namaste", facing="left")], "PRAYAGRAJ"),
+    pup("hut", [C_("Rama", 0.28, "stand"), C_("Sita", 0.42), C_("Lakshmana", 0.56, "bow")], "CHITRAKOOT"),
+    pup("palace", [C_("Dasharatha", 0.4, "sad", exit="left", exitAt=0.3), C_("Bharata", 0.55, "walk", walk=True, enter="left", at=0.5)]),
+    pup("hut", [C_("Bharata", 0.34, "plead"), C_("Rama", 0.64, "give", facing="left")], "THE SANDALS"),
+    warm_route(5, new="Dandakaranya"),
+    warm_route(6, new="Panchavati"),
+    pup("forest", [C_("Surpanakha", 0.68, "point", facing="left", enter="right"), C_("Rama", 0.3), C_("Lakshmana", 0.45, "angry", at=0.0)], "SURPANAKHA"),
+    pup("hut", [C_("Sita", 0.25, "point"), C_("Deer", 0.62, facing="left", enter="right", exit="right", exitAt=0.35), C_("Ravana", 0.6, "fight", facing="left", enter="right", at=0.62)]),
+    pup("sky", [C_("Jatayu", 0.3, "fly", enter="left"), C_("Ravana", 0.62, "fight", facing="left")], "JATAYU"),
+    warm_route(8, new="Kishkindha"),
+    pup("forest", [C_("Shabari", 0.36, "give"), C_("Rama", 0.66, "namaste", facing="left")], "SHABARI"),
+    pup("mountains", [C_("Vali", 0.66, "fight", facing="left", exit="right", exitAt=0.55), C_("Sugriva", 0.34, "fight"), C_("Rama", 0.15, "bow", at=0.3)], "KISHKINDHA"),
+    pup("lanka", [C_("Hanuman", 0.35, "give", enter="drop"), C_("Sita", 0.65, "sad", facing="left")], "LANKA"),
+    pup("lanka", [C_("Hanuman", 0.5, "fight")], "LANKA BURNS"),
+    pup("court", [C_("Ravana", 0.36, "angry"), C_("Vibhishana", 0.62, "namaste", facing="left", exit="right", exitAt=0.6)], "VIBHISHANA"),
+    pup("sea", [C_("Rama", 0.3, "bow"), C_("Hanuman", 0.48), C_("Sugriva", 0.62), C_("Lakshmana", 0.76, "bow")], "RAMESWARAM"),
+    (lambda g: (g[0], dict(g[1], warm=True)))(geo(view=[78.8, 8.6, 80.3, 9.7], pins=[{"place": "Dhanushkodi", "labelColor": "#FFF3D6"}, {"place": "Talaimannar", "label": "Mannar Island", "labelColor": "#FFF3D6"}],
+        lines=[{"places": ["Dhanushkodi", "Talaimannar"], "at": 0.15}])),
+    pup("sea", [C_("Hanuman", 0.3, "carry"), C_("Sugriva", 0.5, "carry"), C_("Rama", 0.75, "bless", facing="left")], "RAM SETU"),
+    pup("lanka", [C_("Rama", 0.3, "bow"), C_("Ravana", 0.7, "fight", facing="left", exit="right", exitAt=0.35), C_("Sita", 0.66, "namaste", facing="left", enter="right", at=0.5)], "VICTORY"),
+    warm_route(9, extra_lines=[{"coords": [[79.9, 7.5], [82.2, 26.8]], "color": "#2E6FB0", "at": 0.2}]),
+    pup("palace", [C_("Rama", 0.4, "bless"), C_("Sita", 0.55), C_("Lakshmana", 0.7, "bow"), C_("Hanuman", 0.22, "namaste")], "248 PLACES"),
+    pup("palace", [C_("Rama", 0.42, "bless"), C_("Sita", 0.56), C_("Lakshmana", 0.7, "bow"), C_("Hanuman", 0.25, "namaste")], "AYODHYA"),
+]
+assert len(PUPPET) == len(EPICS["beats"]), (len(PUPPET), len(EPICS["beats"]))
+for _b, _v in zip(EPICS["beats"], PUPPET):
+    _b["v"] = _v
+    if _v[0] == "puppet": _b["s"] = None
+EPICS["beats"][26]["s"] = "~3,600 KM"

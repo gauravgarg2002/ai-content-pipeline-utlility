@@ -10,7 +10,7 @@ on:
   push:
     branches: ["phase1/**"]
     paths: ["render/**", "!render/preview/**", "tools/render/**", "config/voices.json", "content/**/scenes.json", ".github/workflows/render-week.yml"]
-concurrency: { group: "render-week-${{ github.ref }}", cancel-in-progress: true }
+concurrency: { group: "render-week-${{ github.ref }}-${{ inputs.week }}-${{ inputs.only }}", cancel-in-progress: true }
 permissions: { contents: write }
 
 env:

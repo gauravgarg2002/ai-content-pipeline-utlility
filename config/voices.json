@@ -29,7 +29,8 @@
       "speed": 1.0,
       "sentence_pause_s": 0.0,
       "beat_pause_s": 0.5,
-      "fps": 24
+      "fps": 24,
+      "theme": "epics"
     }
   },
   "a-maps-data": {
