@@ -32,46 +32,55 @@
           {
             "place": "Ayodhya",
             "label": "Ayodhya",
+            "size": 44,
             "at": 0
           },
           {
             "place": "Shringverpur",
-            "label": "Shringverpur",
+            "label": "",
+            "size": 44,
             "at": 0
           },
           {
             "place": "Prayagraj",
-            "label": "Prayagraj",
+            "label": "",
+            "size": 44,
             "at": 0
           },
           {
             "place": "Chitrakoot",
             "label": "Chitrakoot",
+            "size": 44,
             "at": 0
           },
           {
             "place": "Dandakaranya",
-            "label": "Dandakaranya",
+            "label": "",
+            "size": 44,
             "at": 0
           },
           {
             "place": "Panchavati",
             "label": "Panchavati",
+            "size": 44,
             "at": 0
           },
           {
             "place": "Lepakshi",
-            "label": "Lepakshi",
+            "label": "",
+            "size": 44,
             "at": 0
           },
           {
             "place": "Kishkindha",
             "label": "Kishkindha",
+            "size": 44,
             "at": 0
           },
           {
             "place": "Rameswaram",
             "label": "Rameswaram",
+            "size": 44,
             "at": 0
           }
         ],
@@ -141,6 +150,7 @@
           {
             "place": "Ayodhya",
             "label": "Ayodhya",
+            "size": 44,
             "at": 0
           }
         ],
@@ -218,11 +228,13 @@
           {
             "place": "Ayodhya",
             "label": "Ayodhya",
+            "size": 44,
             "at": 0
           },
           {
             "place": "Shringverpur",
             "label": "Shringverpur",
+            "size": 44,
             "at": 0.15
           }
         ],
@@ -266,16 +278,19 @@
           {
             "place": "Ayodhya",
             "label": "Ayodhya",
+            "size": 44,
             "at": 0
           },
           {
             "place": "Shringverpur",
             "label": "Shringverpur",
+            "size": 44,
             "at": 0
           },
           {
             "place": "Prayagraj",
             "label": "Prayagraj",
+            "size": 44,
             "at": 0.15
           }
         ],
@@ -320,21 +335,25 @@
           {
             "place": "Ayodhya",
             "label": "Ayodhya",
+            "size": 44,
             "at": 0
           },
           {
             "place": "Shringverpur",
             "label": "Shringverpur",
+            "size": 44,
             "at": 0
           },
           {
             "place": "Prayagraj",
             "label": "Prayagraj",
+            "size": 44,
             "at": 0
           },
           {
             "place": "Chitrakoot",
             "label": "Chitrakoot",
+            "size": 44,
             "at": 0.15
           }
         ],
@@ -380,21 +399,25 @@
           {
             "place": "Ayodhya",
             "label": "Ayodhya",
+            "size": 44,
             "at": 0
           },
           {
             "place": "Shringverpur",
             "label": "Shringverpur",
+            "size": 44,
             "at": 0
           },
           {
             "place": "Prayagraj",
             "label": "Prayagraj",
+            "size": 44,
             "at": 0
           },
           {
             "place": "Chitrakoot",
             "label": "Chitrakoot",
+            "size": 44,
             "at": 0
           }
         ],
@@ -458,26 +481,31 @@
           {
             "place": "Ayodhya",
             "label": "Ayodhya",
+            "size": 44,
             "at": 0
           },
           {
             "place": "Shringverpur",
-            "label": "Shringverpur",
+            "label": "",
+            "size": 44,
             "at": 0
           },
           {
             "place": "Prayagraj",
-            "label": "Prayagraj",
+            "label": "",
+            "size": 44,
             "at": 0
           },
           {
             "place": "Chitrakoot",
             "label": "Chitrakoot",
+            "size": 44,
             "at": 0
           },
           {
             "place": "Dandakaranya",
             "label": "Dandakaranya",
+            "size": 44,
             "at": 0.15
           }
         ],
@@ -524,31 +552,37 @@
           {
             "place": "Ayodhya",
             "label": "Ayodhya",
+            "size": 44,
             "at": 0
           },
           {
             "place": "Shringverpur",
-            "label": "Shringverpur",
+            "label": "",
+            "size": 44,
             "at": 0
           },
           {
             "place": "Prayagraj",
-            "label": "Prayagraj",
+            "label": "",
+            "size": 44,
             "at": 0
           },
           {
             "place": "Chitrakoot",
             "label": "Chitrakoot",
+            "size": 44,
             "at": 0
           },
           {
             "place": "Dandakaranya",
-            "label": "Dandakaranya",
+            "label": "",
+            "size": 44,
             "at": 0
           },
           {
             "place": "Panchavati",
             "label": "Panchavati",
+            "size": 44,
             "at": 0.15
           }
         ],
@@ -616,36 +650,43 @@
           {
             "place": "Ayodhya",
             "label": "Ayodhya",
+            "size": 44,
             "at": 0
           },
           {
             "place": "Shringverpur",
-            "label": "Shringverpur",
+            "label": "",
+            "size": 44,
             "at": 0
           },
           {
             "place": "Prayagraj",
-            "label": "Prayagraj",
+            "label": "",
+            "size": 44,
             "at": 0
           },
           {
             "place": "Chitrakoot",
             "label": "Chitrakoot",
+            "size": 44,
             "at": 0
           },
           {
             "place": "Dandakaranya",
-            "label": "Dandakaranya",
+            "label": "",
+            "size": 44,
             "at": 0
           },
           {
             "place": "Panchavati",
             "label": "Panchavati",
+            "size": 44,
             "at": 0
           },
           {
             "place": "Lepakshi",
             "label": "Lepakshi",
+            "size": 44,
             "at": 0.15
           }
         ],
@@ -694,41 +735,49 @@
           {
             "place": "Ayodhya",
             "label": "Ayodhya",
+            "size": 44,
             "at": 0
           },
           {
             "place": "Shringverpur",
-            "label": "Shringverpur",
+            "label": "",
+            "size": 44,
             "at": 0
           },
           {
             "place": "Prayagraj",
-            "label": "Prayagraj",
+            "label": "",
+            "size": 44,
             "at": 0
           },
           {
             "place": "Chitrakoot",
             "label": "Chitrakoot",
+            "size": 44,
             "at": 0
           },
           {
             "place": "Dandakaranya",
-            "label": "Dandakaranya",
+            "label": "",
+            "size": 44,
             "at": 0
           },
           {
             "place": "Panchavati",
             "label": "Panchavati",
+            "size": 44,
             "at": 0
           },
           {
             "place": "Lepakshi",
-            "label": "Lepakshi",
+            "label": "",
+            "size": 44,
             "at": 0
           },
           {
             "place": "Kishkindha",
             "label": "Kishkindha",
+            "size": 44,
             "at": 0.15
           }
         ],
@@ -807,41 +856,49 @@
           {
             "place": "Ayodhya",
             "label": "Ayodhya",
+            "size": 44,
             "at": 0
           },
           {
             "place": "Shringverpur",
             "label": "Shringverpur",
+            "size": 44,
             "at": 0
           },
           {
             "place": "Prayagraj",
             "label": "Prayagraj",
+            "size": 44,
             "at": 0
           },
           {
             "place": "Chitrakoot",
             "label": "Chitrakoot",
+            "size": 44,
             "at": 0
           },
           {
             "place": "Dandakaranya",
             "label": "Dandakaranya",
+            "size": 44,
             "at": 0
           },
           {
             "place": "Panchavati",
             "label": "Panchavati",
+            "size": 44,
             "at": 0
           },
           {
             "place": "Lepakshi",
             "label": "Lepakshi",
+            "size": 44,
             "at": 0
           },
           {
             "place": "Kishkindha",
             "label": "Kishkindha",
+            "size": 44,
             "at": 0
           }
         ],
@@ -928,46 +985,55 @@
           {
             "place": "Ayodhya",
             "label": "Ayodhya",
+            "size": 44,
             "at": 0
           },
           {
             "place": "Shringverpur",
             "label": "Shringverpur",
+            "size": 44,
             "at": 0
           },
           {
             "place": "Prayagraj",
             "label": "Prayagraj",
+            "size": 44,
             "at": 0
           },
           {
             "place": "Chitrakoot",
             "label": "Chitrakoot",
+            "size": 44,
             "at": 0
           },
           {
             "place": "Dandakaranya",
             "label": "Dandakaranya",
+            "size": 44,
             "at": 0
           },
           {
             "place": "Panchavati",
             "label": "Panchavati",
+            "size": 44,
             "at": 0
           },
           {
             "place": "Lepakshi",
             "label": "Lepakshi",
+            "size": 44,
             "at": 0
           },
           {
             "place": "Kishkindha",
             "label": "Kishkindha",
+            "size": 44,
             "at": 0
           },
           {
             "place": "Rameswaram",
             "label": "Rameswaram",
+            "size": 44,
             "at": 0.15
           }
         ],
@@ -1070,46 +1136,55 @@
           {
             "place": "Ayodhya",
             "label": "Ayodhya",
+            "size": 44,
             "at": 0
           },
           {
             "place": "Shringverpur",
-            "label": "Shringverpur",
+            "label": "",
+            "size": 44,
             "at": 0
           },
           {
             "place": "Prayagraj",
-            "label": "Prayagraj",
+            "label": "",
+            "size": 44,
             "at": 0
           },
           {
             "place": "Chitrakoot",
             "label": "Chitrakoot",
+            "size": 44,
             "at": 0
           },
           {
             "place": "Dandakaranya",
-            "label": "Dandakaranya",
+            "label": "",
+            "size": 44,
             "at": 0
           },
           {
             "place": "Panchavati",
             "label": "Panchavati",
+            "size": 44,
             "at": 0
           },
           {
             "place": "Lepakshi",
-            "label": "Lepakshi",
+            "label": "",
+            "size": 44,
             "at": 0
           },
           {
             "place": "Kishkindha",
             "label": "Kishkindha",
+            "size": 44,
             "at": 0
           },
           {
             "place": "Rameswaram",
             "label": "Rameswaram",
+            "size": 44,
             "at": 0
           }
         ],
@@ -1204,46 +1279,55 @@
           {
             "place": "Ayodhya",
             "label": "Ayodhya",
+            "size": 44,
             "at": 0
           },
           {
             "place": "Shringverpur",
-            "label": "Shringverpur",
+            "label": "",
+            "size": 44,
             "at": 0
           },
           {
             "place": "Prayagraj",
-            "label": "Prayagraj",
+            "label": "",
+            "size": 44,
             "at": 0
           },
           {
             "place": "Chitrakoot",
             "label": "Chitrakoot",
+            "size": 44,
             "at": 0
           },
           {
             "place": "Dandakaranya",
-            "label": "Dandakaranya",
+            "label": "",
+            "size": 44,
             "at": 0
           },
           {
             "place": "Panchavati",
             "label": "Panchavati",
+            "size": 44,
             "at": 0
           },
           {
             "place": "Lepakshi",
-            "label": "Lepakshi",
+            "label": "",
+            "size": 44,
             "at": 0
           },
           {
             "place": "Kishkindha",
             "label": "Kishkindha",
+            "size": 44,
             "at": 0
           },
           {
             "place": "Rameswaram",
             "label": "Rameswaram",
+            "size": 44,
             "at": 0
           }
         ],

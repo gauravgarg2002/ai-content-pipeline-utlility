@@ -136,6 +136,11 @@
           {
             "name": "Brazil",
             "label": false
+          },
+          {
+            "name": "France",
+            "label": "French Guiana",
+            "color": "#3DD6C6"
           }
         ],
         "pins": [

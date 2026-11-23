@@ -16,12 +16,6 @@
           -112,
           43
         ],
-        "fills": [
-          {
-            "name": "USA (48 states)",
-            "label": false
-          }
-        ],
         "pins": [
           {
             "place": "Reno"

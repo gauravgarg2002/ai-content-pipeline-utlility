@@ -96,7 +96,7 @@ VIDEOS = [
         "tags": ["geography", "maps", "Los Angeles", "Reno", "USA", "shorts"],
         "beats": [
             {"n": "Reno, Nevada, is further west than Los Angeles.",
-             "s": "WHICH IS FURTHER WEST?", "v": geo(view=USW, fills=[{"name": "USA (48 states)", "label": False}],
+             "s": "WHICH IS FURTHER WEST?", "v": geo(view=USW,
                                                     pins=[{"place": "Reno"}, {"place": "Los Angeles", "label": "Los Angeles", "dy": 40}])},
             {"n": "Los Angeles sits at about one hundred eighteen point two degrees west.",
              "s": "LA · 118.2°W", "v": geo(view=USW, meridian=-118.24, pins=[{"place": "Los Angeles", "dy": 40}]),
@@ -174,7 +174,7 @@ VIDEOS = [
              "s": "#3 ON EARTH", "v": cards(["China", "Russia", "Brazil"]),
              "c": "Brazil has the world's third-longest land border, behind China and Russia.", "u": S["brazil_borders"]},
             {"n": "And here's the twist. France's longest border isn't in Europe. It's this one, with Brazil. Seven hundred and thirty kilometres.",
-             "s": "FRANCE'S LONGEST BORDER", "v": geo(view=[-62, -2, -48, 8], fills=[{"name": "Brazil", "label": False}],
+             "s": "FRANCE'S LONGEST BORDER", "v": geo(view=[-62, -2, -48, 8], fills=[{"name": "Brazil", "label": False}, {"name": "France", "label": "French Guiana", "color": "#3DD6C6"}],
                                                      pins=[{"place": "French Guiana", "label": "730 km"}]),
              "c": "The Brazil–France border is 730 km, France's longest; Spain is second at 623 km.", "u": S["brazil_france"]},
             {"n": "Did you get both?",

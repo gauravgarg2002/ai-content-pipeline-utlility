@@ -68,7 +68,9 @@ ROUTE = ["Ayodhya", "Shringverpur", "Prayagraj", "Chitrakoot", "Dandakaranya", "
 
 def route_geo(upto, new=None, view=IND, lines=None, **kw):
     pts = ROUTE[:upto]
-    pins = [{"place": n, "label": n, "at": 0 if n != new else 0.15} for n in pts]
+    key = {"Ayodhya", "Chitrakoot", "Panchavati", "Kishkindha", "Rameswaram", new}
+    wide = view == IND
+    pins = [{"place": n, "label": n if (not wide or n in key) else "", "size": 44, "at": 0 if n != new else 0.15} for n in pts]
     base = [{"places": pts, "at": 0}] if len(pts) > 1 else []
     lines = lines if lines and lines[0].get("places") == ROUTE else base + (lines or [])
     return geo(view=view, fills=[{"name": "India", "label": False, "color": "#1E2740"}, {"name": "Sri Lanka", "label": False, "color": "#1E2740"}],
