@@ -5,10 +5,17 @@ from .assemble import font
 from .common import channel, load_config, read_json, run, video_dir, write_json
 
 
+PEOPLE = ("man", "woman", "character", "person", "jason", "lucia", "cash", "money", "gun", "face")
+
+
 def best_frame(vdir, edl, catalog, k):
-    q = {c["id"]: c.get("quality") or 0 for c in catalog}
-    early = [e for e in edl if e["beat"] <= 5] or edl
-    seg = max(early, key=lambda e: q.get(e["scene"], 0))
+    """Prefer a high-quality shot with a person or cash in it: faces sell thumbnails, landscapes don't."""
+    meta = {c["id"]: c for c in catalog}
+    def score(e):
+        c = meta.get(e["scene"], {})
+        text = (c.get("desc", "") + " " + " ".join(c.get("tags") or [])).lower()
+        return (any(w in text for w in PEOPLE), c.get("quality") or 0)
+    seg = max(edl, key=score)
     src = {s["id"]: s["path"] for s in read_json(vdir / "sources.json")}[seg["src"]]
     out = vdir / "work" / "thumb_base.jpg"
     run(["ffmpeg", "-y", "-ss", str(seg["start"] + min(1.0, seg["dur"] / 2)), "-i", src, "-frames:v", "1",

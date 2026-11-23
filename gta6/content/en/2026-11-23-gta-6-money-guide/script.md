@@ -55,88 +55,97 @@ The full GTA 6 money guide from early game to mid game: store stick-ups, Kenton'
 **14.** It's not instant money, it takes time. But whenever you're in Key Lento, squeeze in a dive. It runs alongside the story, and before you know it your account is full. [4]
    _visual: Key Lento islands, boat cruising_
 
+**15.** A simple habit that pays off: every time the story sends you down to Key Lento, plan a dive before you head back. You're already there, so it's free money for a few extra minutes of play. [1, 4]
+   _visual: underwater diving, boat returning to shore_ · callout: **DIVE EVERY KEY LENTO TRIP**
+
 ## Moses and stolen cars
 
-**15.** Your second big source is cars. In Chapter 2 you meet Moses in Port Gellhorn. He buys stolen cars, but only ones without a tracker. [3, 1]
+**16.** Your second big source is cars. In Chapter 2 you meet Moses in Port Gellhorn. He buys stolen cars, but only ones without a tracker. [3, 1]
    _visual: stealing a car, driving to a garage_ · callout: **MOSES · CHAPTER 2**
 
-**16.** How much does he pay? The guides disagree here. One says one to five thousand dollars per car, another says over ten thousand for a good one. Either way, the better the car, the bigger the payout. [3, 1]
+**17.** How much does he pay? The guides disagree here. One says one to five thousand dollars per car, another says over ten thousand for a good one. Either way, the better the car, the bigger the payout. [3, 1]
    _visual: luxury cars driving through Vice City_ · callout: **$1K – $10K+ PER CAR**
 
-**17.** After a sale, Moses goes on cooldown. The fix is simple: sleep at a safehouse and the cooldown resets. Pay N Spray also buys cars, but it has a daily limit and won't take high-end cars with trackers. [3, 1]
+**18.** After a sale, Moses goes on cooldown. The fix is simple: sleep at a safehouse and the cooldown resets. Pay N Spray also buys cars, but it has a daily limit and won't take high-end cars with trackers. [3, 1]
    _visual: character sleeping in bed, Pay N Spray garage_ · callout: **SLEEP = COOLDOWN RESET**
 
-**18.** Before you take a car, open the Waink app on your phone. It shows what security the car has, what it'll sell for, and what it costs to register. Steal blind and you might waste your time. [2]
+**19.** Before you take a car, open the Waink app on your phone. It shows what security the car has, what it'll sell for, and what it costs to register. Steal blind and you might waste your time. [2]
    _visual: in-game phone app, parked sports car_ · callout: **CHECK THE WAINK APP**
 
-**19.** Later on, in western Vice City, you meet Randy. He hands out contracts for high-end cars, which pay more, and he gives you a key cloner so you can steal keyless electronic cars too. [1]
+**20.** Later on, in western Vice City, you meet Randy. He hands out contracts for high-end cars, which pay more, and he gives you a key cloner so you can steal keyless electronic cars too. [1]
    _visual: supercar, unlocking a car_ · callout: **RANDY = HIGH-END CARS**
 
 ## Gang hideouts
 
-**20.** Source number three is riskier, but it pays well: rival gang hideouts. When you pass near one, a yellow icon appears on the map, and the map even tells you what's stashed inside. [1, 3]
+**21.** Source number three is riskier, but it pays well: rival gang hideouts. When you pass near one, a yellow icon appears on the map, and the map even tells you what's stashed inside. [1, 3]
    _visual: shootout at a gang house, map with icons_ · callout: **YELLOW ICON = HIDEOUT**
 
-**21.** The drugs you find there vary a lot in value. Weed is cheap, crystal and cocaine are worth far more. You have to carry them to a dealer yourself, someone like Tyrone, who pays you on the spot. You can drop them at a garage later instead, but then the dealer takes a bigger cut. [3, 1, 2]
+**22.** The drugs you find there vary a lot in value. Weed is cheap, crystal and cocaine are worth far more. You have to carry them to a dealer yourself, someone like Tyrone, who pays you on the spot. You can drop them at a garage later instead, but then the dealer takes a bigger cut. [3, 1, 2]
    _visual: carrying bags to a car, meeting a dealer_ · callout: **CARRY → SELL**
 
 ## Bigger scores
 
-**22.** Now the big scores. Before banks come high-end stores: the jewelry and clothing shops in Capri, Ocean Beach and Downtown Vice City. Security is tighter, so scout them on the map first to see how much loot there is and how heavily they're guarded. [1, 2]
+**23.** Now the big scores. Before banks come high-end stores: the jewelry and clothing shops in Capri, Ocean Beach and Downtown Vice City. Security is tighter, so scout them on the map first to see how much loot there is and how heavily they're guarded. [1, 2]
    _visual: luxury jewellery store, Ocean Beach at night_ · callout: **CAPRI · OCEAN BEACH**
 
-**23.** Medium and high security jobs are much easier as a duo. Invite your partner from the map icon. Go in through the back door with a snap gun and the alarm stays quiet. Each character carries two stash bags, a van or truck holds up to eight, and a motorbike holds none. [2]
+**24.** Medium and high security jobs are much easier as a duo. Invite your partner from the map icon. Go in through the back door with a snap gun and the alarm stays quiet. Each character carries two stash bags, a van or truck holds up to eight, and a motorbike holds none. [2]
    _visual: two characters entering through a back door, loading a van_ · callout: **2 BAGS · VAN = 8**
 
-**24.** To sell the jewelry, head to Yasmani in Little Cuba. He pays well for jewelry and marked bills. And remember, loot isn't money until you've sold it. [2, 1]
+**25.** To sell the jewelry, head to Yasmani in Little Cuba. He pays well for jewelry and marked bills. And remember, loot isn't money until you've sold it. [2, 1]
    _visual: colourful Little Cuba street, handing over a bag_ · callout: **FENCE: YASMANI**
 
-**25.** Then come the banks. They open up roughly halfway through the story. Banks use dye packs that explode, so you'll need a dye pack jammer first, which you get in Chapter 3. [1, 2]
+**26.** Then come the banks. They open up roughly halfway through the story. Banks use dye packs that explode, so you'll need a dye pack jammer first, which you get in Chapter 3. [1, 2]
    _visual: bank exterior, tense heist entry_ · callout: **DYE PACK JAMMER · CH 3**
 
-**26.** A bank has three targets: the tellers' cash drawers, safes full of marked bills, and the vault, where the biggest money is. But the moment you walk out, your wanted level goes straight up. It's the biggest payday in the game, and the biggest risk. [3]
+**27.** A bank has three targets: the tellers' cash drawers, safes full of marked bills, and the vault, where the biggest money is. But the moment you walk out, your wanted level goes straight up. It's the biggest payday in the game, and the biggest risk. [3]
    _visual: bank vault, police chase after a heist_ · callout: **DRAWER · SAFE · VAULT**
+
+**28.** So before any bank job, plan the exit, not just the entry. Park a fast car you haven't been seen in nearby, know where you'll change your outfit, and deposit the cash the moment you're clear. The vault means nothing if you lose it all in the chase. [2, 1]
+   _visual: getaway car, police chase, changing clothes_ · callout: **PLAN THE EXIT**
 
 ## Where to spend it
 
-**27.** So where should the money go? My order is simple. First, savings for story missions, because some won't unlock without the cash. Then weapons. Then cars and upgrades. Clothes come last. [1]
+**29.** So where should the money go? My order is simple. First, savings for story missions, because some won't unlock without the cash. Then weapons. Then cars and upgrades. Clothes come last. [1]
    _visual: shopping montage: gun store, car garage, clothing store_ · callout: **STORY > GUNS > CARS > CLOTHES**
 
-**28.** And here's something a lot of players don't know: you can't buy houses or safehouses in GTA 6. The story gives you places to live. So don't save up for property. [1]
+**30.** And here's something a lot of players don't know: you can't buy houses or safehouses in GTA 6. The story gives you places to live. So don't save up for property. [1]
    _visual: Vice City houses and motel exteriors_ · callout: **NO PROPERTY TO BUY**
 
 ## The money cheat
 
-**29.** And yes, there is a money cheat. It gives you two hundred and fifty thousand dollars every time, but it only unlocks after you finish the main story. [1]
+**31.** And yes, there is a money cheat. It gives you two hundred and fifty thousand dollars every time, but it only unlocks after you finish the main story. [1]
    _visual: phone in hand, cash_ · callout: **$250,000 CHEAT**
 
-**30.** The catch: with cheats on, you can't save, trophies and achievements are disabled, and the money vanishes when you quit. So there's no shortcut early on. You have to earn it. [1]
+**32.** The catch: with cheats on, you can't save, trophies and achievements are disabled, and the money vanishes when you quit. So there's no shortcut early on. You have to earn it. [1]
    _visual: pause menu_ · callout: **NO SAVES · NO TROPHIES**
 
 ## Three mistakes to avoid
 
-**31.** Before the recap, three mistakes I see new players make. Mistake one: carrying a big pile of cash into a fight. If the job goes wrong, that money is gone. Deposit first, then go looking for trouble. [1, 2]
+**33.** Before the recap, three mistakes I see new players make. Mistake one: carrying a big pile of cash into a fight. If the job goes wrong, that money is gone. Deposit first, then go looking for trouble. [1, 2]
    _visual: shootout, cash counter dropping_ · callout: **MISTAKE 1: CARRYING CASH**
 
-**32.** Mistake two: robbing a store with your face showing and then driving off in the same car. The police remember your look and your vehicle. A hat, a bandana and a quick car swap make a huge difference. [2]
+**34.** Mistake two: robbing a store with your face showing and then driving off in the same car. The police remember your look and your vehicle. A hat, a bandana and a quick car swap make a huge difference. [2]
    _visual: police scanning a car, character changing outfit_ · callout: **MISTAKE 2: SAME FACE, SAME CAR**
 
-**33.** Mistake three: grinding small jobs for hours. Muggings and stick-ups are fine for a little quick cash, but the real money is in Kenton's dives, Moses's cars, and later the big stores and banks. Play the story to unlock them. [1, 3]
+**35.** Mistake three: grinding small jobs for hours. Muggings and stick-ups are fine for a little quick cash, but the real money is in Kenton's dives, Moses's cars, and later the big stores and banks. Play the story to unlock them. [1, 3]
    _visual: montage of diving, stolen supercar, bank vault_ · callout: **MISTAKE 3: GRINDING SMALL JOBS**
 
 ## Quick recap
 
-**34.** Quick recap. Early on, a few stick-ups and Moses's car contracts. Start treasure diving as soon as you meet Kenton. Hit gang hideouts when you see the yellow icon. Before banks, the high-end stores in Capri and Ocean Beach. And in the mid game, banks and Randy's contracts. [1]
+**36.** Quick recap. Early on, a few stick-ups and Moses's car contracts. Start treasure diving as soon as you meet Kenton. Hit gang hideouts when you see the yellow icon. Before banks, the high-end stores in Capri and Ocean Beach. And in the mid game, banks and Randy's contracts. [1]
    _visual: fast recap montage_ · callout: **STICK-UPS → KENTON → MOSES → BANKS**
 
-**35.** And the most important rule of all: after every big job, put your money in an ATM. One bad chase and your pocket is empty. [1]
+**37.** And the most important rule of all: after every big job, put your money in an ATM. One bad chase and your pocket is empty. [1]
    _visual: ATM deposit, then police chase_ · callout: **ALWAYS DEPOSIT**
 
-**36.** Now tell me, what's the best money method you've found in GTA 6 so far? Drop it in the comments, and if this guide helped, subscribe. Next video, we're ranking the best cars in the game.
+**38.** If you only remember one thing from this video, make it this: the safest money in GTA 6 is the money in your bank, not in your pocket. [1]
+   _visual: ATM at night, Vice City_ · callout: **BANK IT**
+
+**39.** Now tell me, what's the best money method you've found in GTA 6 so far? Drop it in the comments, and if this guide helped, subscribe. Next video, we're ranking the best cars in the game.
    _visual: Vice City sunset, driving_ · callout: **COMMENT BELOW**
 
 ---
-36 beats, 1333 words, about 8.9 min. 1 beats cite no source (should be opinion/general only).
+39 beats, 1446 words, about 9.6 min. 1 beats cite no source (should be opinion/general only).
 
 Sources used for game facts:
 1. How to Make Money in GTA 6 (hands-on guide) (AlcastHQ) https://alcasthq.com/?p=87542

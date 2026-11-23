@@ -223,7 +223,19 @@
       ]
     },
     {
-      "id": 15,
+      "chapter": "",
+      "caption": "A simple habit that pays off: every time the story sends you down to Key Lento, plan a dive before you head back. You're already there, so it's free money for a few extra minutes of play.",
+      "tts": "A simple habit that pays off: every time the story sends you down to Key Lento, plan a dive before you head back. You're already there, so it's free money for a few extra minutes of play.",
+      "visual_need": "underwater diving, boat returning to shore",
+      "onscreen": "DIVE EVERY KEY LENTO TRIP",
+      "sources": [
+        1,
+        4
+      ],
+      "id": 15
+    },
+    {
+      "id": 16,
       "chapter": "Moses and stolen cars",
       "caption": "Your second big source is cars. In Chapter 2 you meet Moses in Port Gellhorn. He buys stolen cars, but only ones without a tracker.",
       "tts": "Your second big source is cars. In Chapter 2 you meet Moses in Port Gellhorn. He buys stolen cars, but only ones without a tracker.",
@@ -235,7 +247,7 @@
       ]
     },
     {
-      "id": 16,
+      "id": 17,
       "chapter": "",
       "caption": "How much does he pay? The guides disagree here. One says one to five thousand dollars per car, another says over ten thousand for a good one. Either way, the better the car, the bigger the payout.",
       "tts": "How much does he pay? The guides disagree here. One says one to five thousand dollars per car, another says over ten thousand for a good one. Either way, the better the car, the bigger the payout.",
@@ -247,7 +259,7 @@
       ]
     },
     {
-      "id": 17,
+      "id": 18,
       "chapter": "",
       "caption": "After a sale, Moses goes on cooldown. The fix is simple: sleep at a safehouse and the cooldown resets. Pay N Spray also buys cars, but it has a daily limit and won't take high-end cars with trackers.",
       "tts": "After a sale, Moses goes on cooldown. The fix is simple: sleep at a safehouse and the cooldown resets. Pay N Spray also buys cars, but it has a daily limit and won't take high-end cars with trackers.",
@@ -259,7 +271,7 @@
       ]
     },
     {
-      "id": 18,
+      "id": 19,
       "chapter": "",
       "caption": "Before you take a car, open the Waink app on your phone. It shows what security the car has, what it'll sell for, and what it costs to register. Steal blind and you might waste your time.",
       "tts": "Before you take a car, open the Waink app on your phone. It shows what security the car has, what it'll sell for, and what it costs to register. Steal blind and you might waste your time.",
@@ -270,7 +282,7 @@
       ]
     },
     {
-      "id": 19,
+      "id": 20,
       "chapter": "",
       "caption": "Later on, in western Vice City, you meet Randy. He hands out contracts for high-end cars, which pay more, and he gives you a key cloner so you can steal keyless electronic cars too.",
       "tts": "Later on, in western Vice City, you meet Randy. He hands out contracts for high-end cars, which pay more, and he gives you a key cloner so you can steal keyless electronic cars too.",
@@ -281,7 +293,7 @@
       ]
     },
     {
-      "id": 20,
+      "id": 21,
       "chapter": "Gang hideouts",
       "caption": "Source number three is riskier, but it pays well: rival gang hideouts. When you pass near one, a yellow icon appears on the map, and the map even tells you what's stashed inside.",
       "tts": "Source number three is riskier, but it pays well: rival gang hideouts. When you pass near one, a yellow icon appears on the map, and the map even tells you what's stashed inside.",
@@ -293,7 +305,7 @@
       ]
     },
     {
-      "id": 21,
+      "id": 22,
       "chapter": "",
       "caption": "The drugs you find there vary a lot in value. Weed is cheap, crystal and cocaine are worth far more. You have to carry them to a dealer yourself, someone like Tyrone, who pays you on the spot. You can drop them at a garage later instead, but then the dealer takes a bigger cut.",
       "tts": "The drugs you find there vary a lot in value. Weed is cheap, crystal and cocaine are worth far more. You have to carry them to a dealer yourself, someone like Tyrone, who pays you on the spot. You can drop them at a garage later instead, but then the dealer takes a bigger cut.",
@@ -306,7 +318,7 @@
       ]
     },
     {
-      "id": 22,
+      "id": 23,
       "chapter": "Bigger scores",
       "caption": "Now the big scores. Before banks come high-end stores: the jewelry and clothing shops in Capri, Ocean Beach and Downtown Vice City. Security is tighter, so scout them on the map first to see how much loot there is and how heavily they're guarded.",
       "tts": "Now the big scores. Before banks come high-end stores: the jewelry and clothing shops in Capri, Ocean Beach and Downtown Vice City. Security is tighter, so scout them on the map first to see how much loot there is and how heavily they're guarded.",
@@ -318,7 +330,7 @@
       ]
     },
     {
-      "id": 23,
+      "id": 24,
       "chapter": "",
       "caption": "Medium and high security jobs are much easier as a duo. Invite your partner from the map icon. Go in through the back door with a snap gun and the alarm stays quiet. Each character carries two stash bags, a van or truck holds up to eight, and a motorbike holds none.",
       "tts": "Medium and high security jobs are much easier as a duo. Invite your partner from the map icon. Go in through the back door with a snap gun and the alarm stays quiet. Each character carries two stash bags, a van or truck holds up to eight, and a motorbike holds none.",
@@ -329,7 +341,7 @@
       ]
     },
     {
-      "id": 24,
+      "id": 25,
       "chapter": "",
       "caption": "To sell the jewelry, head to Yasmani in Little Cuba. He pays well for jewelry and marked bills. And remember, loot isn't money until you've sold it.",
       "tts": "To sell the jewelry, head to Yasmani in Little Cuba. He pays well for jewelry and marked bills. And remember, loot isn't money until you've sold it.",
@@ -341,7 +353,7 @@
       ]
     },
     {
-      "id": 25,
+      "id": 26,
       "chapter": "",
       "caption": "Then come the banks. They open up roughly halfway through the story. Banks use dye packs that explode, so you'll need a dye pack jammer first, which you get in Chapter 3.",
       "tts": "Then come the banks. They open up roughly halfway through the story. Banks use dye packs that explode, so you'll need a dye pack jammer first, which you get in Chapter 3.",
@@ -353,7 +365,7 @@
       ]
     },
     {
-      "id": 26,
+      "id": 27,
       "chapter": "",
       "caption": "A bank has three targets: the tellers' cash drawers, safes full of marked bills, and the vault, where the biggest money is. But the moment you walk out, your wanted level goes straight up. It's the biggest payday in the game, and the biggest risk.",
       "tts": "A bank has three targets: the tellers' cash drawers, safes full of marked bills, and the vault, where the biggest money is. But the moment you walk out, your wanted level goes straight up. It's the biggest payday in the game, and the biggest risk.",
@@ -364,7 +376,19 @@
       ]
     },
     {
-      "id": 27,
+      "chapter": "",
+      "caption": "So before any bank job, plan the exit, not just the entry. Park a fast car you haven't been seen in nearby, know where you'll change your outfit, and deposit the cash the moment you're clear. The vault means nothing if you lose it all in the chase.",
+      "tts": "So before any bank job, plan the exit, not just the entry. Park a fast car you haven't been seen in nearby, know where you'll change your outfit, and deposit the cash the moment you're clear. The vault means nothing if you lose it all in the chase.",
+      "visual_need": "getaway car, police chase, changing clothes",
+      "onscreen": "PLAN THE EXIT",
+      "sources": [
+        2,
+        1
+      ],
+      "id": 28
+    },
+    {
+      "id": 29,
       "chapter": "Where to spend it",
       "caption": "So where should the money go? My order is simple. First, savings for story missions, because some won't unlock without the cash. Then weapons. Then cars and upgrades. Clothes come last.",
       "tts": "So where should the money go? My order is simple. First, savings for story missions, because some won't unlock without the cash. Then weapons. Then cars and upgrades. Clothes come last.",
@@ -375,7 +399,7 @@
       ]
     },
     {
-      "id": 28,
+      "id": 30,
       "chapter": "",
       "caption": "And here's something a lot of players don't know: you can't buy houses or safehouses in GTA 6. The story gives you places to live. So don't save up for property.",
       "tts": "And here's something a lot of players don't know: you can't buy houses or safehouses in GTA 6. The story gives you places to live. So don't save up for property.",
@@ -386,7 +410,7 @@
       ]
     },
     {
-      "id": 29,
+      "id": 31,
       "chapter": "The money cheat",
       "caption": "And yes, there is a money cheat. It gives you two hundred and fifty thousand dollars every time, but it only unlocks after you finish the main story.",
       "tts": "And yes, there is a money cheat. It gives you two hundred and fifty thousand dollars every time, but it only unlocks after you finish the main story.",
@@ -397,7 +421,7 @@
       ]
     },
     {
-      "id": 30,
+      "id": 32,
       "chapter": "",
       "caption": "The catch: with cheats on, you can't save, trophies and achievements are disabled, and the money vanishes when you quit. So there's no shortcut early on. You have to earn it.",
       "tts": "The catch: with cheats on, you can't save, trophies and achievements are disabled, and the money vanishes when you quit. So there's no shortcut early on. You have to earn it.",
@@ -408,7 +432,7 @@
       ]
     },
     {
-      "id": 31,
+      "id": 33,
       "chapter": "Three mistakes to avoid",
       "caption": "Before the recap, three mistakes I see new players make. Mistake one: carrying a big pile of cash into a fight. If the job goes wrong, that money is gone. Deposit first, then go looking for trouble.",
       "tts": "Before the recap, three mistakes I see new players make. Mistake one: carrying a big pile of cash into a fight. If the job goes wrong, that money is gone. Deposit first, then go looking for trouble.",
@@ -420,7 +444,7 @@
       ]
     },
     {
-      "id": 32,
+      "id": 34,
       "chapter": "",
       "caption": "Mistake two: robbing a store with your face showing and then driving off in the same car. The police remember your look and your vehicle. A hat, a bandana and a quick car swap make a huge difference.",
       "tts": "Mistake two: robbing a store with your face showing and then driving off in the same car. The police remember your look and your vehicle. A hat, a bandana and a quick car swap make a huge difference.",
@@ -431,7 +455,7 @@
       ]
     },
     {
-      "id": 33,
+      "id": 35,
       "chapter": "",
       "caption": "Mistake three: grinding small jobs for hours. Muggings and stick-ups are fine for a little quick cash, but the real money is in Kenton's dives, Moses's cars, and later the big stores and banks. Play the story to unlock them.",
       "tts": "Mistake three: grinding small jobs for hours. Muggings and stick-ups are fine for a little quick cash, but the real money is in Kenton's dives, Moses's cars, and later the big stores and banks. Play the story to unlock them.",
@@ -443,7 +467,7 @@
       ]
     },
     {
-      "id": 34,
+      "id": 36,
       "chapter": "Quick recap",
       "caption": "Quick recap. Early on, a few stick-ups and Moses's car contracts. Start treasure diving as soon as you meet Kenton. Hit gang hideouts when you see the yellow icon. Before banks, the high-end stores in Capri and Ocean Beach. And in the mid game, banks and Randy's contracts.",
       "tts": "Quick recap. Early on, a few stick-ups and Moses's car contracts. Start treasure diving as soon as you meet Kenton. Hit gang hideouts when you see the yellow icon. Before banks, the high-end stores in Capri and Ocean Beach. And in the mid game, banks and Randy's contracts.",
@@ -454,7 +478,7 @@
       ]
     },
     {
-      "id": 35,
+      "id": 37,
       "chapter": "",
       "caption": "And the most important rule of all: after every big job, put your money in an ATM. One bad chase and your pocket is empty.",
       "tts": "And the most important rule of all: after every big job, put your money in an ATM. One bad chase and your pocket is empty.",
@@ -465,7 +489,18 @@
       ]
     },
     {
-      "id": 36,
+      "chapter": "",
+      "caption": "If you only remember one thing from this video, make it this: the safest money in GTA 6 is the money in your bank, not in your pocket.",
+      "tts": "If you only remember one thing from this video, make it this: the safest money in GTA 6 is the money in your bank, not in your pocket.",
+      "visual_need": "ATM at night, Vice City",
+      "onscreen": "BANK IT",
+      "sources": [
+        1
+      ],
+      "id": 38
+    },
+    {
+      "id": 39,
       "chapter": "",
       "caption": "Now tell me, what's the best money method you've found in GTA 6 so far? Drop it in the comments, and if this guide helped, subscribe. Next video, we're ranking the best cars in the game.",
       "tts": "Now tell me, what's the best money method you've found in GTA 6 so far? Drop it in the comments, and if this guide helped, subscribe. Next video, we're ranking the best cars in the game.",
