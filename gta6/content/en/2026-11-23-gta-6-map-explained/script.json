@@ -1,0 +1,588 @@
+{
+  "topic": "GTA 6 map explained: every region of Leonida",
+  "format": "explainer",
+  "search_query": "GTA 6 map explained",
+  "research": [
+    {
+      "n": 1,
+      "title": "GTA 6 Map: Every Confirmed Location in the State of Leonida",
+      "channel": "AllThings.How",
+      "url": "https://allthings.how/gta-6-map-every-confirmed-location-in-the-state-of-leonida/"
+    },
+    {
+      "n": 2,
+      "title": "GTA 6 map (Aaron Garbut to Edge)",
+      "channel": "MeowDB",
+      "url": "https://meowdb.com/gta6/map"
+    },
+    {
+      "n": 3,
+      "title": "GTA 6 beginner's guide",
+      "channel": "Red Bull Gaming",
+      "url": "https://www.redbull.com/ie-en/gta-6-beginners-guide"
+    },
+    {
+      "n": 4,
+      "title": "15 GTA 6 Easter Eggs and Hidden Details",
+      "channel": "EarlyGame",
+      "url": "https://earlygame.com/guides/gaming/gta-6-easter-eggs-hidden-details"
+    },
+    {
+      "n": 5,
+      "title": "GTA 6 characters and cast",
+      "channel": "Red Bull Gaming",
+      "url": "https://www.redbull.com/gb-en/gta-6-characters-cast"
+    }
+  ],
+  "title": "GTA 6 Map Explained: Every Region of Leonida",
+  "title_alternatives": [
+    "How BIG Is the GTA 6 Map? Every Region Explained",
+    "GTA 6 Map Tour: All 6 Regions of Leonida"
+  ],
+  "thumbnail_text": "HOW BIG?",
+  "description_summary": "A full tour of the GTA 6 map: all six regions of Leonida, Vice City's districts and landmarks, the real places that inspired them, how big the map really is, interiors, wildlife and what's still unconfirmed.",
+  "tags": [
+    "gta 6",
+    "gta 6 map",
+    "gta 6 map size",
+    "gta 6 map explained",
+    "gta 6 leonida",
+    "gta 6 vice city",
+    "gta 6 regions",
+    "gta 6 locations",
+    "gta 6 how big is the map",
+    "gta 6 grassrivers",
+    "gta 6 port gellhorn",
+    "gta 6 mount kalaga",
+    "gta 6 ambrosia",
+    "gta 6 leonida keys",
+    "gta vi map"
+  ],
+  "source_queries": [],
+  "beats": [
+    {
+      "id": 1,
+      "chapter": "",
+      "caption": "GTA 6 isn't just Vice City. It's an entire state called Leonida, Rockstar's version of Florida, and Rockstar says it's the largest world they've ever built. So let's tour every region, and answer the big question: how big is it really?",
+      "tts": "GTA 6 isn't just Vice City. It's an entire state called Leonida, Rockstar's version of Florida, and Rockstar says it's the largest world they've ever built. So let's tour every region, and answer the big question: how big is it really?",
+      "visual_need": "drone shot over Vice City and coast",
+      "onscreen": "LEONIDA = FLORIDA",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 2,
+      "chapter": "",
+      "caption": "We'll go region by region, from the neon of Vice City to the swamps, the forgotten coast and the national park in the north, plus the districts, landmarks, wildlife, and what's still only rumour.",
+      "tts": "We'll go region by region, from the neon of Vice City to the swamps, the forgotten coast and the national park in the north, plus the districts, landmarks, wildlife, and what's still only rumour.",
+      "visual_need": "montage of swamp, city, forest",
+      "onscreen": "6 REGIONS",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 3,
+      "chapter": "How big is it?",
+      "caption": "First, size. Rockstar hasn't published a square-kilometre figure. But Aaron Garbut of Rockstar North told Edge magazine that Leonida's landmass is nearly as large as GTA 4, GTA 5 and Red Dead Redemption 2 combined.",
+      "tts": "First, size. Rockstar hasn't published a square-kilometre figure. But Aaron Garbut of Rockstar North told Edge magazine that Leonida's landmass is nearly as large as GTA 4, GTA 5 and Red Dead Redemption 2 combined.",
+      "visual_need": "wide aerial shot of Leonida",
+      "onscreen": "≈ GTA IV + V + RDR2",
+      "sources": [
+        2
+      ]
+    },
+    {
+      "id": 4,
+      "chapter": "",
+      "caption": "He also said it has an order of magnitude more interiors. That's not a small upgrade. That's a different kind of open world.",
+      "tts": "He also said it has an order of magnitude more interiors. That's not a small upgrade. That's a different kind of open world.",
+      "visual_need": "busy interiors, bars and shops",
+      "onscreen": "10× THE INTERIORS",
+      "sources": [
+        2
+      ]
+    },
+    {
+      "id": 5,
+      "chapter": "",
+      "caption": "Community mapping projects, which are unofficial, put the map at roughly one and a half to two times GTA 5's, with about one point seven times as a common middle estimate. And Vice City alone is estimated at two to three times the footprint of Los Santos.",
+      "tts": "Community mapping projects, which are unofficial, put the map at roughly one and a half to two times GTA 5's, with about one point seven times as a common middle estimate. And Vice City alone is estimated at two to three times the footprint of Los Santos.",
+      "visual_need": "city skyline comparison",
+      "onscreen": "~1.7× GTA V (COMMUNITY)",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 6,
+      "chapter": "",
+      "caption": "And those interiors add up. More than seven hundred enterable interiors have been reported, nightclubs, motels, restaurants, pawn shops and gun stores, and multi-storey buildings even have working elevators.",
+      "tts": "And those interiors add up. More than seven hundred enterable interiors have been reported, nightclubs, motels, restaurants, pawn shops and gun stores, and multi-storey buildings even have working elevators.",
+      "visual_need": "elevator, nightclub, motel interiors",
+      "onscreen": "700+ INTERIORS",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 7,
+      "chapter": "",
+      "caption": "Here's how to find them: on the map, dark blue buildings have an entrance or an interior, while light blue buildings are just scenery. And near an enterable building, the minimap marks the door with a small white line.",
+      "tts": "Here's how to find them: on the map, dark blue buildings have an entrance or an interior, while light blue buildings are just scenery. And near an enterable building, the minimap marks the door with a small white line.",
+      "visual_need": "map zoomed into buildings",
+      "onscreen": "DARK BLUE = INTERIOR",
+      "sources": [
+        3
+      ]
+    },
+    {
+      "id": 8,
+      "chapter": "Region 1: Vice City",
+      "caption": "Region one is the heart of it all: Vice City, inspired by Miami. Art deco beachfronts, nightlife, a glass-tower downtown, canals, and a cruise-heavy port.",
+      "tts": "Region one is the heart of it all: Vice City, inspired by Miami. Art deco beachfronts, nightlife, a glass-tower downtown, canals, and a cruise-heavy port.",
+      "visual_need": "Vice City beachfront and downtown",
+      "onscreen": "VICE CITY = MIAMI",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 9,
+      "chapter": "",
+      "caption": "If you played the original Vice City back in 2002, you'll spot callbacks. Promo material shows Jason and Lucia outside the Ocean View Hotel, which was Tommy Vercetti's first safehouse. And Flash FM, a radio station from the original, is confirmed to return.",
+      "tts": "If you played the original Vice City back in 2002, you'll spot callbacks. Promo material shows Jason and Lucia outside the Ocean View Hotel, which was Tommy Vercetti's first safehouse. And Flash FM, a radio station from the original, is confirmed to return.",
+      "visual_need": "art deco hotel on Ocean Beach",
+      "onscreen": "OCEAN VIEW HOTEL IS BACK",
+      "sources": [
+        4
+      ]
+    },
+    {
+      "id": 10,
+      "chapter": "",
+      "caption": "But this Vice City is far bigger and far more modern. Where the original was two islands of pastel and neon, the new one is a full city, with social media, influencers and corporate towers sitting right next to its rough side.",
+      "tts": "But this Vice City is far bigger and far more modern. Where the original was two islands of pastel and neon, the new one is a full city, with social media, influencers and corporate towers sitting right next to its rough side.",
+      "visual_need": "modern skyline vs beach",
+      "onscreen": "2002 → 2026",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 11,
+      "chapter": "",
+      "caption": "The city breaks into districts. Ocean Beach, South Beach, which is the main neon nightlife strip, and Washington Beach. Vice Beach is a barrier island linked by a causeway.",
+      "tts": "The city breaks into districts. Ocean Beach, South Beach, which is the main neon nightlife strip, and Washington Beach. Vice Beach is a barrier island linked by a causeway.",
+      "visual_need": "neon strip at night, causeway",
+      "onscreen": "OCEAN BEACH · SOUTH BEACH",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 12,
+      "chapter": "",
+      "caption": "Downtown is the financial core. Then there's Little Cuba, also called Little Havana, and La Perle, or Little Haiti. Stockyard is the arts district, covered in murals, and Bayside and the Rialto Islands are both named on screen in gameplay.",
+      "tts": "Downtown is the financial core. Then there's Little Cuba, also called Little Havana, and La Perle, or Little Haiti. Stockyard is the arts district, covered in murals, and Bayside and the Rialto Islands are both named on screen in gameplay.",
+      "visual_need": "Little Cuba streets, murals",
+      "onscreen": "DOWNTOWN · LITTLE CUBA · STOCKYARD",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 13,
+      "chapter": "",
+      "caption": "The city also has its own port and Vice City International Airport, plus a metro station, a football stadium, a huge amphitheatre, and a bay observation deck you can use as a skydiving launch point.",
+      "tts": "The city also has its own port and Vice City International Airport, plus a metro station, a football stadium, a huge amphitheatre, and a bay observation deck you can use as a skydiving launch point.",
+      "visual_need": "airport, stadium, skydiving",
+      "onscreen": "SKYDIVE FROM THE DECK",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 14,
+      "chapter": "",
+      "caption": "There are tennis courts too, and the Leonida Penitentiary, which matters more than it sounds, because it's where Lucia served her time before the story begins.",
+      "tts": "There are tennis courts too, and the Leonida Penitentiary, which matters more than it sounds, because it's where Lucia served her time before the story begins.",
+      "visual_need": "prison exterior, tennis courts",
+      "onscreen": "LEONIDA PENITENTIARY",
+      "sources": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 15,
+      "chapter": "",
+      "caption": "Look out for named venues from the gameplay: Megamundo Tower, a corporate headquarters, the Effluvia rooftop lounge, the Jack of Hearts nightclub, Hank's Waffles, and the Hotel Dixon on the night beach strip.",
+      "tts": "Look out for named venues from the gameplay: Megamundo Tower, a corporate headquarters, the Effluvia rooftop lounge, the Jack of Hearts nightclub, Hank's Waffles, and the Hotel Dixon on the night beach strip.",
+      "visual_need": "rooftop lounge, nightclub, diner",
+      "onscreen": "EFFLUVIA · JACK OF HEARTS",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 16,
+      "chapter": "",
+      "caption": "And on the rougher side, the Victory Arms housing project from the opening, Zeke's Gadgets pawn shop, and the Tisha-Wocka flea market. Vice City isn't all money and neon.",
+      "tts": "And on the rougher side, the Victory Arms housing project from the opening, Zeke's Gadgets pawn shop, and the Tisha-Wocka flea market. Vice City isn't all money and neon.",
+      "visual_need": "housing project, pawn shop",
+      "onscreen": "VICTORY ARMS · ZEKE'S GADGETS",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 17,
+      "chapter": "Region 2: The Leonida Keys",
+      "caption": "Region two is the Leonida Keys, based on the Florida Keys. A chain of tropical islands linked by bridges, south of the city, and where the protagonists' starting apartment is.",
+      "tts": "Region two is the Leonida Keys, based on the Florida Keys. A chain of tropical islands linked by bridges, south of the city, and where the protagonists' starting apartment is.",
+      "visual_need": "bridge across turquoise water",
+      "onscreen": "LEONIDA KEYS = FLORIDA KEYS",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 18,
+      "chapter": "",
+      "caption": "This is where you'll spend your first hours, including Key Lento. And it's worth doing the side content down here early, because coming back later takes around ten minutes.",
+      "tts": "This is where you'll spend your first hours, including Key Lento. And it's worth doing the side content down here early, because coming back later takes around ten minutes.",
+      "visual_need": "Key Lento town",
+      "onscreen": "KEY LENTO",
+      "sources": [
+        3
+      ]
+    },
+    {
+      "id": 19,
+      "chapter": "",
+      "caption": "The Keys also connect to underwater exploration. The waters around Leonida have explorable underwater areas, and that's where treasure diving comes in.",
+      "tts": "The Keys also connect to underwater exploration. The waters around Leonida have explorable underwater areas, and that's where treasure diving comes in.",
+      "visual_need": "underwater, turtles and reef",
+      "onscreen": "UNDERWATER AREAS",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 20,
+      "chapter": "Region 3: The Grassrivers",
+      "caption": "Region three, the Grassrivers, is Rockstar's take on the Everglades. Mangroves, flooded plains, alligators and airboats.",
+      "tts": "Region three, the Grassrivers, is Rockstar's take on the Everglades. Mangroves, flooded plains, alligators and airboats.",
+      "visual_need": "airboat skimming through swamp",
+      "onscreen": "GRASSRIVERS = EVERGLADES",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 21,
+      "chapter": "",
+      "caption": "This is where Leonida feels wild. Alligators are everywhere, and it's also prime territory for chases that end in the water. Honestly, it might be the most atmospheric part of the map.",
+      "tts": "This is where Leonida feels wild. Alligators are everywhere, and it's also prime territory for chases that end in the water. Honestly, it might be the most atmospheric part of the map.",
+      "visual_need": "alligator in the water, police chase",
+      "onscreen": "GATORS EVERYWHERE",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 22,
+      "chapter": "",
+      "caption": "Get yourself an airboat out here. It's the most fun way to cross the swamp, and the flooded plains are wide enough that a car simply won't get you everywhere.",
+      "tts": "Get yourself an airboat out here. It's the most fun way to cross the swamp, and the flooded plains are wide enough that a car simply won't get you everywhere.",
+      "visual_need": "airboat at sunset",
+      "onscreen": "TAKE AN AIRBOAT",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 23,
+      "chapter": "Region 4: Port Gellhorn",
+      "caption": "Region four is Port Gellhorn, inspired by Panama City Beach. Rockstar describes it as a forgotten coast: cheap motels, dead attractions, a working port and dirt bikes.",
+      "tts": "Region four is Port Gellhorn, inspired by Panama City Beach. Rockstar describes it as a forgotten coast: cheap motels, dead attractions, a working port and dirt bikes.",
+      "visual_need": "run-down motel, empty beach attraction",
+      "onscreen": "PORT GELLHORN = PANAMA CITY BEACH",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 24,
+      "chapter": "",
+      "caption": "Don't let the rundown look fool you. It's an important stop for the story, and if you're into cars, it's where you'll do a lot of your early business.",
+      "tts": "Don't let the rundown look fool you. It's an important stop for the story, and if you're into cars, it's where you'll do a lot of your early business.",
+      "visual_need": "garage in Port Gellhorn",
+      "onscreen": "FORGOTTEN COAST",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 25,
+      "chapter": "",
+      "caption": "Port Gellhorn is also dirt bike territory. Between the empty lots and the beach, it's a great place to learn bike handling away from city traffic.",
+      "tts": "Port Gellhorn is also dirt bike territory. Between the empty lots and the beach, it's a great place to learn bike handling away from city traffic.",
+      "visual_need": "dirt bikes on sand",
+      "onscreen": "DIRT BIKE TERRITORY",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 26,
+      "chapter": "Region 5: Ambrosia",
+      "caption": "Region five, Ambrosia, represents central Florida's industry. The big landmark is the Allied Crystal sugar refinery, with freight infrastructure around it and a local biker gang.",
+      "tts": "Region five, Ambrosia, represents central Florida's industry. The big landmark is the Allied Crystal sugar refinery, with freight infrastructure around it and a local biker gang.",
+      "visual_need": "sugar refinery, freight trains",
+      "onscreen": "AMBROSIA = INDUSTRY",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 27,
+      "chapter": "",
+      "caption": "Ambrosia is also the name of a county, which also contains Lake Leonida. It's less glamorous than the coast, which is exactly why it's interesting.",
+      "tts": "Ambrosia is also the name of a county, which also contains Lake Leonida. It's less glamorous than the coast, which is exactly why it's interesting.",
+      "visual_need": "lake and industrial land",
+      "onscreen": "LAKE LEONIDA",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 28,
+      "chapter": "Region 6: Mount Kalaga",
+      "caption": "And region six, Mount Kalaga National Park, on the northern border. It's inspired by north Florida and Providence Canyon in Georgia. Forests, canyons and rivers.",
+      "tts": "And region six, Mount Kalaga National Park, on the northern border. It's inspired by north Florida and Providence Canyon in Georgia. Forests, canyons and rivers.",
+      "visual_need": "forest canyon and river",
+      "onscreen": "MOUNT KALAGA NATIONAL PARK",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 29,
+      "chapter": "",
+      "caption": "This is the outdoors region. Hunting, fishing, kayaking and off-roading, and it adds its own wildlife, deer, cougars and foxes, on top of what you'll find elsewhere.",
+      "tts": "This is the outdoors region. Hunting, fishing, kayaking and off-roading, and it adds its own wildlife, deer, cougars and foxes, on top of what you'll find elsewhere.",
+      "visual_need": "kayak, deer in forest",
+      "onscreen": "HUNT · FISH · KAYAK",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 30,
+      "chapter": "",
+      "caption": "And remember why fishing matters: calm activities like fishing raise your Focus stat, and Focus gains are permanent. So a lazy afternoon at Mount Kalaga actually makes you better at everything else.",
+      "tts": "And remember why fishing matters: calm activities like fishing raise your Focus stat, and Focus gains are permanent. So a lazy afternoon at Mount Kalaga actually makes you better at everything else.",
+      "visual_need": "fishing on a river",
+      "onscreen": "FISHING = PERMANENT FOCUS",
+      "sources": [
+        3
+      ]
+    },
+    {
+      "id": 31,
+      "chapter": "The counties",
+      "caption": "Under the regions, Leonida is split into counties, mostly identified from road signs, police cars and sheriff branding. Vice-Dale in the south east holds Vice City, Vice Beach, Ocean Beach, the port and the airport.",
+      "tts": "Under the regions, Leonida is split into counties, mostly identified from road signs, police cars and sheriff branding. Vice-Dale in the south east holds Vice City, Vice Beach, Ocean Beach, the port and the airport.",
+      "visual_need": "police car with county livery",
+      "onscreen": "VICE-DALE COUNTY",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 32,
+      "chapter": "",
+      "caption": "Leonard County in the north east includes Waning Sands. Kelly County in the north west holds Port Gellhorn. And Mariana County in the south west covers the Grassrivers, the Keys, Key Lento, Watson Bay and Capri.",
+      "tts": "Leonard County in the north east includes Waning Sands. Kelly County in the north west holds Port Gellhorn. And Mariana County in the south west covers the Grassrivers, the Keys, Key Lento, Watson Bay and Capri.",
+      "visual_need": "road signs, coastline",
+      "onscreen": "LEONARD · KELLY · MARIANA",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 33,
+      "chapter": "Wildlife",
+      "caption": "Leonida is alive. An in-game chart lists alligators, boars, dogs, snakes, raccoons, birds, frogs, bobcats and rodents, with separate symbols for plants and even toxic waste.",
+      "tts": "Leonida is alive. An in-game chart lists alligators, boars, dogs, snakes, raccoons, birds, frogs, bobcats and rodents, with separate symbols for plants and even toxic waste.",
+      "visual_need": "wildlife montage",
+      "onscreen": "GATORS · BOARS · BOBCATS",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 34,
+      "chapter": "",
+      "caption": "Add Mount Kalaga's deer, cougars and foxes, plus flamingos in the wetlands, and it's the most varied wildlife of any GTA. Some of it is beautiful, and some of it will absolutely ruin your day.",
+      "tts": "Add Mount Kalaga's deer, cougars and foxes, plus flamingos in the wetlands, and it's the most varied wildlife of any GTA. Some of it is beautiful, and some of it will absolutely ruin your day.",
+      "visual_need": "flamingos, cougar",
+      "onscreen": "SOME OF IT BITES",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 35,
+      "chapter": "",
+      "caption": "Watch for animal tracks too. In Focus Mode you can follow them, which is how you'll find the better hunting spots in the north.",
+      "tts": "Watch for animal tracks too. In Focus Mode you can follow them, which is how you'll find the better hunting spots in the north.",
+      "visual_need": "animal tracks highlighted",
+      "onscreen": "FOCUS: FOLLOW TRACKS",
+      "sources": [
+        3
+      ]
+    },
+    {
+      "id": 36,
+      "chapter": "Getting around",
+      "caption": "With a map this big, travel matters. There's no warping from the map. You use the RydeMe app, buses and trains on schedules, or switch characters, and the trains cover the whole region.",
+      "tts": "With a map this big, travel matters. There's no warping from the map. You use the RydeMe app, buses and trains on schedules, or switch characters, and the trains cover the whole region.",
+      "visual_need": "train crossing the state",
+      "onscreen": "TRAINS COVER IT ALL",
+      "sources": [
+        3
+      ]
+    },
+    {
+      "id": 37,
+      "chapter": "",
+      "caption": "RydeMe will even get you there instantly for an extra hundred dollars. But honestly, with a world this detailed, driving is half the fun.",
+      "tts": "RydeMe will even get you there instantly for an extra hundred dollars. But honestly, with a world this detailed, driving is half the fun.",
+      "visual_need": "car driving along coast road",
+      "onscreen": "RYDEME +$100",
+      "sources": [
+        3
+      ]
+    },
+    {
+      "id": 38,
+      "chapter": "",
+      "caption": "And the fastest trick of all is switching characters. The one you're not using usually waits near your current safehouse, so a switch can move you across the map in seconds.",
+      "tts": "And the fastest trick of all is switching characters. The one you're not using usually waits near your current safehouse, so a switch can move you across the map in seconds.",
+      "visual_need": "character switch transition",
+      "onscreen": "SWITCH = FASTEST",
+      "sources": [
+        3
+      ]
+    },
+    {
+      "id": 39,
+      "chapter": "Rumours vs facts",
+      "caption": "Now, what's not confirmed. Lummox County in the north only appears in leaked material, not official releases. And mapping projects disagree on exactly where Leonard and Ambrosia sit.",
+      "tts": "Now, what's not confirmed. Lummox County in the north only appears in leaked material, not official releases. And mapping projects disagree on exactly where Leonard and Ambrosia sit.",
+      "visual_need": "map outline with question marks",
+      "onscreen": "UNCONFIRMED: LUMMOX COUNTY",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 40,
+      "chapter": "",
+      "caption": "A full map leaked in August reportedly came from an older internal build, so its borders and town names may not match the final game. And Gloriana, once rumoured to be a whole separate state, looks like it's just a single key island.",
+      "tts": "A full map leaked in August reportedly came from an older internal build, so its borders and town names may not match the final game. And Gloriana, once rumoured to be a whole separate state, looks like it's just a single key island.",
+      "visual_need": "island in the Keys",
+      "onscreen": "GLORIANA = AN ISLAND",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 41,
+      "chapter": "",
+      "caption": "Several other place names have surfaced too, like Crosstown, Rockridge and Catalan Key, but their source isn't clear, so treat them as rumours until you find them yourself.",
+      "tts": "Several other place names have surfaced too, like Crosstown, Rockridge and Catalan Key, but their source isn't clear, so treat them as rumours until you find them yourself.",
+      "visual_need": "unexplored coastline",
+      "onscreen": "RUMOURS ≠ FACTS",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 42,
+      "chapter": "My ranking",
+      "caption": "Before the recap, my personal ranking. Number one is Vice City at night. The neon strip, the nightlife and the sheer density of things to walk into make it the best city Rockstar has built.",
+      "tts": "Before the recap, my personal ranking. Number one is Vice City at night. The neon strip, the nightlife and the sheer density of things to walk into make it the best city Rockstar has built.",
+      "visual_need": "neon South Beach at night",
+      "onscreen": "#1 VICE CITY AT NIGHT",
+      "sources": []
+    },
+    {
+      "id": 43,
+      "chapter": "",
+      "caption": "Number two is the Grassrivers. Nothing else in GTA feels like gliding through a flooded swamp on an airboat with alligators around you. And number three is Mount Kalaga, for when you want the game to slow down.",
+      "tts": "Number two is the Grassrivers. Nothing else in GTA feels like gliding through a flooded swamp on an airboat with alligators around you. And number three is Mount Kalaga, for when you want the game to slow down.",
+      "visual_need": "airboat, forest canyon",
+      "onscreen": "#2 GRASSRIVERS · #3 KALAGA",
+      "sources": []
+    },
+    {
+      "id": 44,
+      "chapter": "",
+      "caption": "The underrated pick is Port Gellhorn. It looks forgotten on purpose, and that's exactly what makes it feel real. Don't skip it just because it isn't shiny.",
+      "tts": "The underrated pick is Port Gellhorn. It looks forgotten on purpose, and that's exactly what makes it feel real. Don't skip it just because it isn't shiny.",
+      "visual_need": "empty beachfront, old motel sign",
+      "onscreen": "UNDERRATED: PORT GELLHORN",
+      "sources": []
+    },
+    {
+      "id": 45,
+      "chapter": "",
+      "caption": "And if you want the most out of the map, slow down. With this many interiors, the best stuff is inside buildings, not on the roads between them.",
+      "tts": "And if you want the most out of the map, slow down. With this many interiors, the best stuff is inside buildings, not on the roads between them.",
+      "visual_need": "walking into a shop",
+      "onscreen": "GO INSIDE",
+      "sources": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 46,
+      "chapter": "Where to start",
+      "caption": "So where should you go first? Do the Keys content early, explore Vice City at night for the nightlife, take an airboat through the Grassrivers, and save Mount Kalaga for when you want a break from crime.",
+      "tts": "So where should you go first? Do the Keys content early, explore Vice City at night for the nightlife, take an airboat through the Grassrivers, and save Mount Kalaga for when you want a break from crime.",
+      "visual_need": "montage of all regions",
+      "onscreen": "KEYS → CITY → SWAMP → PARK",
+      "sources": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": 47,
+      "chapter": "",
+      "caption": "Quick recap. Six regions: Vice City, the Leonida Keys, the Grassrivers, Port Gellhorn, Ambrosia and Mount Kalaga. Five counties. Over seven hundred interiors. And a landmass nearly as big as three Rockstar games combined.",
+      "tts": "Quick recap. Six regions: Vice City, the Leonida Keys, the Grassrivers, Port Gellhorn, Ambrosia and Mount Kalaga. Five counties. Over seven hundred interiors. And a landmass nearly as big as three Rockstar games combined.",
+      "visual_need": "aerial montage",
+      "onscreen": "6 REGIONS · 700+ INTERIORS",
+      "sources": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 48,
+      "chapter": "",
+      "caption": "Which region are you exploring first? Tell me in the comments, and subscribe, because next we're meeting the characters of GTA 6, spoiler-free.",
+      "tts": "Which region are you exploring first? Tell me in the comments, and subscribe, because next we're meeting the characters of GTA 6, spoiler-free.",
+      "visual_need": "sunset over Vice City",
+      "onscreen": "COMMENT BELOW",
+      "sources": []
+    }
+  ]
+}

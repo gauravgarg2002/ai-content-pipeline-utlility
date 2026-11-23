@@ -1,24 +1,43 @@
 name: gta6-build
-# Builds one approved GTA 6 video end to end (voice, footage, tagging, edit, render,
-# thumbnail) and pushes the result to the `gta6-renders` branch for review.
+# Builds GTA 6 videos end to end (voice, footage, matching, render, thumbnail), one job per video,
+# and pushes each result to its own branch `gta6-render/<video>` for review.
+# Videos come from gta6/build-queue.txt (one folder name per line) or the `videos` input.
 # The MP4 is split into <95 MB parts (GitHub's file limit); rejoin with `cat final.mp4.part* > final.mp4`.
 on:
   workflow_dispatch:
     inputs:
-      video: {description: "Video folder under gta6/content/hi", default: "2026-11-23-gta-6-paisa-kaise-kamaye"}
-      channel: {description: "hi or en", default: "hi"}
+      videos: {description: "Comma-separated video folders under gta6/content/<channel> (empty = build-queue.txt)", default: ""}
+      channel: {description: "hi or en", default: "en"}
   push:
     branches: ["gta6/**"]
-    paths: ["gta6/**", ".github/workflows/gta6-build.yml"]
-concurrency: { group: gta6-build, cancel-in-progress: true }
+    paths: ["gta6/build-queue.txt", ".github/workflows/gta6-build.yml"]
+concurrency: { group: gta6-build-${{ github.ref }}, cancel-in-progress: true }
 permissions: { contents: write }
 
 jobs:
-  build:
+  plan:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    outputs:
+      videos: ${{ steps.q.outputs.videos }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: q
+        run: |
+          IN="${{ github.event.inputs.videos }}"
+          if [ -n "$IN" ]; then LIST=$(echo "$IN" | tr ',' '\n'); else LIST=$(grep -v '^\s*$' gta6/build-queue.txt); fi
+          echo "videos=$(echo "$LIST" | python3 -c 'import sys,json;print(json.dumps([l.strip() for l in sys.stdin if l.strip()]))')" >> $GITHUB_OUTPUT
+
+  build:
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    strategy:
+      fail-fast: false
+      max-parallel: 3          # Gemini free tier: 5 requests/min on Flash
+      matrix:
+        video: ${{ fromJson(needs.plan.outputs.videos) }}
     env:
-      VIDEO: ${{ github.event.inputs.video || '2026-11-23-gta-6-money-guide' }}
+      VIDEO: ${{ matrix.video }}
       CH: ${{ github.event.inputs.channel || 'en' }}
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
     steps:
@@ -54,15 +73,6 @@ jobs:
       - name: Index scenes (Gemini vision)
         working-directory: gta6
         run: set -o pipefail; python -m pipeline -c "$CH" index "$VIDEO" 2>&1 | tee -a build.log
-      - name: Save footage cache (even if later steps fail)
-        if: always()
-        uses: actions/cache/save@v4
-        with:
-          path: |
-            gta6/cache/sources
-            gta6/cache/scenes
-            gta6/cache/frames
-          key: gta6-official-v1-${{ github.run_id }}
       - name: Match footage to script
         working-directory: gta6
         run: set -o pipefail; python -m pipeline -c "$CH" match "$VIDEO" 2>&1 | tee -a build.log
@@ -80,12 +90,11 @@ jobs:
           for f in script.md script.json sources.json edl.json timing.json captions.srt metadata.json thumbnail.jpg status.json; do cp "$D/$f" $O/ 2>/dev/null || true; done
           if [ -f "$D/final.mp4" ]; then
             ffprobe -v error -show_entries format=duration,size -of compact "$D/final.mp4" | tee $O/final-info.txt
-            ffmpeg -v error -y -i "$D/final.mp4" -vf "fps=1/20,scale=320:-1,tile=6x5:padding=6:color=white" -frames:v 1 $O/contact.png
             split -b 95m -d "$D/final.mp4" $O/final.mp4.part
-            echo "Rendered: $(cat $O/final-info.txt)" >> $GITHUB_STEP_SUMMARY
+            echo "$VIDEO rendered: $(cat $O/final-info.txt)" >> $GITHUB_STEP_SUMMARY
           else
-            echo "No final.mp4; see build.log" >> $GITHUB_STEP_SUMMARY
+            echo "$VIDEO: no final.mp4; see build.log" >> $GITHUB_STEP_SUMMARY
           fi
-          cd $O && git init -q -b gta6-renders && git config user.name "render-bot" && git config user.email "render-bot@users.noreply.github.com"
+          cd $O && git init -q -b out && git config user.name "render-bot" && git config user.email "render-bot@users.noreply.github.com"
           git add . && git commit -qm "GTA6 build $VIDEO from ${GITHUB_SHA::7}"
-          git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" gta6-renders
+          git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" "out:gta6-render/$VIDEO"

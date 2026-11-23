@@ -1,0 +1,592 @@
+{
+  "topic": "GTA 6 beginner tips: things I wish I knew",
+  "format": "how_to_guide",
+  "search_query": "GTA 6 beginner tips",
+  "research": [
+    {
+      "n": 1,
+      "title": "GTA 6 beginner's guide: essential tips and hidden mechanics",
+      "channel": "Red Bull Gaming",
+      "url": "https://www.redbull.com/ie-en/gta-6-beginners-guide"
+    },
+    {
+      "n": 2,
+      "title": "GTA 6 Wanted Level Guide",
+      "channel": "AlcastHQ",
+      "url": "https://alcasthq.com/gta-6-wanted-level/"
+    },
+    {
+      "n": 3,
+      "title": "How to Steal Cars in GTA 6",
+      "channel": "GTABase",
+      "url": "https://www.gtabase.com/articles/gta-6/gta-6-car-stealing-guide-how-to-steal-sell-keep-vehicles"
+    },
+    {
+      "n": 4,
+      "title": "How to Make Money in GTA 6",
+      "channel": "AlcastHQ",
+      "url": "https://alcasthq.com/?p=87542"
+    }
+  ],
+  "title": "25 GTA 6 Beginner Tips I Wish I Knew Sooner",
+  "title_alternatives": [
+    "GTA 6 Tips: Don't Make These Beginner Mistakes",
+    "GTA 6 Beginner Guide: Everything the Game Doesn't Tell You"
+  ],
+  "thumbnail_text": "WISH I KNEW",
+  "description_summary": "25 GTA 6 beginner tips the game doesn't explain: Focus Mode, hidden rooms, how stats work, getting around without fast travel, robberies, police heat, the criminal profile, and the mistakes that cost you money.",
+  "tags": [
+    "gta 6",
+    "gta 6 tips",
+    "gta 6 beginner tips",
+    "gta 6 beginner guide",
+    "gta 6 tips and tricks",
+    "gta 6 things i wish i knew",
+    "gta 6 focus mode",
+    "gta 6 hidden rooms",
+    "gta 6 criminal profile",
+    "gta 6 fitness",
+    "gta 6 fast travel",
+    "gta vi",
+    "gta 6 guide",
+    "gta 6 secrets",
+    "gta 6 how to"
+  ],
+  "source_queries": [],
+  "beats": [
+    {
+      "id": 1,
+      "chapter": "",
+      "caption": "GTA 6 doesn't explain half of its best systems. Some of them you'll only discover twenty hours in. So here are twenty-five tips I wish I'd known on day one, starting with the basics and ending with the ones that change how you play.",
+      "tts": "GTA 6 doesn't explain half of its best systems. Some of them you'll only discover twenty hours in. So here are twenty-five tips I wish I'd known on day one, starting with the basics and ending with the ones that change how you play.",
+      "visual_need": "Vice City skyline at sunrise",
+      "onscreen": "25 TIPS",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 2,
+      "chapter": "",
+      "caption": "Some of these will save you hours, a couple will save you a lot of money, and one of them is permanent, so you'll want to know about it before you make your first big mistake.",
+      "tts": "Some of these will save you hours, a couple will save you a lot of money, and one of them is permanent, so you'll want to know about it before you make your first big mistake.",
+      "visual_need": "montage: gym, robbery, chase",
+      "onscreen": "ONE IS PERMANENT",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 3,
+      "chapter": "The basics",
+      "caption": "Tip one: Focus Mode. Click both sticks at once. Outside of combat you can hold it as long as you like, and with a gun out it briefly slows time.",
+      "tts": "Tip one: Focus Mode. Click both sticks at once. Outside of combat you can hold it as long as you like, and with a gun out it briefly slows time.",
+      "visual_need": "slow-motion focus vision",
+      "onscreen": "TIP 1: FOCUS MODE",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 4,
+      "chapter": "",
+      "caption": "Focus colour-codes the world. Enemies show up red, things you can interact with show yellow, and cash shows green. You can spot enemies through walls, follow animal tracks, check car trunks for valuables, and find notes with safe codes on them.",
+      "tts": "Focus colour-codes the world. Enemies show up red, things you can interact with show yellow, and cash shows green. You can spot enemies through walls, follow animal tracks, check car trunks for valuables, and find notes with safe codes on them.",
+      "visual_need": "highlighted objects and enemies",
+      "onscreen": "RED · YELLOW · GREEN",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 5,
+      "chapter": "",
+      "caption": "Tip two: doors talk to you. In Focus, a white door means you can go in. A red door means it's alarmed. Check before you open anything during a job.",
+      "tts": "Tip two: doors talk to you. In Focus, a white door means you can go in. A red door means it's alarmed. Check before you open anything during a job.",
+      "visual_need": "white and red highlighted doors",
+      "onscreen": "TIP 2: WHITE = GO · RED = ALARM",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 6,
+      "chapter": "",
+      "caption": "Tip three: find the hidden rooms. Inside any shop, walk toward the back and watch the minimap. If it shows a back room, a staircase, or a door that won't open, there's more to that building.",
+      "tts": "Tip three: find the hidden rooms. Inside any shop, walk toward the back and watch the minimap. If it shows a back room, a staircase, or a door that won't open, there's more to that building.",
+      "visual_need": "store interior, back corridor",
+      "onscreen": "TIP 3: HIDDEN ROOMS",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 7,
+      "chapter": "",
+      "caption": "Tip four: read the map colours. Dark blue buildings have an entrance or interior. Light blue buildings are just scenery. That alone saves you a lot of pointless walking.",
+      "tts": "Tip four: read the map colours. Dark blue buildings have an entrance or interior. Light blue buildings are just scenery. That alone saves you a lot of pointless walking.",
+      "visual_need": "map overview of Vice City",
+      "onscreen": "TIP 4: DARK BLUE = ENTER",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 8,
+      "chapter": "",
+      "caption": "And when you're near an enterable building, the minimap marks the entrance, usually with a small white line. Rockstar packed this world with interiors, so it pays to look.",
+      "tts": "And when you're near an enterable building, the minimap marks the entrance, usually with a small white line. Rockstar packed this world with interiors, so it pays to look.",
+      "visual_need": "character entering a bar",
+      "onscreen": "WHITE LINE = ENTRANCE",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 9,
+      "chapter": "Your character's stats",
+      "caption": "Tip five: your character has three core stats. Health is your life bar, Stamina is for sprinting and exertion, and Focus decides how long you can slow time.",
+      "tts": "Tip five: your character has three core stats. Health is your life bar, Stamina is for sprinting and exertion, and Focus decides how long you can slow time.",
+      "visual_need": "Jason working out at a home gym",
+      "onscreen": "TIP 5: HEALTH · STAMINA · FOCUS",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 10,
+      "chapter": "",
+      "caption": "Each one trains differently. Lifting weights raises Health. Cardio, like running, biking or kayaking, raises Stamina. And calm activities, like fishing or playing pool, raise Focus.",
+      "tts": "Each one trains differently. Lifting weights raises Health. Cardio, like running, biking or kayaking, raises Stamina. And calm activities, like fishing or playing pool, raise Focus.",
+      "visual_need": "running on the beach, fishing, pool",
+      "onscreen": "WEIGHTS · CARDIO · CALM",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 11,
+      "chapter": "",
+      "caption": "Tip six, and this is a big one: Focus gains are permanent. Health and Stamina fade if you stop training, but Focus stays. So go fishing early. It's the best long-term upgrade in the game.",
+      "tts": "Tip six, and this is a big one: Focus gains are permanent. Health and Stamina fade if you stop training, but Focus stays. So go fishing early. It's the best long-term upgrade in the game.",
+      "visual_need": "fishing boat at sunset",
+      "onscreen": "TIP 6: FOCUS IS PERMANENT",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 12,
+      "chapter": "",
+      "caption": "Tip seven: buffs. Food, sleep and showers give temporary boosts, marked by a pink heart for Health, a blue lightning bolt for Stamina, and a purple eye for Focus.",
+      "tts": "Tip seven: buffs. Food, sleep and showers give temporary boosts, marked by a pink heart for Health, a blue lightning bolt for Stamina, and a purple eye for Focus.",
+      "visual_need": "eating at a diner, showering",
+      "onscreen": "TIP 7: FOOD · SLEEP · SHOWER",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 13,
+      "chapter": "",
+      "caption": "A simple daily routine works: sleep at night, work out in the morning, eat, then shower. And feed Dolores, Jason's pet snake, for a small early Focus boost.",
+      "tts": "A simple daily routine works: sleep at night, work out in the morning, eat, then shower. And feed Dolores, Jason's pet snake, for a small early Focus boost.",
+      "visual_need": "morning routine, snake terrarium",
+      "onscreen": "FEED DOLORES",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 14,
+      "chapter": "",
+      "caption": "Tip eight: the fitness app. Stop training once your ring closes, then have a protein bar or shake. The window reopens every in-game day, so training past it is wasted time.",
+      "tts": "Tip eight: the fitness app. Stop training once your ring closes, then have a protein bar or shake. The window reopens every in-game day, so training past it is wasted time.",
+      "visual_need": "phone fitness app, protein shake",
+      "onscreen": "TIP 8: CLOSE THE RING",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 15,
+      "chapter": "",
+      "caption": "Tip nine: train together. If both characters work out at the gym, both of them benefit, no matter which one you're controlling.",
+      "tts": "Tip nine: train together. If both characters work out at the gym, both of them benefit, no matter which one you're controlling.",
+      "visual_need": "Jason and Lucia at a gym",
+      "onscreen": "TIP 9: TRAIN AS A DUO",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 16,
+      "chapter": "Getting around",
+      "caption": "Tip ten: there's no fast travel by map. No tapping a marker and warping. Your options are the RydeMe app, public transport, or switching characters.",
+      "tts": "Tip ten: there's no fast travel by map. No tapping a marker and warping. Your options are the RydeMe app, public transport, or switching characters.",
+      "visual_need": "map screen, phone app",
+      "onscreen": "TIP 10: NO MAP WARP",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 17,
+      "chapter": "",
+      "caption": "With RydeMe you mark a spot and call a car. Pay an extra hundred dollars and you arrive instantly. That's the closest thing to fast travel in the game.",
+      "tts": "With RydeMe you mark a spot and call a car. Pay an extra hundred dollars and you arrive instantly. That's the closest thing to fast travel in the game.",
+      "visual_need": "taxi pulling up at night",
+      "onscreen": "RYDEME: +$100 = INSTANT",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 18,
+      "chapter": "",
+      "caption": "Buses and trains run on schedules, and the trains cover the whole region. And the fastest, cheapest option of all is switching characters, because the other one usually waits near your current safehouse.",
+      "tts": "Buses and trains run on schedules, and the trains cover the whole region. And the fastest, cheapest option of all is switching characters, because the other one usually waits near your current safehouse.",
+      "visual_need": "train crossing a bridge",
+      "onscreen": "SWITCH = FASTEST",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 19,
+      "chapter": "",
+      "caption": "Tip eleven: do the Keys side content early. Treasure diving, fishing, and your neighbour Shirley's requests are all down there, and coming back later takes around ten minutes each way.",
+      "tts": "Tip eleven: do the Keys side content early. Treasure diving, fishing, and your neighbour Shirley's requests are all down there, and coming back later takes around ten minutes each way.",
+      "visual_need": "Leonida Keys islands, boat",
+      "onscreen": "TIP 11: KEYS STUFF FIRST",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 20,
+      "chapter": "",
+      "caption": "While you're down there, explore the main strip. Bars like the Rusty Anchor and the Cheeky Mutineer are full interiors, and Key Lento is a great place to learn the controls before the city gets busy.",
+      "tts": "While you're down there, explore the main strip. Bars like the Rusty Anchor and the Cheeky Mutineer are full interiors, and Key Lento is a great place to learn the controls before the city gets busy.",
+      "visual_need": "Key Lento bars and main strip",
+      "onscreen": "RUSTY ANCHOR · CHEEKY MUTINEER",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 21,
+      "chapter": "",
+      "caption": "Tip twelve: time matters. Press up on the d-pad to check it on your phone. Some shops close at night, some missions only run at certain times, and you can skip time by sleeping at Jason's house.",
+      "tts": "Tip twelve: time matters. Press up on the d-pad to check it on your phone. Some shops close at night, some missions only run at certain times, and you can skip time by sleeping at Jason's house.",
+      "visual_need": "day to night timelapse over Vice City",
+      "onscreen": "TIP 12: CHECK THE CLOCK",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 22,
+      "chapter": "Money and cash",
+      "caption": "Tip thirteen: your cash isn't safe in your pocket. Before you get a bank account, hide it under the loose floorboards in Jason's bedroom. You'll even find old photos there that fill in his backstory.",
+      "tts": "Tip thirteen: your cash isn't safe in your pocket. Before you get a bank account, hide it under the loose floorboards in Jason's bedroom. You'll even find old photos there that fill in his backstory.",
+      "visual_need": "bedroom floorboards, old photos",
+      "onscreen": "TIP 13: FLOORBOARD STASH",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 23,
+      "chapter": "",
+      "caption": "Your first bank account comes in the mission Buck Me, roughly one to two hours in. After that, deposit after every big job, because if you die you lose the cash you're carrying.",
+      "tts": "Your first bank account comes in the mission Buck Me, roughly one to two hours in. After that, deposit after every big job, because if you die you lose the cash you're carrying.",
+      "visual_need": "ATM at night",
+      "onscreen": "BANK AFTER EVERY JOB",
+      "sources": [
+        1,
+        4
+      ]
+    },
+    {
+      "id": 24,
+      "chapter": "",
+      "caption": "Tip fourteen: don't grind for money early. Spend on things that actually help, like weapons and vehicle mods, and let the story open up the bigger earners.",
+      "tts": "Tip fourteen: don't grind for money early. Spend on things that actually help, like weapons and vehicle mods, and let the story open up the bigger earners.",
+      "visual_need": "gun store, mod shop",
+      "onscreen": "TIP 14: DON'T GRIND",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 25,
+      "chapter": "",
+      "caption": "Tip fifteen: buy a suppressor. There's an Ammu-Nation in Key Lento right after the tutorial, suppressors are cheap, and they reduce the police response to gunshots, which buys you time.",
+      "tts": "Tip fifteen: buy a suppressor. There's an Ammu-Nation in Key Lento right after the tutorial, suppressors are cheap, and they reduce the police response to gunshots, which buys you time.",
+      "visual_need": "Ammu-Nation, suppressed pistol",
+      "onscreen": "TIP 15: SUPPRESSOR",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 26,
+      "chapter": "",
+      "caption": "Tip sixteen: get a red dot sight. It lets you click the right stick to aim in first person. Iron sights don't.",
+      "tts": "Tip sixteen: get a red dot sight. It lets you click the right stick to aim in first person. Iron sights don't.",
+      "visual_need": "first-person aiming down a sight",
+      "onscreen": "TIP 16: RED DOT = FIRST PERSON",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 27,
+      "chapter": "Robberies",
+      "caption": "Tip seventeen: scout first. The map shows each robbery's potential take and its security level before you commit.",
+      "tts": "Tip seventeen: scout first. The map shows each robbery's potential take and its security level before you commit.",
+      "visual_need": "map with robbery icons",
+      "onscreen": "TIP 17: SCOUT FIRST",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 28,
+      "chapter": "",
+      "caption": "Low security jobs, which is every shop in the starting area except the bank, need one person. Medium and high security are much easier as a duo, so invite your partner from the map icon.",
+      "tts": "Low security jobs, which is every shop in the starting area except the bank, need one person. Medium and high security are much easier as a duo, so invite your partner from the map icon.",
+      "visual_need": "two characters approaching a store",
+      "onscreen": "MEDIUM+ = BRING A PARTNER",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 29,
+      "chapter": "",
+      "caption": "Tip eighteen: use the back door. The snap gun gets you in without setting off the alarm. And safe codes are randomised, so look for them with Focus instead of trusting an old guide.",
+      "tts": "Tip eighteen: use the back door. The snap gun gets you in without setting off the alarm. And safe codes are randomised, so look for them with Focus instead of trusting an old guide.",
+      "visual_need": "back alley door, safe",
+      "onscreen": "TIP 18: BACK DOOR + SNAP GUN",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 30,
+      "chapter": "",
+      "caption": "Tip nineteen: you can pass stash bags to your partner. Press right on the d-pad, then circle or B. Your partner sells the loot while you deal with the police.",
+      "tts": "Tip nineteen: you can pass stash bags to your partner. Press right on the d-pad, then circle or B. Your partner sells the loot while you deal with the police.",
+      "visual_need": "handing a bag to a partner",
+      "onscreen": "TIP 19: PASS THE BAG",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 31,
+      "chapter": "",
+      "caption": "And whatever you do, don't die with a full bag. If you go down, you lose the cash and the stash bags you were carrying, so the escape is part of the job.",
+      "tts": "And whatever you do, don't die with a full bag. If you go down, you lose the cash and the stash bags you were carrying, so the escape is part of the job.",
+      "visual_need": "player wasted next to dropped bags",
+      "onscreen": "DON'T DIE WITH A FULL BAG",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 32,
+      "chapter": "",
+      "caption": "Tip twenty: avoid banks and loan stores early. Their cash has dye packs, and you need a dye pack jammer from Chapter 3 before they're worth robbing.",
+      "tts": "Tip twenty: avoid banks and loan stores early. Their cash has dye packs, and you need a dye pack jammer from Chapter 3 before they're worth robbing.",
+      "visual_need": "bank exterior",
+      "onscreen": "TIP 20: NO BANKS YET",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 33,
+      "chapter": "",
+      "caption": "One more robbery detail: a store you've robbed closes for a while afterwards. So you can't farm the same shop over and over. Spread your jobs around the map.",
+      "tts": "One more robbery detail: a store you've robbed closes for a while afterwards. So you can't farm the same shop over and over. Spread your jobs around the map.",
+      "visual_need": "closed store shutters",
+      "onscreen": "ROBBED STORES CLOSE",
+      "sources": [
+        2
+      ]
+    },
+    {
+      "id": 34,
+      "chapter": "Police and heat",
+      "caption": "Tip twenty-one: the police track what they know about you. Your face, your outfit, your car, your weapon, CCTV footage, and whether Jason and Lucia were together. Each one shows as an icon under your stars.",
+      "tts": "Tip twenty-one: the police track what they know about you. Your face, your outfit, your car, your weapon, CCTV footage, and whether Jason and Lucia were together. Each one shows as an icon under your stars.",
+      "visual_need": "police searching streets, HUD icons",
+      "onscreen": "TIP 21: SIX THINGS COPS KNOW",
+      "sources": [
+        2,
+        1
+      ]
+    },
+    {
+      "id": 35,
+      "chapter": "",
+      "caption": "And each one has its own fix. A hat or mask for your face, a full outfit change for your clothes, a different car, putting your gun away, destroying the CCTV footage, and splitting up.",
+      "tts": "And each one has its own fix. A hat or mask for your face, a full outfit change for your clothes, a different car, putting your gun away, destroying the CCTV footage, and splitting up.",
+      "visual_need": "changing clothes, switching cars",
+      "onscreen": "ONE FIX PER ICON",
+      "sources": [
+        2,
+        1
+      ]
+    },
+    {
+      "id": 36,
+      "chapter": "",
+      "caption": "Tip twenty-two: your car's trunk is a lifesaver. Your personal vehicle keeps spare outfits in it, and weapons you drop go back to your trunk. Call your car and change on the spot.",
+      "tts": "Tip twenty-two: your car's trunk is a lifesaver. Your personal vehicle keeps spare outfits in it, and weapons you drop go back to your trunk. Call your car and change on the spot.",
+      "visual_need": "opening a car trunk",
+      "onscreen": "TIP 22: TRUNK OUTFITS",
+      "sources": [
+        2,
+        1
+      ]
+    },
+    {
+      "id": 37,
+      "chapter": "",
+      "caption": "Tip twenty-three: night can be safer for jobs, because the police react differently after dark. Plan your bigger scores for the evening.",
+      "tts": "Tip twenty-three: night can be safer for jobs, because the police react differently after dark. Plan your bigger scores for the evening.",
+      "visual_need": "night robbery, neon lights",
+      "onscreen": "TIP 23: WORK AT NIGHT",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 38,
+      "chapter": "",
+      "caption": "And if the stars climb to three or more, a normal car struggles to escape. A fast motorbike, or ducking through alleys on foot, works much better. The police try non-lethal takedowns first, but they will kill you if you fight back.",
+      "tts": "And if the stars climb to three or more, a normal car struggles to escape. A fast motorbike, or ducking through alleys on foot, works much better. The police try non-lethal takedowns first, but they will kill you if you fight back.",
+      "visual_need": "bike chase through alleys, armed police",
+      "onscreen": "3+ STARS: BIKE OR ALLEYS",
+      "sources": [
+        2
+      ]
+    },
+    {
+      "id": 39,
+      "chapter": "The permanent one",
+      "caption": "Tip twenty-four is the permanent one: your criminal profile. Jason and Lucia each have one, and it tracks how you commit crimes over time. It isn't a simple good or evil scale.",
+      "tts": "Tip twenty-four is the permanent one: your criminal profile. Jason and Lucia each have one, and it tracks how you commit crimes over time. It isn't a simple good or evil scale.",
+      "visual_need": "Jason and Lucia, moody close-ups",
+      "onscreen": "TIP 24: CRIMINAL PROFILE",
+      "sources": [
+        2,
+        1
+      ]
+    },
+    {
+      "id": 40,
+      "chapter": "",
+      "caption": "There are five levels: Professional, Hardened, Violent, Psycho, and Irredeemable. Professional means low violence and non-lethal takedowns, and you even fill Focus by being kind to citizens.",
+      "tts": "There are five levels: Professional, Hardened, Violent, Psycho, and Irredeemable. Professional means low violence and non-lethal takedowns, and you even fill Focus by being kind to citizens.",
+      "visual_need": "calm professional heist",
+      "onscreen": "PROFESSIONAL → IRREDEEMABLE",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 41,
+      "chapter": "",
+      "caption": "At Psycho you can't surrender to the police. And Irredeemable is permanent. A ruthless profile also means faster police calls, armed citizens and more aggressive responses. So decide early what kind of criminal you want to be.",
+      "tts": "At Psycho you can't surrender to the police. And Irredeemable is permanent. A ruthless profile also means faster police calls, armed citizens and more aggressive responses. So decide early what kind of criminal you want to be.",
+      "visual_need": "violent shootout, police response",
+      "onscreen": "IRREDEEMABLE = PERMANENT",
+      "sources": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 42,
+      "chapter": "",
+      "caption": "It even affects your partner. The character you aren't controlling behaves according to their own profile. And remember, head and heart shots kill, while limbs and joints only injure. Red hit markers mean a kill, yellow means injured.",
+      "tts": "It even affects your partner. The character you aren't controlling behaves according to their own profile. And remember, head and heart shots kill, while limbs and joints only injure. Red hit markers mean a kill, yellow means injured.",
+      "visual_need": "aiming at legs, hit markers",
+      "onscreen": "RED = KILL · YELLOW = HURT",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 43,
+      "chapter": "",
+      "caption": "Tip twenty-five, a non-lethal trick for chases: shoot out one or two tyres and pursuing cars spin out. Helicopters back off after enough shots too.",
+      "tts": "Tip twenty-five, a non-lethal trick for chases: shoot out one or two tyres and pursuing cars spin out. Helicopters back off after enough shots too.",
+      "visual_need": "car spinning out, helicopter retreating",
+      "onscreen": "TIP 25: SHOOT THE TYRES",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 44,
+      "chapter": "",
+      "caption": "One last chase tip: the minimap doesn't show the police or their vision cones anymore. Open the full map during a search to see the red zone, and use Focus to reveal nearby officers.",
+      "tts": "One last chase tip: the minimap doesn't show the police or their vision cones anymore. Open the full map during a search to see the red zone, and use Focus to reveal nearby officers.",
+      "visual_need": "map with red search zone",
+      "onscreen": "OPEN THE MAP IN A CHASE",
+      "sources": [
+        2
+      ]
+    },
+    {
+      "id": 45,
+      "chapter": "Bonus tips",
+      "caption": "Two bonus tips. Before you steal a car, scan it with the Waink app on your phone. It shows the security system, the sell price and the registration cost.",
+      "tts": "Two bonus tips. Before you steal a car, scan it with the Waink app on your phone. It shows the security system, the sell price and the registration cost.",
+      "visual_need": "phone scanning a car",
+      "onscreen": "BONUS: WAINK SCAN",
+      "sources": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": 46,
+      "chapter": "",
+      "caption": "And plan for a garage. You can only buy them after Jason and Lucia leave Key Lento, but they store vehicles for free, hold your weapon loadout, and let you drop off illegal goods.",
+      "tts": "And plan for a garage. You can only buy them after Jason and Lucia leave Key Lento, but they store vehicles for free, hold your weapon loadout, and let you drop off illegal goods.",
+      "visual_need": "garage interior",
+      "onscreen": "BONUS: GARAGES",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 47,
+      "chapter": "",
+      "caption": "Quick recap of the big ones. Use Focus Mode everywhere. Fish early, because Focus is permanent. Bank your cash. Scout robberies and bring your partner. Fix every heat icon. And watch your criminal profile, because Irredeemable never goes away.",
+      "tts": "Quick recap of the big ones. Use Focus Mode everywhere. Fish early, because Focus is permanent. Bank your cash. Scout robberies and bring your partner. Fix every heat icon. And watch your criminal profile, because Irredeemable never goes away.",
+      "visual_need": "fast recap montage",
+      "onscreen": "FOCUS · FISH · BANK · PROFILE",
+      "sources": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 48,
+      "chapter": "",
+      "caption": "Which tip surprised you most? Tell me in the comments. And subscribe, because next we're touring every region of Leonida and what's waiting in each one.",
+      "tts": "Which tip surprised you most? Tell me in the comments. And subscribe, because next we're touring every region of Leonida and what's waiting in each one.",
+      "visual_need": "drone shot over Leonida",
+      "onscreen": "COMMENT BELOW",
+      "sources": []
+    }
+  ]
+}

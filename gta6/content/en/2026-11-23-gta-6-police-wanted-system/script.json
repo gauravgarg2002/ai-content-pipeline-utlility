@@ -1,0 +1,634 @@
+{
+  "topic": "GTA 6 police and wanted system: how to escape",
+  "format": "how_to_guide",
+  "search_query": "GTA 6 how to lose the cops",
+  "research": [
+    {
+      "n": 1,
+      "title": "GTA 6 Wanted Level Guide",
+      "channel": "AlcastHQ",
+      "url": "https://alcasthq.com/gta-6-wanted-level/"
+    },
+    {
+      "n": 2,
+      "title": "GTA 6 beginner's guide",
+      "channel": "Red Bull Gaming",
+      "url": "https://www.redbull.com/ie-en/gta-6-beginners-guide"
+    },
+    {
+      "n": 3,
+      "title": "GTA 6: How to Lose the Cops",
+      "channel": "KeenGamer",
+      "url": "https://www.keengamer.com/articles/guides/gta-6-how-to-lose-the-cops-and-clear-your-wanted-level/"
+    },
+    {
+      "n": 4,
+      "title": "GTA 6 Heat Indicators Explained",
+      "channel": "AllThings.How",
+      "url": "https://allthings.how/?p=156935"
+    },
+    {
+      "n": 5,
+      "title": "How to Steal Cars in GTA 6",
+      "channel": "GTABase",
+      "url": "https://www.gtabase.com/articles/gta-6/gta-6-car-stealing-guide-how-to-steal-sell-keep-vehicles"
+    }
+  ],
+  "title": "GTA 6 Wanted System Explained: How to Escape the Police Every Time",
+  "title_alternatives": [
+    "How to Lose the Cops in GTA 6 (It's Not Like GTA 5)",
+    "GTA 6 Police Are Smarter Now. Here's How to Escape"
+  ],
+  "thumbnail_text": "LOSE THE COPS",
+  "description_summary": "The GTA 6 police system explained: six wanted stars and what each colour means, the six heat icons and how to clear each one, the red search zone, hot areas, high-star escapes, and the criminal profile that makes the police more aggressive.",
+  "tags": [
+    "gta 6",
+    "gta 6 wanted level",
+    "gta 6 police",
+    "gta 6 how to lose the cops",
+    "gta 6 wanted system",
+    "gta 6 escape police",
+    "gta 6 heat",
+    "gta 6 six stars",
+    "gta 6 criminal profile",
+    "gta 6 police chase",
+    "gta 6 tips",
+    "gta 6 guide",
+    "gta vi",
+    "gta 6 heat icons",
+    "gta 6 red zone"
+  ],
+  "source_queries": [],
+  "beats": [
+    {
+      "id": 1,
+      "chapter": "",
+      "caption": "In GTA 5, you broke line of sight, dodged the vision cones, and the cops forgot you existed. In GTA 6, that doesn't work anymore. The police remember what you look like, what you wear, and what you drive.",
+      "tts": "In GTA 5, you broke line of sight, dodged the vision cones, and the cops forgot you existed. In GTA 6, that doesn't work anymore. The police remember what you look like, what you wear, and what you drive.",
+      "visual_need": "police car chase through Vice City",
+      "onscreen": "GTA 5 TRICKS DON'T WORK",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 2,
+      "chapter": "",
+      "caption": "So in this video: how the new wanted system works, what every star colour and icon means, how to clear each one, and how to escape even at high stars. Learn this and you'll stop losing your cash to the police.",
+      "tts": "So in this video: how the new wanted system works, what every star colour and icon means, how to clear each one, and how to escape even at high stars. Learn this and you'll stop losing your cash to the police.",
+      "visual_need": "helicopter spotlight, chase",
+      "onscreen": "HOW TO ESCAPE",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 3,
+      "chapter": "It starts with a witness",
+      "caption": "First, the most important rule. A crime has to be noticed. Someone needs to witness it, or an alarm needs to go off, before it gets reported to the police.",
+      "tts": "First, the most important rule. A crime has to be noticed. Someone needs to witness it, or an alarm needs to go off, before it gets reported to the police.",
+      "visual_need": "witness on a phone, store alarm",
+      "onscreen": "NO WITNESS = NO REPORT",
+      "sources": [
+        4,
+        3
+      ]
+    },
+    {
+      "id": 4,
+      "chapter": "",
+      "caption": "That means preventing a response is much easier than escaping one. Rob a store and get out before anyone dials, and the police may never come at all.",
+      "tts": "That means preventing a response is much easier than escaping one. Rob a store and get out before anyone dials, and the police may never come at all.",
+      "visual_need": "quick robbery, quiet exit",
+      "onscreen": "PREVENT > ESCAPE",
+      "sources": [
+        3,
+        4
+      ]
+    },
+    {
+      "id": 5,
+      "chapter": "",
+      "caption": "Timing helps too. Night can be safer for jobs, because the police react differently after dark. So plan bigger scores for the evening and keep daytime for the low-risk stuff.",
+      "tts": "Timing helps too. Night can be safer for jobs, because the police react differently after dark. So plan bigger scores for the evening and keep daytime for the low-risk stuff.",
+      "visual_need": "night city, neon storefronts",
+      "onscreen": "NIGHT IS SAFER",
+      "sources": [
+        2
+      ]
+    },
+    {
+      "id": 6,
+      "chapter": "Six stars",
+      "caption": "When they do come, there are six wanted stars, one more than GTA 5. More stars mean a tougher response, but the colour of the stars tells you something just as important.",
+      "tts": "When they do come, there are six wanted stars, one more than GTA 5. More stars mean a tougher response, but the colour of the stars tells you something just as important.",
+      "visual_need": "HUD with stars",
+      "onscreen": "6 STARS ARE BACK",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 7,
+      "chapter": "",
+      "caption": "Hollow white stars mean a crime was reported, but the police have no description of you. That's your best moment: leave before they arrive.",
+      "tts": "Hollow white stars mean a crime was reported, but the police have no description of you. That's your best moment: leave before they arrive.",
+      "visual_need": "police arriving at an empty scene",
+      "onscreen": "HOLLOW = NO DESCRIPTION",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 8,
+      "chapter": "",
+      "caption": "Solid white means they've identified you and can see you. Your job is to break line of sight.",
+      "tts": "Solid white means they've identified you and can see you. Your job is to break line of sight.",
+      "visual_need": "police chasing on foot",
+      "onscreen": "SOLID = THEY SEE YOU",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 9,
+      "chapter": "",
+      "caption": "Flashing white means they've lost sight of you and are searching your last known spot. Stay hidden and keep moving away from it.",
+      "tts": "Flashing white means they've lost sight of you and are searching your last known spot. Stay hidden and keep moving away from it.",
+      "visual_need": "police searching an alley",
+      "onscreen": "FLASHING = SEARCHING",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 10,
+      "chapter": "",
+      "caption": "And red means you've escaped, but the police are still searching the area with your description. You're not safe yet. You still need to clear what they know.",
+      "tts": "And red means you've escaped, but the police are still searching the area with your description. You're not safe yet. You still need to clear what they know.",
+      "visual_need": "red search zone on map",
+      "onscreen": "RED = NOT SAFE YET",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 11,
+      "chapter": "The six heat icons",
+      "caption": "Which brings us to the biggest change: heat icons. Under your stars, a row of red icons shows exactly what the police know about you. And each one has its own fix.",
+      "tts": "Which brings us to the biggest change: heat icons. Under your stars, a row of red icons shows exactly what the police know about you. And each one has its own fix.",
+      "visual_need": "HUD icons close-up",
+      "onscreen": "WHAT POLICE KNOW",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 12,
+      "chapter": "",
+      "caption": "The person icon is your face and physical description. Clear it with a mask, a hat, sunglasses, or even a new hairstyle.",
+      "tts": "The person icon is your face and physical description. Clear it with a mask, a hat, sunglasses, or even a new hairstyle.",
+      "visual_need": "character putting on cap and sunglasses",
+      "onscreen": "PERSON → HAT / MASK",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 13,
+      "chapter": "",
+      "caption": "A new hairstyle is a clever one. It changes your description permanently, until the next crime, but remember it only changes your face, not your clothes.",
+      "tts": "A new hairstyle is a clever one. It changes your description permanently, until the next crime, but remember it only changes your face, not your clothes.",
+      "visual_need": "barber shop chair",
+      "onscreen": "HAIRCUT = NEW FACE",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 14,
+      "chapter": "",
+      "caption": "The clothes hanger is your outfit. That one needs a full change, head to toe. A cap alone clears your face, but the clothing icon stays until you change your whole outfit.",
+      "tts": "The clothes hanger is your outfit. That one needs a full change, head to toe. A cap alone clears your face, but the clothing icon stays until you change your whole outfit.",
+      "visual_need": "changing outfit at a store",
+      "onscreen": "HANGER → FULL OUTFIT",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 15,
+      "chapter": "",
+      "caption": "You can change at any clothing store, or just call your personal vehicle and grab the spare outfit from the trunk. The trunk is faster, so always keep one in there.",
+      "tts": "You can change at any clothing store, or just call your personal vehicle and grab the spare outfit from the trunk. The trunk is faster, so always keep one in there.",
+      "visual_need": "car trunk with clothes",
+      "onscreen": "TRUNK = FASTEST CHANGE",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 16,
+      "chapter": "",
+      "caption": "The car icon is the vehicle you used. Ditch it or switch cars. And avoid using the same getaway car for multiple robberies, because once it's identified, it'll bring the heat right back.",
+      "tts": "The car icon is the vehicle you used. Ditch it or switch cars. And avoid using the same getaway car for multiple robberies, because once it's identified, it'll bring the heat right back.",
+      "visual_need": "abandoning a car, new car",
+      "onscreen": "CAR → SWITCH CARS",
+      "sources": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": 17,
+      "chapter": "",
+      "caption": "The gun icon is the weapon they saw. Put it away, ideally in your trunk. Pistols can be holstered, long guns need to be stowed or dropped, and dropped weapons go back to your trunk.",
+      "tts": "The gun icon is the weapon they saw. Put it away, ideally in your trunk. Pistols can be holstered, long guns need to be stowed or dropped, and dropped weapons go back to your trunk.",
+      "visual_need": "putting a rifle in a trunk",
+      "onscreen": "GUN → STOW IT",
+      "sources": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 18,
+      "chapter": "",
+      "caption": "The camera icon means CCTV footage. Destroy the footage, which is usually in a store's back room.",
+      "tts": "The camera icon means CCTV footage. Destroy the footage, which is usually in a store's back room.",
+      "visual_need": "CCTV monitors in a back room",
+      "onscreen": "CAMERA → DESTROY FOOTAGE",
+      "sources": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 19,
+      "chapter": "",
+      "caption": "And the two-people icon means Jason and Lucia were seen together. The fix is to split them up.",
+      "tts": "And the two-people icon means Jason and Lucia were seen together. The fix is to split them up.",
+      "visual_need": "Jason and Lucia going separate ways",
+      "onscreen": "TWO PEOPLE → SPLIT UP",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 20,
+      "chapter": "",
+      "caption": "Here's the catch: each icon clears separately, and any single matching detail can still get you recognised. Clear four out of five and you can still get caught on the fifth.",
+      "tts": "Here's the catch: each icon clears separately, and any single matching detail can still get you recognised. Clear four out of five and you can still get caught on the fifth.",
+      "visual_need": "police recognising a character",
+      "onscreen": "CLEAR THEM ALL",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 21,
+      "chapter": "Search zones and hot areas",
+      "caption": "During a search, officers in the red zone look for your description. Walk back into it while you still match, and the chase restarts.",
+      "tts": "During a search, officers in the red zone look for your description. Walk back into it while you still match, and the chase restarts.",
+      "visual_need": "red zone on map, police patrol",
+      "onscreen": "DON'T WALK BACK IN",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 22,
+      "chapter": "",
+      "caption": "The minimap doesn't show police or vision cones anymore, so open the full map during a search to see that red zone. And use Focus Mode, which reveals nearby police.",
+      "tts": "The minimap doesn't show police or vision cones anymore, so open the full map during a search to see that red zone. And use Focus Mode, which reveals nearby police.",
+      "visual_need": "map screen, focus vision",
+      "onscreen": "OPEN THE MAP",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 23,
+      "chapter": "",
+      "caption": "Even after you escape, hot areas stay behind. They're region-specific, and hovering over one on the map shows the active star level. At six stars, the hot area can cover the whole map.",
+      "tts": "Even after you escape, hot areas stay behind. They're region-specific, and hovering over one on the map shows the active star level. At six stars, the hot area can cover the whole map.",
+      "visual_need": "map with hot areas",
+      "onscreen": "HOT AREAS LINGER",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 24,
+      "chapter": "",
+      "caption": "The officers linger, so your options are to wait it out, change outfits, or split up.",
+      "tts": "The officers linger, so your options are to wait it out, change outfits, or split up.",
+      "visual_need": "waiting in a safe spot",
+      "onscreen": "WAIT · CHANGE · SPLIT",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 25,
+      "chapter": "",
+      "caption": "Splitting up is more powerful than it sounds. Switch to the other character, and the one carrying the heat can lie low while you carry on with the other. It's built into how the duo works.",
+      "tts": "Splitting up is more powerful than it sounds. Switch to the other character, and the one carrying the heat can lie low while you carry on with the other. It's built into how the duo works.",
+      "visual_need": "switching characters",
+      "onscreen": "SWITCH AND LIE LOW",
+      "sources": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 26,
+      "chapter": "Before the crime",
+      "caption": "Now the pro move: prepare before the crime. Wear a hat and bandana during the job, then take them off afterwards. Keep a spare outfit in your trunk, because your personal vehicle carries them.",
+      "tts": "Now the pro move: prepare before the crime. Wear a hat and bandana during the job, then take them off afterwards. Keep a spare outfit in your trunk, because your personal vehicle carries them.",
+      "visual_need": "masked robbery, then changing in a car",
+      "onscreen": "DRESS FOR THE JOB",
+      "sources": [
+        2,
+        1
+      ]
+    },
+    {
+      "id": 27,
+      "chapter": "",
+      "caption": "Use older cars you can hotwire for crimes rather than luxury cars. Luxury cars have electronic keys that need cloning, and modern stolen cars may have trackers.",
+      "tts": "Use older cars you can hotwire for crimes rather than luxury cars. Luxury cars have electronic keys that need cloning, and modern stolen cars may have trackers.",
+      "visual_need": "old sedan at a robbery",
+      "onscreen": "OLD CARS FOR CRIMES",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 28,
+      "chapter": "",
+      "caption": "Advanced trackers are especially bad. They notify the police when the car is stolen and report its location unless you're moving at high speed.",
+      "tts": "Advanced trackers are especially bad. They notify the police when the car is stolen and report its location unless you're moving at high speed.",
+      "visual_need": "tracked supercar, police closing in",
+      "onscreen": "TRACKERS CALL THE COPS",
+      "sources": [
+        5
+      ]
+    },
+    {
+      "id": 29,
+      "chapter": "",
+      "caption": "And buy a suppressor early. Police respond to gunshot reports, so a suppressor buys you more time to loot before anyone arrives.",
+      "tts": "And buy a suppressor early. Police respond to gunshot reports, so a suppressor buys you more time to loot before anyone arrives.",
+      "visual_need": "suppressed pistol",
+      "onscreen": "SUPPRESSOR = MORE TIME",
+      "sources": [
+        2
+      ]
+    },
+    {
+      "id": 30,
+      "chapter": "",
+      "caption": "Destroy the CCTV before you leave, not after. Once the footage is out, you're managing the camera icon in the middle of a chase.",
+      "tts": "Destroy the CCTV before you leave, not after. Once the footage is out, you're managing the camera icon in the middle of a chase.",
+      "visual_need": "shooting a CCTV recorder",
+      "onscreen": "CCTV FIRST",
+      "sources": [
+        2,
+        1
+      ]
+    },
+    {
+      "id": 31,
+      "chapter": "High-star escapes",
+      "caption": "As your stars climb, helicopters and police dogs join in. And the police work as a team: they shout commands, flank you, and break in through doors.",
+      "tts": "As your stars climb, helicopters and police dogs join in. And the police work as a team: they shout commands, flank you, and break in through doors.",
+      "visual_need": "SWAT team, helicopter, dogs",
+      "onscreen": "HELICOPTERS · DOGS · TEAMS",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 32,
+      "chapter": "",
+      "caption": "At three stars or more, escaping in a normal car is very hard. A fast motorbike works better, or going on foot through alleys where cars can't follow.",
+      "tts": "At three stars or more, escaping in a normal car is very hard. A fast motorbike works better, or going on foot through alleys where cars can't follow.",
+      "visual_need": "bike weaving through traffic",
+      "onscreen": "3+ STARS: BIKE OR ALLEYS",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 33,
+      "chapter": "",
+      "caption": "But remember, if officers see where you went, they'll follow you, even onto a roof. Breaking line of sight only works if they really lose you.",
+      "tts": "But remember, if officers see where you went, they'll follow you, even onto a roof. Breaking line of sight only works if they really lose you.",
+      "visual_need": "police climbing to a rooftop",
+      "onscreen": "THEY'LL FOLLOW YOU UP",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 34,
+      "chapter": "",
+      "caption": "For chases, there's a non-lethal trick: shoot out one or two tyres and the pursuing cars spin out. Helicopters back off after taking enough shots.",
+      "tts": "For chases, there's a non-lethal trick: shoot out one or two tyres and the pursuing cars spin out. Helicopters back off after taking enough shots.",
+      "visual_need": "police car spinning out",
+      "onscreen": "SHOOT THE TYRES",
+      "sources": [
+        2
+      ]
+    },
+    {
+      "id": 35,
+      "chapter": "",
+      "caption": "The police try non-lethal takedowns first. But fight back, and they will kill you.",
+      "tts": "The police try non-lethal takedowns first. But fight back, and they will kill you.",
+      "visual_need": "officers aiming, tense standoff",
+      "onscreen": "FIGHT BACK = DEADLY",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 36,
+      "chapter": "",
+      "caption": "Your aim matters too. Head and heart hits kill, while joints and limbs only injure. A red hit marker means a kill, yellow means injured. If you want to stay professional, aim for the legs.",
+      "tts": "Your aim matters too. Head and heart hits kill, while joints and limbs only injure. A red hit marker means a kill, yellow means injured. If you want to stay professional, aim for the legs.",
+      "visual_need": "aiming at legs, yellow hit marker",
+      "onscreen": "YELLOW = INJURED",
+      "sources": [
+        2
+      ]
+    },
+    {
+      "id": 37,
+      "chapter": "",
+      "caption": "And one more practical note: a store you've robbed closes for a while afterwards. So you can't just hit the same place again once the heat dies down.",
+      "tts": "And one more practical note: a store you've robbed closes for a while afterwards. So you can't just hit the same place again once the heat dies down.",
+      "visual_need": "store shutters closed",
+      "onscreen": "ROBBED STORES CLOSE",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 38,
+      "chapter": "Busted or wasted",
+      "caption": "If it all goes wrong, you respawn after the Busted or Wasted screen. But the cash you're carrying can be lost, so bank your money before any risky job.",
+      "tts": "If it all goes wrong, you respawn after the Busted or Wasted screen. But the cash you're carrying can be lost, so bank your money before any risky job.",
+      "visual_need": "wasted screen, ATM",
+      "onscreen": "BANK BEFORE THE JOB",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 39,
+      "chapter": "",
+      "caption": "And if you're carrying stash bags when you die, you lose those too. That's why passing the bags to your partner mid-chase is so useful.",
+      "tts": "And if you're carrying stash bags when you die, you lose those too. That's why passing the bags to your partner mid-chase is so useful.",
+      "visual_need": "passing a bag to a partner",
+      "onscreen": "PASS THE BAG",
+      "sources": [
+        2
+      ]
+    },
+    {
+      "id": 40,
+      "chapter": "Your criminal profile",
+      "caption": "Finally, the system most people miss: your criminal profile. It tracks how you commit crimes over time, and Jason and Lucia each have their own.",
+      "tts": "Finally, the system most people miss: your criminal profile. It tracks how you commit crimes over time, and Jason and Lucia each have their own.",
+      "visual_need": "Jason and Lucia close-ups",
+      "onscreen": "CRIMINAL PROFILE",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 41,
+      "chapter": "",
+      "caption": "There are five levels: Professional, Hardened, Violent, Psycho, and Irredeemable. A ruthless profile means faster police calls, armed citizens, and more aggressive responses.",
+      "tts": "There are five levels: Professional, Hardened, Violent, Psycho, and Irredeemable. A ruthless profile means faster police calls, armed citizens, and more aggressive responses.",
+      "visual_need": "armed citizens, aggressive police",
+      "onscreen": "RUTHLESS = FASTER COPS",
+      "sources": [
+        2,
+        1
+      ]
+    },
+    {
+      "id": 42,
+      "chapter": "",
+      "caption": "At Psycho, you can't surrender to the police anymore. And Irredeemable is permanent. So if you want easier escapes, play like a professional: low violence, non-lethal takedowns.",
+      "tts": "At Psycho, you can't surrender to the police anymore. And Irredeemable is permanent. So if you want easier escapes, play like a professional: low violence, non-lethal takedowns.",
+      "visual_need": "professional heist, no casualties",
+      "onscreen": "PLAY PROFESSIONAL",
+      "sources": [
+        2
+      ]
+    },
+    {
+      "id": 43,
+      "chapter": "What we don't know yet",
+      "caption": "To be honest about the limits: a few things still aren't confirmed by the guides. Exactly which crimes trigger each star level, how long the police remember an outfit or a car, and exactly how the police dogs work.",
+      "tts": "To be honest about the limits: a few things still aren't confirmed by the guides. Exactly which crimes trigger each star level, how long the police remember an outfit or a car, and exactly how the police dogs work.",
+      "visual_need": "police dog unit, question marks",
+      "onscreen": "STILL UNCONFIRMED",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 44,
+      "chapter": "",
+      "caption": "Nobody has pinned down how much cash you lose on a bust or a death either. So until someone does, assume the worst and bank everything before you start a fight.",
+      "tts": "Nobody has pinned down how much cash you lose on a bust or a death either. So until someone does, assume the worst and bank everything before you start a fight.",
+      "visual_need": "cash on the ground, ATM",
+      "onscreen": "ASSUME THE WORST",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 45,
+      "chapter": "",
+      "caption": "My advice is to practise on a low-security store. Get one star, then run the full routine: break line of sight, leave the zone, clear every icon. Once it's muscle memory, the big heists get much less scary.",
+      "tts": "My advice is to practise on a low-security store. Get one star, then run the full routine: break line of sight, leave the zone, clear every icon. Once it's muscle memory, the big heists get much less scary.",
+      "visual_need": "small store robbery, quick escape",
+      "onscreen": "PRACTISE ON SMALL JOBS",
+      "sources": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 46,
+      "chapter": "The escape routine",
+      "caption": "So here's the full escape routine. Break line of sight. Leave the red zone. Then clear every icon: new hat or mask, full outfit change, new car, gun away, footage destroyed, and split up if you're a duo.",
+      "tts": "So here's the full escape routine. Break line of sight. Leave the red zone. Then clear every icon: new hat or mask, full outfit change, new car, gun away, footage destroyed, and split up if you're a duo.",
+      "visual_need": "step-by-step escape montage",
+      "onscreen": "LOS → ZONE → ICONS",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 47,
+      "chapter": "",
+      "caption": "Do that and the heat actually goes away, instead of following you back to your next job.",
+      "tts": "Do that and the heat actually goes away, instead of following you back to your next job.",
+      "visual_need": "calm drive at sunset",
+      "onscreen": "HEAT GONE",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 48,
+      "chapter": "3 mistakes",
+      "caption": "Three mistakes that get people caught. Mistake one: only putting on a hat. Your face is covered, but your clothes still match, so the hanger icon gives you away.",
+      "tts": "Three mistakes that get people caught. Mistake one: only putting on a hat. Your face is covered, but your clothes still match, so the hanger icon gives you away.",
+      "visual_need": "character in cap getting recognised",
+      "onscreen": "MISTAKE 1: HAT ONLY",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 49,
+      "chapter": "",
+      "caption": "Mistake two: driving the getaway car home. Once that car is identified, it's part of your heat. Ditch it, even if it's a nice one.",
+      "tts": "Mistake two: driving the getaway car home. Once that car is identified, it's part of your heat. Ditch it, even if it's a nice one.",
+      "visual_need": "police spotting a parked car",
+      "onscreen": "MISTAKE 2: SAME CAR",
+      "sources": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": 50,
+      "chapter": "",
+      "caption": "Mistake three: walking back into the red zone too early. If you still match the description, the officers in that zone will recognise you and the chase starts all over again.",
+      "tts": "Mistake three: walking back into the red zone too early. If you still match the description, the officers in that zone will recognise you and the chase starts all over again.",
+      "visual_need": "walking into a police patrol",
+      "onscreen": "MISTAKE 3: WALKING BACK IN",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 51,
+      "chapter": "",
+      "caption": "Have you had a chase where the police found you anyway? Tell me what gave you away in the comments. And subscribe, because next we're digging into the hidden details and easter eggs in GTA 6.",
+      "tts": "Have you had a chase where the police found you anyway? Tell me what gave you away in the comments. And subscribe, because next we're digging into the hidden details and easter eggs in GTA 6.",
+      "visual_need": "police lights fading",
+      "onscreen": "COMMENT BELOW",
+      "sources": []
+    }
+  ]
+}

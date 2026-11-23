@@ -1,0 +1,589 @@
+{
+  "topic": "GTA 6 hidden details and easter eggs",
+  "format": "hidden_details",
+  "search_query": "GTA 6 easter eggs",
+  "research": [
+    {
+      "n": 1,
+      "title": "15 GTA 6 Easter Eggs and Hidden Details",
+      "channel": "EarlyGame",
+      "url": "https://earlygame.com/guides/gaming/gta-6-easter-eggs-hidden-details"
+    },
+    {
+      "n": 2,
+      "title": "GTA 6 Easter Egg Is Literally an Egg",
+      "channel": "IBTimes UK",
+      "url": "https://www.ibtimes.co.uk/gta-6-player-discovers-literal-easter-egg-leonida-1833342"
+    },
+    {
+      "n": 3,
+      "title": "20 details in the GTA 6 launch trailer",
+      "channel": "TechWiser",
+      "url": "https://techwiser.com/gta-6-launch-trailer-details/"
+    },
+    {
+      "n": 4,
+      "title": "GTA 6 easter eggs in the launch trailer, ranked",
+      "channel": "FandomWire",
+      "url": "https://fandomwire.com/gta-6-brand-new-easter-eggs-in-trailer-3-ranked/"
+    },
+    {
+      "n": 5,
+      "title": "GTA 6's hidden details",
+      "channel": "NoobFeed",
+      "url": "https://noobfeed.com/news/gta-6-hidden-details-attention"
+    },
+    {
+      "n": 6,
+      "title": "GTA 6's hidden secrets connect Rockstar's games",
+      "channel": "Analytics Insight",
+      "url": "https://www.analyticsinsight.net/news/gta-6s-hidden-secrets-connect-rockstars-biggest-games-in-unexpected-ways"
+    },
+    {
+      "n": 7,
+      "title": "GTA 6 beginner's guide",
+      "channel": "Red Bull Gaming",
+      "url": "https://www.redbull.com/ie-en/gta-6-beginners-guide"
+    },
+    {
+      "n": 8,
+      "title": "GTA 6 Map: Every Confirmed Location",
+      "channel": "AllThings.How",
+      "url": "https://allthings.how/gta-6-map-every-confirmed-location-in-the-state-of-leonida/"
+    }
+  ],
+  "title": "GTA 6 Easter Eggs & Hidden Details You Probably Missed",
+  "title_alternatives": [
+    "20 GTA 6 Secrets Rockstar Hid in Plain Sight",
+    "GTA 6 Easter Eggs: Vice City, RDR2 and Tommy Vercetti References"
+  ],
+  "thumbnail_text": "YOU MISSED THIS",
+  "description_summary": "The best GTA 6 easter eggs and hidden details so far: the literal easter egg on a tower, Tommy Vercetti and Vice City callbacks, Liberty City links, Red Dead references, radio returns, and the small details that make Leonida feel alive. Confirmed facts and fan theories are labelled.",
+  "tags": [
+    "gta 6",
+    "gta 6 easter eggs",
+    "gta 6 hidden details",
+    "gta 6 secrets",
+    "gta 6 tommy vercetti",
+    "gta 6 vice city references",
+    "gta 6 details",
+    "gta 6 easter egg tower",
+    "gta 6 rdr2",
+    "gta 6 things you missed",
+    "gta 6 flash fm",
+    "gta vi",
+    "gta 6 lore",
+    "gta 6 trailer details",
+    "gta 6 secrets explained"
+  ],
+  "source_queries": [],
+  "beats": [
+    {
+      "id": 1,
+      "chapter": "",
+      "caption": "Rockstar hides things in every GTA, and GTA 6 is already full of them. Callbacks to Vice City, links to Liberty City and Red Dead, and one easter egg that is, quite literally, an egg.",
+      "tts": "Rockstar hides things in every GTA, and GTA 6 is already full of them. Callbacks to Vice City, links to Liberty City and Red Dead, and one easter egg that is, quite literally, an egg.",
+      "visual_need": "Vice City at sunset, slow pan",
+      "onscreen": "HIDDEN IN PLAIN SIGHT",
+      "sources": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 2,
+      "chapter": "",
+      "caption": "I'll be clear about what's confirmed and what's a fan theory, because a lot of what's going around online is guesswork. Let's start with the one everyone's talking about.",
+      "tts": "I'll be clear about what's confirmed and what's a fan theory, because a lot of what's going around online is guesswork. Let's start with the one everyone's talking about.",
+      "visual_need": "magnifying-glass style zoom on scenery",
+      "onscreen": "CONFIRMED vs THEORY",
+      "sources": []
+    },
+    {
+      "id": 3,
+      "chapter": "The literal easter egg",
+      "caption": "Players found a bird's nest full of colourful eggs at the top of a tower in Leonida, reportedly a radio or communications tower. The climb takes about seven minutes.",
+      "tts": "Players found a bird's nest full of colourful eggs at the top of a tower in Leonida, reportedly a radio or communications tower. The climb takes about seven minutes.",
+      "visual_need": "tall tower against the sky",
+      "onscreen": "A NEST ON A TOWER",
+      "sources": [
+        2
+      ]
+    },
+    {
+      "id": 4,
+      "chapter": "",
+      "caption": "Take one of the eggs and throw it toward the ground, and a short cutscene plays showing the egg smashing onto the windscreen of a car driving below.",
+      "tts": "Take one of the eggs and throw it toward the ground, and a short cutscene plays showing the egg smashing onto the windscreen of a car driving below.",
+      "visual_need": "egg falling, car windscreen",
+      "onscreen": "THROW IT DOWN",
+      "sources": [
+        2
+      ]
+    },
+    {
+      "id": 5,
+      "chapter": "",
+      "caption": "The footage was shared on X by a player called xGarbett on November 18th, right after the game's staggered release. You can even talk to an influencer at the top of the tower. The exact tower isn't confirmed in Rockstar's materials, so treat the location as player-reported.",
+      "tts": "The footage was shared on X by a player called xGarbett on November 18th, right after the game's staggered release. You can even talk to an influencer at the top of the tower. The exact tower isn't confirmed in Rockstar's materials, so treat the location as player-reported.",
+      "visual_need": "influencer on a rooftop",
+      "onscreen": "PLAYER-REPORTED",
+      "sources": [
+        2
+      ]
+    },
+    {
+      "id": 6,
+      "chapter": "",
+      "caption": "It's a nod to a classic: the original Vice City had a hidden room with an actual chocolate easter egg inside. Rockstar has been doing this for over twenty years.",
+      "tts": "It's a nod to a classic: the original Vice City had a hidden room with an actual chocolate easter egg inside. Rockstar has been doing this for over twenty years.",
+      "visual_need": "art deco building interior",
+      "onscreen": "VICE CITY DID IT FIRST",
+      "sources": [
+        2
+      ]
+    },
+    {
+      "id": 7,
+      "chapter": "Tommy Vercetti's ghost",
+      "caption": "Tommy Vercetti isn't in GTA 6, but his name is. Two revolvers in the Ultimate Edition, the Hawk and the Little Morgan, are listed as sourced from the Vercetti Estate, with palm-tree engravings on the grips.",
+      "tts": "Tommy Vercetti isn't in GTA 6, but his name is. Two revolvers in the Ultimate Edition, the Hawk and the Little Morgan, are listed as sourced from the Vercetti Estate, with palm-tree engravings on the grips.",
+      "visual_need": "revolver close-up, palm trees",
+      "onscreen": "SOURCED FROM THE VERCETTI ESTATE",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 8,
+      "chapter": "",
+      "caption": "And promo material shows Jason and Lucia outside the Ocean View Hotel, which was Tommy's very first safehouse in the 2002 game. That one is a deliberate callback.",
+      "tts": "And promo material shows Jason and Lucia outside the Ocean View Hotel, which was Tommy's very first safehouse in the 2002 game. That one is a deliberate callback.",
+      "visual_need": "pastel art deco hotel",
+      "onscreen": "OCEAN VIEW HOTEL",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 9,
+      "chapter": "",
+      "caption": "Fan theory territory: in the second trailer, a painting of an iguana appears to be wearing Tommy's famous tropical shirt. Fans spotted it, but Rockstar hasn't confirmed it.",
+      "tts": "Fan theory territory: in the second trailer, a painting of an iguana appears to be wearing Tommy's famous tropical shirt. Fans spotted it, but Rockstar hasn't confirmed it.",
+      "visual_need": "iguana on a rock",
+      "onscreen": "THEORY: TOMMY'S SHIRT",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 10,
+      "chapter": "",
+      "caption": "Why does this matter? Because it confirms that Vice City's history still exists in this universe. Tommy built an empire here, and decades later his estate is selling off guns. That's a great bit of world-building for anyone who played the original.",
+      "tts": "Why does this matter? Because it confirms that Vice City's history still exists in this universe. Tommy built an empire here, and decades later his estate is selling off guns. That's a great bit of world-building for anyone who played the original.",
+      "visual_need": "old mansion gates, overgrown",
+      "onscreen": "TOMMY'S LEGACY LIVES ON",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 11,
+      "chapter": "The music",
+      "caption": "Flash FM is back. It was a radio station in the original Vice City, and Rockstar has confirmed its return.",
+      "tts": "Flash FM is back. It was a radio station in the original Vice City, and Rockstar has confirmed its return.",
+      "visual_need": "car radio at night, neon",
+      "onscreen": "FLASH FM RETURNS",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 12,
+      "chapter": "",
+      "caption": "Slayer's Raining Blood is back too. It played on V-Rock in the original Vice City, and in GTA 6 it shows up on The Chamber 106.6, a station hosted by Slayer members as DJ Tom and DJ Kerry.",
+      "tts": "Slayer's Raining Blood is back too. It played on V-Rock in the original Vice City, and in GTA 6 it shows up on The Chamber 106.6, a station hosted by Slayer members as DJ Tom and DJ Kerry.",
+      "visual_need": "rock station vibe, driving fast",
+      "onscreen": "THE CHAMBER 106.6",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 13,
+      "chapter": "",
+      "caption": "And Phil Collins' Against All Odds appears in the extended promo footage. Collins was in Vice City Stories, where he played a virtual concert at Hyman Memorial Stadium.",
+      "tts": "And Phil Collins' Against All Odds appears in the extended promo footage. Collins was in Vice City Stories, where he played a virtual concert at Hyman Memorial Stadium.",
+      "visual_need": "stadium at night",
+      "onscreen": "PHIL COLLINS CALLBACK",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 14,
+      "chapter": "Phil Cassidy?",
+      "caption": "In the second trailer, a man fires a weapon under a sign that reads Phil's Ammu-Nation. Some fans think it's Phil Cassidy from Vice City, or a relative. Again, Rockstar hasn't confirmed it, so file this under theory.",
+      "tts": "In the second trailer, a man fires a weapon under a sign that reads Phil's Ammu-Nation. Some fans think it's Phil Cassidy from Vice City, or a relative. Again, Rockstar hasn't confirmed it, so file this under theory.",
+      "visual_need": "gun range, man firing",
+      "onscreen": "THEORY: PHIL CASSIDY",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 15,
+      "chapter": "",
+      "caption": "If you never played the original: Phil Cassidy was Vice City's one-armed arms dealer, who ran his own gun range out in the country. A Phil's Ammu-Nation is exactly the kind of joke Rockstar loves, which is why fans want this one to be real.",
+      "tts": "If you never played the original: Phil Cassidy was Vice City's one-armed arms dealer, who ran his own gun range out in the country. A Phil's Ammu-Nation is exactly the kind of joke Rockstar loves, which is why fans want this one to be real.",
+      "visual_need": "rural gun range",
+      "onscreen": "WHO WAS PHIL?",
+      "sources": []
+    },
+    {
+      "id": 16,
+      "chapter": "Liberty City and beyond",
+      "caption": "Here's a confirmed one from the official character profiles. Lucia's mother wanted a good life for her ever since their days in Liberty City, the setting of GTA 3 and GTA 4.",
+      "tts": "Here's a confirmed one from the official character profiles. Lucia's mother wanted a good life for her ever since their days in Liberty City, the setting of GTA 3 and GTA 4.",
+      "visual_need": "Lucia close-up",
+      "onscreen": "LUCIA'S LIBERTY CITY PAST",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 17,
+      "chapter": "",
+      "caption": "And players have found books in the game that mention Red Dead Redemption and GTA 4. Rockstar keeps hinting that its worlds are connected.",
+      "tts": "And players have found books in the game that mention Red Dead Redemption and GTA 4. Rockstar keeps hinting that its worlds are connected.",
+      "visual_need": "bookshelf, interior details",
+      "onscreen": "BOOKS NAME OTHER GAMES",
+      "sources": [
+        6
+      ]
+    },
+    {
+      "id": 18,
+      "chapter": "",
+      "caption": "Another Red Dead link, this one a theory: during a TV scene with Jason, there's footage of animals grazing by a river just before a Prairie Sandwich Meal ad. Reddit users think that landscape comes from Red Dead Redemption 2.",
+      "tts": "Another Red Dead link, this one a theory: during a TV scene with Jason, there's footage of animals grazing by a river just before a Prairie Sandwich Meal ad. Reddit users think that landscape comes from Red Dead Redemption 2.",
+      "visual_need": "TV screen in a living room",
+      "onscreen": "THEORY: RDR2 ON TV",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 19,
+      "chapter": "",
+      "caption": "And a sticker in the first trailer appears to show Everett Morgan, a Red Dead Online character. Also unconfirmed, but it fits the pattern.",
+      "tts": "And a sticker in the first trailer appears to show Everett Morgan, a Red Dead Online character. Also unconfirmed, but it fits the pattern.",
+      "visual_need": "car bumper sticker",
+      "onscreen": "THEORY: EVERETT MORGAN",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 20,
+      "chapter": "",
+      "caption": "Going back even further, the launch trailer shows North Fort Law. Longtime fans will recognise it as the military base from the very first GTA, in the State of New Guernsey.",
+      "tts": "Going back even further, the launch trailer shows North Fort Law. Longtime fans will recognise it as the military base from the very first GTA, in the State of New Guernsey.",
+      "visual_need": "military base gates",
+      "onscreen": "NORTH FORT LAW · GTA 1",
+      "sources": [
+        3
+      ]
+    },
+    {
+      "id": 21,
+      "chapter": "",
+      "caption": "The trailer also leaves an open question there: we don't know if that's a flashback to Jason's army days or a present-day mission where he calls in old squadmates. TechWiser flagged it, and nobody can say for sure yet.",
+      "tts": "The trailer also leaves an open question there: we don't know if that's a flashback to Jason's army days or a present-day mission where he calls in old squadmates. TechWiser flagged it, and nobody can say for sure yet.",
+      "visual_need": "soldiers, Jason in uniform-like gear",
+      "onscreen": "FLASHBACK OR MISSION?",
+      "sources": [
+        3
+      ]
+    },
+    {
+      "id": 22,
+      "chapter": "Brands and parodies",
+      "caption": "The classic brands are back. Weazel News appears to report on a police chase in the first trailer. Sessanta Nove, the fake luxury fashion label from GTA 5, returns too.",
+      "tts": "The classic brands are back. Weazel News appears to report on a police chase in the first trailer. Sessanta Nove, the fake luxury fashion label from GTA 5, returns too.",
+      "visual_need": "news broadcast, fashion store",
+      "onscreen": "WEAZEL NEWS · SESSANTA NOVE",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 23,
+      "chapter": "",
+      "caption": "And here's one that escaped the game entirely: fans spotted real-life Weazel News ads in Miami. Rockstar's fake news network showed up in the real city that inspired Vice City.",
+      "tts": "And here's one that escaped the game entirely: fans spotted real-life Weazel News ads in Miami. Rockstar's fake news network showed up in the real city that inspired Vice City.",
+      "visual_need": "Miami street billboard style shot",
+      "onscreen": "WEAZEL NEWS IN REAL MIAMI",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 24,
+      "chapter": "",
+      "caption": "In extended footage, there's a Fleeca Bank sticker on Jason's fridge. And the launch trailer has a fried chicken bucket parody that fans linked to a well-known fast food chain.",
+      "tts": "In extended footage, there's a Fleeca Bank sticker on Jason's fridge. And the launch trailer has a fried chicken bucket parody that fans linked to a well-known fast food chain.",
+      "visual_need": "fridge door, fast food bucket",
+      "onscreen": "FLEECA ON THE FRIDGE",
+      "sources": [
+        1,
+        4
+      ]
+    },
+    {
+      "id": 25,
+      "chapter": "",
+      "caption": "Fleeca, if you don't remember, was the bank chain from GTA 5, the one behind the Fleeca Job heist. Seeing it on Jason's fridge is a quiet way of saying Los Santos and Leonida share the same world.",
+      "tts": "Fleeca, if you don't remember, was the bank chain from GTA 5, the one behind the Fleeca Job heist. Seeing it on Jason's fridge is a quiet way of saying Los Santos and Leonida share the same world.",
+      "visual_need": "bank branch exterior",
+      "onscreen": "FLEECA = GTA 5 BANK",
+      "sources": []
+    },
+    {
+      "id": 26,
+      "chapter": "",
+      "caption": "And the '95 Grotti Cheetah is a modern take on the classic Cheetah sports car, with a retro-futuristic livery. It's one of the Ultimate Edition cars.",
+      "tts": "And the '95 Grotti Cheetah is a modern take on the classic Cheetah sports car, with a retro-futuristic livery. It's one of the Ultimate Edition cars.",
+      "visual_need": "retro sports car",
+      "onscreen": "'95 GROTTI CHEETAH",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 27,
+      "chapter": "",
+      "caption": "Car fans also spotted a supercar in the launch trailer with a Ferrari SF90-style shape. Rockstar always parodies real cars, and GTA 6 has some of its closest lookalikes yet.",
+      "tts": "Car fans also spotted a supercar in the launch trailer with a Ferrari SF90-style shape. Rockstar always parodies real cars, and GTA 6 has some of its closest lookalikes yet.",
+      "visual_need": "sleek red supercar",
+      "onscreen": "SF90-STYLE SUPERCAR",
+      "sources": [
+        4
+      ]
+    },
+    {
+      "id": 28,
+      "chapter": "",
+      "caption": "And honestly, the parodies are half the fun. Rockstar's sense of humour is sharpest when it's poking at real brands, and Leonida is clearly packed with them.",
+      "tts": "And honestly, the parodies are half the fun. Rockstar's sense of humour is sharpest when it's poking at real brands, and Leonida is clearly packed with them.",
+      "visual_need": "billboards and shop signs",
+      "onscreen": "PARODY EVERYWHERE",
+      "sources": []
+    },
+    {
+      "id": 29,
+      "chapter": "Small details",
+      "caption": "Now the small stuff that makes Leonida feel alive. Weapons stay visible on your character even when you're sitting in a car as a passenger.",
+      "tts": "Now the small stuff that makes Leonida feel alive. Weapons stay visible on your character even when you're sitting in a car as a passenger.",
+      "visual_need": "passenger with rifle visible",
+      "onscreen": "GUNS STAY VISIBLE",
+      "sources": [
+        4
+      ]
+    },
+    {
+      "id": 30,
+      "chapter": "",
+      "caption": "Firearms have serial numbers, and some of them reference previous GTA games. Rockstar hid easter eggs inside the guns themselves.",
+      "tts": "Firearms have serial numbers, and some of them reference previous GTA games. Rockstar hid easter eggs inside the guns themselves.",
+      "visual_need": "close-up of weapon",
+      "onscreen": "SERIAL NUMBER EASTER EGGS",
+      "sources": [
+        5
+      ]
+    },
+    {
+      "id": 31,
+      "chapter": "",
+      "caption": "The launch trailer also shows rideable electric scooters, multiple jet skis, and what looks like a returning blimp. Fans are hoping that blimp is flyable again.",
+      "tts": "The launch trailer also shows rideable electric scooters, multiple jet skis, and what looks like a returning blimp. Fans are hoping that blimp is flyable again.",
+      "visual_need": "jet skis on water, blimp in sky",
+      "onscreen": "SCOOTERS · JET SKIS · BLIMP",
+      "sources": [
+        4,
+        3
+      ]
+    },
+    {
+      "id": 32,
+      "chapter": "",
+      "caption": "TechWiser spotted a Komodo dragon hiding in a swamp scene in the trailer, and a Marauder print on a shirt that matches an arm tattoo, possibly a hint at Jason's army past.",
+      "tts": "TechWiser spotted a Komodo dragon hiding in a swamp scene in the trailer, and a Marauder print on a shirt that matches an arm tattoo, possibly a hint at Jason's army past.",
+      "visual_need": "swamp, reptile in reeds",
+      "onscreen": "KOMODO IN THE SWAMP",
+      "sources": [
+        3
+      ]
+    },
+    {
+      "id": 33,
+      "chapter": "",
+      "caption": "And the six-star wanted level is back for the first time since GTA 4. GTA 5 capped it at five.",
+      "tts": "And the six-star wanted level is back for the first time since GTA 4. GTA 5 capped it at five.",
+      "visual_need": "police HUD with stars",
+      "onscreen": "6 STARS RETURN",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 34,
+      "chapter": "",
+      "caption": "Six stars was last seen in GTA 4 and Chinatown Wars, so bringing it back is a callback in itself, and a warning about how serious the police are this time.",
+      "tts": "Six stars was last seen in GTA 4 and Chinatown Wars, so bringing it back is a callback in itself, and a warning about how serious the police are this time.",
+      "visual_need": "SWAT vans, helicopter",
+      "onscreen": "LAST SEEN: GTA IV",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "id": 35,
+      "chapter": "",
+      "caption": "Even the wildlife has secrets. The in-game wildlife chart lists alligators, boars, bobcats, snakes and more, and it has a separate symbol for toxic waste. Somewhere in Leonida, something is glowing.",
+      "tts": "Even the wildlife has secrets. The in-game wildlife chart lists alligators, boars, bobcats, snakes and more, and it has a separate symbol for toxic waste. Somewhere in Leonida, something is glowing.",
+      "visual_need": "swamp, mysterious green water",
+      "onscreen": "TOXIC WASTE ON THE CHART",
+      "sources": [
+        8
+      ]
+    },
+    {
+      "id": 36,
+      "chapter": "",
+      "caption": "Flamingos and alligators share the Grassrivers, and the underwater areas hold treasure and secrets of their own. If a place looks empty, it usually isn't.",
+      "tts": "Flamingos and alligators share the Grassrivers, and the underwater areas hold treasure and secrets of their own. If a place looks empty, it usually isn't.",
+      "visual_need": "flamingos, underwater reef",
+      "onscreen": "SECRETS UNDERWATER",
+      "sources": [
+        8
+      ]
+    },
+    {
+      "id": 37,
+      "chapter": "Hidden in your own house",
+      "caption": "There are secrets in Jason's own house, too. Under the loose floorboards in his bedroom, where you can stash cash, you'll find old photos that add to his backstory.",
+      "tts": "There are secrets in Jason's own house, too. Under the loose floorboards in his bedroom, where you can stash cash, you'll find old photos that add to his backstory.",
+      "visual_need": "bedroom floor, old photographs",
+      "onscreen": "PHOTOS UNDER THE FLOOR",
+      "sources": [
+        7
+      ]
+    },
+    {
+      "id": 38,
+      "chapter": "",
+      "caption": "And meet Dolores, Jason's pet snake. Feed her and you get a small early Focus boost. It's a tiny detail, but it tells you how much Rockstar wanted this world to feel lived in.",
+      "tts": "And meet Dolores, Jason's pet snake. Feed her and you get a small early Focus boost. It's a tiny detail, but it tells you how much Rockstar wanted this world to feel lived in.",
+      "visual_need": "snake in a terrarium",
+      "onscreen": "FEED DOLORES",
+      "sources": [
+        7
+      ]
+    },
+    {
+      "id": 39,
+      "chapter": "",
+      "caption": "Gloriana is another fun one. People speculated it was a whole new state, but it appears to be just a single key island.",
+      "tts": "Gloriana is another fun one. People speculated it was a whole new state, but it appears to be just a single key island.",
+      "visual_need": "small island in the Keys",
+      "onscreen": "GLORIANA = AN ISLAND",
+      "sources": [
+        8
+      ]
+    },
+    {
+      "id": 40,
+      "chapter": "How to find more",
+      "caption": "Want to find your own? Use Focus Mode. It highlights interactables in yellow, so hidden notes and objects stand out.",
+      "tts": "Want to find your own? Use Focus Mode. It highlights interactables in yellow, so hidden notes and objects stand out.",
+      "visual_need": "focus vision, yellow highlights",
+      "onscreen": "FOCUS FINDS SECRETS",
+      "sources": [
+        7
+      ]
+    },
+    {
+      "id": 41,
+      "chapter": "",
+      "caption": "Check the minimap inside shops for back rooms and staircases, and look for dark blue buildings on the map, because those have interiors. Most secrets are inside, not on the street.",
+      "tts": "Check the minimap inside shops for back rooms and staircases, and look for dark blue buildings on the map, because those have interiors. Most secrets are inside, not on the street.",
+      "visual_need": "map with dark blue buildings",
+      "onscreen": "LOOK INSIDE",
+      "sources": [
+        7
+      ]
+    },
+    {
+      "id": 42,
+      "chapter": "",
+      "caption": "And climb things. The egg was at the top of a seven-minute climb. If Rockstar put a long climb somewhere, there's usually a reason.",
+      "tts": "And climb things. The egg was at the top of a seven-minute climb. If Rockstar put a long climb somewhere, there's usually a reason.",
+      "visual_need": "climbing a tower ladder",
+      "onscreen": "CLIMB EVERYTHING",
+      "sources": [
+        2
+      ]
+    },
+    {
+      "id": 43,
+      "chapter": "",
+      "caption": "And remember the scale here: more than seven hundred enterable interiors have been reported. Rockstar hid that egg in one tower. Imagine what's sitting in the rest.",
+      "tts": "And remember the scale here: more than seven hundred enterable interiors have been reported. Rockstar hid that egg in one tower. Imagine what's sitting in the rest.",
+      "visual_need": "interior montage: bars, motels, shops",
+      "onscreen": "700+ PLACES TO HIDE THINGS",
+      "sources": [
+        8
+      ]
+    },
+    {
+      "id": 44,
+      "chapter": "",
+      "caption": "The fun part is that the community is still early. The game only came out days ago, so the biggest secrets almost certainly haven't been found yet. Expect a part two.",
+      "tts": "The fun part is that the community is still early. The game only came out days ago, so the biggest secrets almost certainly haven't been found yet. Expect a part two.",
+      "visual_need": "player exploring at night",
+      "onscreen": "PART 2 COMING",
+      "sources": []
+    },
+    {
+      "id": 45,
+      "chapter": "",
+      "caption": "And if Rockstar's history is any guide, some of the best ones will take months or even years to surface. People were still finding new Vice City secrets long after 2002.",
+      "tts": "And if Rockstar's history is any guide, some of the best ones will take months or even years to surface. People were still finding new Vice City secrets long after 2002.",
+      "visual_need": "retro Vice City-style sunset",
+      "onscreen": "SOME TAKE YEARS",
+      "sources": []
+    },
+    {
+      "id": 46,
+      "chapter": "",
+      "caption": "Quick recap of the confirmed ones: the tower egg, the Vercetti Estate revolvers, the Ocean View Hotel, Flash FM, Raining Blood on The Chamber, Lucia's Liberty City past, and the six-star wanted level.",
+      "tts": "Quick recap of the confirmed ones: the tower egg, the Vercetti Estate revolvers, the Ocean View Hotel, Flash FM, Raining Blood on The Chamber, Lucia's Liberty City past, and the six-star wanted level.",
+      "visual_need": "recap montage",
+      "onscreen": "CONFIRMED HIGHLIGHTS",
+      "sources": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 47,
+      "chapter": "",
+      "caption": "What's the best easter egg you've found? Drop it in the comments with where you found it, and I might feature it in the next video. And subscribe for more GTA 6 secrets.",
+      "tts": "What's the best easter egg you've found? Drop it in the comments with where you found it, and I might feature it in the next video. And subscribe for more GTA 6 secrets.",
+      "visual_need": "sunset over Leonida",
+      "onscreen": "COMMENT YOUR FINDS",
+      "sources": []
+    }
+  ]
+}
