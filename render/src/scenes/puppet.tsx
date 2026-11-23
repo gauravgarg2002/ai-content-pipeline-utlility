@@ -328,15 +328,20 @@ export const PuppetScene: React.FC<SceneP> = ({p, d}) => {
       })}
       {cast.map((c, i) => {
         if (!c.name) return null;
+        const named = cast.filter((o) => o.name && !o.y).map((o) => (o.x ?? 0.5) * W0).sort((a, b) => a - b);
+        const xi = (c.x ?? 0.5) * W0; const rank = named.indexOf(xi);
+        const crowded = rank > 0 && xi - named[rank - 1] < 190;
+        const small = (c.scale || 1) < 0.9;
         const start = Math.round((c.at ?? 0) * d);
         const no = interpolate(f, [start + 15, start + 30], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
         const gone = c.exit ? interpolate(f, [Math.round((c.exitAt ?? 0.8) * d), Math.round((c.exitAt ?? 0.8) * d) + 10], [1, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'}) : 1;
-        return <text key={'n' + i} x={(c.x ?? 0.5) * W0} y={GROUND - (c.y || 0) + 70} textAnchor="middle" fontFamily="Space Grotesk, sans-serif" fontWeight={700}
-          fontSize={c.y ? 30 : 36} fill={GOLD} opacity={no * gone} letterSpacing={2}>{String(c.name).toUpperCase()}</text>;
+        return <text key={'n' + i} x={(c.x ?? 0.5) * W0} y={GROUND - (c.y || 0) + (crowded && rank % 2 ? 108 : 66)} textAnchor="middle" fontFamily="Space Grotesk, sans-serif" fontWeight={700}
+          fontSize={c.y ? 30 : small ? 26 : 34} fill={GOLD} opacity={no * gone} letterSpacing={2}>{String(c.name).toUpperCase()}</text>;
       })}
     </g>
-    {p.label ? <g><rect x={W0 / 2 - 260} y={64} width={520} height={74} rx={10} fill="#1C0D04" opacity={0.82} />
-      <text x={W0 / 2} y={114} textAnchor="middle" fontFamily="Space Grotesk, sans-serif" fontWeight={700} fontSize={40} fill={GOLD} letterSpacing={4}>{p.label}</text></g> : null}
+    {p.label ? (() => { const fs = String(p.label).length > 20 ? 34 : 40; const w = Math.min(1500, String(p.label).length * fs * 0.72 + 90);
+      return <g><rect x={W0 / 2 - w / 2} y={52} width={w} height={74} rx={10} fill="#1C0D04" opacity={0.86} />
+        <text x={W0 / 2} y={102} textAnchor="middle" fontFamily="Space Grotesk, sans-serif" fontWeight={700} fontSize={fs} fill={GOLD} letterSpacing={3}>{p.label}</text></g>; })() : null}
     <Border />
   </svg>);
 };

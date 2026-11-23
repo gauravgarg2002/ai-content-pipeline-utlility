@@ -8,3 +8,5 @@
    narration (`sequence` anchored by text offset), not one image per paragraph.
 3. **Characters, not charts, for mythology.** Epics use the shadow-puppet stage; maps only for routes.
 4. **Check the contact sheet before delivery** for overlapping text, clipped labels and empty frames.
+5. **Text must fit its box.** Puppet scene labels size their box to the text; names under figures
+   stagger to a second line when two figures stand closer than 190 px.
