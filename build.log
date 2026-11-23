@@ -1,0 +1,75 @@
+[gta6] TTS beat 1/51
+[gta6] TTS beat 2/51
+[gta6] TTS beat 3/51
+[gta6] TTS beat 4/51
+[gta6] TTS beat 5/51
+[gta6] TTS beat 6/51
+[gta6] TTS beat 7/51
+[gta6] TTS beat 8/51
+[gta6] TTS beat 9/51
+[gta6] TTS beat 10/51
+[gta6] TTS beat 11/51
+[gta6] TTS beat 12/51
+[gta6] TTS beat 13/51
+[gta6] TTS beat 14/51
+[gta6] TTS beat 15/51
+[gta6] TTS beat 16/51
+[gta6] TTS beat 17/51
+[gta6] TTS beat 18/51
+[gta6] TTS beat 19/51
+[gta6] TTS beat 20/51
+[gta6] TTS beat 21/51
+[gta6] TTS beat 22/51
+[gta6] TTS beat 23/51
+[gta6] TTS beat 24/51
+[gta6] TTS beat 25/51
+[gta6] TTS beat 26/51
+[gta6] TTS beat 27/51
+[gta6] TTS beat 28/51
+[gta6] TTS beat 29/51
+[gta6] TTS beat 30/51
+[gta6] TTS beat 31/51
+[gta6] TTS beat 32/51
+[gta6] TTS beat 33/51
+[gta6] TTS beat 34/51
+[gta6] TTS beat 35/51
+[gta6] TTS beat 36/51
+[gta6] TTS beat 37/51
+[gta6] TTS beat 38/51
+[gta6] TTS beat 39/51
+[gta6] TTS beat 40/51
+[gta6] TTS beat 41/51
+[gta6] TTS beat 42/51
+[gta6] TTS beat 43/51
+[gta6] TTS beat 44/51
+[gta6] TTS beat 45/51
+[gta6] TTS beat 46/51
+[gta6] TTS beat 47/51
+[gta6] TTS beat 48/51
+[gta6] TTS beat 49/51
+[gta6] TTS beat 50/51
+[gta6] TTS beat 51/51
+Voice: 8.5 min. Next: python -m pipeline -c en source 2026-11-23-gta-6-police-wanted-system
+6 official Rockstar sources. Next: python -m pipeline -c en index 2026-11-23-gta-6-police-wanted-system
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/root        72G   41G   32G  57% /
+115 usable scenes of 194. Next: python -m pipeline -c en match 2026-11-23-gta-6-police-wanted-system
+Re-cutting from edl.prev.json (no Gemini call)
+Source shares: rockstar_screens 46%, gtavi_extended_look 39%, gtavi_trailer_2 9%, gtavi_trailer_1 3%, gtavi_launch_trailer 2%
+126 segments. Next: python -m pipeline -c en assemble 2026-11-23-gta-6-police-wanted-system
+[gta6] Rendering segment 1/126
+[gta6] Rendering segment 11/126
+[gta6] Rendering segment 21/126
+[gta6] Rendering segment 31/126
+[gta6] Rendering segment 41/126
+[gta6] Rendering segment 51/126
+[gta6] Rendering segment 61/126
+[gta6] Rendering segment 71/126
+[gta6] Rendering segment 81/126
+[gta6] Rendering segment 91/126
+[gta6] Rendering segment 101/126
+[gta6] Rendering segment 111/126
+[gta6] Rendering segment 121/126
+[gta6] No music in assets/music; voice only
+Rendered final.mp4. Next: python -m pipeline -c en thumbnail 2026-11-23-gta-6-police-wanted-system
+Thumbnail + metadata ready. Watch final.mp4, then: python -m pipeline -c en approve 2026-11-23-gta-6-police-wanted-system final
