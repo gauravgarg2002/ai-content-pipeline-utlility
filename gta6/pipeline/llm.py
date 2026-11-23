@@ -56,11 +56,20 @@ def gemini(prompt, images=None, as_json=True, temperature=0.7, retries=5):
     for model in models:
         if model in _exhausted:
             continue
-        status, out = _call(model, body, retries)
-        if status == "ok":
-            return json.loads(out) if as_json else out
+        for attempt in range(3):  # a malformed/truncated JSON reply is retried, then the next model
+            status, out = _call(model, body, retries)
+            if status != "ok":
+                break
+            if not as_json:
+                return out
+            try:
+                return json.loads(out)
+            except json.JSONDecodeError as e:
+                log(f"{model} returned invalid JSON ({e}); retry {attempt + 1}")
+                status, out = "skip", f"{model} kept returning invalid JSON"
         log(f"{out}; trying next model")
-        _exhausted.add(model)
+        if "invalid JSON" not in out:
+            _exhausted.add(model)
     raise SystemExit("All configured Gemini models are out of free quota for today. Quotas reset at "
                      "1:30 pm IST; re-run the same command then (finished work is cached).")
 
