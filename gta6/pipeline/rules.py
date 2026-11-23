@@ -52,6 +52,30 @@ def build_edl(beats, timing, picks, catalog, cfg):
                              "dur": round(got, 3), "effect": EFFECTS[fx % len(EFFECTS)]})
                 fx += 1
                 need -= got
+        if need > 0.05 and cfg.get("allow_reuse", True):
+            # fresh footage exhausted: reuse a scene not seen in the last 20 segments, from its other half
+            uses = defaultdict(int)
+            for e in edl + segs:
+                uses[e["scene"]] += 1
+            pool = []
+            for window in (20, 8, 2):  # widest gap between repeats that the catalog allows
+                recent = {e["scene"] for e in (edl + segs)[-window:]}
+                pool = sorted((c for c in catalog if c["id"] not in recent),
+                              key=lambda c: (uses[c["id"]], -(c.get("quality") or 0)))
+                if sum(min(c["end"] - c["start"], max_seg) for c in pool) >= need:
+                    break
+            for c in pool:
+                if need <= 0.05:
+                    break
+                length = min(c["end"] - c["start"], max_seg, need)
+                if length < min(min_seg, need):
+                    continue
+                offset = max(0.0, (c["end"] - c["start"]) - length) if uses[c["id"]] % 2 == 0 else 0.0
+                segs.append({"beat": b["id"], "scene": c["id"], "src": c["src"], "start": round(c["start"] + offset, 3),
+                             "dur": round(length, 3), "effect": EFFECTS[fx % len(EFFECTS)], "reused": True})
+                fx += 1
+                need -= length
+                uses[c["id"]] += 1
         if need > 0.05:
             raise RuleError(f"Beat {b['id']}: not enough footage under the rules ({need:.1f}s short). "
                             "Add sources (python -m pipeline source) or lower max_source_share.")
@@ -71,9 +95,9 @@ def validate(edl, runtime, cfg):
     if len(srcs) < cfg["min_sources"]:
         raise RuleError(f"Only {len(srcs)} sources used; need {cfg['min_sources']}.")
     worst = max(srcs.values()) / runtime
-    if worst > cfg["max_source_share"] + 0.01:
+    if worst > cfg["max_source_share"] + 0.01 and not any(e.get("reused") for e in edl):
         raise RuleError(f"One source is {worst:.0%} of runtime (max {cfg['max_source_share']:.0%}).")
-    scenes = [e["scene"] for e in edl]
-    if len(scenes) != len(set(scenes)):
+    fresh = [e["scene"] for e in edl if not e.get("reused")]
+    if len(fresh) != len(set(fresh)):
         raise RuleError("A scene is used twice.")
     return {s: round(d / runtime, 3) for s, d in srcs.items()}
