@@ -6,8 +6,17 @@ import edge_tts
 from .common import channel, duration, load_config, read_json, require, run, write_json, log
 
 
-async def _tts(text, path, voice, rate):
-    await edge_tts.Communicate(text, voice, rate=rate).save(str(path))
+async def _tts(text, path, voice, rate, attempts=5):
+    """Edge TTS is free but occasionally drops a request; retry with backoff."""
+    for i in range(attempts):
+        try:
+            await edge_tts.Communicate(text, voice, rate=rate).save(str(path))
+            return
+        except Exception as e:  # NoAudioReceived, websocket errors
+            if i == attempts - 1:
+                raise
+            log(f"TTS failed ({type(e).__name__}), retry {i + 1}")
+            await asyncio.sleep(5 * (i + 1))
 
 
 def srt_time(t):
