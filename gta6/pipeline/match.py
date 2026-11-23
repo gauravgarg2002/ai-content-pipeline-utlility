@@ -19,8 +19,18 @@ def main(args):
     cat_txt = "\n".join(f"S{i + 1} | {c['src']} | {c['end'] - c['start']:.0f} | {c['desc']}" for i, c in enumerate(catalog))
     note = status(vdir).get("edit_note", "")
     extra = f"\n\nEditor note on the previous cut, apply it: {note}" if note else ""
-    picks = gemini(prompt("match", beats=beats_txt, catalog=cat_txt) + extra, temperature=0.5 if note else 0.3)["picks"]
-    picks = [{"beat": p["beat"], "scenes": [short.get(x, x) for x in p.get("scenes", [])]} for p in picks]
+    prev = vdir / "edl.prev.json"
+    if prev.exists() and not note:
+        # re-cut without Gemini: keep the previous picks; scenes now blocked are no longer in the catalog,
+        # so build_edl fills their slots from other footage
+        picks = {}
+        for seg in read_json(prev):
+            picks.setdefault(seg["beat"], []).append(seg["scene"])
+        picks = [{"beat": b, "scenes": list(dict.fromkeys(v))} for b, v in picks.items()]
+        print(f"Re-cutting from {prev.name} (no Gemini call)")
+    else:
+        picks = gemini(prompt("match", beats=beats_txt, catalog=cat_txt) + extra, temperature=0.5 if note else 0.3)["picks"]
+        picks = [{"beat": p["beat"], "scenes": [short.get(x, x) for x in p.get("scenes", [])]} for p in picks]
     edl = build_edl(s["beats"], timing, picks, catalog, cfg)
     write_json(vdir / "edl.json", edl)
     shares = validate(edl, sum(t["video_dur"] for t in timing), cfg)

@@ -1,0 +1,1040 @@
+[
+  {
+    "beat": 1,
+    "scene": "gtavi_extended_look_0025",
+    "src": "gtavi_extended_look",
+    "start": 589.83,
+    "dur": 15.0,
+    "effect": "zoom_in",
+    "callout": "NO SPOILERS"
+  },
+  {
+    "beat": 1,
+    "scene": "gtavi_extended_look_0047",
+    "src": "gtavi_extended_look",
+    "start": 1013.2,
+    "dur": 2.458,
+    "effect": "zoom_out"
+  },
+  {
+    "beat": 2,
+    "scene": "gtavi_extended_look_0010",
+    "src": "gtavi_extended_look",
+    "start": 239.37,
+    "dur": 3.06,
+    "effect": "pan_left",
+    "callout": "WHO'S WHO"
+  },
+  {
+    "beat": 2,
+    "scene": "gtavi_extended_look_0011",
+    "src": "gtavi_extended_look",
+    "start": 266.33,
+    "dur": 8.014,
+    "effect": "pan_right"
+  },
+  {
+    "beat": 3,
+    "scene": "gtavi_trailer_2_0013",
+    "src": "gtavi_trailer_2",
+    "start": 63.1,
+    "dur": 3.1,
+    "effect": "zoom_in",
+    "callout": "LUCIA CAMINOS"
+  },
+  {
+    "beat": 3,
+    "scene": "gtavi_extended_look_0059",
+    "src": "gtavi_extended_look",
+    "start": 1170.23,
+    "dur": 3.6,
+    "effect": "zoom_out"
+  },
+  {
+    "beat": 3,
+    "scene": "gtavi_extended_look_0024",
+    "src": "gtavi_extended_look",
+    "start": 560.8,
+    "dur": 1.758,
+    "effect": "pan_left"
+  },
+  {
+    "beat": 4,
+    "scene": "gtavi_trailer_2_0012",
+    "src": "gtavi_trailer_2",
+    "start": 60.57,
+    "dur": 2.53,
+    "effect": "pan_right",
+    "callout": "TRAINED TO FIGHT"
+  },
+  {
+    "beat": 4,
+    "scene": "gtavi_trailer_2_0011",
+    "src": "gtavi_trailer_2",
+    "start": 51.87,
+    "dur": 8.28,
+    "effect": "zoom_in"
+  },
+  {
+    "beat": 5,
+    "scene": "gtavi_extended_look_0022",
+    "src": "gtavi_extended_look",
+    "start": 513.57,
+    "dur": 10.834,
+    "effect": "zoom_out",
+    "callout": "BEND THE RULES"
+  },
+  {
+    "beat": 6,
+    "scene": "gtavi_extended_look_0034",
+    "src": "gtavi_extended_look",
+    "start": 744.67,
+    "dur": 5.5,
+    "effect": "pan_left",
+    "callout": "LIBERTY CITY ROOTS"
+  },
+  {
+    "beat": 6,
+    "scene": "gtavi_extended_look_0056",
+    "src": "gtavi_extended_look",
+    "start": 1127.53,
+    "dur": 2.74,
+    "effect": "pan_right"
+  },
+  {
+    "beat": 6,
+    "scene": "gtavi_extended_look_0070",
+    "src": "gtavi_extended_look",
+    "start": 1418.43,
+    "dur": 4.202,
+    "effect": "zoom_in"
+  },
+  {
+    "beat": 7,
+    "scene": "gtavi_trailer_2_0010",
+    "src": "gtavi_trailer_2",
+    "start": 49.83,
+    "dur": 2.04,
+    "effect": "zoom_out",
+    "callout": "THE PENITENTIARY IS ON THE MAP"
+  },
+  {
+    "beat": 7,
+    "scene": "gtavi_extended_look_0026",
+    "src": "gtavi_extended_look",
+    "start": 622.13,
+    "dur": 2.5,
+    "effect": "pan_left"
+  },
+  {
+    "beat": 7,
+    "scene": "rockstar_screens_0011",
+    "src": "rockstar_screens",
+    "start": 66.0,
+    "dur": 3.918,
+    "effect": "pan_right"
+  },
+  {
+    "beat": 8,
+    "scene": "gtavi_extended_look_0042",
+    "src": "gtavi_extended_look",
+    "start": 905.33,
+    "dur": 3.14,
+    "effect": "zoom_in",
+    "callout": "JASON DUVAL"
+  },
+  {
+    "beat": 8,
+    "scene": "gtavi_extended_look_0018",
+    "src": "gtavi_extended_look",
+    "start": 433.03,
+    "dur": 6.422,
+    "effect": "zoom_out"
+  },
+  {
+    "beat": 9,
+    "scene": "gtavi_extended_look_0048",
+    "src": "gtavi_extended_look",
+    "start": 1029.87,
+    "dur": 3.13,
+    "effect": "pan_left",
+    "callout": "WANTS A QUIET LIFE"
+  },
+  {
+    "beat": 9,
+    "scene": "rockstar_screens_0009",
+    "src": "rockstar_screens",
+    "start": 54.0,
+    "dur": 6.0,
+    "effect": "pan_right"
+  },
+  {
+    "beat": 9,
+    "scene": "gtavi_launch_trailer_0002",
+    "src": "gtavi_launch_trailer",
+    "start": 6.97,
+    "dur": 3.0,
+    "effect": "zoom_in"
+  },
+  {
+    "beat": 9,
+    "scene": "gtavi_launch_trailer_0001",
+    "src": "gtavi_launch_trailer",
+    "start": 2.67,
+    "dur": 0.816,
+    "effect": "zoom_out"
+  },
+  {
+    "beat": 10,
+    "scene": "gtavi_extended_look_0016",
+    "src": "gtavi_extended_look",
+    "start": 384.43,
+    "dur": 2.5,
+    "effect": "pan_left",
+    "callout": "MEET DOLORES"
+  },
+  {
+    "beat": 10,
+    "scene": "gtavi_trailer_2_0019",
+    "src": "gtavi_trailer_2",
+    "start": 129.37,
+    "dur": 5.03,
+    "effect": "pan_right"
+  },
+  {
+    "beat": 10,
+    "scene": "gtavi_trailer_2_0020",
+    "src": "gtavi_trailer_2",
+    "start": 134.4,
+    "dur": 3.73,
+    "effect": "zoom_in"
+  },
+  {
+    "beat": 10,
+    "scene": "rockstar_screens_0048",
+    "src": "rockstar_screens",
+    "start": 288.0,
+    "dur": 0.534,
+    "effect": "zoom_out"
+  },
+  {
+    "beat": 11,
+    "scene": "gtavi_trailer_2_0003",
+    "src": "gtavi_trailer_2",
+    "start": 20.47,
+    "dur": 2.8,
+    "effect": "pan_left",
+    "callout": "GANADO '70"
+  },
+  {
+    "beat": 11,
+    "scene": "gtavi_trailer_2_0022",
+    "src": "gtavi_trailer_2",
+    "start": 152.87,
+    "dur": 3.6,
+    "effect": "pan_right"
+  },
+  {
+    "beat": 11,
+    "scene": "gtavi_trailer_2_0006",
+    "src": "gtavi_trailer_2",
+    "start": 34.6,
+    "dur": 3.77,
+    "effect": "zoom_in"
+  },
+  {
+    "beat": 11,
+    "scene": "gtavi_trailer_1_0001",
+    "src": "gtavi_trailer_1",
+    "start": 2.67,
+    "dur": 2.33,
+    "effect": "zoom_out"
+  },
+  {
+    "beat": 11,
+    "scene": "gtavi_trailer_1_0002",
+    "src": "gtavi_trailer_1",
+    "start": 10.93,
+    "dur": 1.31,
+    "effect": "pan_left"
+  },
+  {
+    "beat": 12,
+    "scene": "gtavi_extended_look_0017",
+    "src": "gtavi_extended_look",
+    "start": 402.6,
+    "dur": 8.93,
+    "effect": "pan_right",
+    "callout": "BONNIE & CLYDE"
+  },
+  {
+    "beat": 12,
+    "scene": "gtavi_extended_look_0053",
+    "src": "gtavi_extended_look",
+    "start": 1091.93,
+    "dur": 2.64,
+    "effect": "zoom_in"
+  },
+  {
+    "beat": 12,
+    "scene": "gtavi_out_now_0001",
+    "src": "gtavi_out_now",
+    "start": 2.67,
+    "dur": 0.272,
+    "effect": "zoom_out"
+  },
+  {
+    "beat": 13,
+    "scene": "gtavi_extended_look_0078",
+    "src": "gtavi_extended_look",
+    "start": 1558.0,
+    "dur": 2.27,
+    "effect": "pan_left",
+    "callout": "CAL HAMPTON"
+  },
+  {
+    "beat": 13,
+    "scene": "gtavi_trailer_2_0001",
+    "src": "gtavi_trailer_2",
+    "start": 11.47,
+    "dur": 2.2,
+    "effect": "pan_right"
+  },
+  {
+    "beat": 13,
+    "scene": "gtavi_trailer_2_0004",
+    "src": "gtavi_trailer_2",
+    "start": 23.27,
+    "dur": 4.06,
+    "effect": "zoom_in"
+  },
+  {
+    "beat": 13,
+    "scene": "gtavi_trailer_1_0005",
+    "src": "gtavi_trailer_1",
+    "start": 52.9,
+    "dur": 1.656,
+    "effect": "zoom_out"
+  },
+  {
+    "beat": 14,
+    "scene": "gtavi_extended_look_0057",
+    "src": "gtavi_extended_look",
+    "start": 1143.7,
+    "dur": 3.63,
+    "effect": "pan_left",
+    "callout": "CONSPIRACY GUY"
+  },
+  {
+    "beat": 14,
+    "scene": "gtavi_trailer_2_0017",
+    "src": "gtavi_trailer_2",
+    "start": 92.0,
+    "dur": 2.3,
+    "effect": "pan_right"
+  },
+  {
+    "beat": 14,
+    "scene": "rockstar_screens_0044",
+    "src": "rockstar_screens",
+    "start": 264.0,
+    "dur": 6.0,
+    "effect": "zoom_in"
+  },
+  {
+    "beat": 14,
+    "scene": "rockstar_screens_0041",
+    "src": "rockstar_screens",
+    "start": 246.0,
+    "dur": 3.656,
+    "effect": "zoom_out"
+  },
+  {
+    "beat": 15,
+    "scene": "gtavi_extended_look_0050",
+    "src": "gtavi_extended_look",
+    "start": 1048.93,
+    "dur": 2.1,
+    "effect": "pan_left",
+    "callout": "BRIAN HEDER"
+  },
+  {
+    "beat": 15,
+    "scene": "rockstar_screens_0042",
+    "src": "rockstar_screens",
+    "start": 252.0,
+    "dur": 6.0,
+    "effect": "pan_right"
+  },
+  {
+    "beat": 15,
+    "scene": "gtavi_extended_look_0079",
+    "src": "gtavi_extended_look",
+    "start": 1572.8,
+    "dur": 2.086,
+    "effect": "zoom_in"
+  },
+  {
+    "beat": 16,
+    "scene": "rockstar_screens_0002",
+    "src": "rockstar_screens",
+    "start": 12.0,
+    "dur": 6.0,
+    "effect": "zoom_out",
+    "callout": "LAID-BACK SHARK"
+  },
+  {
+    "beat": 16,
+    "scene": "rockstar_screens_0003",
+    "src": "rockstar_screens",
+    "start": 18.0,
+    "dur": 6.0,
+    "effect": "pan_left"
+  },
+  {
+    "beat": 16,
+    "scene": "gtavi_launch_trailer_0003",
+    "src": "gtavi_launch_trailer",
+    "start": 11.9,
+    "dur": 0.97,
+    "effect": "pan_right"
+  },
+  {
+    "beat": 17,
+    "scene": "rockstar_screens_0000",
+    "src": "rockstar_screens",
+    "start": 0.0,
+    "dur": 6.0,
+    "effect": "zoom_in",
+    "callout": "BOOBIE IKE"
+  },
+  {
+    "beat": 17,
+    "scene": "rockstar_screens_0001",
+    "src": "rockstar_screens",
+    "start": 6.0,
+    "dur": 3.73,
+    "effect": "zoom_out"
+  },
+  {
+    "beat": 18,
+    "scene": "rockstar_screens_0052",
+    "src": "rockstar_screens",
+    "start": 312.0,
+    "dur": 6.0,
+    "effect": "pan_left",
+    "callout": "JACK OF HEARTS"
+  },
+  {
+    "beat": 18,
+    "scene": "gtavi_extended_look_0014",
+    "src": "gtavi_extended_look",
+    "start": 348.93,
+    "dur": 4.33,
+    "effect": "pan_right"
+  },
+  {
+    "beat": 19,
+    "scene": "rockstar_screens_0007",
+    "src": "rockstar_screens",
+    "start": 42.0,
+    "dur": 6.0,
+    "effect": "zoom_in",
+    "callout": "DRE'QUAN PRIEST"
+  },
+  {
+    "beat": 19,
+    "scene": "gtavi_extended_look_0019",
+    "src": "gtavi_extended_look",
+    "start": 452.6,
+    "dur": 3.898,
+    "effect": "zoom_out"
+  },
+  {
+    "beat": 20,
+    "scene": "rockstar_screens_0006",
+    "src": "rockstar_screens",
+    "start": 36.0,
+    "dur": 6.0,
+    "effect": "pan_left",
+    "callout": "SPOTS TALENT"
+  },
+  {
+    "beat": 20,
+    "scene": "rockstar_screens_0030",
+    "src": "rockstar_screens",
+    "start": 180.0,
+    "dur": 6.0,
+    "effect": "pan_right"
+  },
+  {
+    "beat": 20,
+    "scene": "gtavi_launch_trailer_0005",
+    "src": "gtavi_launch_trailer",
+    "start": 18.97,
+    "dur": 0.274,
+    "effect": "zoom_in"
+  },
+  {
+    "beat": 21,
+    "scene": "rockstar_screens_0038",
+    "src": "rockstar_screens",
+    "start": 228.0,
+    "dur": 6.0,
+    "effect": "zoom_out",
+    "callout": "REAL DIMEZ"
+  },
+  {
+    "beat": 21,
+    "scene": "gtavi_extended_look_0058",
+    "src": "gtavi_extended_look",
+    "start": 1156.03,
+    "dur": 1.114,
+    "effect": "pan_left"
+  },
+  {
+    "beat": 22,
+    "scene": "rockstar_screens_0037",
+    "src": "rockstar_screens",
+    "start": 222.0,
+    "dur": 6.0,
+    "effect": "pan_right",
+    "callout": "BAE-LUXE & ROXY"
+  },
+  {
+    "beat": 22,
+    "scene": "gtavi_trailer_1_0006",
+    "src": "gtavi_trailer_1",
+    "start": 55.0,
+    "dur": 2.33,
+    "effect": "zoom_in"
+  },
+  {
+    "beat": 22,
+    "scene": "gtavi_extended_look_0015",
+    "src": "gtavi_extended_look",
+    "start": 364.9,
+    "dur": 4.4,
+    "effect": "zoom_out"
+  },
+  {
+    "beat": 22,
+    "scene": "gtavi_extended_look_0021",
+    "src": "gtavi_extended_look",
+    "start": 481.53,
+    "dur": 2.04,
+    "effect": "pan_left"
+  },
+  {
+    "beat": 22,
+    "scene": "gtavi_launch_trailer_0008",
+    "src": "gtavi_launch_trailer",
+    "start": 48.9,
+    "dur": 0.216,
+    "effect": "pan_right"
+  },
+  {
+    "beat": 23,
+    "scene": "gtavi_trailer_1_0003",
+    "src": "gtavi_trailer_1",
+    "start": 24.83,
+    "dur": 2.6,
+    "effect": "zoom_in",
+    "callout": "THE MUSIC THREAD"
+  },
+  {
+    "beat": 23,
+    "scene": "rockstar_screens_0032",
+    "src": "rockstar_screens",
+    "start": 192.0,
+    "dur": 6.0,
+    "effect": "zoom_out"
+  },
+  {
+    "beat": 23,
+    "scene": "rockstar_screens_0058",
+    "src": "rockstar_screens",
+    "start": 348.0,
+    "dur": 2.114,
+    "effect": "pan_left"
+  },
+  {
+    "beat": 24,
+    "scene": "rockstar_screens_0036",
+    "src": "rockstar_screens",
+    "start": 216.0,
+    "dur": 6.0,
+    "effect": "pan_right",
+    "callout": "RAUL BAUTISTA"
+  },
+  {
+    "beat": 24,
+    "scene": "rockstar_screens_0035",
+    "src": "rockstar_screens",
+    "start": 210.0,
+    "dur": 5.29,
+    "effect": "zoom_in"
+  },
+  {
+    "beat": 25,
+    "scene": "gtavi_extended_look_0035",
+    "src": "gtavi_extended_look",
+    "start": 780.17,
+    "dur": 9.73,
+    "effect": "zoom_out",
+    "callout": "THE BIG SCORES"
+  },
+  {
+    "beat": 25,
+    "scene": "gtavi_extended_look_0043",
+    "src": "gtavi_extended_look",
+    "start": 923.8,
+    "dur": 3.024,
+    "effect": "pan_left"
+  },
+  {
+    "beat": 26,
+    "scene": "rockstar_screens_0057",
+    "src": "rockstar_screens",
+    "start": 342.0,
+    "dur": 6.0,
+    "effect": "pan_right",
+    "callout": "ANDRÉS DE LEÓN"
+  },
+  {
+    "beat": 26,
+    "scene": "gtavi_extended_look_0028",
+    "src": "gtavi_extended_look",
+    "start": 639.3,
+    "dur": 2.9,
+    "effect": "zoom_in"
+  },
+  {
+    "beat": 26,
+    "scene": "gtavi_trailer_1_0004",
+    "src": "gtavi_trailer_1",
+    "start": 37.43,
+    "dur": 1.502,
+    "effect": "zoom_out"
+  },
+  {
+    "beat": 27,
+    "scene": "rockstar_screens_0010",
+    "src": "rockstar_screens",
+    "start": 60.0,
+    "dur": 6.0,
+    "effect": "pan_left",
+    "callout": "PETRA NAVARRO"
+  },
+  {
+    "beat": 27,
+    "scene": "rockstar_screens_0039",
+    "src": "rockstar_screens",
+    "start": 234.0,
+    "dur": 4.114,
+    "effect": "pan_right"
+  },
+  {
+    "beat": 28,
+    "scene": "gtavi_extended_look_0052",
+    "src": "gtavi_extended_look",
+    "start": 1069.97,
+    "dur": 10.03,
+    "effect": "zoom_in",
+    "callout": "KENTON"
+  },
+  {
+    "beat": 28,
+    "scene": "gtavi_extended_look_0046",
+    "src": "gtavi_extended_look",
+    "start": 1003.73,
+    "dur": 0.708,
+    "effect": "zoom_out"
+  },
+  {
+    "beat": 29,
+    "scene": "rockstar_screens_0040",
+    "src": "rockstar_screens",
+    "start": 240.0,
+    "dur": 6.0,
+    "effect": "pan_left",
+    "callout": "SHIRLEY"
+  },
+  {
+    "beat": 29,
+    "scene": "rockstar_screens_0045",
+    "src": "rockstar_screens",
+    "start": 270.0,
+    "dur": 2.578,
+    "effect": "pan_right"
+  },
+  {
+    "beat": 30,
+    "scene": "rockstar_screens_0008",
+    "src": "rockstar_screens",
+    "start": 48.0,
+    "dur": 6.0,
+    "effect": "zoom_in",
+    "callout": "MOSES · RANDY"
+  },
+  {
+    "beat": 30,
+    "scene": "gtavi_trailer_1_0008",
+    "src": "gtavi_trailer_1",
+    "start": 70.27,
+    "dur": 2.56,
+    "effect": "zoom_out"
+  },
+  {
+    "beat": 30,
+    "scene": "gtavi_trailer_1_0009",
+    "src": "gtavi_trailer_1",
+    "start": 72.83,
+    "dur": 2.514,
+    "effect": "pan_left"
+  },
+  {
+    "beat": 31,
+    "scene": "rockstar_screens_0053",
+    "src": "rockstar_screens",
+    "start": 318.0,
+    "dur": 6.0,
+    "effect": "pan_right",
+    "callout": "YASMANI · TYRONE"
+  },
+  {
+    "beat": 31,
+    "scene": "rockstar_screens_0046",
+    "src": "rockstar_screens",
+    "start": 276.0,
+    "dur": 6.0,
+    "effect": "zoom_in"
+  },
+  {
+    "beat": 31,
+    "scene": "gtavi_trailer_1_0010",
+    "src": "gtavi_trailer_1",
+    "start": 76.5,
+    "dur": 0.682,
+    "effect": "zoom_out"
+  },
+  {
+    "beat": 32,
+    "scene": "rockstar_screens_0020",
+    "src": "rockstar_screens",
+    "start": 120.0,
+    "dur": 6.0,
+    "effect": "pan_left",
+    "callout": "THE REST? NO SPOILERS"
+  },
+  {
+    "beat": 32,
+    "scene": "gtavi_trailer_2_0002",
+    "src": "gtavi_trailer_2",
+    "start": 13.67,
+    "dur": 4.474,
+    "effect": "pan_right"
+  },
+  {
+    "beat": 33,
+    "scene": "rockstar_screens_0047",
+    "src": "rockstar_screens",
+    "start": 282.0,
+    "dur": 6.0,
+    "effect": "zoom_in",
+    "callout": "KEYS ↔ VICE CITY"
+  },
+  {
+    "beat": 33,
+    "scene": "gtavi_trailer_2_0005",
+    "src": "gtavi_trailer_2",
+    "start": 27.33,
+    "dur": 4.97,
+    "effect": "zoom_out"
+  },
+  {
+    "beat": 33,
+    "scene": "gtavi_trailer_2_0007",
+    "src": "gtavi_trailer_2",
+    "start": 38.37,
+    "dur": 0.944,
+    "effect": "pan_left"
+  },
+  {
+    "beat": 34,
+    "scene": "rockstar_screens_0022",
+    "src": "rockstar_screens",
+    "start": 132.0,
+    "dur": 6.0,
+    "effect": "pan_right",
+    "callout": "STREET → MUSIC → CORPORATE"
+  },
+  {
+    "beat": 34,
+    "scene": "rockstar_screens_0028",
+    "src": "rockstar_screens",
+    "start": 168.0,
+    "dur": 6.0,
+    "effect": "zoom_in"
+  },
+  {
+    "beat": 34,
+    "scene": "gtavi_trailer_2_0008",
+    "src": "gtavi_trailer_2",
+    "start": 41.6,
+    "dur": 0.058,
+    "effect": "zoom_out"
+  },
+  {
+    "beat": 35,
+    "scene": "rockstar_screens_0004",
+    "src": "rockstar_screens",
+    "start": 24.0,
+    "dur": 6.0,
+    "effect": "pan_left",
+    "callout": "EVERYONE'S CLIMBING"
+  },
+  {
+    "beat": 35,
+    "scene": "rockstar_screens_0005",
+    "src": "rockstar_screens",
+    "start": 30.0,
+    "dur": 2.482,
+    "effect": "pan_right"
+  },
+  {
+    "beat": 36,
+    "scene": "rockstar_screens_0031",
+    "src": "rockstar_screens",
+    "start": 186.0,
+    "dur": 6.0,
+    "effect": "zoom_in",
+    "callout": "WATCH RAUL & CAL"
+  },
+  {
+    "beat": 36,
+    "scene": "rockstar_screens_0012",
+    "src": "rockstar_screens",
+    "start": 72.0,
+    "dur": 6.0,
+    "effect": "zoom_out"
+  },
+  {
+    "beat": 36,
+    "scene": "rockstar_screens_0043",
+    "src": "rockstar_screens",
+    "start": 258.0,
+    "dur": 2.746,
+    "effect": "pan_left"
+  },
+  {
+    "beat": 37,
+    "scene": "rockstar_screens_0049",
+    "src": "rockstar_screens",
+    "start": 294.0,
+    "dur": 6.0,
+    "effect": "pan_right",
+    "callout": "WATCH REAL DIMEZ"
+  },
+  {
+    "beat": 37,
+    "scene": "gtavi_extended_look_0055",
+    "src": "gtavi_extended_look",
+    "start": 1114.8,
+    "dur": 4.4,
+    "effect": "zoom_in"
+  },
+  {
+    "beat": 37,
+    "scene": "gtavi_trailer_2_0014",
+    "src": "gtavi_trailer_2",
+    "start": 66.2,
+    "dur": 1.418,
+    "effect": "zoom_out"
+  },
+  {
+    "beat": 38,
+    "scene": "gtavi_extended_look_0031",
+    "src": "gtavi_extended_look",
+    "start": 696.0,
+    "dur": 3.93,
+    "effect": "pan_left",
+    "callout": "TWO PROFILES"
+  },
+  {
+    "beat": 38,
+    "scene": "rockstar_screens_0021",
+    "src": "rockstar_screens",
+    "start": 126.0,
+    "dur": 6.0,
+    "effect": "pan_right"
+  },
+  {
+    "beat": 38,
+    "scene": "gtavi_extended_look_0029",
+    "src": "gtavi_extended_look",
+    "start": 650.6,
+    "dur": 0.328,
+    "effect": "zoom_in"
+  },
+  {
+    "beat": 39,
+    "scene": "rockstar_screens_0050",
+    "src": "rockstar_screens",
+    "start": 300.0,
+    "dur": 6.0,
+    "effect": "zoom_out",
+    "callout": "YOU SHAPE THEM"
+  },
+  {
+    "beat": 39,
+    "scene": "gtavi_extended_look_0033",
+    "src": "gtavi_extended_look",
+    "start": 731.63,
+    "dur": 2.14,
+    "effect": "pan_left"
+  },
+  {
+    "beat": 39,
+    "scene": "gtavi_extended_look_0032",
+    "src": "gtavi_extended_look",
+    "start": 705.7,
+    "dur": 0.414,
+    "effect": "pan_right"
+  },
+  {
+    "beat": 40,
+    "scene": "rockstar_screens_0019",
+    "src": "rockstar_screens",
+    "start": 114.0,
+    "dur": 6.0,
+    "effect": "zoom_in",
+    "callout": "INVITE YOUR PARTNER"
+  },
+  {
+    "beat": 40,
+    "scene": "gtavi_extended_look_0030",
+    "src": "gtavi_extended_look",
+    "start": 663.23,
+    "dur": 3.85,
+    "effect": "zoom_out"
+  },
+  {
+    "beat": 41,
+    "scene": "rockstar_screens_0013",
+    "src": "rockstar_screens",
+    "start": 78.0,
+    "dur": 6.0,
+    "effect": "pan_left",
+    "callout": "PASS THE BAG"
+  },
+  {
+    "beat": 41,
+    "scene": "rockstar_screens_0014",
+    "src": "rockstar_screens",
+    "start": 84.0,
+    "dur": 5.818,
+    "effect": "pan_right"
+  },
+  {
+    "beat": 42,
+    "scene": "gtavi_extended_look_0049",
+    "src": "gtavi_extended_look",
+    "start": 1038.7,
+    "dur": 3.5,
+    "effect": "zoom_in",
+    "callout": "TRAIN TOGETHER"
+  },
+  {
+    "beat": 42,
+    "scene": "rockstar_screens_0015",
+    "src": "rockstar_screens",
+    "start": 90.0,
+    "dur": 3.47,
+    "effect": "zoom_out"
+  },
+  {
+    "beat": 43,
+    "scene": "rockstar_screens_0016",
+    "src": "rockstar_screens",
+    "start": 96.0,
+    "dur": 6.0,
+    "effect": "pan_left",
+    "callout": "SEEN TOGETHER = HEAT"
+  },
+  {
+    "beat": 43,
+    "scene": "rockstar_screens_0017",
+    "src": "rockstar_screens",
+    "start": 102.0,
+    "dur": 6.0,
+    "effect": "pan_right"
+  },
+  {
+    "beat": 43,
+    "scene": "rockstar_screens_0034",
+    "src": "rockstar_screens",
+    "start": 204.0,
+    "dur": 0.922,
+    "effect": "zoom_in"
+  },
+  {
+    "beat": 44,
+    "scene": "rockstar_screens_0018",
+    "src": "rockstar_screens",
+    "start": 108.0,
+    "dur": 6.0,
+    "effect": "zoom_out",
+    "callout": "SWITCH ANYTIME"
+  },
+  {
+    "beat": 44,
+    "scene": "rockstar_screens_0023",
+    "src": "rockstar_screens",
+    "start": 138.0,
+    "dur": 2.074,
+    "effect": "pan_left"
+  },
+  {
+    "beat": 45,
+    "scene": "rockstar_screens_0024",
+    "src": "rockstar_screens",
+    "start": 144.0,
+    "dur": 6.0,
+    "effect": "pan_right",
+    "callout": "8 NAMES TO KNOW"
+  },
+  {
+    "beat": 45,
+    "scene": "rockstar_screens_0026",
+    "src": "rockstar_screens",
+    "start": 156.0,
+    "dur": 6.0,
+    "effect": "zoom_in"
+  },
+  {
+    "beat": 45,
+    "scene": "rockstar_screens_0054",
+    "src": "rockstar_screens",
+    "start": 324.0,
+    "dur": 4.018,
+    "effect": "zoom_out"
+  },
+  {
+    "beat": 46,
+    "scene": "rockstar_screens_0025",
+    "src": "rockstar_screens",
+    "start": 150.0,
+    "dur": 6.0,
+    "effect": "pan_left",
+    "callout": "COMMENT BELOW"
+  },
+  {
+    "beat": 46,
+    "scene": "rockstar_screens_0056",
+    "src": "rockstar_screens",
+    "start": 336.0,
+    "dur": 3.49,
+    "effect": "pan_right"
+  }
+]
