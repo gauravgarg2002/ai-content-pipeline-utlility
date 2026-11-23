@@ -18,8 +18,14 @@ _exhausted = set()  # models whose daily quota ran out during this run
 def _call(model, body, retries):
     wait = 10
     for _ in range(retries):
-        r = requests.post(f"{API}/models/{model}:generateContent",
-                          params={"key": env("GEMINI_API_KEY")}, json=body, timeout=180)
+        try:
+            r = requests.post(f"{API}/models/{model}:generateContent",
+                              params={"key": env("GEMINI_API_KEY")}, json=body, timeout=300)
+        except (requests.Timeout, requests.ConnectionError) as e:  # slow/flaky API: retry, then next model
+            log(f"{model} network error ({type(e).__name__}), retrying in {wait}s")
+            time.sleep(wait)
+            wait = min(wait * 2, 120)
+            continue
         if r.status_code == 404:
             return "skip", f"{model} not available to this key"
         if r.status_code == 400:

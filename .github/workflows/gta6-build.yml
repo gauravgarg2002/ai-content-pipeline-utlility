@@ -36,15 +36,15 @@ jobs:
           mkdir -p gta6/assets/fonts
           curl -fsSL -o /tmp/inter.zip https://github.com/rsms/inter/releases/download/v4.1/Inter-4.1.zip \
             && unzip -o -j -q /tmp/inter.zip "extras/ttf/Inter-Bold.ttf" -d gta6/assets/fonts || echo "Inter download failed; DejaVu fallback"
-      - name: Footage cache (converted sources, scene tags)
-        uses: actions/cache@v4
+      - name: Restore footage cache (converted sources, scene tags)
+        uses: actions/cache/restore@v4
         with:
           path: |
             gta6/cache/sources
             gta6/cache/scenes
             gta6/cache/frames
-          key: gta6-official-${{ hashFiles('gta6/config.json') }}
-          restore-keys: gta6-official-
+          key: gta6-official-v1
+          restore-keys: gta6-official-v1-
       - name: Voice
         working-directory: gta6
         run: set -o pipefail; python -m pipeline -c "$CH" voice "$VIDEO" 2>&1 | tee -a build.log
@@ -54,6 +54,15 @@ jobs:
       - name: Index scenes (Gemini vision)
         working-directory: gta6
         run: set -o pipefail; python -m pipeline -c "$CH" index "$VIDEO" 2>&1 | tee -a build.log
+      - name: Save footage cache (even if later steps fail)
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: |
+            gta6/cache/sources
+            gta6/cache/scenes
+            gta6/cache/frames
+          key: gta6-official-v1-${{ github.run_id }}
       - name: Match footage to script
         working-directory: gta6
         run: set -o pipefail; python -m pipeline -c "$CH" match "$VIDEO" 2>&1 | tee -a build.log
