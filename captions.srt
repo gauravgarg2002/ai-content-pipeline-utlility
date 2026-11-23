@@ -1,0 +1,851 @@
+1
+00:00:00,000 --> 00:00:02,465
+GTA 6 doesn't explain half of its best
+
+2
+00:00:02,465 --> 00:00:04,931
+systems. Some of them you'll only discover twenty
+
+3
+00:00:04,931 --> 00:00:07,396
+hours in. So here are twenty-five tips I
+
+4
+00:00:07,396 --> 00:00:09,862
+wish I'd known on day one, starting with
+
+5
+00:00:09,862 --> 00:00:12,327
+the basics and ending with the ones that
+
+6
+00:00:12,327 --> 00:00:13,560
+change how you play.
+
+7
+00:00:13,810 --> 00:00:15,927
+Some of these will save you hours, a
+
+8
+00:00:15,927 --> 00:00:18,045
+couple will save you a lot of money,
+
+9
+00:00:18,045 --> 00:00:20,162
+and one of them is permanent, so you'll
+
+10
+00:00:20,162 --> 00:00:22,279
+want to know about it before you make
+
+11
+00:00:22,279 --> 00:00:23,338
+your first big mistake.
+
+12
+00:00:23,588 --> 00:00:26,206
+Tip one: Focus Mode. Click both sticks at
+
+13
+00:00:26,206 --> 00:00:28,823
+once. Outside of combat you can hold it
+
+14
+00:00:28,823 --> 00:00:31,441
+as long as you like, and with a
+
+15
+00:00:31,441 --> 00:00:33,404
+gun out it briefly slows time.
+
+16
+00:00:33,654 --> 00:00:36,562
+Focus colour-codes the world. Enemies show up red,
+
+17
+00:00:36,562 --> 00:00:39,470
+things you can interact with show yellow, and
+
+18
+00:00:39,470 --> 00:00:42,378
+cash shows green. You can spot enemies through
+
+19
+00:00:42,378 --> 00:00:45,286
+walls, follow animal tracks, check car trunks for
+
+20
+00:00:45,286 --> 00:00:48,194
+valuables, and find notes with safe codes on
+
+21
+00:00:48,194 --> 00:00:48,558
+them.
+
+22
+00:00:48,808 --> 00:00:51,502
+Tip two: doors talk to you. In Focus,
+
+23
+00:00:51,502 --> 00:00:54,197
+a white door means you can go in.
+
+24
+00:00:54,197 --> 00:00:56,891
+A red door means it's alarmed. Check before
+
+25
+00:00:56,891 --> 00:00:58,912
+you open anything during a job.
+
+26
+00:00:59,162 --> 00:01:01,903
+Tip three: find the hidden rooms. Inside any
+
+27
+00:01:01,903 --> 00:01:04,645
+shop, walk toward the back and watch the
+
+28
+00:01:04,645 --> 00:01:07,386
+minimap. If it shows a back room, a
+
+29
+00:01:07,386 --> 00:01:10,127
+staircase, or a door that won't open, there's
+
+30
+00:01:10,127 --> 00:01:11,498
+more to that building.
+
+31
+00:01:11,748 --> 00:01:14,767
+Tip four: read the map colours. Dark blue
+
+32
+00:01:14,767 --> 00:01:17,786
+buildings have an entrance or interior. Light blue
+
+33
+00:01:17,786 --> 00:01:20,805
+buildings are just scenery. That alone saves you
+
+34
+00:01:20,805 --> 00:01:22,692
+a lot of pointless walking.
+
+35
+00:01:22,942 --> 00:01:25,676
+And when you're near an enterable building, the
+
+36
+00:01:25,676 --> 00:01:28,411
+minimap marks the entrance, usually with a small
+
+37
+00:01:28,411 --> 00:01:31,145
+white line. Rockstar packed this world with interiors,
+
+38
+00:01:31,145 --> 00:01:32,854
+so it pays to look.
+
+39
+00:01:33,104 --> 00:01:36,018
+Tip five: your character has three core stats.
+
+40
+00:01:36,018 --> 00:01:38,933
+Health is your life bar, Stamina is for
+
+41
+00:01:38,933 --> 00:01:41,847
+sprinting and exertion, and Focus decides how long
+
+42
+00:01:41,847 --> 00:01:43,304
+you can slow time.
+
+43
+00:01:43,554 --> 00:01:47,556
+Each one trains differently. Lifting weights raises Health.
+
+44
+00:01:47,556 --> 00:01:51,559
+Cardio, like running, biking or kayaking, raises Stamina.
+
+45
+00:01:51,559 --> 00:01:55,561
+And calm activities, like fishing or playing pool,
+
+46
+00:01:55,561 --> 00:01:56,562
+raise Focus.
+
+47
+00:01:56,812 --> 00:01:59,692
+Tip six, and this is a big one:
+
+48
+00:01:59,692 --> 00:02:02,572
+Focus gains are permanent. Health and Stamina fade
+
+49
+00:02:02,572 --> 00:02:05,452
+if you stop training, but Focus stays. So
+
+50
+00:02:05,452 --> 00:02:08,332
+go fishing early. It's the best long-term upgrade
+
+51
+00:02:08,332 --> 00:02:09,412
+in the game.
+
+52
+00:02:09,662 --> 00:02:12,794
+Tip seven: buffs. Food, sleep and showers give
+
+53
+00:02:12,794 --> 00:02:15,925
+temporary boosts, marked by a pink heart for
+
+54
+00:02:15,925 --> 00:02:19,057
+Health, a blue lightning bolt for Stamina, and
+
+55
+00:02:19,057 --> 00:02:21,014
+a purple eye for Focus.
+
+56
+00:02:21,264 --> 00:02:24,459
+A simple daily routine works: sleep at night,
+
+57
+00:02:24,459 --> 00:02:27,655
+work out in the morning, eat, then shower.
+
+58
+00:02:27,655 --> 00:02:30,850
+And feed Dolores, Jason's pet snake, for a
+
+59
+00:02:30,850 --> 00:02:32,448
+small early Focus boost.
+
+60
+00:02:32,698 --> 00:02:35,603
+Tip eight: the fitness app. Stop training once
+
+61
+00:02:35,603 --> 00:02:38,508
+your ring closes, then have a protein bar
+
+62
+00:02:38,508 --> 00:02:41,412
+or shake. The window reopens every in-game day,
+
+63
+00:02:41,412 --> 00:02:43,954
+so training past it is wasted time.
+
+64
+00:02:44,204 --> 00:02:47,049
+Tip nine: train together. If both characters work
+
+65
+00:02:47,049 --> 00:02:49,894
+out at the gym, both of them benefit,
+
+66
+00:02:49,894 --> 00:02:52,028
+no matter which one you're controlling.
+
+67
+00:02:52,278 --> 00:02:55,603
+Tip ten: there's no fast travel by map.
+
+68
+00:02:55,603 --> 00:02:58,929
+No tapping a marker and warping. Your options
+
+69
+00:02:58,929 --> 00:03:02,254
+are the RydeMe app, public transport, or switching
+
+70
+00:03:02,254 --> 00:03:02,670
+characters.
+
+71
+00:03:02,920 --> 00:03:05,350
+With RydeMe you mark a spot and call
+
+72
+00:03:05,350 --> 00:03:07,780
+a car. Pay an extra hundred dollars and
+
+73
+00:03:07,780 --> 00:03:10,209
+you arrive instantly. That's the closest thing to
+
+74
+00:03:10,209 --> 00:03:11,728
+fast travel in the game.
+
+75
+00:03:11,978 --> 00:03:14,887
+Buses and trains run on schedules, and the
+
+76
+00:03:14,887 --> 00:03:17,796
+trains cover the whole region. And the fastest,
+
+77
+00:03:17,796 --> 00:03:20,705
+cheapest option of all is switching characters, because
+
+78
+00:03:20,705 --> 00:03:23,614
+the other one usually waits near your current
+
+79
+00:03:23,614 --> 00:03:23,978
+safehouse.
+
+80
+00:03:24,228 --> 00:03:27,153
+Tip eleven: do the Keys side content early.
+
+81
+00:03:27,153 --> 00:03:30,078
+Treasure diving, fishing, and your neighbour Shirley's requests
+
+82
+00:03:30,078 --> 00:03:33,002
+are all down there, and coming back later
+
+83
+00:03:33,002 --> 00:03:35,196
+takes around ten minutes each way.
+
+84
+00:03:35,446 --> 00:03:38,118
+While you're down there, explore the main strip.
+
+85
+00:03:38,118 --> 00:03:40,790
+Bars like the Rusty Anchor and the Cheeky
+
+86
+00:03:40,790 --> 00:03:43,462
+Mutineer are full interiors, and Key Lento is
+
+87
+00:03:43,462 --> 00:03:46,134
+a great place to learn the controls before
+
+88
+00:03:46,134 --> 00:03:47,470
+the city gets busy.
+
+89
+00:03:47,720 --> 00:03:50,382
+Tip twelve: time matters. Press up on the
+
+90
+00:03:50,382 --> 00:03:53,044
+d-pad to check it on your phone. Some
+
+91
+00:03:53,044 --> 00:03:55,706
+shops close at night, some missions only run
+
+92
+00:03:55,706 --> 00:03:58,368
+at certain times, and you can skip time
+
+93
+00:03:58,368 --> 00:04:00,032
+by sleeping at Jason's house.
+
+94
+00:04:00,282 --> 00:04:02,910
+Tip thirteen: your cash isn't safe in your
+
+95
+00:04:02,910 --> 00:04:05,537
+pocket. Before you get a bank account, hide
+
+96
+00:04:05,537 --> 00:04:08,165
+it under the loose floorboards in Jason's bedroom.
+
+97
+00:04:08,165 --> 00:04:10,793
+You'll even find old photos there that fill
+
+98
+00:04:10,793 --> 00:04:11,778
+in his backstory.
+
+99
+00:04:12,028 --> 00:04:14,541
+Your first bank account comes in the mission
+
+100
+00:04:14,541 --> 00:04:17,055
+Buck Me, roughly one to two hours in.
+
+101
+00:04:17,055 --> 00:04:19,568
+After that, deposit after every big job, because
+
+102
+00:04:19,568 --> 00:04:22,082
+if you die you lose the cash you're
+
+103
+00:04:22,082 --> 00:04:22,396
+carrying.
+
+104
+00:04:22,646 --> 00:04:25,590
+Tip fourteen: don't grind for money early. Spend
+
+105
+00:04:25,590 --> 00:04:28,534
+on things that actually help, like weapons and
+
+106
+00:04:28,534 --> 00:04:31,478
+vehicle mods, and let the story open up
+
+107
+00:04:31,478 --> 00:04:32,582
+the bigger earners.
+
+108
+00:04:32,832 --> 00:04:35,942
+Tip fifteen: buy a suppressor. There's an Ammu-Nation
+
+109
+00:04:35,942 --> 00:04:39,053
+in Key Lento right after the tutorial, suppressors
+
+110
+00:04:39,053 --> 00:04:42,163
+are cheap, and they reduce the police response
+
+111
+00:04:42,163 --> 00:04:44,496
+to gunshots, which buys you time.
+
+112
+00:04:44,746 --> 00:04:47,408
+Tip sixteen: get a red dot sight. It
+
+113
+00:04:47,408 --> 00:04:50,070
+lets you click the right stick to aim
+
+114
+00:04:50,070 --> 00:04:52,066
+in first person. Iron sights don't.
+
+115
+00:04:52,316 --> 00:04:55,655
+Tip seventeen: scout first. The map shows each
+
+116
+00:04:55,655 --> 00:04:58,993
+robbery's potential take and its security level before
+
+117
+00:04:58,993 --> 00:04:59,828
+you commit.
+
+118
+00:05:00,078 --> 00:05:02,892
+Low security jobs, which is every shop in
+
+119
+00:05:02,892 --> 00:05:05,706
+the starting area except the bank, need one
+
+120
+00:05:05,706 --> 00:05:08,521
+person. Medium and high security are much easier
+
+121
+00:05:08,521 --> 00:05:11,335
+as a duo, so invite your partner from
+
+122
+00:05:11,335 --> 00:05:12,390
+the map icon.
+
+123
+00:05:12,640 --> 00:05:15,283
+Tip eighteen: use the back door. The snap
+
+124
+00:05:15,283 --> 00:05:17,926
+gun gets you in without setting off the
+
+125
+00:05:17,926 --> 00:05:20,568
+alarm. And safe codes are randomised, so look
+
+126
+00:05:20,568 --> 00:05:23,211
+for them with Focus instead of trusting an
+
+127
+00:05:23,211 --> 00:05:23,872
+old guide.
+
+128
+00:05:24,122 --> 00:05:26,797
+Tip nineteen: you can pass stash bags to
+
+129
+00:05:26,797 --> 00:05:29,472
+your partner. Press right on the d-pad, then
+
+130
+00:05:29,472 --> 00:05:32,148
+circle or B. Your partner sells the loot
+
+131
+00:05:32,148 --> 00:05:34,154
+while you deal with the police.
+
+132
+00:05:34,404 --> 00:05:36,679
+And whatever you do, don't die with a
+
+133
+00:05:36,679 --> 00:05:38,954
+full bag. If you go down, you lose
+
+134
+00:05:38,954 --> 00:05:41,229
+the cash and the stash bags you were
+
+135
+00:05:41,229 --> 00:05:43,504
+carrying, so the escape is part of the
+
+136
+00:05:43,504 --> 00:05:43,788
+job.
+
+137
+00:05:44,038 --> 00:05:46,790
+Tip twenty: avoid banks and loan stores early.
+
+138
+00:05:46,790 --> 00:05:49,542
+Their cash has dye packs, and you need
+
+139
+00:05:49,542 --> 00:05:52,294
+a dye pack jammer from Chapter 3 before
+
+140
+00:05:52,294 --> 00:05:53,326
+they're worth robbing.
+
+141
+00:05:53,576 --> 00:05:56,330
+One more robbery detail: a store you've robbed
+
+142
+00:05:56,330 --> 00:05:59,084
+closes for a while afterwards. So you can't
+
+143
+00:05:59,084 --> 00:06:01,839
+farm the same shop over and over. Spread
+
+144
+00:06:01,839 --> 00:06:03,560
+your jobs around the map.
+
+145
+00:06:03,810 --> 00:06:06,898
+Tip twenty-one: the police track what they know
+
+146
+00:06:06,898 --> 00:06:09,986
+about you. Your face, your outfit, your car,
+
+147
+00:06:09,986 --> 00:06:13,074
+your weapon, CCTV footage, and whether Jason and
+
+148
+00:06:13,074 --> 00:06:16,162
+Lucia were together. Each one shows as an
+
+149
+00:06:16,162 --> 00:06:17,706
+icon under your stars.
+
+150
+00:06:17,956 --> 00:06:20,737
+And each one has its own fix. A
+
+151
+00:06:20,737 --> 00:06:23,519
+hat or mask for your face, a full
+
+152
+00:06:23,519 --> 00:06:26,300
+outfit change for your clothes, a different car,
+
+153
+00:06:26,300 --> 00:06:29,081
+putting your gun away, destroying the CCTV footage,
+
+154
+00:06:29,081 --> 00:06:30,124
+and splitting up.
+
+155
+00:06:30,374 --> 00:06:33,056
+Tip twenty-two: your car's trunk is a lifesaver.
+
+156
+00:06:33,056 --> 00:06:35,738
+Your personal vehicle keeps spare outfits in it,
+
+157
+00:06:35,738 --> 00:06:38,421
+and weapons you drop go back to your
+
+158
+00:06:38,421 --> 00:06:41,103
+trunk. Call your car and change on the
+
+159
+00:06:41,103 --> 00:06:41,438
+spot.
+
+160
+00:06:41,688 --> 00:06:44,612
+Tip twenty-three: night can be safer for jobs,
+
+161
+00:06:44,612 --> 00:06:47,535
+because the police react differently after dark. Plan
+
+162
+00:06:47,535 --> 00:06:49,728
+your bigger scores for the evening.
+
+163
+00:06:49,978 --> 00:06:52,735
+And if the stars climb to three or
+
+164
+00:06:52,735 --> 00:06:55,491
+more, a normal car struggles to escape. A
+
+165
+00:06:55,491 --> 00:06:58,248
+fast motorbike, or ducking through alleys on foot,
+
+166
+00:06:58,248 --> 00:07:01,004
+works much better. The police try non-lethal takedowns
+
+167
+00:07:01,004 --> 00:07:03,761
+first, but they will kill you if you
+
+168
+00:07:03,761 --> 00:07:04,450
+fight back.
+
+169
+00:07:04,700 --> 00:07:07,622
+Tip twenty-four is the permanent one: your criminal
+
+170
+00:07:07,622 --> 00:07:10,544
+profile. Jason and Lucia each have one, and
+
+171
+00:07:10,544 --> 00:07:13,466
+it tracks how you commit crimes over time.
+
+172
+00:07:13,466 --> 00:07:16,388
+It isn't a simple good or evil scale.
+
+173
+00:07:16,638 --> 00:07:20,634
+There are five levels: Professional, Hardened, Violent, Psycho,
+
+174
+00:07:20,634 --> 00:07:24,631
+and Irredeemable. Professional means low violence and non-lethal
+
+175
+00:07:24,631 --> 00:07:28,627
+takedowns, and you even fill Focus by being
+
+176
+00:07:28,627 --> 00:07:30,126
+kind to citizens.
+
+177
+00:07:30,376 --> 00:07:33,479
+At Psycho you can't surrender to the police.
+
+178
+00:07:33,479 --> 00:07:36,582
+And Irredeemable is permanent. A ruthless profile also
+
+179
+00:07:36,582 --> 00:07:39,685
+means faster police calls, armed citizens and more
+
+180
+00:07:39,685 --> 00:07:42,789
+aggressive responses. So decide early what kind of
+
+181
+00:07:42,789 --> 00:07:44,728
+criminal you want to be.
+
+182
+00:07:44,978 --> 00:07:47,919
+It even affects your partner. The character you
+
+183
+00:07:47,919 --> 00:07:50,859
+aren't controlling behaves according to their own profile.
+
+184
+00:07:50,859 --> 00:07:53,800
+And remember, head and heart shots kill, while
+
+185
+00:07:53,800 --> 00:07:56,741
+limbs and joints only injure. Red hit markers
+
+186
+00:07:56,741 --> 00:07:58,946
+mean a kill, yellow means injured.
+
+187
+00:07:59,196 --> 00:08:02,291
+Tip twenty-five, a non-lethal trick for chases: shoot
+
+188
+00:08:02,291 --> 00:08:05,386
+out one or two tyres and pursuing cars
+
+189
+00:08:05,386 --> 00:08:08,481
+spin out. Helicopters back off after enough shots
+
+190
+00:08:08,481 --> 00:08:08,868
+too.
+
+191
+00:08:09,118 --> 00:08:11,800
+One last chase tip: the minimap doesn't show
+
+192
+00:08:11,800 --> 00:08:14,483
+the police or their vision cones anymore. Open
+
+193
+00:08:14,483 --> 00:08:17,165
+the full map during a search to see
+
+194
+00:08:17,165 --> 00:08:19,847
+the red zone, and use Focus to reveal
+
+195
+00:08:19,847 --> 00:08:20,518
+nearby officers.
+
+196
+00:08:20,768 --> 00:08:23,476
+Two bonus tips. Before you steal a car,
+
+197
+00:08:23,476 --> 00:08:26,184
+scan it with the Waink app on your
+
+198
+00:08:26,184 --> 00:08:28,892
+phone. It shows the security system, the sell
+
+199
+00:08:28,892 --> 00:08:30,584
+price and the registration cost.
+
+200
+00:08:30,834 --> 00:08:33,511
+And plan for a garage. You can only
+
+201
+00:08:33,511 --> 00:08:36,187
+buy them after Jason and Lucia leave Key
+
+202
+00:08:36,187 --> 00:08:38,864
+Lento, but they store vehicles for free, hold
+
+203
+00:08:38,864 --> 00:08:41,541
+your weapon loadout, and let you drop off
+
+204
+00:08:41,541 --> 00:08:42,210
+illegal goods.
+
+205
+00:08:42,460 --> 00:08:45,788
+Quick recap of the big ones. Use Focus
+
+206
+00:08:45,788 --> 00:08:49,116
+Mode everywhere. Fish early, because Focus is permanent.
+
+207
+00:08:49,116 --> 00:08:52,444
+Bank your cash. Scout robberies and bring your
+
+208
+00:08:52,444 --> 00:08:55,772
+partner. Fix every heat icon. And watch your
+
+209
+00:08:55,772 --> 00:08:58,684
+criminal profile, because Irredeemable never goes away.
+
+210
+00:08:58,934 --> 00:09:01,748
+Which tip surprised you most? Tell me in
+
+211
+00:09:01,748 --> 00:09:04,561
+the comments. And subscribe, because next we're touring
+
+212
+00:09:04,561 --> 00:09:07,375
+every region of Leonida and what's waiting in
+
+213
+00:09:07,375 --> 00:09:08,078
+each one.

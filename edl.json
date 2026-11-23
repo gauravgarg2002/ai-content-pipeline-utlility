@@ -1,0 +1,1132 @@
+[
+  {
+    "beat": 1,
+    "scene": "gtavi_trailer_1_0001",
+    "src": "gtavi_trailer_1",
+    "start": 2.67,
+    "dur": 2.33,
+    "effect": "zoom_in",
+    "callout": "25 TIPS"
+  },
+  {
+    "beat": 1,
+    "scene": "gtavi_extended_look_0034",
+    "src": "gtavi_extended_look",
+    "start": 744.67,
+    "dur": 5.5,
+    "effect": "zoom_out"
+  },
+  {
+    "beat": 1,
+    "scene": "gtavi_extended_look_0021",
+    "src": "gtavi_extended_look",
+    "start": 481.53,
+    "dur": 2.04,
+    "effect": "pan_left"
+  },
+  {
+    "beat": 1,
+    "scene": "gtavi_extended_look_0022",
+    "src": "gtavi_extended_look",
+    "start": 513.57,
+    "dur": 3.94,
+    "effect": "pan_right"
+  },
+  {
+    "beat": 2,
+    "scene": "rockstar_screens_0015",
+    "src": "rockstar_screens",
+    "start": 90.0,
+    "dur": 6.0,
+    "effect": "zoom_in",
+    "callout": "ONE IS PERMANENT"
+  },
+  {
+    "beat": 2,
+    "scene": "gtavi_trailer_1_0010",
+    "src": "gtavi_trailer_1",
+    "start": 76.5,
+    "dur": 2.07,
+    "effect": "zoom_out"
+  },
+  {
+    "beat": 2,
+    "scene": "gtavi_extended_look_0043",
+    "src": "gtavi_extended_look",
+    "start": 923.8,
+    "dur": 1.708,
+    "effect": "pan_left"
+  },
+  {
+    "beat": 3,
+    "scene": "gtavi_trailer_1_0009",
+    "src": "gtavi_trailer_1",
+    "start": 72.83,
+    "dur": 3.67,
+    "effect": "pan_right",
+    "callout": "TIP 1: FOCUS MODE"
+  },
+  {
+    "beat": 3,
+    "scene": "rockstar_screens_0017",
+    "src": "rockstar_screens",
+    "start": 102.0,
+    "dur": 6.0,
+    "effect": "zoom_in"
+  },
+  {
+    "beat": 3,
+    "scene": "gtavi_launch_trailer_0001",
+    "src": "gtavi_launch_trailer",
+    "start": 2.67,
+    "dur": 0.396,
+    "effect": "zoom_out"
+  },
+  {
+    "beat": 4,
+    "scene": "gtavi_extended_look_0038",
+    "src": "gtavi_extended_look",
+    "start": 840.07,
+    "dur": 13.93,
+    "effect": "pan_left",
+    "callout": "RED · YELLOW · GREEN"
+  },
+  {
+    "beat": 4,
+    "scene": "gtavi_extended_look_0031",
+    "src": "gtavi_extended_look",
+    "start": 696.0,
+    "dur": 1.224,
+    "effect": "pan_right"
+  },
+  {
+    "beat": 5,
+    "scene": "gtavi_extended_look_0011",
+    "src": "gtavi_extended_look",
+    "start": 266.33,
+    "dur": 10.354,
+    "effect": "zoom_in",
+    "callout": "TIP 2: WHITE = GO · RED = ALARM"
+  },
+  {
+    "beat": 6,
+    "scene": "gtavi_extended_look_0032",
+    "src": "gtavi_extended_look",
+    "start": 705.7,
+    "dur": 7.1,
+    "effect": "zoom_out",
+    "callout": "TIP 3: HIDDEN ROOMS"
+  },
+  {
+    "beat": 6,
+    "scene": "rockstar_screens_0014",
+    "src": "rockstar_screens",
+    "start": 84.0,
+    "dur": 5.486,
+    "effect": "pan_left"
+  },
+  {
+    "beat": 7,
+    "scene": "gtavi_extended_look_0056",
+    "src": "gtavi_extended_look",
+    "start": 1127.53,
+    "dur": 2.74,
+    "effect": "pan_right",
+    "callout": "TIP 4: DARK BLUE = ENTER"
+  },
+  {
+    "beat": 7,
+    "scene": "rockstar_screens_0039",
+    "src": "rockstar_screens",
+    "start": 234.0,
+    "dur": 6.0,
+    "effect": "zoom_in"
+  },
+  {
+    "beat": 7,
+    "scene": "gtavi_trailer_2_0003",
+    "src": "gtavi_trailer_2",
+    "start": 20.47,
+    "dur": 2.454,
+    "effect": "zoom_out"
+  },
+  {
+    "beat": 8,
+    "scene": "gtavi_trailer_2_0017",
+    "src": "gtavi_trailer_2",
+    "start": 92.0,
+    "dur": 2.3,
+    "effect": "pan_left",
+    "callout": "WHITE LINE = ENTRANCE"
+  },
+  {
+    "beat": 8,
+    "scene": "gtavi_extended_look_0028",
+    "src": "gtavi_extended_look",
+    "start": 639.3,
+    "dur": 2.9,
+    "effect": "pan_right"
+  },
+  {
+    "beat": 8,
+    "scene": "gtavi_launch_trailer_0002",
+    "src": "gtavi_launch_trailer",
+    "start": 6.97,
+    "dur": 3.0,
+    "effect": "zoom_in"
+  },
+  {
+    "beat": 8,
+    "scene": "gtavi_launch_trailer_0003",
+    "src": "gtavi_launch_trailer",
+    "start": 11.9,
+    "dur": 1.962,
+    "effect": "zoom_out"
+  },
+  {
+    "beat": 9,
+    "scene": "gtavi_extended_look_0049",
+    "src": "gtavi_extended_look",
+    "start": 1038.7,
+    "dur": 3.5,
+    "effect": "pan_left",
+    "callout": "TIP 5: HEALTH · STAMINA · FOCUS"
+  },
+  {
+    "beat": 9,
+    "scene": "gtavi_trailer_2_0001",
+    "src": "gtavi_trailer_2",
+    "start": 11.47,
+    "dur": 2.2,
+    "effect": "pan_right"
+  },
+  {
+    "beat": 9,
+    "scene": "gtavi_trailer_2_0004",
+    "src": "gtavi_trailer_2",
+    "start": 23.27,
+    "dur": 4.06,
+    "effect": "zoom_in"
+  },
+  {
+    "beat": 9,
+    "scene": "gtavi_trailer_2_0002",
+    "src": "gtavi_trailer_2",
+    "start": 13.67,
+    "dur": 0.69,
+    "effect": "zoom_out"
+  },
+  {
+    "beat": 10,
+    "scene": "gtavi_trailer_1_0002",
+    "src": "gtavi_trailer_1",
+    "start": 10.93,
+    "dur": 6.34,
+    "effect": "pan_left",
+    "callout": "WEIGHTS · CARDIO · CALM"
+  },
+  {
+    "beat": 10,
+    "scene": "rockstar_screens_0009",
+    "src": "rockstar_screens",
+    "start": 54.0,
+    "dur": 6.0,
+    "effect": "pan_right"
+  },
+  {
+    "beat": 10,
+    "scene": "rockstar_screens_0005",
+    "src": "rockstar_screens",
+    "start": 30.0,
+    "dur": 0.918,
+    "effect": "zoom_in"
+  },
+  {
+    "beat": 11,
+    "scene": "rockstar_screens_0045",
+    "src": "rockstar_screens",
+    "start": 270.0,
+    "dur": 6.0,
+    "effect": "zoom_out",
+    "callout": "TIP 6: FOCUS IS PERMANENT"
+  },
+  {
+    "beat": 11,
+    "scene": "gtavi_trailer_2_0022",
+    "src": "gtavi_trailer_2",
+    "start": 152.87,
+    "dur": 3.6,
+    "effect": "pan_left"
+  },
+  {
+    "beat": 11,
+    "scene": "gtavi_launch_trailer_0005",
+    "src": "gtavi_launch_trailer",
+    "start": 18.97,
+    "dur": 2.2,
+    "effect": "pan_right"
+  },
+  {
+    "beat": 11,
+    "scene": "gtavi_launch_trailer_0008",
+    "src": "gtavi_launch_trailer",
+    "start": 48.9,
+    "dur": 1.05,
+    "effect": "zoom_in"
+  },
+  {
+    "beat": 12,
+    "scene": "gtavi_extended_look_0029",
+    "src": "gtavi_extended_look",
+    "start": 650.6,
+    "dur": 2.93,
+    "effect": "zoom_out",
+    "callout": "TIP 7: FOOD · SLEEP · SHOWER"
+  },
+  {
+    "beat": 12,
+    "scene": "gtavi_extended_look_0018",
+    "src": "gtavi_extended_look",
+    "start": 433.03,
+    "dur": 8.672,
+    "effect": "pan_left"
+  },
+  {
+    "beat": 13,
+    "scene": "gtavi_extended_look_0016",
+    "src": "gtavi_extended_look",
+    "start": 384.43,
+    "dur": 2.5,
+    "effect": "pan_right",
+    "callout": "FEED DOLORES"
+  },
+  {
+    "beat": 13,
+    "scene": "rockstar_screens_0048",
+    "src": "rockstar_screens",
+    "start": 288.0,
+    "dur": 6.0,
+    "effect": "zoom_in"
+  },
+  {
+    "beat": 13,
+    "scene": "gtavi_trailer_1_0005",
+    "src": "gtavi_trailer_1",
+    "start": 52.9,
+    "dur": 2.1,
+    "effect": "zoom_out"
+  },
+  {
+    "beat": 13,
+    "scene": "gtavi_extended_look_0019",
+    "src": "gtavi_extended_look",
+    "start": 452.6,
+    "dur": 0.834,
+    "effect": "pan_left"
+  },
+  {
+    "beat": 14,
+    "scene": "gtavi_extended_look_0058",
+    "src": "gtavi_extended_look",
+    "start": 1156.03,
+    "dur": 4.9,
+    "effect": "pan_right",
+    "callout": "TIP 8: CLOSE THE RING"
+  },
+  {
+    "beat": 14,
+    "scene": "gtavi_extended_look_0010",
+    "src": "gtavi_extended_look",
+    "start": 239.37,
+    "dur": 3.06,
+    "effect": "zoom_in"
+  },
+  {
+    "beat": 14,
+    "scene": "gtavi_trailer_2_0005",
+    "src": "gtavi_trailer_2",
+    "start": 27.33,
+    "dur": 3.546,
+    "effect": "zoom_out"
+  },
+  {
+    "beat": 15,
+    "scene": "gtavi_trailer_2_0007",
+    "src": "gtavi_trailer_2",
+    "start": 38.37,
+    "dur": 3.23,
+    "effect": "pan_left",
+    "callout": "TIP 9: TRAIN AS A DUO"
+  },
+  {
+    "beat": 15,
+    "scene": "gtavi_extended_look_0047",
+    "src": "gtavi_extended_look",
+    "start": 1013.2,
+    "dur": 4.0,
+    "effect": "pan_right"
+  },
+  {
+    "beat": 15,
+    "scene": "gtavi_trailer_2_0014",
+    "src": "gtavi_trailer_2",
+    "start": 66.2,
+    "dur": 0.844,
+    "effect": "zoom_in"
+  },
+  {
+    "beat": 16,
+    "scene": "gtavi_extended_look_0035",
+    "src": "gtavi_extended_look",
+    "start": 780.17,
+    "dur": 9.73,
+    "effect": "zoom_out",
+    "callout": "TIP 10: NO MAP WARP"
+  },
+  {
+    "beat": 16,
+    "scene": "gtavi_extended_look_0059",
+    "src": "gtavi_extended_look",
+    "start": 1170.23,
+    "dur": 0.912,
+    "effect": "pan_left"
+  },
+  {
+    "beat": 17,
+    "scene": "gtavi_trailer_1_0003",
+    "src": "gtavi_trailer_1",
+    "start": 24.83,
+    "dur": 2.6,
+    "effect": "pan_right",
+    "callout": "RYDEME: +$100 = INSTANT"
+  },
+  {
+    "beat": 17,
+    "scene": "rockstar_screens_0036",
+    "src": "rockstar_screens",
+    "start": 216.0,
+    "dur": 6.0,
+    "effect": "zoom_in"
+  },
+  {
+    "beat": 17,
+    "scene": "gtavi_trailer_1_0008",
+    "src": "gtavi_trailer_1",
+    "start": 70.27,
+    "dur": 0.458,
+    "effect": "zoom_out"
+  },
+  {
+    "beat": 18,
+    "scene": "gtavi_trailer_2_0006",
+    "src": "gtavi_trailer_2",
+    "start": 34.6,
+    "dur": 3.77,
+    "effect": "pan_left",
+    "callout": "SWITCH = FASTEST"
+  },
+  {
+    "beat": 18,
+    "scene": "gtavi_extended_look_0045",
+    "src": "gtavi_extended_look",
+    "start": 976.6,
+    "dur": 8.48,
+    "effect": "pan_right"
+  },
+  {
+    "beat": 19,
+    "scene": "rockstar_screens_0042",
+    "src": "rockstar_screens",
+    "start": 252.0,
+    "dur": 6.0,
+    "effect": "zoom_in",
+    "callout": "TIP 11: KEYS STUFF FIRST"
+  },
+  {
+    "beat": 19,
+    "scene": "gtavi_extended_look_0048",
+    "src": "gtavi_extended_look",
+    "start": 1029.87,
+    "dur": 3.13,
+    "effect": "zoom_out"
+  },
+  {
+    "beat": 19,
+    "scene": "gtavi_trailer_2_0008",
+    "src": "gtavi_trailer_2",
+    "start": 41.6,
+    "dur": 2.088,
+    "effect": "pan_left"
+  },
+  {
+    "beat": 20,
+    "scene": "rockstar_screens_0007",
+    "src": "rockstar_screens",
+    "start": 42.0,
+    "dur": 6.0,
+    "effect": "pan_right",
+    "callout": "RUSTY ANCHOR · CHEEKY MUTINEER"
+  },
+  {
+    "beat": 20,
+    "scene": "gtavi_trailer_2_0010",
+    "src": "gtavi_trailer_2",
+    "start": 49.83,
+    "dur": 2.04,
+    "effect": "zoom_in"
+  },
+  {
+    "beat": 20,
+    "scene": "gtavi_trailer_2_0011",
+    "src": "gtavi_trailer_2",
+    "start": 51.87,
+    "dur": 4.234,
+    "effect": "zoom_out"
+  },
+  {
+    "beat": 21,
+    "scene": "gtavi_extended_look_0025",
+    "src": "gtavi_extended_look",
+    "start": 589.83,
+    "dur": 12.562,
+    "effect": "pan_left",
+    "callout": "TIP 12: CHECK THE CLOCK"
+  },
+  {
+    "beat": 22,
+    "scene": "gtavi_extended_look_0017",
+    "src": "gtavi_extended_look",
+    "start": 402.6,
+    "dur": 8.93,
+    "effect": "pan_right",
+    "callout": "TIP 13: FLOORBOARD STASH"
+  },
+  {
+    "beat": 22,
+    "scene": "gtavi_trailer_2_0019",
+    "src": "gtavi_trailer_2",
+    "start": 129.37,
+    "dur": 2.816,
+    "effect": "zoom_in"
+  },
+  {
+    "beat": 23,
+    "scene": "rockstar_screens_0052",
+    "src": "rockstar_screens",
+    "start": 312.0,
+    "dur": 6.0,
+    "effect": "zoom_out",
+    "callout": "BANK AFTER EVERY JOB"
+  },
+  {
+    "beat": 23,
+    "scene": "gtavi_extended_look_0070",
+    "src": "gtavi_extended_look",
+    "start": 1418.43,
+    "dur": 4.618,
+    "effect": "pan_left"
+  },
+  {
+    "beat": 24,
+    "scene": "gtavi_extended_look_0052",
+    "src": "gtavi_extended_look",
+    "start": 1069.97,
+    "dur": 10.03,
+    "effect": "pan_right",
+    "callout": "TIP 14: DON'T GRIND"
+  },
+  {
+    "beat": 24,
+    "scene": "rockstar_screens_0046",
+    "src": "rockstar_screens",
+    "start": 276.0,
+    "dur": 0.156,
+    "effect": "zoom_in"
+  },
+  {
+    "beat": 25,
+    "scene": "rockstar_screens_0012",
+    "src": "rockstar_screens",
+    "start": 72.0,
+    "dur": 6.0,
+    "effect": "zoom_out",
+    "callout": "TIP 15: SUPPRESSOR"
+  },
+  {
+    "beat": 25,
+    "scene": "rockstar_screens_0008",
+    "src": "rockstar_screens",
+    "start": 48.0,
+    "dur": 5.914,
+    "effect": "pan_left"
+  },
+  {
+    "beat": 26,
+    "scene": "rockstar_screens_0010",
+    "src": "rockstar_screens",
+    "start": 60.0,
+    "dur": 6.0,
+    "effect": "pan_right",
+    "callout": "TIP 16: RED DOT = FIRST PERSON"
+  },
+  {
+    "beat": 26,
+    "scene": "gtavi_extended_look_0033",
+    "src": "gtavi_extended_look",
+    "start": 731.63,
+    "dur": 1.57,
+    "effect": "zoom_in"
+  },
+  {
+    "beat": 27,
+    "scene": "rockstar_screens_0031",
+    "src": "rockstar_screens",
+    "start": 186.0,
+    "dur": 6.0,
+    "effect": "zoom_out",
+    "callout": "TIP 17: SCOUT FIRST"
+  },
+  {
+    "beat": 27,
+    "scene": "gtavi_extended_look_0039",
+    "src": "gtavi_extended_look",
+    "start": 874.0,
+    "dur": 1.762,
+    "effect": "pan_left"
+  },
+  {
+    "beat": 28,
+    "scene": "rockstar_screens_0023",
+    "src": "rockstar_screens",
+    "start": 138.0,
+    "dur": 6.0,
+    "effect": "pan_right",
+    "callout": "MEDIUM+ = BRING A PARTNER"
+  },
+  {
+    "beat": 28,
+    "scene": "gtavi_extended_look_0024",
+    "src": "gtavi_extended_look",
+    "start": 560.8,
+    "dur": 4.0,
+    "effect": "zoom_in"
+  },
+  {
+    "beat": 28,
+    "scene": "gtavi_trailer_2_0012",
+    "src": "gtavi_trailer_2",
+    "start": 60.57,
+    "dur": 2.53,
+    "effect": "zoom_out"
+  },
+  {
+    "beat": 29,
+    "scene": "rockstar_screens_0018",
+    "src": "rockstar_screens",
+    "start": 108.0,
+    "dur": 6.0,
+    "effect": "pan_left",
+    "callout": "TIP 18: BACK DOOR + SNAP GUN"
+  },
+  {
+    "beat": 29,
+    "scene": "gtavi_extended_look_0014",
+    "src": "gtavi_extended_look",
+    "start": 348.93,
+    "dur": 5.482,
+    "effect": "pan_right"
+  },
+  {
+    "beat": 30,
+    "scene": "rockstar_screens_0000",
+    "src": "rockstar_screens",
+    "start": 0.0,
+    "dur": 6.0,
+    "effect": "zoom_in",
+    "callout": "TIP 19: PASS THE BAG"
+  },
+  {
+    "beat": 30,
+    "scene": "rockstar_screens_0003",
+    "src": "rockstar_screens",
+    "start": 18.0,
+    "dur": 4.282,
+    "effect": "zoom_out"
+  },
+  {
+    "beat": 31,
+    "scene": "rockstar_screens_0011",
+    "src": "rockstar_screens",
+    "start": 66.0,
+    "dur": 6.0,
+    "effect": "pan_left",
+    "callout": "DON'T DIE WITH A FULL BAG"
+  },
+  {
+    "beat": 31,
+    "scene": "gtavi_extended_look_0026",
+    "src": "gtavi_extended_look",
+    "start": 622.13,
+    "dur": 2.5,
+    "effect": "pan_right"
+  },
+  {
+    "beat": 31,
+    "scene": "gtavi_trailer_2_0013",
+    "src": "gtavi_trailer_2",
+    "start": 63.1,
+    "dur": 1.134,
+    "effect": "zoom_in"
+  },
+  {
+    "beat": 32,
+    "scene": "gtavi_extended_look_0015",
+    "src": "gtavi_extended_look",
+    "start": 364.9,
+    "dur": 4.4,
+    "effect": "zoom_out",
+    "callout": "TIP 20: NO BANKS YET"
+  },
+  {
+    "beat": 32,
+    "scene": "gtavi_trailer_2_0020",
+    "src": "gtavi_trailer_2",
+    "start": 134.4,
+    "dur": 3.73,
+    "effect": "pan_left"
+  },
+  {
+    "beat": 32,
+    "scene": "rockstar_screens_0002",
+    "src": "rockstar_screens",
+    "start": 12.0,
+    "dur": 1.408,
+    "effect": "pan_right"
+  },
+  {
+    "beat": 33,
+    "scene": "rockstar_screens_0057",
+    "src": "rockstar_screens",
+    "start": 342.0,
+    "dur": 6.0,
+    "effect": "zoom_in",
+    "callout": "ROBBED STORES CLOSE"
+  },
+  {
+    "beat": 33,
+    "scene": "rockstar_screens_0004",
+    "src": "rockstar_screens",
+    "start": 24.0,
+    "dur": 4.234,
+    "effect": "zoom_out"
+  },
+  {
+    "beat": 34,
+    "scene": "rockstar_screens_0043",
+    "src": "rockstar_screens",
+    "start": 258.0,
+    "dur": 6.0,
+    "effect": "pan_left",
+    "callout": "TIP 21: SIX THINGS COPS KNOW"
+  },
+  {
+    "beat": 34,
+    "scene": "rockstar_screens_0013",
+    "src": "rockstar_screens",
+    "start": 78.0,
+    "dur": 6.0,
+    "effect": "pan_right"
+  },
+  {
+    "beat": 34,
+    "scene": "rockstar_screens_0016",
+    "src": "rockstar_screens",
+    "start": 96.0,
+    "dur": 2.146,
+    "effect": "zoom_in"
+  },
+  {
+    "beat": 35,
+    "scene": "rockstar_screens_0027",
+    "src": "rockstar_screens",
+    "start": 162.0,
+    "dur": 6.0,
+    "effect": "zoom_out",
+    "callout": "ONE FIX PER ICON"
+  },
+  {
+    "beat": 35,
+    "scene": "rockstar_screens_0032",
+    "src": "rockstar_screens",
+    "start": 192.0,
+    "dur": 6.0,
+    "effect": "pan_left"
+  },
+  {
+    "beat": 35,
+    "scene": "rockstar_screens_0019",
+    "src": "rockstar_screens",
+    "start": 114.0,
+    "dur": 0.418,
+    "effect": "pan_right"
+  },
+  {
+    "beat": 36,
+    "scene": "gtavi_extended_look_0053",
+    "src": "gtavi_extended_look",
+    "start": 1091.93,
+    "dur": 2.64,
+    "effect": "zoom_in",
+    "callout": "TIP 22: TRUNK OUTFITS"
+  },
+  {
+    "beat": 36,
+    "scene": "rockstar_screens_0035",
+    "src": "rockstar_screens",
+    "start": 210.0,
+    "dur": 6.0,
+    "effect": "zoom_out"
+  },
+  {
+    "beat": 36,
+    "scene": "gtavi_extended_look_0046",
+    "src": "gtavi_extended_look",
+    "start": 1003.73,
+    "dur": 2.674,
+    "effect": "pan_left"
+  },
+  {
+    "beat": 37,
+    "scene": "rockstar_screens_0020",
+    "src": "rockstar_screens",
+    "start": 120.0,
+    "dur": 6.0,
+    "effect": "pan_right",
+    "callout": "TIP 23: WORK AT NIGHT"
+  },
+  {
+    "beat": 37,
+    "scene": "rockstar_screens_0021",
+    "src": "rockstar_screens",
+    "start": 126.0,
+    "dur": 2.29,
+    "effect": "zoom_in"
+  },
+  {
+    "beat": 38,
+    "scene": "gtavi_extended_look_0055",
+    "src": "gtavi_extended_look",
+    "start": 1114.8,
+    "dur": 4.4,
+    "effect": "zoom_out",
+    "callout": "3+ STARS: BIKE OR ALLEYS"
+  },
+  {
+    "beat": 38,
+    "scene": "rockstar_screens_0049",
+    "src": "rockstar_screens",
+    "start": 294.0,
+    "dur": 6.0,
+    "effect": "pan_left"
+  },
+  {
+    "beat": 38,
+    "scene": "gtavi_extended_look_0050",
+    "src": "gtavi_extended_look",
+    "start": 1048.93,
+    "dur": 2.1,
+    "effect": "pan_right"
+  },
+  {
+    "beat": 38,
+    "scene": "gtavi_extended_look_0057",
+    "src": "gtavi_extended_look",
+    "start": 1143.7,
+    "dur": 2.222,
+    "effect": "zoom_in"
+  },
+  {
+    "beat": 39,
+    "scene": "rockstar_screens_0025",
+    "src": "rockstar_screens",
+    "start": 150.0,
+    "dur": 6.0,
+    "effect": "zoom_out",
+    "callout": "TIP 24: CRIMINAL PROFILE"
+  },
+  {
+    "beat": 39,
+    "scene": "gtavi_extended_look_0078",
+    "src": "gtavi_extended_look",
+    "start": 1558.0,
+    "dur": 2.27,
+    "effect": "pan_left"
+  },
+  {
+    "beat": 39,
+    "scene": "gtavi_extended_look_0042",
+    "src": "gtavi_extended_look",
+    "start": 905.33,
+    "dur": 3.14,
+    "effect": "pan_right"
+  },
+  {
+    "beat": 39,
+    "scene": "rockstar_screens_0022",
+    "src": "rockstar_screens",
+    "start": 132.0,
+    "dur": 0.528,
+    "effect": "zoom_in"
+  },
+  {
+    "beat": 40,
+    "scene": "rockstar_screens_0028",
+    "src": "rockstar_screens",
+    "start": 168.0,
+    "dur": 6.0,
+    "effect": "zoom_out",
+    "callout": "PROFESSIONAL → IRREDEEMABLE"
+  },
+  {
+    "beat": 40,
+    "scene": "rockstar_screens_0033",
+    "src": "rockstar_screens",
+    "start": 198.0,
+    "dur": 6.0,
+    "effect": "pan_left"
+  },
+  {
+    "beat": 40,
+    "scene": "rockstar_screens_0034",
+    "src": "rockstar_screens",
+    "start": 204.0,
+    "dur": 1.738,
+    "effect": "pan_right"
+  },
+  {
+    "beat": 41,
+    "scene": "rockstar_screens_0053",
+    "src": "rockstar_screens",
+    "start": 318.0,
+    "dur": 6.0,
+    "effect": "zoom_in",
+    "callout": "IRREDEEMABLE = PERMANENT"
+  },
+  {
+    "beat": 41,
+    "scene": "rockstar_screens_0040",
+    "src": "rockstar_screens",
+    "start": 240.0,
+    "dur": 6.0,
+    "effect": "zoom_out"
+  },
+  {
+    "beat": 41,
+    "scene": "rockstar_screens_0041",
+    "src": "rockstar_screens",
+    "start": 246.0,
+    "dur": 2.602,
+    "effect": "pan_left"
+  },
+  {
+    "beat": 42,
+    "scene": "rockstar_screens_0044",
+    "src": "rockstar_screens",
+    "start": 264.0,
+    "dur": 6.0,
+    "effect": "pan_right",
+    "callout": "RED = KILL · YELLOW = HURT"
+  },
+  {
+    "beat": 42,
+    "scene": "rockstar_screens_0047",
+    "src": "rockstar_screens",
+    "start": 282.0,
+    "dur": 6.0,
+    "effect": "zoom_in"
+  },
+  {
+    "beat": 42,
+    "scene": "rockstar_screens_0050",
+    "src": "rockstar_screens",
+    "start": 300.0,
+    "dur": 2.218,
+    "effect": "zoom_out"
+  },
+  {
+    "beat": 43,
+    "scene": "rockstar_screens_0051",
+    "src": "rockstar_screens",
+    "start": 306.0,
+    "dur": 6.0,
+    "effect": "pan_left",
+    "callout": "TIP 25: SHOOT THE TYRES"
+  },
+  {
+    "beat": 43,
+    "scene": "gtavi_extended_look_0021",
+    "src": "gtavi_extended_look",
+    "start": 481.53,
+    "dur": 2.04,
+    "effect": "pan_right",
+    "reused": true
+  },
+  {
+    "beat": 43,
+    "scene": "gtavi_extended_look_0022",
+    "src": "gtavi_extended_look",
+    "start": 513.57,
+    "dur": 1.882,
+    "effect": "zoom_in",
+    "reused": true
+  },
+  {
+    "beat": 44,
+    "scene": "gtavi_extended_look_0025",
+    "src": "gtavi_extended_look",
+    "start": 589.83,
+    "dur": 11.65,
+    "effect": "zoom_out",
+    "reused": true,
+    "callout": "OPEN THE MAP IN A CHASE"
+  },
+  {
+    "beat": 45,
+    "scene": "gtavi_extended_look_0028",
+    "src": "gtavi_extended_look",
+    "start": 639.3,
+    "dur": 2.9,
+    "effect": "pan_left",
+    "reused": true,
+    "callout": "BONUS: WAINK SCAN"
+  },
+  {
+    "beat": 45,
+    "scene": "gtavi_extended_look_0029",
+    "src": "gtavi_extended_look",
+    "start": 650.6,
+    "dur": 2.93,
+    "effect": "pan_right",
+    "reused": true
+  },
+  {
+    "beat": 45,
+    "scene": "gtavi_extended_look_0052",
+    "src": "gtavi_extended_look",
+    "start": 1069.97,
+    "dur": 4.236,
+    "effect": "zoom_in",
+    "reused": true
+  },
+  {
+    "beat": 46,
+    "scene": "gtavi_extended_look_0050",
+    "src": "gtavi_extended_look",
+    "start": 1048.93,
+    "dur": 2.1,
+    "effect": "zoom_out",
+    "reused": true,
+    "callout": "BONUS: GARAGES"
+  },
+  {
+    "beat": 46,
+    "scene": "gtavi_extended_look_0053",
+    "src": "gtavi_extended_look",
+    "start": 1091.93,
+    "dur": 2.64,
+    "effect": "pan_left",
+    "reused": true
+  },
+  {
+    "beat": 46,
+    "scene": "gtavi_extended_look_0055",
+    "src": "gtavi_extended_look",
+    "start": 1114.8,
+    "dur": 4.4,
+    "effect": "pan_right",
+    "reused": true
+  },
+  {
+    "beat": 46,
+    "scene": "gtavi_extended_look_0056",
+    "src": "gtavi_extended_look",
+    "start": 1127.53,
+    "dur": 2.486,
+    "effect": "zoom_in",
+    "reused": true
+  },
+  {
+    "beat": 47,
+    "scene": "gtavi_extended_look_0057",
+    "src": "gtavi_extended_look",
+    "start": 1143.7,
+    "dur": 3.63,
+    "effect": "zoom_out",
+    "reused": true,
+    "callout": "FOCUS · FISH · BANK · PROFILE"
+  },
+  {
+    "beat": 47,
+    "scene": "gtavi_extended_look_0058",
+    "src": "gtavi_extended_look",
+    "start": 1156.03,
+    "dur": 4.9,
+    "effect": "pan_left",
+    "reused": true
+  },
+  {
+    "beat": 47,
+    "scene": "gtavi_extended_look_0059",
+    "src": "gtavi_extended_look",
+    "start": 1170.23,
+    "dur": 3.6,
+    "effect": "pan_right",
+    "reused": true
+  },
+  {
+    "beat": 47,
+    "scene": "gtavi_extended_look_0070",
+    "src": "gtavi_extended_look",
+    "start": 1418.43,
+    "dur": 4.344,
+    "effect": "zoom_in",
+    "reused": true
+  },
+  {
+    "beat": 48,
+    "scene": "gtavi_extended_look_0078",
+    "src": "gtavi_extended_look",
+    "start": 1558.0,
+    "dur": 2.27,
+    "effect": "zoom_out",
+    "reused": true,
+    "callout": "COMMENT BELOW"
+  },
+  {
+    "beat": 48,
+    "scene": "gtavi_launch_trailer_0001",
+    "src": "gtavi_launch_trailer",
+    "start": 2.67,
+    "dur": 2.36,
+    "effect": "pan_left",
+    "reused": true
+  },
+  {
+    "beat": 48,
+    "scene": "gtavi_launch_trailer_0002",
+    "src": "gtavi_launch_trailer",
+    "start": 6.97,
+    "dur": 3.0,
+    "effect": "pan_right",
+    "reused": true
+  },
+  {
+    "beat": 48,
+    "scene": "gtavi_launch_trailer_0003",
+    "src": "gtavi_launch_trailer",
+    "start": 11.9,
+    "dur": 1.764,
+    "effect": "zoom_in",
+    "reused": true
+  }
+]

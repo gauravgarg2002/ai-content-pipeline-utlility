@@ -1,0 +1,54 @@
+[
+  {
+    "id": "gtavi_extended_look",
+    "title": "Grand Theft Auto VI: An Extended Look",
+    "url": "https://www.rockstargames.com/VI/media/videos",
+    "page": "https://www.rockstargames.com/VI/media/videos",
+    "download": "https://media-rockstargames-com.akamaized.net/VI/downloads/videos/GTAVI_An_Extended_Look/GTAVI_An_Extended_Look.mp4",
+    "channel": "Rockstar Games",
+    "path": "/home/runner/work/ai-content-pipeline-utlility/ai-content-pipeline-utlility/gta6/cache/sources/gtavi_extended_look.mp4"
+  },
+  {
+    "id": "gtavi_launch_trailer",
+    "title": "Grand Theft Auto VI Launch Trailer",
+    "url": "https://www.rockstargames.com/VI/media/videos",
+    "page": "https://www.rockstargames.com/VI/media/videos",
+    "download": "https://media-rockstargames-com.akamaized.net/VI/downloads/videos/GTAVI_Launch_Trailer/GTAVI_Launch_Trailer.mp4",
+    "channel": "Rockstar Games",
+    "path": "/home/runner/work/ai-content-pipeline-utlility/ai-content-pipeline-utlility/gta6/cache/sources/gtavi_launch_trailer.mp4"
+  },
+  {
+    "id": "gtavi_trailer_2",
+    "title": "Grand Theft Auto VI Trailer 2",
+    "url": "https://www.rockstargames.com/VI/media/videos",
+    "page": "https://www.rockstargames.com/VI/media/videos",
+    "download": "https://media-rockstargames-com.akamaized.net/VI/downloads/videos/GTAVI_Trailer_2/GTAVI_Trailer_2.mp4",
+    "channel": "Rockstar Games",
+    "path": "/home/runner/work/ai-content-pipeline-utlility/ai-content-pipeline-utlility/gta6/cache/sources/gtavi_trailer_2.mp4"
+  },
+  {
+    "id": "gtavi_trailer_1",
+    "title": "Grand Theft Auto VI Trailer 1",
+    "url": "https://www.rockstargames.com/VI/media/videos",
+    "page": "https://www.rockstargames.com/VI/media/videos",
+    "download": "https://media-rockstargames-com.akamaized.net/VI/downloads/videos/GTAVI_Trailer_1/GTAVI_Trailer_1.mp4",
+    "channel": "Rockstar Games",
+    "path": "/home/runner/work/ai-content-pipeline-utlility/ai-content-pipeline-utlility/gta6/cache/sources/gtavi_trailer_1.mp4"
+  },
+  {
+    "id": "gtavi_out_now",
+    "title": "Grand Theft Auto VI: Out Now",
+    "url": "https://www.rockstargames.com/VI/media/videos",
+    "page": "https://www.rockstargames.com/VI/media/videos",
+    "download": "https://media-rockstargames-com.akamaized.net/VI/downloads/videos/GTAVI_Out_Now/GTAVI_Out_Now.mp4",
+    "channel": "Rockstar Games",
+    "path": "/home/runner/work/ai-content-pipeline-utlility/ai-content-pipeline-utlility/gta6/cache/sources/gtavi_out_now.mp4"
+  },
+  {
+    "id": "rockstar_screens",
+    "title": "Official GTA VI screenshots",
+    "channel": "Rockstar Games",
+    "url": "https://www.rockstargames.com/VI/media/screenshots",
+    "path": "/home/runner/work/ai-content-pipeline-utlility/ai-content-pipeline-utlility/gta6/cache/sources/rockstar_screens.mp4"
+  }
+]

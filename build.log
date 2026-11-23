@@ -1,0 +1,73 @@
+[gta6] TTS beat 1/48
+[gta6] TTS beat 2/48
+[gta6] TTS beat 3/48
+[gta6] TTS beat 4/48
+[gta6] TTS beat 5/48
+[gta6] TTS beat 6/48
+[gta6] TTS beat 7/48
+[gta6] TTS beat 8/48
+[gta6] TTS beat 9/48
+[gta6] TTS beat 10/48
+[gta6] TTS beat 11/48
+[gta6] TTS beat 12/48
+[gta6] TTS beat 13/48
+[gta6] TTS beat 14/48
+[gta6] TTS beat 15/48
+[gta6] TTS beat 16/48
+[gta6] TTS beat 17/48
+[gta6] TTS beat 18/48
+[gta6] TTS beat 19/48
+[gta6] TTS beat 20/48
+[gta6] TTS beat 21/48
+[gta6] TTS beat 22/48
+[gta6] TTS beat 23/48
+[gta6] TTS beat 24/48
+[gta6] TTS beat 25/48
+[gta6] TTS beat 26/48
+[gta6] TTS beat 27/48
+[gta6] TTS beat 28/48
+[gta6] TTS beat 29/48
+[gta6] TTS beat 30/48
+[gta6] TTS beat 31/48
+[gta6] TTS beat 32/48
+[gta6] TTS beat 33/48
+[gta6] TTS beat 34/48
+[gta6] TTS beat 35/48
+[gta6] TTS beat 36/48
+[gta6] TTS beat 37/48
+[gta6] TTS beat 38/48
+[gta6] TTS beat 39/48
+[gta6] TTS beat 40/48
+[gta6] TTS beat 41/48
+[gta6] TTS beat 42/48
+[gta6] TTS beat 43/48
+[gta6] TTS beat 44/48
+[gta6] TTS beat 45/48
+[gta6] TTS beat 46/48
+[gta6] TTS beat 47/48
+[gta6] TTS beat 48/48
+Voice: 9.1 min. Next: python -m pipeline -c en source 2026-11-23-gta-6-beginner-tips
+6 official Rockstar sources. Next: python -m pipeline -c en index 2026-11-23-gta-6-beginner-tips
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/root        72G   41G   32G  57% /
+115 usable scenes of 194. Next: python -m pipeline -c en match 2026-11-23-gta-6-beginner-tips
+Re-cutting from edl.prev.json (no Gemini call)
+Source shares: gtavi_extended_look 43%, rockstar_screens 42%, gtavi_trailer_2 8%, gtavi_trailer_1 4%, gtavi_launch_trailer 3%
+133 segments. Next: python -m pipeline -c en assemble 2026-11-23-gta-6-beginner-tips
+[gta6] Rendering segment 1/133
+[gta6] Rendering segment 11/133
+[gta6] Rendering segment 21/133
+[gta6] Rendering segment 31/133
+[gta6] Rendering segment 41/133
+[gta6] Rendering segment 51/133
+[gta6] Rendering segment 61/133
+[gta6] Rendering segment 71/133
+[gta6] Rendering segment 81/133
+[gta6] Rendering segment 91/133
+[gta6] Rendering segment 101/133
+[gta6] Rendering segment 111/133
+[gta6] Rendering segment 121/133
+[gta6] Rendering segment 131/133
+[gta6] No music in assets/music; voice only
+Rendered final.mp4. Next: python -m pipeline -c en thumbnail 2026-11-23-gta-6-beginner-tips
+Thumbnail + metadata ready. Watch final.mp4, then: python -m pipeline -c en approve 2026-11-23-gta-6-beginner-tips final
