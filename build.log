@@ -1,0 +1,70 @@
+[gta6] TTS beat 1/47
+[gta6] TTS beat 2/47
+[gta6] TTS beat 3/47
+[gta6] TTS beat 4/47
+[gta6] TTS beat 5/47
+[gta6] TTS beat 6/47
+[gta6] TTS beat 7/47
+[gta6] TTS beat 8/47
+[gta6] TTS beat 9/47
+[gta6] TTS beat 10/47
+[gta6] TTS beat 11/47
+[gta6] TTS beat 12/47
+[gta6] TTS beat 13/47
+[gta6] TTS beat 14/47
+[gta6] TTS beat 15/47
+[gta6] TTS beat 16/47
+[gta6] TTS beat 17/47
+[gta6] TTS beat 18/47
+[gta6] TTS beat 19/47
+[gta6] TTS beat 20/47
+[gta6] TTS beat 21/47
+[gta6] TTS beat 22/47
+[gta6] TTS beat 23/47
+[gta6] TTS beat 24/47
+[gta6] TTS beat 25/47
+[gta6] TTS beat 26/47
+[gta6] TTS beat 27/47
+[gta6] TTS beat 28/47
+[gta6] TTS beat 29/47
+[gta6] TTS beat 30/47
+[gta6] TTS beat 31/47
+[gta6] TTS beat 32/47
+[gta6] TTS beat 33/47
+[gta6] TTS beat 34/47
+[gta6] TTS beat 35/47
+[gta6] TTS beat 36/47
+[gta6] TTS beat 37/47
+[gta6] TTS beat 38/47
+[gta6] TTS beat 39/47
+[gta6] TTS beat 40/47
+[gta6] TTS beat 41/47
+[gta6] TTS beat 42/47
+[gta6] TTS beat 43/47
+[gta6] TTS beat 44/47
+[gta6] TTS beat 45/47
+[gta6] TTS beat 46/47
+[gta6] TTS beat 47/47
+Voice: 8.7 min. Next: python -m pipeline -c en source 2026-11-23-gta-6-hidden-details-easter-eggs
+6 official Rockstar sources. Next: python -m pipeline -c en index 2026-11-23-gta-6-hidden-details-easter-eggs
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/root        72G   41G   32G  57% /
+115 usable scenes of 194. Next: python -m pipeline -c en match 2026-11-23-gta-6-hidden-details-easter-eggs
+Re-cutting from edl.prev.json (no Gemini call)
+Source shares: rockstar_screens 48%, gtavi_extended_look 38%, gtavi_trailer_2 10%, gtavi_trailer_1 3%, gtavi_launch_trailer 2%
+117 segments. Next: python -m pipeline -c en assemble 2026-11-23-gta-6-hidden-details-easter-eggs
+[gta6] Rendering segment 1/117
+[gta6] Rendering segment 11/117
+[gta6] Rendering segment 21/117
+[gta6] Rendering segment 31/117
+[gta6] Rendering segment 41/117
+[gta6] Rendering segment 51/117
+[gta6] Rendering segment 61/117
+[gta6] Rendering segment 71/117
+[gta6] Rendering segment 81/117
+[gta6] Rendering segment 91/117
+[gta6] Rendering segment 101/117
+[gta6] Rendering segment 111/117
+[gta6] No music in assets/music; voice only
+Rendered final.mp4. Next: python -m pipeline -c en thumbnail 2026-11-23-gta-6-hidden-details-easter-eggs
+Thumbnail + metadata ready. Watch final.mp4, then: python -m pipeline -c en approve 2026-11-23-gta-6-hidden-details-easter-eggs final
